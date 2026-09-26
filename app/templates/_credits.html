@@ -1,0 +1,12 @@
+<div class="meter {% if meter.hard_stop %}stop{% endif %}">
+  <span class="mode">{{ meter.mode }}</span>
+  {% if meter.plan_searches_left is not none %}
+    <strong>{{ meter.plan_searches_left }}</strong> searches left
+    {% if meter.this_month_usage is not none %}
+      <span class="quiet">· {{ meter.this_month_usage }} used this month</span>
+    {% endif %}
+  {% else %}
+    <strong>Offline</strong>
+    <span class="quiet">fixtures, 0 credits</span>
+  {% endif %}
+</div>

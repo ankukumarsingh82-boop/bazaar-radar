@@ -1,0 +1,334 @@
+{
+ "search_metadata": {
+  "id": "6ab820903c99bafdfe024a1e",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/WPF1CpfYuX0kYjKvGHp7LdCVt09mQWt4MUjsNAMYhs8/6ab820903c99bafdfe024a1e.json",
+  "markdown_endpoint": "https://serpapi.com/searches/WPF1CpfYuX0kYjKvGHp7LdCVt09mQWt4MUjsNAMYhs8/6ab820903c99bafdfe024a1e.md",
+  "created_at": "2026-09-26 19:44:16 UTC",
+  "processed_at": "2026-09-26 19:44:16 UTC",
+  "google_immersive_product_url": "https://www.google.com/async/oapv?yv=3&ei=XiC4avi2MI7R1e8P2oqL6QQ&q=rangoli+colours&gl=in&hl=en&cs=1&async=productid:15824093885633098439,catalogid:5931920451589710065,gpcid:9270833379981988981,headlineOfferDocid:3327973168856179285,imageDocid:575163101947452400,isp:true,query:rangoli%20colours,pvt:hg,oapvfc:EqICCuIBQUppVDR0SW9pQVp4eGhLLUVKOXdIRnR5RWpaUnN4Vm1qSnp0WjdCNms2VkY4UEZsaXF0QUJrcWJCQVZHOFRJMkhIUkx5aEdQdkRlcnNJbVlaZU9RNUp4eUtSQkRqU09sTHVfWGIzcDFmU0tSbnRpemM5MXpndzdzU2d6aFhrRXBFNk1hcEc4cnpIV3NLN05ISUtKaDZHS2gyRTZIY0swaHkyQ2tqSTF3MVVjTEs3ckFDZDZqTHlodnBHcnJ5Q2ZpdERsenJRbUF5X0xTd1lNd09sQy1LQzFiY3N4ZXN3aVp6ZxIXWGlDNGF2aTJNSTdSMWU4UDJvcUw2UVEaIkFEc3I5ZlRvSGpVNndUMU5MM3BYX3JYZDhDTUc3M3Z3a2c,xsrf:AF5tSO7cBcaFSPAwSx3Wrt1nq623JMiGtw%3A1790451807003,sori:0,mno:3,_fmt:jspb",
+  "raw_html_file": "https://serpapi.com/searches/WPF1CpfYuX0kYjKvGHp7LdCVt09mQWt4MUjsNAMYhs8/6ab820903c99bafdfe024a1e.html",
+  "prettify_html_file": "https://serpapi.com/searches/WPF1CpfYuX0kYjKvGHp7LdCVt09mQWt4MUjsNAMYhs8/6ab820903c99bafdfe024a1e.prettify",
+  "total_time_taken": 3.14
+ },
+ "search_parameters": {
+  "engine": "google_immersive_product",
+  "page_token": "GxJNP3icLVTJrqtWFk0pP5BPuPOn-wQc2nvlAT3YNIYDGDOxDo0Bg-ltwD-Q33i6L4mUTKKkSqpvqQzqW8qvlMHek7W09tLu_vvdDx9Z-e-wFEl0LwlTZ1w8Y_dE2xu04_zaDW16S6Yy_RdOsQSJcYBlKRoAjGNJwP2aoAnVbV6m_6Q4gHMERlJPHsfgGEZTfxYZSuuyyezzORukNnnSACAYjgE4_U0GZziCpX4rryjP_g__STEUTgMcwzmSIalnPezrkI5ffu5v2bD-PqAmb-vyU9LW7W0Yf867b5IcwWAsAIDhOBbnWPaZv17L9MvX7j59FPlPt1ud_TF_Ennd0UVdgQeqQgf5I68_yuajqD-y5pcWdfdz8tc_fpR7XRRvuuD4XRdILgYPXOcEHZmphWH4wc4OU91tXMo9dMhvLDK44j1sOuxwSUXrOhJBdSR9ORpRqGCOvx2Sw1Z0gkizFXdrVoXuVwuF5NRJK7dOGmsbBzWKfM61_GcNf4JO5fY-xo2eFpwPqv5IJOXqYxOMG7fLriZlhl2TPtKHT6Q0UorBDQXFqvAikRMyaTo9AJZhYZQO_WmHpEiDRL66XqQfsXFGWrU6xNRDTwFmEFw8eQRJpUiRFPWeVrdpI2hJs6UcIupS2R2zZuvGvkKF2OKleG2lT1_OihvOQymPwCKj0AIo6Oho0cODWkuWqhDI21rQS6F58Elf2t4Tfyb8QEZ6pcgJ0Kmodu9Q7QKrSX3Tp0wTCMcQbI-RVEienwATRAARyU_LOJz_g_EKNUGbSYQEKXDPz3ABh2HCm54mwNYs1Wl-e67Qt51jMQbDwC9J21Zl9tf3G2iLcPOc-PsLlHlX1E6QN2Woe_JGzB2d7WXh_YWXxQ2PECdv29PAAcfQQoZ4VSOl6Nh2um91-cxDg1YMUhj6rsnj82vnW5y2q15Jtq_eX1TbVg35xAs-lE9yKJt7T7etjS5tKMScsZiJwTlLKYZO3zxz87dTgiPexM3wpu83DPcZx7HPBGA_4yT7-gY3qtEjoZJNTKqByoaJy96HJPDfX6ynqNhXosjLkJhlwV5UCcqGQOBVn196Ke65OM8TltLC7fayqN21Nuz1uO4BY_HJOi0IFpgautb4JNycckI9dVL4ySVml1Njal59leaJwRDxIWgZkqYfXunZitFxGJFW2lG6J018SLmkOC30GHHX_qiZV4EzK89ZHOvVPa1n2rWlthqQnRXVOYy0WC5o4zHuqkc8V-Roe8zN5eKSf8wHib89Lx6ehT7DvIsDamGh21IHJj8E0zlN7z460dsTJtpQlgm3HjOuUnyb8JfL-GoMNFNUtidRPdb3aWQRDS8YsrZi9zt-0HfaztZ8s-W9rcKnu1Fg2QwKKnig2-EIVtI4ArneqToJ0fE-aPeWsuB9XIyVvAQmScCpoo_PD8DdxOSa7pjh2VQd5FHMw1uPBj0q1HEM5CP__nI6wSy5Ddkr9Nz9hreu0YyIIl-LyzhLafHqeMN5L3OBy8mxTqynbVEaodlRru0KK5014TJJ-t5r6Coi96VKzzDJEX2XVktgdQEq7BKsBgt2eHnveUStrvj-4vuGvLl8Ojzk0fT0ZySUKTm46eWzJTmUdeFnU1xu6WEZDWVcTel5ZY8jaUn8aD3yJ66TtsTPIfybI2KLceHHuAnGWJyJ0Nls_gdeCQCO",
+  "more_stores": true
+ },
+ "product_results": {
+  "thumbnails": [
+   "https://m.media-amazon.com/images/I/71dXiTJqwZL.jpg",
+   "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_I4XYV6sUiCQ7IyUNW8rwIJGVdZvzO7VCXeAraJtQ3bfn2ylfoiPTmbtr6WkVUTsSq8zle0IJJh68eV4454xErmZF1f3Zxv46xnoPh2DdXdRQ-BCh2cb67Q",
+   "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQovNgdy2wayFDmL2clgk7J6oUfa-inrBZ7-J-J-lyQTH8pMOY9B8Fx21MfBzFZxZ-mHZvw-wwInTUMj7FOTC9rWK0nMripvHzmX-Ol7OdG",
+   "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRONf4qqjKAmeItpCCky-IKI1GOgtMXuUUMJYRqNeziUpTAzx8SYetwrT0yqFmSTWdG8bvf49TKu9T87-zXPQExqmYvUxXrKKD-tykpNGNl-5UZfQLVydfqMQ",
+   "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQx59k-2AP_CAhNzO_zw1XCo65kNduQaJaRcZM3W_mILOifGyyObB5oNjSsMYPMYLOB5dOxaMDgxIVHtJ9-0m1NejTMyD7eXzdcrkWW2HKDqyZB7BBz43b6xg4",
+   "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSXVP9jAFtdVEHJT45hLTLh62mOj-Y35TJXxLXXLH-R2yzwMxkwxGlkVMzaoSY_jOoehHXQn4rZs0Q4EQHqBormq-ZnnwmkxlEGKiWHbsDT"
+  ],
+  "title": "Rangoli Colour Powder Tube Kit Diwali Decoration Items",
+  "brand": "craftvatika",
+  "price_range": "₹429-₹3,323",
+  "stores": [
+   {
+    "name": "amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Colour-Powder-Pack/dp/B09K6P2Q1K",
+    "title": "CraftVatika Rangoli Colour Powder Tube Kit Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 20",
+    "rating": 4.1,
+    "reviews": 1481,
+    "details_and_offers": [
+     "In stock online"
+    ],
+    "price": "₹429",
+    "extracted_price": 429,
+    "total": "₹429",
+    "extracted_total": 429
+   },
+   {
+    "name": "Flipkart",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.flipkart.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.flipkart.com/craftvatika-pack-19-rangoli-powder/p/itm72b152350d30f?pid=RPRHEZJYXAMTHSRY&lid=LSTRPRHEZJYXAMTHSRYX4A7OB&marketplace=FLIPKART&cmpid=content_rangoli-powder_8965229628_gmc",
+    "title": "Craftvatika Pack Of 19 Rangoli Powder",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery by Thu"
+    ],
+    "price": "₹293",
+    "extracted_price": 293,
+    "shipping": "Free",
+    "total": "₹293",
+    "extracted_total": 293
+   },
+   {
+    "name": "Craft Vatika",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://craftvatika.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://craftvatika.com/products/60-rangoli-colour-powder-tube-kit-diwali-decoration-items-rangolie101-5?variant=44177679483049&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AU7gw4Xf6Gy2IUTH1x99l03LX0k6pBYS3WM-QlYNPBqygykCqpwvbeX4vDM",
+    "title": "60 Rangoli Colour Powder Tube Kit Diwali Decoration Items RANGOLIE101-5",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery",
+     "7-day returns"
+    ],
+    "price": "₹999",
+    "extracted_price": 999,
+    "shipping": "Free",
+    "total": "₹999",
+    "extracted_total": 999
+   },
+   {
+    "name": "Amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Colours-Stencils-Decoration/dp/B0FRZ9MBMH?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2AL6IVND0I91F",
+    "title": "CraftVatika 20 Rangoli Colours Bottles Powder Tube Kit with 8 Paper Rangoli Stencils for Diwali Decor Items, Diwali Decoration Items Rangoli Maker for",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery"
+    ],
+    "price": "₹387",
+    "extracted_price": 387,
+    "shipping": "Free",
+    "total": "₹387",
+    "extracted_total": 387
+   },
+   {
+    "name": "Flipkart",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.flipkart.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.flipkart.com/craftvatika-pack-100-rangoli-powder/p/itmcfcea80556a5a?pid=RPRGZD9PSGWGGGPU&lid=LSTRPRGZD9PSGWGGGPU7SRWX3&marketplace=FLIPKART&cmpid=content_rangoli-powder_8965229628_gmc",
+    "title": "Craftvatika Pack Of 100 Rangoli Powder",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery by Thu"
+    ],
+    "price": "₹2,789",
+    "extracted_price": 2789,
+    "shipping": "Free",
+    "total": "₹2,789",
+    "extracted_total": 2789
+   },
+   {
+    "name": "Craft Vatika",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://craftvatika.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://craftvatika.com/products/120-rangoli-colour-powder-tube-kit-diwali-decoration-items-rangolie101-10?variant=44177651204265&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AU7gw4UQmEr5IDAG7bdaVpiXzwOp_df5B7RxnALJz5XYVX-DymH_FMa50uM",
+    "title": "120 Rangoli Colour Powder Tube Kit Diwali Decoration Items RANGOLIE101-10",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery",
+     "7-day returns"
+    ],
+    "price": "₹1,899",
+    "extracted_price": 1899,
+    "shipping": "Free",
+    "total": "₹1,899",
+    "extracted_total": 1899
+   },
+   {
+    "name": "Amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B08MD3GV6K?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2AL6IVND0I91F",
+    "title": "CraftVatika 24 Rangoli Colour Powder Tube Kit Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery"
+    ],
+    "price": "₹309.70",
+    "extracted_price": 309.7,
+    "shipping": "Free",
+    "total": "₹309.70",
+    "extracted_total": 309.7
+   },
+   {
+    "name": "Flipkart",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.flipkart.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.flipkart.com/craftvatika-pack-200-rangoli-powder/p/itmcfcea80556a5a?pid=RPRGZD9T5HJTGAF9&lid=LSTRPRGZD9T5HJTGAF9WZMI4G&marketplace=FLIPKART&cmpid=content_rangoli-powder_8965229628_gmc",
+    "title": "Craftvatika Pack Of 200 Rangoli Powder",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery by Thu"
+    ],
+    "price": "₹5,270",
+    "extracted_price": 5270,
+    "shipping": "Free",
+    "total": "₹5,270",
+    "extracted_total": 5270
+   },
+   {
+    "name": "Craft Vatika",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://craftvatika.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://craftvatika.com/products/240-rangoli-colour-powder-tube-kit-diwali-decoration-items-rangolie101-20?variant=44177601626281&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AU7gw4U4hUjnLmRaa7b0uuSJBYoZkqHcABeMokkTfCtOkAm19OD8XKALwvg",
+    "title": "240 Rangoli Colour Powder Tube Kit Diwali Decoration Items RANGOLIE101-20",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery",
+     "7-day returns"
+    ],
+    "price": "₹3,499",
+    "extracted_price": 3499,
+    "shipping": "Free",
+    "total": "₹3,499",
+    "extracted_total": 3499
+   },
+   {
+    "name": "Amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B0CLPCCCSN?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A380B3WNC3LCZM",
+    "title": "CraftVatika Rangoli Colour Powder Tube Kit Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 60",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery"
+    ],
+    "price": "₹999",
+    "extracted_price": 999,
+    "shipping": "Free",
+    "total": "₹999",
+    "extracted_total": 999
+   },
+   {
+    "name": "amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B0CM6BDCP1",
+    "title": "CraftVatika Rangoli Colour Powder Tube Kit Set of 240, Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor",
+    "rating": 4.1,
+    "reviews": 1481,
+    "details_and_offers": [
+     "In stock online"
+    ],
+    "price": "₹3,656",
+    "extracted_price": 3656,
+    "total": "₹3,656",
+    "extracted_total": 3656
+   },
+   {
+    "name": "amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B0CM66PRLX",
+    "title": "CraftVatika Rangoli Colour Powder Tube Kit Set of 60, Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor",
+    "rating": 4.1,
+    "reviews": 1481,
+    "details_and_offers": [
+     "In stock online"
+    ],
+    "price": "₹999",
+    "extracted_price": 999,
+    "total": "₹999",
+    "extracted_total": 999
+   },
+   {
+    "name": "amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B0CM67377Q",
+    "title": "CraftVatika Rangoli Colour Powder Tube Kit Set of 120, Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor",
+    "rating": 4.1,
+    "reviews": 1481,
+    "details_and_offers": [
+     "In stock online"
+    ],
+    "price": "₹1,712",
+    "extracted_price": 1712,
+    "total": "₹1,712",
+    "extracted_total": 1712
+   }
+  ],
+  "stores_next_page_token": "I-K_Bnica15aklmSk3rTLCgxLz0_J1PBOT8nv7RIISC_PCW1SCGkNClVwTuzRMElszwRKOuSmpxflFiSmZ-n4FmSmlu8pDi_KJN3cW5ePhcAQYQcbA",
+  "about_the_product": {
+   "description": "Our range offers a spectrum of brilliant colors, perfect for creating intricate Rangoli designs and adding a touch of tradition to your celebrations. Elevate your Rangoli art with our 12-color set, designed to inspire and enhance your festive decorations from Our CraftVatika Store.",
+   "features": [
+    {
+     "title": "Form",
+     "value": "Powder"
+    },
+    {
+     "title": "Brand",
+     "value": "craftvatika"
+    }
+   ]
+  },
+  "more_options": [
+   {
+    "title": "TOTA Rangoli Colour Powder Bottles Kolam Rangoli Powder for Floor Rangoli Art,Home Decor",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDdABQB_Cs00ER8orzaLT2kUCxrhkWzpjD77gxCNMO5MjqMH8qNFHISnU8hP2TkqpsqR6kw1ICO_Wmx5otJRHf7aFLIc-VaRVuMx-BwHFqLNY50ZbdxDs",
+    "price": "₹199",
+    "extracted_price": 199,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=DqlcN3icLVRHzuPGErbhE7xDzGqgQbOb0TtmUmL4mcNGYBJJkRKTRFI6jfHP2IDfxnAAvH3XeF74LKaMATqhvuoKXV_139_8572o_wxrHk_mGuoqZWMF_Qa7QSMt6-d-7PJ7dqvzPzCChjhgEE0TJEKAoXHE_Jwlt6Ttyjr_nd4wCmdIDJEkgyMKw_HfqiLJ2_pamKdTMQpd9rICaZzEEUGRNIOTDKIgRf63viRl8RVHkCBoiqYBDikGY3CMBD8O92J8_DIm17Jr649Z13b3cfqx7LcLv-M0SVEUYjC0BYVREBLU536-vVfll_u9LX5dPvKsaqm8KjkB0SSB-F627_X1vWrfi-tPXdLPp-yvbz-LY8bzc8ZZXt_7gg0c0HKOH8FYqIIcYzoPYlddMU46oBcDGKsbGk0sEnEOppvj5mER2NARbc_0aZCFFXJdTgmkCsWy3VswF32fI9JrhGm-f4uvEgpExtLP-8QBe9WUpdFUMhCHxmIEUmeG3dNp26spd0Tqcm4Q5KtxNu7pBXv6fv90n1WfhcabC9endxZh1rZCDHrNR_ub0_iRdfaTwK9gorRN7seGq_T7wu-D-Mo9DXmtbUFCPla1hSI9Ep-GIaqAj-W8J_hYCnw58tswkeKrHsaELuxjI1gPmQzWDDPAlkuYSr7lXfazF0iBA8FiyGCxz7FsBMYpv_Z3W87nbFXDBLaCIUurfq74wGefusRJnkzM0YWYLQ8kaiOJGVKJuDUU9-L7USg9zQAL84uF5SBbLa81g2Z_1p_VEALxyzqNp_8DViJujkmVF30GPVR3wT7xomifuwDN6u48sez3GMUAnMBogt4I-VPWdU1d_PXdxTF55wMSNj58QNxHR2RtXjk6rC46qiu-gNJS6UHkXigr8puETRJG3HfHkUGWpoQU3MmxVPV0d5v3qnhiHY2UNJwbh_5apqdd7xmMcmh2OD00LyOyacqaeGQ5zxGPYijqb65qGptdVdgWIqFOIKVSdCryrR_yD4h19U3-NXrIwE3yimLcdvVtO1DMJwwDnyCiP2E4vdvEr3xkbUi4RtSB0CKZDjObnsfM914BGP864oeG51nRgYvImassOKLGQawZyvMgpAOTlmVGE0q4359Xub-0mvmIHm-IMtjscVsTpwJyaBvTpnC36lsyEEeJvdlwsRk5JZaHJ5MsHDUeG_2Owkny6dauKWk9A2DeKJEwZ9c0yJmsOq7kFDOXIVL0C8fojWutlrGzj48TaZtC14yJWVTNKYyVVKxI7Tkdmme6NPhkutTdZtKafS6BwN63n8I5cUMB3LOFWm4lu1pFOjv6t1Oez15yJPdHwJuOKEK7nQqmkTwTeut52mkjSVWN6QrEAIYhjw14ZTlNVB5gnrFAPSgHU_H0jnX3EpsfJo6mC4eT0TO5BxF64FqExPYgq7iTRPOozB1hOPO0ag_87Os4dG4NGamcxdz57JIfqHF7VBWVcco69yEZ1biSp8kXI_ZVmePRKbL7WOwc136VljUu8ZLAqnxU52kR8mpnuePpTWR8mxFTFT6O-6rWQr0nbNPmHmRxDdeboL65V7KJ8bdaJhcnKxNyFh4GR6ucI9Gr_9BodMDqeWAT4mHzL7-ep72ofv4YPMVJd9VtZluTW5juloshWIRxZhedX-95sE6aND10wSP0Z4QbAjsZz3LDVdwU2CV0vurwYNXO7JRe_SnlFxham_ltfB7z6YfPlzr_beM2TkKagJCEFEVQBNo-6NP__gH0ohnr"
+   },
+   {
+    "title": "Kayaa Rangoli Colour Powder for Diwali Decoration Items/Home Decor/Mandir Decor Creativity Set of 8 Rangoli Colors in Plastic Squeeze Bottles- 800 Gm,",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRnwvIcbQpw4iq-DGl2ZVTEVIEfT1y7suD4N1iogdLN7ttJReWcsZJH8lC2o1Kic8yG_DUPBodG4pfK7Gouj-ajGOwIzGa-nfJ3u-AIb7UXov2LMojkkS6PCA",
+    "price": "₹235",
+    "extracted_price": 235,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=lU0ma3icLVTJzqNGEE6UJ8hDzGnkUbPTubE0GJvFLA2Yi8VmwGCz2cb4aaJ_ZiIllyiLlGteI3PIswSPInVVt76vVFXdVdX_fvP9W179FVYSHd8r0tA4h8j5Hdn2OmvbP3dDm93Sa5X9STA8SQNI8TzDUhSAPE3Bn9P4GjdtUWV_MJAiIAloZrGDHAEAy_xe5nHWVJfcOh7zQW7TxYwABMdSEEICsCwHWIpgfqnOcZF_pf8kKAawHMcCAAiKYkmOYajP_S0f5l-H-FK0TfU-bZv2Noyfi-7lD5Ic4CmK4iDkCcjzi_7Y3a9vZfHpdmvy36b3kqDZmqQpbsDUcYDeiuaturyVzVt--amNu_sx_fLtCbWTJI2TaOOu82UHuHUxZTg6J03UGUp0swMlci4KtvBERIAh_QBTycIbzSbO_XKHKWc2AQ_sgEEptp97L1OStV8FysYzG1NNiI1qEI22pzZeBHwJq0TvgigKLptdcNoY0dOMg7A7Jz6iHVUZXD8CmHBIHCpxopp3jIhTSGHSlJUqJJTKJcza8js59x3CDhrVrzvaU7pThp2L0Tit7kXbADeOXzdkEDpufoqixHPuWeCrOS7N8GlGQd2ss2d09Z7lbOCN6wHFNxATY0AMLqk0dtg9UJkNMTbAPkSzhTYRlo0JI99OzrBaRPSctrKx80xPzRmTUN97ou-cweQh_-p4jhPgrMzlCMS1r2YnZRtNnx7jcPwHCApzdS22XiU-Abcm0UahF-V1GUnN1BLWvBF-IDj4aiee4WnI_ZS2bV3lX747u5bkvqPkpazvKPG9iwRHWh9cwUCu5qEXUdga3yPxxQpIWhAhjiHatIcBUra-DjlypUZK2fHt9b7R0FFwdVbRaXHou0uRHFcdNuF6W69ovq9fTlTLUnV0EETsogMKkbHzNMtc_GryopiYO4KES6hjnjEcm72jBM9Y8P-zJyG5IK8shmXXdsuBgx8IAnwgKf4DQfOrBX7dR9X7WKyRAeSGUvkwdfj7kPr4lYD5NZDU15IkIJeckGg9VNlFukgSdV-cejnpYVIUKc-sw83m9FC7c6Nb837eUZwppPP1EbslUEPHHBeDm11d4545KMLVIScHqgkzzVhlBXLQJWLwW45m2adXeZaidxCQWb3ey_f0kgQZTMvDgx0jeO73a-MsQqP27IdtrpzDfGQdS27rIbbysj6G0TpBJas_x239TKaaHi2PuzkwqYTnFMjCbRl49yj2OfBONtWID7atNMoQBv96zLI7jg_s5gAky0WIdJoxh_UyfCR-nMaVPrBcWVuezPSg77PIJC-CqKP1DO53ItC26621xkYreBtFyLajyPO5K6rUM74Fe2qm9T2Fmq2q0W68vw_re8uY7n186DN98g2adK81u9dEG96k9JxtuWF5VI0qokRwb308aFGpjqOP9sKrMoeDm6e3IV-5nvMqrWCeoykmy2IuT-MkZ-XK9objDkHfgSjRyPmwKSs9NDrGsRxxZvNL-LjK2s67sHVE7yqVndy0iNm7PJsir4muwj_8WeepLVHdeyFmZkd6xcVYf7X66X3wRKPhaYukjCHbhOEVkynbjHkSJkN63LLgMerKOBsyZoznnjZlYTSfxcJrtCULU-j-byOBh34SxuTij4k0kaG9uF_WxyEbf_x4rrK_l1_1-Pd_TTcEVQ"
+   },
+   {
+    "title": "BRIGHT BLOOM Rangoli Colour Set, 6 x 100 gm Bottles, Diwali and Pooja Decor",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXWjhGImHqrE4lSP0e_lyh8m5N5v8kFbAdVcr_EQ8im_NnQirQVPBj_fR7O_WDwrt26jHj4700WVzBrp03i-zzh8HrxUKK0vbuB-vBck7PG6j3v85zWgDQuw",
+    "price": "₹182",
+    "extracted_price": 182,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=2KAa23icLVRJzqtGEE6UE-QQb_XkJ2jGzo6hwWCGHxowsLGYbDDYmMEGfJrof0mkZBNlkLLNNZJFzhIcRerqblV9-qq6a_jni6_fi-qPsJLo5FEBU-NcsuDfQNsZrOP8eOvb_J6NVf47yfCAJiDF8wxLUQTkaQr-mCVj0rSnKv-NgRQJAUEzKw5yJEGwzK9lkeRNdS3s47Ho5TZbYQAyJA0gCwFHEzzHkzT9U3VJTsV_5t9JAAieAQQkOI7iAMMygPy-uxf98nOfXE9tU33M2qa998P3p9uLb-UheIqiOAh5EvL8un--Pcb38vTd_d4Uv0wfJUFzNElT8J6pkz16PzXv1fW9bN6L6w9tcnscs7-_PKN2kqRhEh3_dgtkl8Be0wZBTqX78ZpdRiYgY8dSSzM4u4xDiW2Mmn0SivfsqVcBUhYLoDmpIROf89Gv9RLLPuMA2GCfHDCCQ3K16PSqVy4ILnlw23lh6Tj1GOGrHqWh3qdKE5hUTNiBdUlAyZpPt3dqHQfX4LhXGy8mc8YL9WcUWrTlj3Pu188U-HSqzhYGOu3WQYi3zRjtNSZrViyCLEY5cJ5lGCvxtA_0vQ_ycq9aqy_LK3w0-mBEgRdoMbgdoxqaqe_ScUWMSWjVXhNXqawoqMz7xDeJKESLjfTYl83JR4GTXmC1iui5beX47jM7N5dAgYEfxHR0DrSMLB0P8KTlWWVUEc9iq2y9syU7znfz0B__IgSFGbHN1ps0IOHOIts49OKiLmOpmVrSXnThG5KDr3LiGZ6G3A9Z29ZV8fdXF2xL-AMlr2n9QIkfMRJcaXvAgomw5qGX4eRofIfEl1VA0qoRkgQivT30kHKMbciBjRor5Y1vx4euoaOADVYxaLHvbtdTetzcfAtud_WG5rv6RaLatmqggyD6GB1QiMw3T7OtlVeT141JuCORcil1LHKGY_MPlOCZq_7_6AEEq-YVRb-e2tt64eAnkiQ-AYr_RNL8ZlW_3qMaXSLWyCTkhlL5MHP5R58F_isA6z9HUldLkoAwmJBoz6qMkSECsu5O505OO5ieThnPbENdP8_q7dIY9hItbxRnCdkyzgkuCTV0rWEF3J1qTDrmoAijCyYXqikzLb7KCqA3JLIPWo5m2adXebZi3CAB8nobyY_smu5zmJWHmR1ieOmirXkRoVl7zuxYG_ewHFnXltu6T-yirI9hvE1RyRrPYbdW6lTTg-1xdxemlfCc9rJwXxseH8WuILyzQzXizLaVRplCH4zHPH_4yYHVD4RkY4SA2wwFrBXfBv58HjZGz3JlbXsy0xFdl8cWuAqigbYL8XiQe2233dlb32wFT1eEfDeIPF9gUaWeyX0fUQttRBRqdqpG4yR69NtHy1j4MczGQp8DkwZ4rNlIEx14l7JLvuP69VM16hSnAr53Sa_FpToMAYqEV2YOB1xk977YYM99pVawLvG09u9pKc_DJOflxvH64xuCgQtRqoHloJeVEZo3xrVdcWGLaziPsvbmXdk6pt8qlZ1wdkrYh7xYIq-JWOHnYDF4akdWj05ImMWVXn5933iV-vnj_okG09NWyRhTdkjTO01rlzHWWZhMab7n-3kwlGEx13lkPiPakoXBep5Wu0bbsjCF-H-MRMzGWRjSazCk0gRCZ6Vf1-c-H779fKnyP9epevzzX24FBPg"
+   },
+   {
+    "title": "Incredible Gifts India Rangoli Colour Powder in Rangoli Bottles with Nozzle and Diya Rangoli Stencil for Floor (Set of 6 Colors, 600 Gram)",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCkkHIIF4oHoIw_P9clqPVRgBfYwzVg55mQITjZ6szB6mVPGQPSN7oPWEVw3xI45RQuhMMWdRmztSe3nXA7zc6X0WnsOQcfz7u8ZKuOUxkSJkQoW9DWuC4",
+    "price": "₹362",
+    "extracted_price": 362,
+    "original_price": "₹990",
+    "extracted_original_price": 990,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=19K2THicLVTJzqNGEE6UJ8hDzGn0j4Bm69xYGozNYlZjLhabAQNmtQE_TfTPIk0uUZKRcp3XyBzyLMGjSF3draqvv6ququ5_f_j5NS3-9guBDO8FoSmMhafsnmg6lTbNz23fJLd4LJIvOMUSJAYBy1I0ABhkSQA_x-EYVk1WJH9REOCQwEhqxUEGxzCa-jNPw6QqrqlxPqe92MQrDNAkQ68nIcNQNIvhJA5-K-owS7-bv-ArNU5hAAM4CwiMoGic_Njd0n75vQ-vWVMVb-Omam798DFrn3yQYDAWAMBAyOKQZdf5fXsfX_Psw-1WpX9MbwVOMRVBkewDVYYH9JpVr8X1Na9e0-unJmzv5_jbjxfUTIIwTLzptq0nWpiNQTmSW1p_SIJLeMbB3Y6GPJIWng-BxBLx1ZqiOq_dCi0HUTctR6Jc2WvsksQ11yPtS6KnyFsiubrpHp-Hkjl6xCwkpT4bfuDZ6z6qPc-RV18gd1LfBaYfSFpN-VE9qh5o5wBkRHKxjiZe0UkFJcP1cA2r5OBSDUffImysGmJiFAO0PbpIqhxQHcOacqwDfjc9a-Pi-S11W83EG9Jd8QGeq5rEAZcocetaDVaVL6nP-66YHAJsrINr9tAcK7dAuSQErOJKw1Ce9KGrYUcfLQbaBq6oTS7yzKiGxSq8YzWF6VqP-FKtuchw7bK1_Ef80GQpVL12a-GemEjJ_VhWgYfaazB9mIf-_A_GSdRoGzTM9wop6BSVD0RqdjVtq_GNLSRmy_2CM_DZTizFkpD9FDdNWaTffqptQ7DfAHEt6xvAv7URZwmbk81pyFYc9DRkpsJ2iH9aOSSsGi4MIdo2px4CU934DPEiB1Less143yrozNkqLakk33ftNYvOL62rw82ufCHZrnySyIYhq-jE8a6NTshH2t5RDH3lVcR1okLmjEVMBM5pQjF08gZwjrbq_4-egMSqeUbRr6uyXzcMfIfj2DsCsO9wkn1Z1c_7yGoX8iXSMLECMuvHFnvvY899BqB_dyR0pSBwyCYmxBuzLNpI5Qm87LJLJ0YdjLIsZqmNv91eZrmtK9VYjsseMDoXL-Mc2jkm-5Y-rICbWYxhR50kbrSIyVobnZoWV6Y5olcFvPcahqTph1M4hqS2ECOScnMU7_E1OiQwzk8zPQSw7o4breahVjrmbOov1mk505YhNmUfGmlenv1gE6GcVh_DrnxEU0kOhsPcLBgV3GM6iNxtffD2me9SzLmYoOJnuikUoHG9N56T5O6GJ3p7wgTDRoiwqiGFpeQahDtfhhe1p5m8NByR6rCuSwKduHK8ijYLdr_jB2W32RkbV2s4ZytxyW7gWTa1eRk8wtvhCBZSPQJU7WSFtMPjvd_cG0q378OsLuTF00jCHkv6qPAmvAlxneyYfk2qArIg4uxbF_ZKkMvD4KEj96zM6WSn8a1PX2zHepaW0-tgCok8W_LLMIlJ_mI6_XmPoGdBFCnEctrmheprLWUZFr_Q6dWfR1HZO1e6DMh9IdOTHWchfRcXnWcV3pbY2VtUFuzw4t5xIbVYwtOv66rPVr-8PTzQoDnKKjGliSauOdmkiyalX7hJE-ZbcpgHVRoWTXQp7XEkdZEb9Ee22hXSELnJt__HCNisXrghunpDJEyEb67063jfJ8Ov7-si-br-quev_wFjYQRQ"
+   },
+   {
+    "title": "ULIFESTYLE Assorted Rangoli Powder Colors Bottles Set of 10 with Nozzle for Rangoli Making on Diwali - Multicolor - Girls & Boys",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS1wTiVZdLQcosX5ezyScuvJKz8-lgU1X-nwJdZXfdo_4bpGz8vIjhvefUJ6eMuJYXe3ISM6q8EJnXgWePMFJe9w96XvHnzSw7EUSxuPstqIzz-QE438M-3",
+    "price": "₹269.03",
+    "extracted_price": 269.03,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=So9SInicLVRJzus2Eu6gT9CHeKsHP0iixt5poAZbg0XN2hiaR1uWZFuWTxP8LwmQbIKkG-htrtFZ9FlaTgKwSKLqY1WR9RX_97d_fBTNf8JGJJNHQxgag_CCPRLDqNO2_eN1GvJ7dmvyf-MUS5AYB1iWogHAOJYE3I9Zckv6oWryf1EcwDkCI6kNxzE4htHUr3WR5H1zKayyLCZpyDYYwdEMhTEAMDiJAxLfgD8156Qq_jRzHMcyJMvRBCABBWiMAt-P92Jaf56SSzX0zeds6If7NH9fXf_AEwzGgs3bdg7nWHabv14ft4-6-u5-74tfls8ir9maqMlOQHVJAD-q_qO5fNT9R3H5YUiujzL7_ZsWDosozotge9erLyHMlXIq9vdXP6BUF68BghXwiL5H5xvMWnkxAKptEJcOlF-m9zQQbjY5YZCmu5dThVo8XD5GAAWoRWLmIoR6uUlfPha1-RxDnMo83NU9XPfa-OFCCoREb7t-DHIvexrqXjNxHwRnVBpBfvNX_GUQ6BD3_RKDajVgvAbdXkSdH6EzBxM1rlMJHX3V1EJwVVPfAB6UY6cVDNO1l6jtgxijrlF47SOiIg1FfhnQTBCQA_scJ4VHBUnQz-l5j7lyDMwgdzzJtNxzR8E6nxLPwKIQrhbcx55kLB707fTMNZsILhoa20OvrO3PvohfTKXDbNCjJLTxCMubXMmA48m1efbvQRiDePnuOU_lfzFepm6ORYPSe2mvBV0szh52_eTIlTnc1YUh7H_iDPdmE0uxJMf9kA1D1xS___3sWKLzCUhbWT8B4bMDeSSqJ4c3oKO58G2obI0dofC28lDcNHyScHA_nCYO2LoaMsROieX6yg63x16DJe_otKyTwjReL1Va7q6eyamHbkeyY_d2oliWosMTL3gOPMEQGkdXs8zNryZtE5UwJZYyKSiLnGLo_BPgXWPT_5U9wRGb5p3FtK3acdsw3JeN9V8IwH7BSXa3qd_3UfQxETpoYFIPFDbMEPuYMt97J2D-EUgcO1HkoUMsULCeiuRAXSDwbqzaUUpHLq2qjKXUcL9vn8r13OvWGq1HwJh8tt6eiVNjSojMeQPc7eaWjNRJ5m-IWBCnpNSyegrNE5Mu4pM_MCRNv9zGtWT9ymFE3qmR9MguaZBzWX160nPMncdINc4CZ3Su_bTNHTqtJY0saeimxCrqrgxjNYU1rb_mQ_dKl46cLZe5Iy5t-NcSSPx963enFMYCc9uNMMKTHhoNGPzk38o8f3jJid6fMNFyICRQPxdcJ3sW4T3beadPNFN3litRIzaOeWwSF17QobpijwceaAf1YKmeMfBbK_L5YRZYtnAEBbySexCBldQjAPuDopFOEj0m9TFQpvOYn_pKtr5BEs6toyNNsLm7mJ3zAzNtj6qBKk555z4mkxbXyjz7MOLflTmdnCK7T8XOcdG7tLx5jpeEqKu1budFyuud7U7lEXI-4mCqEetpXzd6aFwpZCFhpYtL-LxJ2tG90F1MHhuFXpysSuiHtJoCqwmOzD79VWfBAW8eI59QKxLfcT1Pf1O9_Ry84Gy42iYZZUg2brjVYko2Zbb8YojPex48Z12eV0PyKOMVkabEz-ar2uwaaUn8Ejp_YUTsqbf8nF78ORUXIrQ399v4OuXzt1_PTf7b9quWv_0fq9IC-A"
+   },
+   {
+    "title": "Jaipur Ace Rangoli Bottles with Color Rangoli Pack - Rangoli Decorations for Floor, Rangoli Colors Powder Set, Rangoli for Home Decoration, Rangoli ",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQkP_dQybUdQbr41XtpWbNx5TRaQjYPz61TUXV9JlWqI8pOs5nE2BSLRwpERnVRBA5P0OICK4NotXTfnC1w7czUFjFgE-sg1kGGCPWt6wMSJNcA1rIVO1q_nA",
+    "price": "₹499",
+    "extracted_price": 499,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=Yq9fy3icLVTJzqNGEE6UJ8hDzGnkEdBsnRtLg_HP8kMDxlwsNgMGgwHbLE8T_TOJlFyiLFKu8xqZQ54lOBqpq7r1VXUtXdX17zffv2Xl30Ep0dGjpAyNc8iMf6XaTmdt-5dr36b35Famf5EMT9EEBDzPsAAQkKcB_CWJblHd5mX6JwMBCSmCZlY9yJEEwTJ_FFmU1mWTWadT1stt8r8VwHEks3KSY2mWZxlA_1peojz7KqdYlgCAYTiOIWmeJVmC_am7Z_38Wx81eVuX75O2bu_98FN-XS_8CSmO4AEAHIQ8CXl-5R-vj9tbkX-63-vs9_G9JGi2JmkK3jNVtEdvef1WNm9F_ZY1P7fR9XFKvnx7Ru0oScMo2t716ssOgUnIWoGzOI0pp75DJmoCIi90fcqg4kUM_HNOOIp5DvcaYTQKjlFqhW5dW2hHGtSkGXWIMVBOmLCnkKgmfK4mY6nNqFJ0F41kqPhXo1L6vZKQmVJcPVUhwzqdEs_xIlAs6bm207PvhuQOGcF1SSQS2IFSBqR_3yP_GnrFNr3cqrjylajZsYdL7ewvJnNo0ld88RhDrW6Wn064toFLFoXv7WRHIuu0cjrXLSjfV4o4UEa7JKWk8fFegZK3iFrqpUHaiH7mpk1Y-QdUpH3kGcQhQPOaW-jJxugh344vsFxJdJ22tD1nSc71xZcLzyfNOb0Qk6UoShbUi7fYIPG0yULmPg52RTh-mob-9A8hKMwNWyw4eYu2jE5jQbvd1D1WcrO9b0eOsn8gOfjsJ57haQh_Ttq2KrMv312wJeF3QF7L-g6I7zESHGl7xIKBsOaipyC3Nb5D4lMqIGlFhCiCaNceewhsfRtw1EYN1zfn29tjp6GTgHVW0Wmx765NHp82V8-E25dqQ_Nd9TSiWpaqo6MgehgdUYCMV1ezzNWuJq-MibgTEXMxOGUpw7HpOyC4xop_jZ6C1Io8o-jXXXtdDxz8QJLEBwrwH9YW36zwMx9V7yKxQgYh10Dlg8ThH33ie88AzP8dSV0lSQLC1IhEa1JljHSRIqsuP3dy3ME4zxOe2Qa73XlSr5dat-bD_Ao4U0jm2xThglADxxxWhbtd3qKOOSrCzaFGB6oxM86eygpUr0tk77cczbKLW7qWol8hQaXV9iA_kibepzApjhM7hPDSHbbGRYRG5dqTbW6c43xiHUtuqz6ysqI6BeE2RgWrL8NLtcRjRQ-Wy90dGJfCMu5l4b5-eHwSu4xwzzaoxYltSw0YQu_fTmn68KIjuzsSkoURopx6yGCleBblTedho_csV1SWKzMd0XVpaFKNIOpoOxOPB7nXXrYv1tYzWsHdKUL6Mog8n2FRBUt03x_ATOsHgOoXVaNxdHj020fLmPgxTPpMn32DpvCtYg-aaMO7lFzSF65fH1UDeRgL-N5FvRYW6jD46CA8K3M84iy599kGu86ztIJ5CceIKvK5OA-jnBYb2-1Prwj6DkSxRs3HXVHqgXFlHMsRZzZrgukma69uw1Yh_Vqq7IiTPGIf8myKvCZihZ_8WefBC1k-OiFiZkd6-vU8_dnq5_f7BQ2Gq62UMIZsk4abj6ZsM-ZZGA1puqf7adCVYTbkdSYsB9qUhcFc8lWu0ZYsjAH-qiMRk34Whrjxh1gaqcBeza_rY58OP368lOnndaqePv8HU5EHEA"
+   },
+   {
+    "title": "Rangoli Powder Bottles Set of 10 Bottles 100 gm Each Rangoli Colours for Floor Rangoli Making Diwali Rangoli Decoration (10 Color Bottles)",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQldUJl2erhz5bIUsvw_9bdX7tWjd_nsR5oozqUzFeOHfRj4fjal2isytvvLkbspOoaJ8yNYAVKoF03vOexmwr61zZZBwYURhDeHJyPGc4MeiKOmtT7Y_JnFQ",
+    "price": "₹227",
+    "extracted_price": 227,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=C9vNc3icLVTJzqNIEu5WP8E8RJ1KLgHJlnNjSTA2y89q4GKxg8FgwGbx07T-6m6p5zLqReprvcbUYZ6lcamljMhUfJ9iyYjM_3_3r_es-suvBDKaKkJTGAvP2Dei61XaNH-9DV36SO5V-idOsQSJQcCyFA0ABlkSwF-T6B41XVGlf1AQ4JDASGrjQQbHMJr6vcyitKnazMjzbBC75OWFIRgKxygSJ3EWJxlAsPR_qmtUZN_wPyCgGIbAAEkxgCRpEqeon_tHNqz_HaK26JrqY9I13WMYfy5u3_gEg7EAAAZCFocsu-nPt-n-XhY_PR5N9tv8UeAUUxEUyT5RdXRC70XzXrXvZfOetb900W3Kk6_fX1A3C8I486Z7u3mihdnEDZk2PkROKtkrRqQYpOKWx6xnuCbOoYwb66BfpZOLQVv1PUFzwpuFw8EDBWVdKUOTKUWvF0L1Utwklt4F3RK6-uDJXhO0eu41iHCQ5J9q8mljaI0J_JC21hL6nuhdS1ojcE31U9GSysBzvUnzPT5wSjryraPpmMBwb6vhhlLk6lMoe75OpLnWNlPW6kHSeuhU6wfjpKyG02AWAaUAm0EEvMomSNKWpcmrQ8EBJW94wayhGThSmJuYVG-18Jpvie6pvDlPa0VlOkSuhgU-Wg10CF1Rm13kmfEVVpvwjtVVpms9k0tzddvbqLupYD5TOWgQeZJDT7vqrtOUB11u-gSHVTr_tIxD_j-Mk6i7bTDEnWP7yW7FYxBci30U7B6CCxsuvZv_xhn4GieWYikM-yXpurrKvv5wtQ3B_gDEra0fAP_RRpwl7M82pyFbcdALKEyF7RH_QjkkbBYuiiA6dOcBAlPd-wyxk0OpvLHdfTooKOdslZZUkh_6W1vE-e7m6nB_rHck29cvJ7JhyCo6c7xrozPykfbmKIa--VXETVERk2MxE4M8SymGTj8AztE2-z_ZE5DYLK8shm1X3rYDAz_hOPaJAOwnnGR3m_lVj6z2EV8jDRMbILN-YrHTkHjuKwH9WyChrwWBQzYxI95YZNFGKk_gdV9cejHuYVwUCUvt_cPhssi3a6Maa7C-AUbnkvW-RHaJyb6ljxvhYVb3qKfOEne3iNmCckzNqyvTHDGoAj54HUPS9NOpHENSb3Cb_XofiFPSxqcUJuV5occQXvtgr115qNWOuZj6zjqvOW0ZYlcPkZGVde6H-xiVtPocj_UznmtyNBzmYcG44p7zSeQe23u3c77PMOdigoZf6K5SgMYN3j1P08mNzvThjAmGjRBhNWMGa8k1CHe5jDt1oJmyNhyR6rG-T0OdaDleRfsVmyb8pBz3R2Pvah3nHCQuPY48y2Y2L4Nn9DgFYCXVAKDmKCukHQXTsJ86SrencVFX8uJpJGHfazpQeBM-hOSaHplhu1QFFGHM2Y8-GpSwlMfRQwH36sz5bGfJY8h2tmO9Wsvp13COiLJYy8s4i2m5M50hf0PQsyCKFWI9H8pK9bUbZRkWv9JZ6y93UXlzWroOybdKpmc7KSJ6EledZxXeltjFW1UWHPFq6rmIWi3hFdd11deoXz6enmjUHGWThNJEE9ecYtZFk9Iv3KwJyyM9LaMqjasmupT2DEhd5Eb9WWy4QhoiN_v2PxwBW9QLN8atN8bCTPjm5n5bn4d0_PHztUq_bL9q_uVvja4D0A"
+   },
+   {
+    "title": "Pack of 10 Multicolour Rangoli Colours",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQe9aIRnkU6Uutu9U0OjyU10_ytwJBcNITrcjIWpnhIsuJ_MyWC_GkdBgCKyKhWgQff6VsMLcGTR9WCd8psjcIsv9lShXe-aAITGhyzKSwNQp2PbN0MvOdw",
+    "price": "₹200",
+    "extracted_price": 200,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=XLhhQ3icLVTHzuM2EE6QJ8hD7GnhhSSq5qZCybJVflVLuhhqVreareKnCf4twOYSpAC57mtkD3mWyIsFOENivuE3Q86Q__3w82ta_OMVPB5OBabKlImm9AvW9gppGJ-7oU3u8a1I_kYJGsMRBtA0QQKAMDQOmM9xeAvrNiuSvwgGoAyG4MTmx1AogpDEn3kaJnVxTfXLJR2ENt7cMIahKQSlaApHKBpshOhvRRNm6Td4C4LRFIOjzLadogiA0AT1sb-nw_r7EF6zti7exm3d3ofxY9Y9-RiMQmgAALXxogxNb_p9N91e8-zD_V6nf8xveVY2ZF4WrRNRhSf4mtWvxfU1r1_T66c27KZL_PXHErYzz48zZzhd5womYmFuH1X1EgP3oUoO4tSiYqDiogGXNMsa8926OHkB4tf-I3QPD9UNpFS6yVbNARd0gQ1d_SSKS-xoXADgokmapHjcUQXdaJXBEDZEHwqmk0raZKPaIVxRPBUCQd0nboKKpodyD7-s8ajk8lTK96mYeIkX9JGd4DGEIGoINwQuajmLY1dL4ziBczqhglEgwG26ayJostZ0tippTlqqmOE6SHwNCks4mBGckaDUJLNMVk3MNdfOS_2EAsMzFRODS-odquDUDZGTrzBPhtBREd-Dqw4PgSOoswNdI2qYYhPONtvCcMxHXNaN0zCjLS1cBF13y0EMmlzw0QNwBLOyMDFIG1NL5g_LOFz-RViRuFk6hd1Yup-sq3D0_Sbbh_7uzjtMzSY34xeUYp7tRBM0gSCf4rativTrT42l89YbIGxlfQO4txZkTX5_tlgVWrINn0BmyHQPuSfKQn6zsGHIwEN7HhhgKHuPwnZSIOYd3d6mgwwvrKWQooJzQ99ds-iy6xyN2R-rHU731ZNE0nVJgWeWcyx4hh5UX2xZ1zZeWdgUEVIXJKIicEkTgiKTN4C11c3-PXuMwTbLM4thm-WXbUEx71AUeYcB-h2K07vN_DyPpPQhV0EVEWog0V5s0tMQu84zAe1bIL6veJ6FFjZDTl8kwYIKh6FVn5W9EPVMlGUxTey9w6FcpK6pFX311xdAaWy83pbQyhHJM7Vxc7gbxS3sibPI3kxsNhkpIubVkUgWGxQeHdyWwknyYRe2Liodg2BJtfeFKb5Gp4SJ8_NCjgHT9P5ebThGrWxjMbSdeV4vpKkLbTWEeppXFy_YRzAnlcd4rB7RXOGjblN3k4kK9jGfBPa-PXjrwvUpYpcGqLmFbAsZqOzg3i5JMjnhmTycEV63IMTMekyZSnR0zFnKcacMJJVXui0QPdL3SaBhV5ZT4H5Fpgk9ycf9Ud87asvaB5FNjiNH06nFSeAR3k8-WHHFB7A-SjJuhf407KeW0KxpXJQVL10Vx6xbRfoyZzB3Pm6SIzVslyqDLIhY696Hgxzk0ji60GeflTmfrTS-D-nOss1naVmtCeYQy7M1L8dZSPKdYQ-XF8i4JgMjGVvPh7xQPLUjTN3kVjK9estNkF_sK1kF-EshkbMVZyE5CavG0TJnifTirgoNjmgx9WxIrCb_jOs4yrPVy7enBxxVW94kJlTBQFU7mzXBILSSnVV-uSenZVTEcVUFh1AfPq4J7Kg9sg2XcV1gZ8_67sMji1KyY3R1x4ifMc_Y6LfxfkjGX983RfJl-1UvX_4HEnYFWQ"
+   },
+   {
+    "title": "Kayaa Rangoli Colour Powder for Diwali Decoration Items/Home Decor/Mandir Decor Creativity Set of 8 Rangoli Colors in Plastic Squeeze Bottles- 800 Gm,",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ55W9faSbHzPJo5na_xJJ6Ar6add0yuRFsjkQDCsbQ9_qvmVBBl1WFAtjhWj5jYaMWm-caOPiK611bc9oIMivRgmdocxNZLfIJ8WJOq5iZHOgVc3bq4C0t8w",
+    "price": "₹235",
+    "extracted_price": 235,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=q7GWAXicLVRJzuPGDk6QE7xD9KrxN6TSWNlpKNuyNVizrI2heZ5tS_Jpgr87AfI2QQbgbXONl0XOEjlooMgi-LFIVrHIv7_5z3tS_M8rBDJ4FECRGANP2DPoBpnW9Z_7sYvv0a2I_8ApFpAYJFiWogkCgyxJwJ-j4BbUXVbEv1OQwCHASGqzgwyOYTT1W54EcV20iZamySh20csLDRiGoTHAsBRkaYwhMOa_RRNkyVecYBgSYgAwBE2wAAcEBn4c7sm4_jIGbdbVxceoq7v7OP2Y9duB3yFgMJYgCAZCFocsu_HP_eP2nmdf7vc6-XX-KHCSLgnSznSpKnDRe1a_F-17Xr8n7U9d0D_S6K9vS9TNgjDNvG73vSMamLniVGL7QezGdnjYBYaono1Wp2IxFxzklw62DAbWB7JbN5aJq3oNG8MyqLitgF73iu7UWNIekfVUcGPFFqvm1thdjhc3PsburfHArpO9o2jvetyunGPUKrNeG0PU6KRS1gffqxePiFfjqU4OYeRWlfP6UyV0sMMdO6_itsZ1TN0pTb7YjZGGzZGK3X61AZVqVnyRrVgNK6hYXoz5SD35VXRzbRhcLH9xnjsiBIufNI4dNvnkNGrjlsfAcWHloD4NDrkSerytYP0D5fEYbNLFQ6uGjr4tKrONHD1sYLERbxldodvGMyrrxrb8PHrmpdL6pYE7fVLqmNmonbPvHX9PnaxGLeL5yzKN6f8xbkfdTI2ZWzcAcRYsJFCnvlYWj1nb0pfPYP4eZ-DrP7EUS2H4T1HXVUXy13eNqQnmB0LcyvqB4D-aiDOEw9XkFGRKFnoBmS6xA-JfKIeETcMFAUTH7jpCQpcPHgPe9v4u79nu9jhKKOVMmd7JJD8OfZuF6Vtvq_Bwqt5IdqheTvaatpfRleNtE12Rh5SzJWnq5lcSN0YFTIqFTEikSUwxdPyB4Cxl03_NHkCwaV5ZjNsunTeBgZ9wHPsECPYTTrJvm_p1n708BHyFFEysiT3rRQb7GCPHfiWg_htIGCpB4JAJZsRry140kcwDvBqychDDAYZZFrHUwTsey2XfN7WsrZf1TDAqF623JTBzbO8Z6rQZ3PXiFgzUdcfdDDAbcB9S82rvaQ6MsoCPTseQNP20Ckvbyf3Wi3F1uIiPqA3dGEb5daEnHzbD5aA0PFQqS1909c24riltaGJXjYGW5FXq-YcQ5bT8nE7VM5wrctIs5m7AsOCesyty963hzZQfEswqdaLmF7orJELhRueWxvHDDq708YoJmokQMOopgdXO1oC9lNObPNJMXmmWSA3YMMS-ClqOl9FhxR4P3JVOh5N2sJWOs447Lj5NPMsmJr8nnsHdvRArKV8IVJ_2EmkGl8d4eHSUaj6mRV7J0lFIYN4q-iLxOrwLUROfmHF7VInI_JAz70MwSn6-nyYHXbhXZa5XM4nuY_JmWsartJza-HMA8mzNy2kW4_xNt8b0jKBjQBRKYL0e80L2lJ4yNINf6aT1lpsona2WrnzyXOzp2YyygH6Iq8qzEm_u2MVZZZY44cVj4AJqNYRXXNuWX1-9_Og-0aRY0kYRpYg6rljZrIo6pZbcrAjLfZs5k7ybVkW0KeV5IVWRm9RntuESqYnc7JlfbQRskUtuCltnCoUZePrmflufx3j64XNTxH9uUzX98x_-zgk9"
+   },
+   {
+    "title": "BRIGHT BLOOM Rangoli Color Powder Set Of 6 (100gm Each) Vibrant Shades in Easy-Pour Bottles for Diwali & Festival Decoration",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTczWt2yMl9VVu7dTtF6D-039yulT2vGKxwYXoKqrZG72V6QbIoS8-c7who57Ld90z1tQkuFQ7XzU1bTs0N0Kj5JOoMSoxeYPGO2vPo9QM",
+    "price": "₹185",
+    "extracted_price": 185,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=a7gZEHicLVRJzutEEAZxAg7xVk__k9uz2XloO048xLPjTdQe4jHxmNjOadD_AAk2iEFiyzVgwVlwEFJXV6u-r6uqu6r7ny--fs_KP8JSJNGjxHWVsUHGHvG212jL-rEb2vSeTGX6O6BYnMQ4gmUpmiAwjiUJ7scETahp8zL9jeIIwOEYSW08jgEYRlO_FhlKm_KWmZdLNkhtUqa_AobYSCTLYgSFMSRgmZ_KK8qz_9DfAE2wOEEwzKY5jAM0hX3f37Nh_XlAt7xtyo9J27T3Yfw-7158Dmcwltg2cBwLOJbd5s_dY3ov8u_u9yb7Zf4o8qqliqrsBFSNAvieN-_l7b1o3rPbDy3qHpfk7y8r2M6iOM6C5XWdL9mYE6ai44AjgvnkS8LeqOy7d5OHoO6WEE8ou_YHhHOhcyWfPsjxEGfxFOpPA-yfRiUozs2mY1_oA8n2UJOTQR3BCOhTiIPWlqPerRpXh7JiAHtygoSImj10sckOvKU28M7QghGksqC4eNS4MrcmwG7jsCltqbCyKhJjzJs0Pwr0a9qdiOaAbgadYsvB9JbLKYhg4KW0BwEZP1OAanm1AgvzRGCjutm7kq2fqshxG3vvY7Zq47KPQHqIHCD74DTpYUEmWBH5txMGi3RAno6dQriacB95kj570LfiK1duIrh2W1qe_Uyq5upL0d71DdfdNU9EyBgK9v7JtfsIFMgBURfv2smzvlvG4fIXxsvU5JjMfAsQnuZoIXFj7Bp9CZn1VkXaEZ-_AQz3aiaWYikM_JC0bV1mf391dUzR-UBIW1k_EMJHB_K2uDs7vA4d1YUvILdUtofCC-WhuFl4hDi4b88DR1jaLmTwNyWSi45tp8dehRfe0WhZI4Wh7255fHnrPIPbHeo3ku3rlxPFNBUNnnnBc-AZhlA_uqppbH5VaZsoxFywmImJS5ZSDJ1-IHhX3-z_Z49z-GZ5ZTFsWj1uC4b7BAD2CSfYT4Bk3zbz6zyK1iOhhjomNYTChonNPobE914JGP8FEvtaFHno4DMUzEWRHKgJOKj7vOqluOfiPE9Yahfu99WidNdGM9fTeiQYg0_WaUFOgSmhbYwb4W6VE-qps8xPNj7bnBJT8-opNI8PmggGv2VImn66pWvKWsdheFrvTtIjucVByiXFeaHHiLv2p51-FTi9dq3FMt7s83qhbVNq6wGZWVFfwmgXw4LWnuOhfsZzTY6my9xtLi755xxI_H17785F6DPMrSyiERa6LVVC5wd_uqTpw0Nnen_GRNOBELebMeNq2TNxb6nGN22gmaI2XYnqsb5PIwO_8YIGdyv2eIBAPewO5s7TW97dy3x6GAWWzRxBIZ7oHpyIldROBGwOiko66PQYdo-WMpzHuGgrWfk6iTtTTZ9UweLuYnJND8ywXapK5FHMO_ceDWpUKOPowxP_qsz57GTJfcjeHNd-lZY3rtGM8CJfi2qcpbR4s9zhcoScb3MwVvH1vC9KLdQ7yjZtYaWzW7hMknp0b3QdkcdSoWcnyRH9kFZDYFXBkdnFXzWWOIDy0fOIWm3xFdfztFerVx-DJxx1V90koXTJArqbz4ZkUUbFz7q43NNgGTV5XHXJo_TniTQkfjSe-YarpCnxc-j8zxGxRav4Mb75YyzOeGht7rfxeUjHbz9fy_TP7Ve9_Pkv9joDxA"
+   },
+   {
+    "title": "Kayaa Rangoli Colour Powder for Diwali Decoration Items/Home Decor/Mandir Decor Creativity Set of 9 Rangoli Colors in Plastic Squeeze Bottles- 900 Gm,",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR_JY2qHgN_f-Ab1Cskr0yy5kDbLaVgb-qjJ7jojUZ8U9JA8BOnEaCp66cezmslDNslLKoKzq7tzWtrl4PXobJL_2bJeBoObpZOFIv2e7zVhcG0CKhTGbcc",
+    "price": "₹240",
+    "extracted_price": 240,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=JKMMtHicLVRHruNGELXhE_gQsxr8ATPZ3jE0g8TwmSluBCYxilFi0GmMPzMG7I3hAHjra3gWPoupgYGu6kbVw6vqrur695vv37Lyr6DkiWguMU2hLTRjXrFuUCnT_Lkfu_Se3Mr0T5RkMAIBOMOQFI4jgCFw8HMS3aKmy8v0DxLgKMAQgtxxgEYRhCJ_L7Iobco2My6XbBS6ZIcxgMAIgsAoEiAoTpKAwn8pr1GefXX_iRIMw1AYQSM4RhIYje_Yz8M9G7dfx6jNu6Z8n3RNdx-nz3n_5AMYjTA4jtMAMChgmF1_7OfbW5F_ut-b7LflPc8qpsIrou2TdeTDt7x5K9u3onnL2p-6qJ8vyZdvK9gtPD8tnOn2vSdYiF0rqOV7m-r2d10QA79NMb8KW80Nr1rgNZ5vRVplkdFVI93Wo-KHVXv-7XFyON901z5AG9RuQjmVUDeFIRZJjRNeayLCm1VDSNmBh6PVho0rcEt2FeUIBZTbHjzNJz2nPgSxUCOnR2Fnlcfbgd5r2M2IBOVm-OjFgzqqV6GkY42c-aseNeGcCfkthqvg7vyhlMp2tWP2XLxWWezaXF2YrmkbtrYIdA2zjq6X4npTzFFj3U4PC7WQRjQrTvNaTvVbUT49xM1qagIW6Ri5GnIK4GbAQ-gK2uJCz4yvoNyFc6yuNF3rkVTN1cWAkCK6Zzs6kVR6kQjiJZL71nNXP3yErnfV8XD5tE7j5R-EFcmbbVCxSZ_9fjpY_pgZXOJd59A7gIBDkuUHlAbPdmJIhkSwn5Kuq8vsy3dX2-Dtd7iwl_Udzr23IWvx8tlmNWgrDnw6clNhBsg9vSzkdwsbRQAeuvMIcFOVAxp7kUKx6JnuNh8UeGFtlRJVghuHvs3jy0vv6kA-1i8EM9RPEskwJBWeWc614RkGUHt1FEPfeRVhV2REX5CYjvFLlpI0lb7DWUfb7f9njwFstzyzGPdded0PNPiAosgHDGc-7O3-spuf95HUIeJqqCFCg0tMkFjMPCae-0xA_xqIH2qeZ6GNLZAzVkmwocphaD3k1SDEA4jzPGFIOTgcqlXqr41qbKftFad1Ntlua2QXiBRY-rQD7mZ5iwbyLLI3C1ssIMXksrkSxWKjyqOj19EERT2c0jFEtQcIltbySZiTNvZTkBTnlZpCcB1OsnblgFY75mrqL9Z5u1CWIXT1GBlZUV-CUI5hQamP6Vg_4qUmJsOh7xaIS_ax-AJ73z-8feGGDHEqE2-4lepKBdfY0btd0nR2ozN1OCO8YUOIWc2UgVp0Dcxdq-lFHSm6qA1HIAdkGNJQx1qWU6G8IfOM-spRPhqyq3WscxDZ9DhxDJPZnIQ_ort_wjdCPeGwOUoKYUeneZTnjtTteVrVjag8jcDsW02dFM4Edz65pkd63B9VwfMwZu37EI1KWEjT5MET-6zM-WxnyX3MXmzHepaW1a_hEmFFvhXVtAhp8WI64-UVAs8CMFaw7XwoSjXQetIyLG6jsjZYb4Ly6rRUHRKvpUQtdpJH1CxsOsconC0y6z6EGPyIlvPARuRm8c-4rqs-W7167z_gpDnKLgmpCSaqOfmiCyapV-yi8es99ddJFadNE1xSe5wIXWAn_ZHvfoUwBHYJ7P8xPLKqFTvFrTfF_IIF5k6_r49jOv348Vqmf-9T9fL3f9HTBqE"
+   },
+   {
+    "title": "Kayaa Rangoli Colour Powder for Diwali Decoration Items/Home Decor/Mandir Decor Creativity Set of 9 Rangoli Colors in Plastic Squeeze Bottles-900 Gm, ",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSIyQw5IUxMEzzKsB-F6mXqLjJO0qOsEt9RaNc0d7OmWLdWSdVhuBrcQ6gOBV0fsVvXyI5cBSR5MmMvtPXk32twA08baPvD6KgBXfcizk8ZHWGQ6QgUlgQh",
+    "price": "₹240",
+    "extracted_price": 240,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=ob-CAXicLVRJruM2EE2QE-QQvWr8hmaJ2WmgLelr-BooydoYmmzJkqzRGnya4PcAdDZB0gGy7WukFzlL5EYAVpGoenj1yCL57w8_v2bF30EhUtFUELrC2njGvRBNpzGW9bntm_SWjEX6F05zBIUBkuNohiQxwFEk-JxEY1Q15yL9QgMSBwRG0RsOsDiGMfSfeRalVXHNzNMp66UmebBgFGAolqVZGgCCojhA0b8VdXTOvue_UBRG4yyBYzSB4YDGSBL_2N2yfv29j67npireJk3V3Prh47l94AHBYhxJkiwAHA44bvPv22l8zc8fbrcq-2N-K_KKpYjKzvHpMvLh67l6La6vefWaXT81UTudkm8_XmAzi-IwCxZqW0-yMaemvUjybN8zmnTHjeYuR4ZfBVadEg4aSb1qmbiGayyHHQp4LLm2IaoqI72quYloBkFVOBDwHnvqLZRDGe1sBXl2ERN2pN9taFdCG_uL6CAw2Kh1jV01xyKGHVBoHci81tBIx9e2diVr8fceFgchHt2rW7oTcqdu9yHiKN9TZZsYheiS0m6BnwxXuCWl6jm46unY6GW1rcaYeohw1YquO8zylxohsGm2ZdvzDrFs4O4V0hunmG18yUU1dEIlfaSaGrIvJkIEzNM-Qjp2COBqQjVEkj4j6FlxDYrNBNduCgvZ9-RS1ahcxvAK8RjihgeNi1eOdUykUywLQQLtyYW5E84flqE__YPxO3p0TCa22KPfDqrt95kpJF49hZ4KAgFL5l9wFjyuE0dzNEZ8SpqmLLJvP9WOKTpvSGlr6xtSeOtA3hblo8Pr0FFc-EicLYXroPDI8lDcInwUAag2xx6QliYHLPG0D3d5yzXjpCrwxDsas9Mooe_a6zk-PbXIAPJz-URxXfkg2ZvmXoNHXkAOPMIA6i-uYhobryJtjo7YExazMXnKUppl0jck7-pb_H_1BCC2yENFv83Ky7ZgwTscx94RJPcOp7inLfzYz17rIqGEOiZV5J4LEpub-sRDDwHG90JiV4oiDx1ihoK57CUHagKBl9350klxB-LzOeFoOVDVy7Jv60oz18P6QrIGn6zjEjk5tg9sY9gAN6sYo44-7vjRJmYb7GN6XtGe4YleE_Hea1iKYe5u4Zo7rQUYkZbyQZqSa-ynIMmPCzOEoO4Osl4LQC9da7GMJ_u4nhjblJqyj8wsL09BKMcwZ7T78Fze47mkBtNlbzaIC_4--xJ_2967cxK6DHMvFlkJC9MUCqnzvTee0nRC0ZFRj5hoOhASdjVkoNwhk0DLZXjSeobNS9OV6A7rujQ0iCsvaFBesWnCfeVZfjZlpDe8q-749HkQOC5zhD15j27-gVwp7UDC6nmvUE50mHp5amjDmYZFW6mLp1OEM5bMQREscBOTOn1m--1QFfIcxrxz66JeCfP9MHjwwD86czw6WXLrsyfHtR-t5Y06nCMiP6_5ZZilNH-y3P70AoFnAxgrxHpU80IL9Ja2TVtYmewaLKOkvLhXpgypl2LPzE5yjphJWg2BUwRnxy3eqnHkM15MHR_Rqy0-6iKkPa765a1_h4PuKpsltC5ZuO6eZ0OyaOPCz7q43FJ_GbTdsOoSovX7gTIkfjDu5y2vUKbEz4HzP0bEFu3CD_HVG2JxJgJro9_G-z4dfn1fF-nX7Vc9ff0P5x4FBg"
+   }
+  ]
+ }
+}

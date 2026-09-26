@@ -1,0 +1,1304 @@
+{
+ "search_metadata": {
+  "id": "6ab82089f680d1acadb7a005",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/U_SuhjN4lYjLBkAnpce6ZgXbDWZacVmpzOfSWE1D_jU/6ab82089f680d1acadb7a005.json",
+  "markdown_endpoint": "https://serpapi.com/searches/U_SuhjN4lYjLBkAnpce6ZgXbDWZacVmpzOfSWE1D_jU/6ab82089f680d1acadb7a005.md",
+  "created_at": "2026-09-26 19:44:09 UTC",
+  "processed_at": "2026-09-26 19:44:09 UTC",
+  "amazon_product_url": "https://www.amazon.in/dp/B08KF3QKZ6/?",
+  "raw_html_file": "https://serpapi.com/searches/U_SuhjN4lYjLBkAnpce6ZgXbDWZacVmpzOfSWE1D_jU/6ab82089f680d1acadb7a005.html",
+  "total_time_taken": 8.27
+ },
+ "search_parameters": {
+  "engine": "amazon_product",
+  "asin": "B08KF3QKZ6",
+  "amazon_domain": "amazon.in",
+  "device": "desktop"
+ },
+ "product_results": {
+  "categories": [
+   {
+    "position": 1,
+    "name": "Grocery & Gourmet Foods",
+    "link": "https://www.amazon.in/Gourmet-Specialty-Foods/b/ref=dp_bc_1?ie=UTF8&node=2454178031",
+    "node": "2454178031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=2454178031"
+   },
+   {
+    "position": 2,
+    "name": "Hampers & Gourmet Gifts",
+    "link": "https://www.amazon.in/Hampers-Gourmet-Gifts/b/ref=dp_bc_2?ie=UTF8&node=4859485031",
+    "node": "4859485031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4859485031"
+   },
+   {
+    "position": 3,
+    "name": "Tea Gifts",
+    "link": "https://www.amazon.in/Tea-Gifts/b/ref=dp_bc_3?ie=UTF8&node=4859648031",
+    "node": "4859648031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4859648031"
+   }
+  ],
+  "asin": "B08KF3QKZ6",
+  "title": "Open Secret Chocolate Celebration Gift Box | 12 Cookies Assortment | Premium Gourmet Cookie Gift Hamper | White Cashew, Choco Almond & Peanut Butter Cookies | Sweet Treats for All Occasions",
+  "link": "https://www.amazon.in/Open-Secret-Holi-Celebration-Hamper/dp/B08KF3QKZ6/",
+  "link_clean": "https://www.amazon.in/dp/B08KF3QKZ6/",
+  "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08KF3QKZ6&device=desktop&engine=amazon_product",
+  "badges": [
+   "#1 Best Seller"
+  ],
+  "brand": "by Open Secret Format: Grocery",
+  "thumbnail": "https://m.media-amazon.com/images/I/41ybK8He+qL._SX342_SY445_FMwebp_.jpg",
+  "thumbnails": [
+   "https://m.media-amazon.com/images/I/61QphhL2HbL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61rsNqVlDlS.jpg",
+   "https://m.media-amazon.com/images/I/61PNOnrAgKS._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/51b6-3DYRiS._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61JOsgdrcVS._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/71J62uCa0JL._SL1500_.jpg"
+  ],
+  "video": {
+   "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a8b443a8-b81a-42b4-aefd-c807382dbc0b.mp4/productVideoOptimized.mp4",
+   "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a8b443a8-b81a-42b4-aefd-c807382dbc0b.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+  },
+  "rating": 4.2,
+  "reviews": 2337,
+  "bought_last_month": "1K+ bought in past month",
+  "discount": "-27%",
+  "price": "₹255",
+  "extracted_price": 255,
+  "price_unit": "₹255 / count",
+  "extracted_price_unit": 255,
+  "old_price": "₹350",
+  "extracted_old_price": 350,
+  "snap_ebt_eligible": true,
+  "delivery": [
+   "FREE delivery Tuesday, 29 September Limited Period Festive Offer. Details",
+   "Or fastest delivery Today. Order within 8 hrs 44 mins. Details"
+  ],
+  "purchase_policies": [
+   {
+    "title": "Free Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB562549966_.png",
+    "description": "Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200534000"
+     }
+    ]
+   },
+   {
+    "title": "Non-Returnable",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB562506492_.png",
+    "links": [
+     {
+      "text": "Your Orders",
+      "link": "https://www.amazon.in/gp/css/order-history"
+     },
+     {
+      "text": "Read full returns policy",
+      "link": "https://www.amazon.in/gp/help/customer/display.html/?ie=UTF8&nodeId=201149900"
+     }
+    ]
+   },
+   {
+    "title": "Amazon Delivered",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB562550117_.png",
+    "description": "Order processed by Amazon; delivered through our courier partners"
+   },
+   {
+    "title": "Pay on Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-cod._CB562506657_.png",
+    "description": "Pay on Delivery (Cash/Card) payment method includes Cash on Delivery (COD) as well as Debit card / Credit card / Net banking payments at your doorstep."
+   },
+   {
+    "title": "Secure transaction",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/Secure-payment._CB650126890_.png",
+    "description": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202115020"
+     }
+    ]
+   }
+  ],
+  "stock": "In stock"
+ },
+ "purchase_options": {
+  "single_offer": {
+   "discount": "-27%",
+   "old_price": "₹350",
+   "extracted_old_price": 350,
+   "delivery": [
+    "FREE delivery Tuesday, 29 September Limited Period Festive Offer. Details",
+    "Or fastest delivery Today. Order within 8 hrs 44 mins. Details"
+   ],
+   "stock": "In stock",
+   "features": {
+    "ships_from": {
+     "text": "Amazon",
+     "details": {
+      "heading": "Ships from",
+      "content": "Amazon"
+     }
+    },
+    "sold_by": {
+     "text": "Amazon Retail",
+     "details": {
+      "heading": "Sold by",
+      "content": "Amazon Retail"
+     },
+     "link": {
+      "text": "Amazon Retail",
+      "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=ARENK22K2PQRH&asin=B08KF3QKZ6&ref_=dp_merchant_link&isAmazonFulfilled=1"
+     }
+    },
+    "payment": {
+     "text": "Secure transaction",
+     "details": {
+      "heading": "Your transaction is secure",
+      "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+     },
+     "link": {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202115020"
+     }
+    }
+   }
+  }
+ },
+ "bought_together": [
+  {
+   "position": 1,
+   "title": "Open Secret Chocolate Celebration Gift Box | 12 Cookies Assortment | Premium Gourmet Cookie Gift Hamper | White Cashew, Choco Almond & Peanut Butter Cookies | Sweet Treats for All Occasions",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61QphhL2HbL._AC_UL116_SR116,116_.jpg",
+   "price": "₹255.00",
+   "extracted_price": 255.0,
+   "price_unit": "₹255.00/count",
+   "extracted_price_unit": 255.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 2,
+   "title": "Farmley Date Bites I Dates Barfi Made with Dates, Pista, Cashews, Almonds, Honey and Pure Ghee I Dry Fruits Nuts, Healthy Snacks Sweets,Gluten Free, No Added Sugar (200g, Dates Bites Jar)",
+   "link": "https://www.amazon.in/Farmley-Premium-Delicious-Pistachios-Cashewnuts/dp/B0BSXC1Z63/ref=pd_bxgy_thbs_d_sccl_1/523-9096292-2403759?pd_rd_w=Md7eE&content-id=amzn1.sym.e933bed8-66b5-4e19-9aeb-b2834144fba3&pf_rd_p=e933bed8-66b5-4e19-9aeb-b2834144fba3&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0BSXC1Z63&psc=1",
+   "asin": "B0BSXC1Z63",
+   "link_clean": "https://www.amazon.in/Farmley-Premium-Delicious-Pistachios-Cashewnuts/dp/B0BSXC1Z63/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BSXC1Z63&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61gjai3z-6L._AC_UL116_SR116,116_.jpg",
+   "price": "₹297.00",
+   "extracted_price": 297.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 3,
+   "title": "Farmley Dark Choco Orange Date Bites 200g I Dates Barfi Made with Dates,Cocoa Powder,Pista,Cashews,Almonds,Honey,Orange and Pure Ghee,Chocolate Flavoured Healthy Delicious Indian Sweets,No Added Sugar",
+   "link": "https://www.amazon.in/Farmley-Cashews-Chocolate-Flavoured-Delicious/dp/B0DT9QKBLW/ref=pd_bxgy_thbs_d_sccl_2/523-9096292-2403759?pd_rd_w=Md7eE&content-id=amzn1.sym.e933bed8-66b5-4e19-9aeb-b2834144fba3&pf_rd_p=e933bed8-66b5-4e19-9aeb-b2834144fba3&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0DT9QKBLW&psc=1",
+   "asin": "B0DT9QKBLW",
+   "link_clean": "https://www.amazon.in/Farmley-Cashews-Chocolate-Flavoured-Delicious/dp/B0DT9QKBLW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DT9QKBLW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/815Qv2BfhNL._AC_UL116_SR116,116_.jpg",
+   "price": "₹334.00",
+   "extracted_price": 334.0,
+   "price_unit": "₹167.00/100 g",
+   "extracted_price_unit": 167.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  }
+ ],
+ "related_products": [
+  {
+   "position": 1,
+   "title": "4700BC Nutty Tuxedo Chocolate Popcorn | Gifting Tin | 150g",
+   "link": "https://www.amazon.in/4700BC-Nutty-Tuxedo-Chocolate-Popcorn/dp/B074DXB9SB/ref=pd_sbs_d_sccl_1_1/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B074DXB9SB&psc=1",
+   "asin": "B074DXB9SB",
+   "link_clean": "https://www.amazon.in/4700BC-Nutty-Tuxedo-Chocolate-Popcorn/dp/B074DXB9SB/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B074DXB9SB&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61pdVedpq8L._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 11418,
+   "price": "₹213.00",
+   "extracted_price": 213.0,
+   "price_unit": "₹142.00/100 g",
+   "extracted_price_unit": 142.0,
+   "old_price": "₹250.00",
+   "extracted_old_price": 250.0
+  },
+  {
+   "position": 2,
+   "title": "Pure Temptation Chocoblast Celebration Gift Box | 196g Chocolate-Filled Waffle Cones | Premium Chocolate Gift Hamper for Men",
+   "link": "https://www.amazon.in/Pure-Temptation-Celebration-Chocolate-Filled-Anniversaries/dp/B0FGJVSHMS/ref=pd_sbs_d_sccl_1_2/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0FGJVSHMS&psc=1",
+   "asin": "B0FGJVSHMS",
+   "link_clean": "https://www.amazon.in/Pure-Temptation-Celebration-Chocolate-Filled-Anniversaries/dp/B0FGJVSHMS/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FGJVSHMS&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71MITuDoQ3L._AC_UL165_SR165,165_.jpg",
+   "rating": 4.3,
+   "reviews": 150,
+   "price": "₹499.00",
+   "extracted_price": 499.0,
+   "price_unit": "₹35.64/count",
+   "extracted_price_unit": 35.64,
+   "old_price": "₹750.00",
+   "extracted_old_price": 750.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 3,
+   "title": "Loyka Almond Brittle Assorted Choco Box - 8 pcs 116gm | Premium Chocolate Gift Hamper | Choco & Nut Dryfruit Delicacy | Roast",
+   "link": "https://www.amazon.in/Loyka-Almond-Brittle-Assorted-Choco/dp/B0BF4FXP8L/ref=pd_sbs_d_sccl_1_3/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0BF4FXP8L&psc=1",
+   "asin": "B0BF4FXP8L",
+   "link_clean": "https://www.amazon.in/Loyka-Almond-Brittle-Assorted-Choco/dp/B0BF4FXP8L/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BF4FXP8L&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/716wl9W8bIL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.3,
+   "reviews": 443,
+   "price": "₹340.00",
+   "extracted_price": 340.0,
+   "price_unit": "₹42.50/count",
+   "extracted_price_unit": 42.5,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 4,
+   "title": "Open Secret Diwali/Bhaidooj Gift Hamper | Combo of 8 | Assorted Chocolate Cookies, Brownie and Flavoured Nuts | Festive Gift",
+   "link": "https://www.amazon.in/Open-Secret-Bhaidooj-Chocolate-Flavoured/dp/B0H3Q1XHDK/ref=pd_sbs_d_sccl_1_4/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0H3Q1XHDK&psc=1",
+   "asin": "B0H3Q1XHDK",
+   "link_clean": "https://www.amazon.in/Open-Secret-Bhaidooj-Chocolate-Flavoured/dp/B0H3Q1XHDK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H3Q1XHDK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61oREmybCRL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 1639,
+   "price": "₹299.00",
+   "extracted_price": 299.0,
+   "price_unit": "M.R.P: ₹400.00",
+   "extracted_price_unit": 400.0,
+   "old_price": "₹400.00",
+   "extracted_old_price": 400.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 5,
+   "title": "Loyka Almond Florentine/Chocolate Almond Box - 12 pcs | Premium Chocolate Gift Hamper | Choco & Nut Dryfruit Delicacy | Caram",
+   "link": "https://www.amazon.in/Loyka-Almond-Florentine-Box-Caramalised/dp/B0C1C9RC4B/ref=pd_sbs_d_sccl_1_5/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0C1C9RC4B&psc=1",
+   "asin": "B0C1C9RC4B",
+   "link_clean": "https://www.amazon.in/Loyka-Almond-Florentine-Box-Caramalised/dp/B0C1C9RC4B/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0C1C9RC4B&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71kSIRG2VzL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 387,
+   "price": "₹399.00",
+   "extracted_price": 399.0,
+   "price_unit": "₹221.67/100 g",
+   "extracted_price_unit": 221.67,
+   "old_price": "₹420.00",
+   "extracted_old_price": 420.0
+  },
+  {
+   "position": 6,
+   "title": "Hershey’s Kisses Diwali Chocolate Tin Gift Pack | Melt-in-Mouth Milk, Almond & Cookies n Crème Chocolates | Festive Gifting B",
+   "link": "https://www.amazon.in/Hersheys-Kisses-Moments-Chocolate-Gift/dp/B08HHRZWH3/ref=pd_sbs_d_sccl_1_6/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B08HHRZWH3&psc=1",
+   "asin": "B08HHRZWH3",
+   "link_clean": "https://www.amazon.in/Hersheys-Kisses-Moments-Chocolate-Gift/dp/B08HHRZWH3/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08HHRZWH3&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/51gNDQCnt9L._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 1031,
+   "price": "₹379.00",
+   "extracted_price": 379.0,
+   "price_unit": "₹304.42/100 g",
+   "extracted_price_unit": 304.42,
+   "old_price": "₹999.00",
+   "extracted_old_price": 999.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 7,
+   "asin": "B08FMTDXG8",
+   "title": "Open Secret Cookies | Healthy Snacks, Hamper, Biscuits, Gift Packs, Healthy High Protein, No Added Maida, (24 X 1 = 24)",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzg0MzI6Ojo6&url=%2Fdp%2FB08FMTDXG8%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB08FMTDXG8%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3Dvwlylirf39%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwlylirf39&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B08FMTDXG8/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08FMTDXG8&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "#1 Best Seller"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/71LwMU85kvL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.3,
+   "reviews": 609,
+   "discount": "-10%",
+   "price": "₹378.00",
+   "extracted_price": 378.0,
+   "price_unit": "₹90.00 / 100 g",
+   "extracted_price_unit": 90.0,
+   "old_price": "null"
+  },
+  {
+   "position": 8,
+   "asin": "B07RBN3ZMJ",
+   "title": "VAHDAM Bloom Luxury Tea Gift Set | 12 Premium Loose Leaf Teas in Gold Tin Caddies | Black, Green, Chai & Herbal | Corporate Gifting, Birthday & Diwali Gift | Gift for Women & Men",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjYzNDcwNTU3MzI6Ojo6&url=%2Fdp%2FB07RBN3ZMJ%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB07RBN3ZMJ%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D6qWbkyBLRH%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=6qWbkyBLRH&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B07RBN3ZMJ/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07RBN3ZMJ&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/61RSflnhpzL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.5,
+   "reviews": 1042,
+   "discount": "-20%",
+   "price": "₹2,799.00",
+   "extracted_price": 2799.0,
+   "price_unit": "₹233.25 / count",
+   "extracted_price_unit": 233.25,
+   "old_price": "null"
+  },
+  {
+   "position": 9,
+   "asin": "B0H3Q1XHDK",
+   "title": "Open Secret Diwali/Bhaidooj Gift Hamper | Combo of 8 | Assorted Chocolate Cookies, Brownie and Flavoured Nuts | Festive Gift Pack",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEyMjgxNzIxNzk2MzI6Ojo6&url=%2Fdp%2FB0H3Q1XHDK%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0H3Q1XHDK%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DYMCvHylkcO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=YMCvHylkcO&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0H3Q1XHDK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H3Q1XHDK&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/61oREmybCRL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.1,
+   "reviews": 1639,
+   "discount": "-25%",
+   "price": "₹299.00",
+   "extracted_price": 299.0,
+   "old_price": "null"
+  },
+  {
+   "position": 10,
+   "asin": "B0CP466P7Q",
+   "title": "Open Secret Unjunked Bhujia | Namkeen| Baked not Fried | No Palm Oil | Crunchy Tasty Snacks| Tea Coffee Time | Zero Trans Fat| No Cholesterol (Pack of 1)",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzkzMzI6Ojo6&url=%2Fdp%2FB0CP466P7Q%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0CP466P7Q%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D2sOcvaNmQ5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=2sOcvaNmQ5&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0CP466P7Q/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CP466P7Q&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "Amazon's Choice"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/51hP9GJG1DL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.1,
+   "reviews": 531,
+   "discount": "-23%",
+   "price": "₹154.00",
+   "extracted_price": 154.0,
+   "old_price": "null"
+  },
+  {
+   "position": 11,
+   "asin": "B0BRPRLG21",
+   "title": "Open Secret Jeera Biscuit Cookies | Protein & Fiber Packed | Healthy Snacks | No Added Maida No Refined Sugar No Palm Oil | Unjunked Biscuit | 40G - Pack of 6",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzgyMzI6Ojo6&url=%2Fdp%2FB0BRPRLG21%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0BRPRLG21%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DTcT1mW4GCZ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=TcT1mW4GCZ&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0BRPRLG21/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BRPRLG21&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/71t-wT70KLL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.2,
+   "reviews": 236,
+   "discount": "-10%",
+   "price": "₹243.00",
+   "extracted_price": 243.0,
+   "price_unit": "₹607.50 / 100 g",
+   "extracted_price_unit": 607.5,
+   "old_price": "null"
+  },
+  {
+   "position": 12,
+   "asin": "B09RKDP3L5",
+   "title": "Open Secret Brownie | 1 Pack - 6 Brownies | Anniversary Gifts for Couple, Valentine Gift for Boyfriend, Valentine Gift for Girlfriend, Valentine Gift for Husband, Healthy snacks, No Maida",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzk5MzI6Ojo6&url=%2Fdp%2FB09RKDP3L5%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB09RKDP3L5%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D2x2Bep94M6%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=2x2Bep94M6&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B09RKDP3L5/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09RKDP3L5&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/61ndpM9XQ9L._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.7,
+   "reviews": 158,
+   "price": "₹330.00",
+   "extracted_price": 330.0,
+   "price_unit": "₹55.00 / count",
+   "extracted_price_unit": 55.0
+  },
+  {
+   "position": 13,
+   "asin": "B0B53ZRB72",
+   "title": "Open Secret Premium Gift Hamper | Combo of 5 | Dry Fruit Gift Box, Chocolate Gifts, Dry Fruits, Healthy Premium Hamper, Gifts for colleagues, Employee Gifting",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjI0MDQyNDYxMzI6Ojo6&url=%2Fdp%2FB0B53ZRB72%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0B53ZRB72%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DcR4okaVwVE%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=cR4okaVwVE&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0B53ZRB72/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0B53ZRB72&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/61OZ0D3ydoL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.5,
+   "reviews": 84,
+   "price": "₹210.00",
+   "extracted_price": 210.0,
+   "price_unit": "₹210.00 / count",
+   "extracted_price_unit": 210.0
+  }
+ ],
+ "related_product_sections": [
+  {
+   "title": "Customers who viewed this item also viewed",
+   "items": [
+    {
+     "position": 1,
+     "title": "4700BC Nutty Tuxedo Chocolate Popcorn | Gifting Tin | 150g",
+     "link": "https://www.amazon.in/4700BC-Nutty-Tuxedo-Chocolate-Popcorn/dp/B074DXB9SB/ref=pd_sbs_d_sccl_1_1/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B074DXB9SB&psc=1",
+     "asin": "B074DXB9SB",
+     "link_clean": "https://www.amazon.in/4700BC-Nutty-Tuxedo-Chocolate-Popcorn/dp/B074DXB9SB/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B074DXB9SB&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61pdVedpq8L._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 11418,
+     "price": "₹213.00",
+     "extracted_price": 213.0,
+     "price_unit": "₹142.00/100 g",
+     "extracted_price_unit": 142.0,
+     "old_price": "₹250.00",
+     "extracted_old_price": 250.0
+    },
+    {
+     "position": 2,
+     "title": "Pure Temptation Chocoblast Celebration Gift Box | 196g Chocolate-Filled Waffle Cones | Premium Chocolate Gift Hamper for Men",
+     "link": "https://www.amazon.in/Pure-Temptation-Celebration-Chocolate-Filled-Anniversaries/dp/B0FGJVSHMS/ref=pd_sbs_d_sccl_1_2/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0FGJVSHMS&psc=1",
+     "asin": "B0FGJVSHMS",
+     "link_clean": "https://www.amazon.in/Pure-Temptation-Celebration-Chocolate-Filled-Anniversaries/dp/B0FGJVSHMS/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FGJVSHMS&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71MITuDoQ3L._AC_UL165_SR165,165_.jpg",
+     "rating": 4.3,
+     "reviews": 150,
+     "price": "₹499.00",
+     "extracted_price": 499.0,
+     "price_unit": "₹35.64/count",
+     "extracted_price_unit": 35.64,
+     "old_price": "₹750.00",
+     "extracted_old_price": 750.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 3,
+     "title": "Loyka Almond Brittle Assorted Choco Box - 8 pcs 116gm | Premium Chocolate Gift Hamper | Choco & Nut Dryfruit Delicacy | Roast",
+     "link": "https://www.amazon.in/Loyka-Almond-Brittle-Assorted-Choco/dp/B0BF4FXP8L/ref=pd_sbs_d_sccl_1_3/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0BF4FXP8L&psc=1",
+     "asin": "B0BF4FXP8L",
+     "link_clean": "https://www.amazon.in/Loyka-Almond-Brittle-Assorted-Choco/dp/B0BF4FXP8L/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BF4FXP8L&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/716wl9W8bIL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.3,
+     "reviews": 443,
+     "price": "₹340.00",
+     "extracted_price": 340.0,
+     "price_unit": "₹42.50/count",
+     "extracted_price_unit": 42.5,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    },
+    {
+     "position": 4,
+     "title": "Open Secret Diwali/Bhaidooj Gift Hamper | Combo of 8 | Assorted Chocolate Cookies, Brownie and Flavoured Nuts | Festive Gift",
+     "link": "https://www.amazon.in/Open-Secret-Bhaidooj-Chocolate-Flavoured/dp/B0H3Q1XHDK/ref=pd_sbs_d_sccl_1_4/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0H3Q1XHDK&psc=1",
+     "asin": "B0H3Q1XHDK",
+     "link_clean": "https://www.amazon.in/Open-Secret-Bhaidooj-Chocolate-Flavoured/dp/B0H3Q1XHDK/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H3Q1XHDK&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61oREmybCRL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 1639,
+     "price": "₹299.00",
+     "extracted_price": 299.0,
+     "price_unit": "M.R.P: ₹400.00",
+     "extracted_price_unit": 400.0,
+     "old_price": "₹400.00",
+     "extracted_old_price": 400.0,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    },
+    {
+     "position": 5,
+     "title": "Loyka Almond Florentine/Chocolate Almond Box - 12 pcs | Premium Chocolate Gift Hamper | Choco & Nut Dryfruit Delicacy | Caram",
+     "link": "https://www.amazon.in/Loyka-Almond-Florentine-Box-Caramalised/dp/B0C1C9RC4B/ref=pd_sbs_d_sccl_1_5/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B0C1C9RC4B&psc=1",
+     "asin": "B0C1C9RC4B",
+     "link_clean": "https://www.amazon.in/Loyka-Almond-Florentine-Box-Caramalised/dp/B0C1C9RC4B/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0C1C9RC4B&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71kSIRG2VzL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 387,
+     "price": "₹399.00",
+     "extracted_price": 399.0,
+     "price_unit": "₹221.67/100 g",
+     "extracted_price_unit": 221.67,
+     "old_price": "₹420.00",
+     "extracted_old_price": 420.0
+    },
+    {
+     "position": 6,
+     "title": "Hershey’s Kisses Diwali Chocolate Tin Gift Pack | Melt-in-Mouth Milk, Almond & Cookies n Crème Chocolates | Festive Gifting B",
+     "link": "https://www.amazon.in/Hersheys-Kisses-Moments-Chocolate-Gift/dp/B08HHRZWH3/ref=pd_sbs_d_sccl_1_6/523-9096292-2403759?pd_rd_w=f1k8K&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f&pd_rd_i=B08HHRZWH3&psc=1",
+     "asin": "B08HHRZWH3",
+     "link_clean": "https://www.amazon.in/Hersheys-Kisses-Moments-Chocolate-Gift/dp/B08HHRZWH3/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08HHRZWH3&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/51gNDQCnt9L._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 1031,
+     "price": "₹379.00",
+     "extracted_price": 379.0,
+     "price_unit": "₹304.42/100 g",
+     "extracted_price_unit": 304.42,
+     "old_price": "₹999.00",
+     "extracted_old_price": 999.0,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "More from frequently bought brands",
+   "items": [
+    {
+     "position": 1,
+     "asin": "B08FMTDXG8",
+     "title": "Open Secret Cookies | Healthy Snacks, Hamper, Biscuits, Gift Packs, Healthy High Protein, No Added Maida, (24 X 1 = 24)",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzg0MzI6Ojo6&url=%2Fdp%2FB08FMTDXG8%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB08FMTDXG8%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3Dvwlylirf39%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=vwlylirf39&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B08FMTDXG8/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08FMTDXG8&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "#1 Best Seller"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/71LwMU85kvL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.3,
+     "reviews": 609,
+     "discount": "-10%",
+     "price": "₹378.00",
+     "extracted_price": 378.0,
+     "price_unit": "₹90.00 / 100 g",
+     "extracted_price_unit": 90.0,
+     "old_price": "null"
+    },
+    {
+     "position": 2,
+     "asin": "B07RBN3ZMJ",
+     "title": "VAHDAM Bloom Luxury Tea Gift Set | 12 Premium Loose Leaf Teas in Gold Tin Caddies | Black, Green, Chai & Herbal | Corporate Gifting, Birthday & Diwali Gift | Gift for Women & Men",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjYzNDcwNTU3MzI6Ojo6&url=%2Fdp%2FB07RBN3ZMJ%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB07RBN3ZMJ%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D6qWbkyBLRH%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=6qWbkyBLRH&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B07RBN3ZMJ/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07RBN3ZMJ&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/61RSflnhpzL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.5,
+     "reviews": 1042,
+     "discount": "-20%",
+     "price": "₹2,799.00",
+     "extracted_price": 2799.0,
+     "price_unit": "₹233.25 / count",
+     "extracted_price_unit": 233.25,
+     "old_price": "null"
+    },
+    {
+     "position": 3,
+     "asin": "B0H3Q1XHDK",
+     "title": "Open Secret Diwali/Bhaidooj Gift Hamper | Combo of 8 | Assorted Chocolate Cookies, Brownie and Flavoured Nuts | Festive Gift Pack",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEyMjgxNzIxNzk2MzI6Ojo6&url=%2Fdp%2FB0H3Q1XHDK%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0H3Q1XHDK%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DYMCvHylkcO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=YMCvHylkcO&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0H3Q1XHDK/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H3Q1XHDK&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/61oREmybCRL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.1,
+     "reviews": 1639,
+     "discount": "-25%",
+     "price": "₹299.00",
+     "extracted_price": 299.0,
+     "old_price": "null"
+    },
+    {
+     "position": 4,
+     "asin": "B0CP466P7Q",
+     "title": "Open Secret Unjunked Bhujia | Namkeen| Baked not Fried | No Palm Oil | Crunchy Tasty Snacks| Tea Coffee Time | Zero Trans Fat| No Cholesterol (Pack of 1)",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzkzMzI6Ojo6&url=%2Fdp%2FB0CP466P7Q%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0CP466P7Q%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D2sOcvaNmQ5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=2sOcvaNmQ5&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0CP466P7Q/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CP466P7Q&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "Amazon's Choice"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/51hP9GJG1DL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.1,
+     "reviews": 531,
+     "discount": "-23%",
+     "price": "₹154.00",
+     "extracted_price": 154.0,
+     "old_price": "null"
+    },
+    {
+     "position": 5,
+     "asin": "B0BRPRLG21",
+     "title": "Open Secret Jeera Biscuit Cookies | Protein & Fiber Packed | Healthy Snacks | No Added Maida No Refined Sugar No Palm Oil | Unjunked Biscuit | 40G - Pack of 6",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzgyMzI6Ojo6&url=%2Fdp%2FB0BRPRLG21%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0BRPRLG21%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DTcT1mW4GCZ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=TcT1mW4GCZ&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0BRPRLG21/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BRPRLG21&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/71t-wT70KLL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.2,
+     "reviews": 236,
+     "discount": "-10%",
+     "price": "₹243.00",
+     "extracted_price": 243.0,
+     "price_unit": "₹607.50 / 100 g",
+     "extracted_price_unit": 607.5,
+     "old_price": "null"
+    },
+    {
+     "position": 6,
+     "asin": "B09RKDP3L5",
+     "title": "Open Secret Brownie | 1 Pack - 6 Brownies | Anniversary Gifts for Couple, Valentine Gift for Boyfriend, Valentine Gift for Girlfriend, Valentine Gift for Husband, Healthy snacks, No Maida",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDExOTUxMzcwMzk5MzI6Ojo6&url=%2Fdp%2FB09RKDP3L5%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB09RKDP3L5%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3D2x2Bep94M6%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=2x2Bep94M6&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B09RKDP3L5/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09RKDP3L5&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/61ndpM9XQ9L._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.7,
+     "reviews": 158,
+     "price": "₹330.00",
+     "extracted_price": 330.0,
+     "price_unit": "₹55.00 / count",
+     "extracted_price_unit": 55.0
+    },
+    {
+     "position": 7,
+     "asin": "B0B53ZRB72",
+     "title": "Open Secret Premium Gift Hamper | Combo of 5 | Dry Fruit Gift Box, Chocolate Gifts, Dry Fruits, Healthy Premium Hamper, Gifts for colleagues, Employee Gifting",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjkwNjc2NTIzNzkxMzkxOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjI0MDQyNDYxMzI6Ojo6&url=%2Fdp%2FB0B53ZRB72%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0B53ZRB72%26pd_rd_w%3DKVtcL%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3D1179WQ548Y5MTXS1T9WY%26pd_rd_wg%3DhIruL%26pd_rd_r%3D55e198f0-afa6-46a9-b99e-1d68d9ecc18f%26aref%3DcR4okaVwVE%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=cR4okaVwVE&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0B53ZRB72/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0B53ZRB72&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/61OZ0D3ydoL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.5,
+     "reviews": 84,
+     "price": "₹210.00",
+     "extracted_price": 210.0,
+     "price_unit": "₹210.00 / count",
+     "extracted_price_unit": 210.0
+    }
+   ]
+  }
+ ],
+ "product_description": [
+  {
+   "position": 1,
+   "title": "Diwali",
+   "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8702fb8b-74c4-4562-a026-a17bef5ccb85.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+  },
+  {
+   "position": 2,
+   "features": [
+    {
+     "position": 1,
+     "title": "Un-Junked Diwali Gifts",
+     "text": "Don’t leave room for guilt in a house full of lights, love, and your favorite snacks. Un-Junk your celebrations with Premium Diwali Gift Hampers from Open Secret.",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d56bf767-bf1b-4be8-a22f-4bc52b810c74.__CR0,0,500,500_PT0_SX300_V1___.jpg"
+    },
+    {
+     "position": 2,
+     "title": "About Open Secret",
+     "text": "Open Secret is a brand for mothers, made by mothers! Open Secret is a purpose-led brand on a mission to make every Indian family snack better by Un-Junking their favourite snacks! Here you can find the ideal balance of taste & health! All the products are made with healthier ingredients to improvise your favourite snacks without compromising the taste!",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a9b5e186-b81e-4622-b5da-1b1317af4d3c.__CR0,0,500,500_PT0_SX300_V1___.jpg"
+    },
+    {
+     "position": 3,
+     "title": "Premium Diwali Gift Hampers",
+     "text": "Get Premium Diwali Gift Hampers with the delicious goodness of Nuts, Festive Essentials, and a lot of love! Add a personal touch to the gift with a handwritten note for your loved ones. Open Secret’s Diwali gifts for friends and family are the perfect gift to make every little moment count! Indulge in the sweetness of cookies and chocolates to make your special celebrations delicious! Light up the faces of those who work hard each day with Diwali gifts for employees. Let the festivities begin by gifting love and light to your near and dear ones.",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/de7d47ee-8bc8-463e-80b3-4392827c1838.__CR0,0,500,500_PT0_SX300_V1___.jpg"
+    }
+   ]
+  },
+  {
+   "position": 3,
+   "title": "diwali",
+   "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b615a411-c409-4300-8fbe-b193a2b3ff5a.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+  },
+  {
+   "position": 4,
+   "compare_with_similar": [
+    {
+     "position": 1,
+     "asin": "B08BPJQ5Q6",
+     "title": "Cookies Diwali Hamper",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4a05f191-7328-432f-b5ba-7fdc2ce1b4bc.__CR0,0,150,300_PT0_SX150_V1___.png",
+     "link": "https://www.amazon.in/dp/B08BPJQ5Q6?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08BPJQ5Q6&device=desktop&engine=amazon_product",
+     "rating": 3.8,
+     "reviews": 308,
+     "healthy_snacks": "✓",
+     "no_refined_sugar": "✓"
+    },
+    {
+     "position": 2,
+     "asin": "B0BD5WDFPV",
+     "title": "Diwali Gift Hamper",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/edc9eac6-c6c2-482b-8961-640259154c5e.__CR0,0,150,300_PT0_SX150_V1___.png",
+     "link": "https://www.amazon.in/dp/B0BD5WDFPV?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BD5WDFPV&device=desktop&engine=amazon_product",
+     "rating": 4.1,
+     "reviews": 1639,
+     "healthy_snacks": "✓",
+     "no_refined_sugar": "✓"
+    },
+    {
+     "position": 3,
+     "asin": "B0BDZ1T6NG",
+     "title": "Bhujia Diwali Hamper",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d329fb4d-d9b4-465e-a9ce-b06bd7681e3e.__CR0,0,150,300_PT0_SX150_V1___.png",
+     "link": "https://www.amazon.in/dp/B0BDZ1T6NG?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BDZ1T6NG&device=desktop&engine=amazon_product",
+     "customer_reviews": ".aplus-v2 .aplus-review-right-padding { padding-right: 0.1rem; } —",
+     "healthy_snacks": "✓",
+     "no_refined_sugar": "✓"
+    },
+    {
+     "position": 4,
+     "asin": "B0BD5W9W97",
+     "title": "Chocolate Hamper",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fbe5e4f5-cc2a-48da-b6f2-27f299c52732.__CR0,0,150,300_PT0_SX150_V1___.png",
+     "link": "https://www.amazon.in/dp/B0BD5W9W97?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BD5W9W97&device=desktop&engine=amazon_product",
+     "rating": 4.1,
+     "reviews": 27,
+     "healthy_snacks": "✓",
+     "no_refined_sugar": "✓"
+    },
+    {
+     "position": 5,
+     "asin": "B098XSY6NL",
+     "title": "Big Diwali Gift Hamper",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2a70966-cb60-4172-b56d-5664731edea3.__CR0,0,150,300_PT0_SX150_V1___.png",
+     "link": "https://www.amazon.in/dp/B098XSY6NL?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B098XSY6NL&device=desktop&engine=amazon_product",
+     "rating": 3.6,
+     "reviews": 14,
+     "healthy_snacks": "✓",
+     "no_refined_sugar": "✓"
+    }
+   ]
+  }
+ ],
+ "product_details": {
+  "rating": 4.2,
+  "reviews": 2337
+ },
+ "sponsored_brands": [
+  {
+   "position": 1,
+   "asin": "B08P4BVTFK",
+   "title": "LOYKA Almond Brittle Gold Choco Box 14 Pcs (Pack of 1) | Premium Chocolate Gift Hamper|Choco & Nut Dryfruit Delicacy|Roasted California Almonds (40%),Dark Choco,Salted Caramel,Any-Time Snack",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JAp-75Nst9QXIFFLG0OjeDwAAAGg3z8yMAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBsP2Je/clv1c_ek-wBfHXUsbWHn2mJrZegEGXlJKxEtkWEA8H-4hzPSOGoVnyKATSwJsGeGO0FQgMS2HIc8sNzIYFSLLoJt-a-0WvFxC9TsGiicsvBif-vQkuqpRiE69XkPyY4vtOkppr7h5xL4PxiunfAef0ECxA_cGTIN-ShpWqw2VwSDKO6sJPOSkyC5QBGLpd7ZJ2GBQTnAnYx9gqn4DN2NLk84igaMizVp-ep4XOFgNnhX16UrwhtgRdi5CiUDLqDH81cY4xyuasw1qxjOcIW5VOyh9icp2pZ4YoTwiTSy0ibTqhOxh_GVaG5bAj9b1dB1nwNZGueh30NyghMF6cSN2s-TgS1IYmQzQaim-dVrzTh1NjrIKWc9U6kJjnKfh8_zy4Yi9jJQAcYj0NT-RzHCihy27IkfsRBSGFqFL2tjmDJCZIFmzOEPqTDXB0gIgiU6zGPHTxPlodM--Vfk5MFNtsZpWT5xDE8j6P3FdRGqV_cJPTUEEp1kgQqsr8Z185KZWzqzHAxXm-hiDbSQSCAGE4DLq5NGayDedEMCVgUKrpBryWsq7-L3QewdBfGjzkV1VBESqLKPfkjOWGKnHz9EdcxtcSTZ8ehID83LNX_p0h_zh6f0wlpWz43GQ3QR04FISL3V9TZfT5U16vdJOGk6bqtAt4ML6pblwEtZd0c7Yw_VH5M9ufxsOaI9v6nz5CoM6CgIdUZKLi0a7ed60TtyfHBkDsQExumk1gtpRTlkR8bSibD65ANHPPwC_vbHtyRSHbc22UYqVwJVIvTvZ8JLPaNz3Q1TTvxLSnuGGwx86FbJMdO0zlZpCBekFH7UQxVIfA1PBWe8FixniRr_6kfP9LHUrZBArmljew0RAJaiKHKXHb_H0b2fw_nwpLsA3HUbbkxQTEK3OKkQZSZ-Wa_GysPUcTPwJtF23r67nNz__aa-fR5CY9_c8MdEsm40IEy5IrIqE399BlkObNlH6cQGo6qc35yObF8TvMcv7db2H2fwHGbCb_z5bdyQkAgBioaRtLczxnErpftomz44wten9cgdmC69bRc5W1inV1tZJwk7MqUShxW9_3hJoYp3p4XDlmKkWvII-ZA90B_0LfWUmbR-mpucMnVJ4N4c8Kw-aDLaKGNroWOmsPYylaThaNJ8mDo0tG8S217JXRMYLgzDPG8z64xPNKUnbMuD0nUrDasSzyx6_5aukdX5p7fcVpeZHg9QUq0f7jPkY_f7l_Y5peip9t0qJYlLebHLGWIXayUcmfZJDq4Z7iZew2SBmJlQczICrtLiP-JIxPLSBjn35Bnkp-KWAYwrIj413mv-RXVH54O4YoWJAl6aQ-QVk9kYox-IFuQQxq9w8lti-Tvoc_oZXruEK3hJMX04jsg6bHkvw_Fa-_Xdy_c7SexeBkNkZBtWK3OJVDjm6PrDQDBfBQNBFHprf3h4H-YgzwUxkFLaj4bcObT6jiII9_CkkZOENSHPHW168rjfnpV3Ryfu2cIYFag-gaZjltamLYHPTbZAK_hGtufrnOZc81dcaho75pCF8_FS6GKtsGGXTf6TugUwnLEKdwF0z5C9TqXInGqhypwtTq6VhgwhYwLN4zoZo/https://www.amazon.in/dp/B08P4BVTFK/?_encoding=UTF8&aref=MSuuvJGOWn&pd_rd_i=B08P4BVTFK&pd_rd_i=B08P4BVTFK&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=9R6o6&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f",
+   "link_clean": "https://www.amazon.in/dp/B08P4BVTFK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08P4BVTFK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41u3VpxgOlL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a8b443a8-b81a-42b4-aefd-c807382dbc0b.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a8b443a8-b81a-42b4-aefd-c807382dbc0b.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.6,
+   "reviews": 2157,
+   "price": "₹474.00",
+   "extracted_price": 474.0,
+   "old_price": "₹499.00",
+   "extracted_old_price": 499.0
+  },
+  {
+   "position": 2,
+   "asin": "B0CL56MGBX",
+   "title": "Browntree Premium 8p (500g) | Cashewnut, Almond, Raisins, Pista, Walnut kernals, Apricot, Cranberry Slice, Apricot Seedless | Fresh & Healthy Dry Fruits and Nuts for Coworkers, Relatives, and Friends | Ideal Gift Box for all celebration | Dry Fruit Gift Hamper | Corporate Gifts",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JLr6pI5IJ8VHigDSq-axtIsAAAGg3z8yMQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBSahYV/clv1c_ek-wBfHTEsbWTm7asDx08jJZfSgyMVEnKJeiOVfDK18wFbuQteWmwVU9Zn2Ps8z4WJr-c8sRFwgSK3n27SjgMSYJBk2MsWZ7vizkQLRi7ApejwIeRkSZjer56hGkBhn8CVCKp7EwwYhSgIT0tp_yedTV8F2ckMfsrryoT5SozYxTsUkLvGbGxuA3_JhXuQkAV7MYx4tLEAzSue6px3iN7iQNnRx-lb882Rla7OyqZ_EePVb8ZR4yr4Odq9izcb7_D58jmI0wcbIkXoN3-UWqdPBSP1gBjdiqNNstQ5mkjEKl8FwYyQfH6zIqW0szK0-ZF4t-mSuExeULzq-dfIpXUnFks7FjKBOr05GVqrkMOalm6kKNQSDWpNLhtaUw7_kLfOu8I6vUL5uw6P5KCo_LL2fWVJ9keNZ-bNb615TiWqlEUH0GW8wAMLXN6YrdVuKW33wgiTJMUOgOQlIWWJnNsDxunYu4KsWox1IXbIUBiJv38PCHMI7OGyAbgN1YZfog4Z4nEoCNxeEoT0pl4txRpOU2k5EMsI31tIGv5mQ5VlyZzY9z-2SyZl-nhvj6xhVRBHEyVJEeXR_E67NR0hGxD5H210_uLeXNskbm3kX1bTl2tDRwf_cATco9j0Iln_TQPWfcK_oUnpK3gPLreJkOzK3zoPA6YjQIR-gUbtRzN9pwHWZ22oX7-LJ8DXE0FhTUtwo1-LE_6XC10LwU4jASmGq-tUTBy3AFLTf1ZzXMZmRtohrhy3wDoyuv-mLEUiDZgoA1LSrRokQ2N3ZrdU-tRznA599d-atYhSh04zC6hupRZLbqpOZ7qaGF51LAlKDB9F5gbY6jfjiiAEJaJj1Fk7kcn01PQdyEnZfriBEE3qH1ACLg9v_wDKwApagfokGWRwuW6RDqvVeyNaCQEiPOCyrvm1sdZls6bEtTFXzjRQZksksmlu4UqdmzrADRLeuhVxeDWrfBprBKxM4ETskuRDqjdKRGzzeF1FdEPKMkFzYEK9KoAd0oUzOcTKu0EpsAw-GJ8pU_7gk9DrWmJLNKkZh_7izMJ1AUFxxebRw6lhxAtOOzkDRtP4WG2bCo74HPaxLJWq9G6gxqjKhQL1ESUPmuvnrY3kxKAOMdvKmtCkNJErCPbrYmJZv0LVykv817p1jDvEoGH0kageAn1P04VNcsm6fXYhEuWmBbP59e9QKCG3FphuFF9sfLoezvs9TbtpBIuAuW3K-_R-U_9HQ3pzNw_GgjLrEZOpBFFIKH16J5Zh0mtZtXL_vwEg6r4AR2a4FuEXMQwbtj5grk0SgernSIptbClrIRsybY-emsfx_Sbi1twjtB0ZDZ6h89J_TaWVR9gMCgmNzIgEIytpqrOyJMP3DKgJ7k_iZYdNPcY2oVGFlX3hoGDoUCZgtqNEVlz_3j4EAvvTPrwL-fgoLqkAqS9ZFEBreWGaK6Fa_BxjF10MEqPE_MRSPBbH664OFqOAtl8tpSAoQjFcu86Cd-D_vY56400Elg1jroxwnpSfGesV9lGRP0HgvvcafCGAxt3G9lEssnPWUT2C1DMYURvsHZpBsRPtA8wPvqm45cMMrcpDkSrX_BRjTN_1wTrnQ/https://www.amazon.in/dp/B0CL56MGBX/?_encoding=UTF8&aref=XoWK8GLVeB&pd_rd_i=B0CL56MGBX&pd_rd_i=B0CL56MGBX&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=9R6o6&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f",
+   "link_clean": "https://www.amazon.in/dp/B0CL56MGBX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CL56MGBX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41Djj8ycqwL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/5832471f-f28c-4175-8fcc-86ebd1e5d822.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/5832471f-f28c-4175-8fcc-86ebd1e5d822.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.1,
+   "reviews": 218,
+   "price": "₹1,299.00",
+   "extracted_price": 1299.0,
+   "old_price": "₹1,425.00",
+   "extracted_old_price": 1425.0
+  },
+  {
+   "position": 3,
+   "asin": "B0BRZNB3ZT",
+   "title": "The Cinnamon Kitchen Cacao, Hazelnut & Date Fudge (Pack of 5) |Chocolate Fudge Cubes|Natual & Healthy Snack | Gluten Free| Energy Bite |No Refined Sugar|Flour & Dairy Free | Loved By Children (140g)",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JIVqsMW4cm-9QwEtZkuSv9YAAAGg3z8yMgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICAXK3G5/clv1c_ek-YBXf2asTWRuwy9wPeIsHh5NJftlkUNPgbbsqP_ccqlFM-1AnSNm4r4ENUe9v2j1q9Uh8Cm_XPr3KC9r06s8vFm41831mmHB0UfyoQpEAmSQlA6O5WKsJNQzl2ui4p561x4RR7Lca0UHp1NdR4HkAZuNG8F1f-oiQYb3Uuz4ol6QvcmKnxBmiYq3bdEh6L_qPfZYMnDmaJUef-mV364tqWHx6pRA_1BwfMba2J0XIAs8a0EU4lHGA37RRcMN7HGw3iPqhomsE6V0PDa2KNnSNm7WlFSsnJByKD-jgwaN3xbWZza81H3xomMHy2vUBymbAtHtnfRXfovT6avdrIOt47ZjKNtoqLz-824A18ZMQ47195cBRBc9iXcsLhShjeYQjn4Fik91MWSxgTZ2jXi1GJ-l9LPFNioRkf7F016gn_feLihe_GV58Bus7vKK5CRXsbHG-V2A1O_us-cL6L6NX2qWbMM0KcGNiIzbBlSch6VivKKpEi-lK1HtyqjSMLrIfY-6sxBXAO0AHe7r1_53UxlTWpo-dL8YRpmsL-S274E1HteFHBkqgQfIspUGkio9X15dtDvF-fr5--7FmTsfdVVhLuPaONqmQ-32kTmjhKFI6CPqUNuC5kqx3PfArLkfRQD7rddSngxaT0v8ISusKseauNWiTh7IEcJMWKzK00RyGGk8n3HKf3gPLUkD1aVz79uizAjubTjyW2lt2bNOgBiX9BvVwJlCxpbr_Tt0UhLFRC-QH_jSKHQ4J6Zhitic_TdXaFleZfs5tKDyGGeLXHKClp4iIJHyFJ-T8lGYG7IGmZy1-bCLvkrwPTX7AdgsyIWsV2RiItlx-vOHcTbE0-EFDAv_fbe26aHU2JpU59Q1L7zT1_6qZXxwIgQuAcjhiZPuDpY6ZZaHpfKokW3j3ygSLAEOOnVPQJayCaGakW3zKFggxCQdycnUPIC-QAwRT8t3LqvY8b5VsFUqEkfGKYQd7KOhmqwpFAAYvDvmjIAhw7qSjELwyOZ_M8prWqA15MjbTlDZH9T6pyaciY0xJ4GXxz2kbT1dTvueM_FHmwsiaEqBilxH2s38hmb_vgoeMMpgHFW0OMR-n2n6GsVtGosJ_yRUHlFPuiIODc9bvriDHUXbmfxiCIOnUyeYUnaTFkdFGSO4hYfyHyE9N-fv2dP08fHIh-jBWCdI69qEILICHrODAMPXvVrp9nJw33vNuMIei5Bz7Gwth5ll7ydHlcT_7xxFIEr80JZMnnNyvalxTslIMFEQ5DA2TK9y_EakfNXxdGXEBT9chKpnXxbq6-70WysjcHQ4O8FDL_OBgcKQd77g-eCeJn9E_Y0ukIiQlu2mDJrwOWkK6pMuyPS-eBSfUAdRrkyZ8pidLGIAHKaLnuSmtPezsm8qXucQZIE5x7Aw4k-wf7PIkYeEivsECfGoxJZ-jGwbas2db6H0y4NUHbWLB9dGo5Pa1wNX9yvpJPDQ9lpDJV5r6JsrapQZgFKuYiVev9iWuG3ZZ_HQ7kfFIiQza24cruWRSEvKUX66l7AJLPRE1SkL6VuYzBgkB_tf4I/https://www.amazon.in/dp/B0BRZNB3ZT/?_encoding=UTF8&aref=ezT1rFPl1i&pd_rd_i=B0BRZNB3ZT&pd_rd_i=B0BRZNB3ZT&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=9R6o6&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f",
+   "link_clean": "https://www.amazon.in/dp/B0BRZNB3ZT/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BRZNB3ZT&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/410V0u7gLEL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/338daaf2-666f-4c33-a4cc-2fc500abe25c.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/338daaf2-666f-4c33-a4cc-2fc500abe25c.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.2,
+   "reviews": 331,
+   "price": "₹425.00",
+   "extracted_price": 425.0
+  },
+  {
+   "position": 4,
+   "asin": "B0DNB8VPSS",
+   "title": "HUNGRY TUMMY Badam Pista Cookies – Handmade Almond Pistachio Butter Cookies | Premium Dry Fruit Biscuits | Crispy, Rich & Nutty Delight | No Preservatives | Perfect Tea-Time Snack & Gifting (Pack of 250g)",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JI9WgnAj4bjX49ac5b8cN1gAAAGg3z8yMwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDTcpl_/clv1c_ek-IBfHXUsbWHn2mJrZegEGXlJK_EtkWEP-yEYlzPSOG51CiVJkqPQnbccsasU4M8WAqyL_J4E7aRlQ7K7Y-pGia7cGZGDBTIr3hyoBqzAouopNmk65XUPyZ4_dSqurJvRSzLoRa9IQPBZ20BSzoeNjPgF2egmXipuwQLzcpxYcrgVuQyG37S6ZiOWjKnlXekXV1zvuL3obJQubg_5Bm3omPDY7udQYcGS9-rPSqVj3fPdC7uLu9BTatt5t2BrfdEZlDro0wcYx_mKuV44YxcTEIsi13EJC--XUjXOydXfRkiI9P95o1IZx5jqxViCjnopKzasEK65CD0J4uTCc6Kxvg64uluDDyWyTjha07ClDHA55HSutBSvlZg5df3AYcHG5pys3AR0QiTIEBOUBnQ9dypccpI2TUyALn30mPYXK-VGRg2OAT5EqT5QQZ350EGiPvYRGNlzzjYxe5MJc6oxYZbqoXR0-P7WMIgcuRyseyxqJhCr7rJMQ-fVIUftidrb3seyh1tonOlWXo4X2w4P_OdkaPvEs9YI4luFalC17_MWDZYn3xWZys--BFLer5l5dRurIGvlvFarwCKMZWh-neAKOOwdcUMPedLeHEzDEv3R2-yK25zL464uDyALhiRTG1-Q0zqxHvhbf5OMWeBDu1EwpP0-dF-7zkmWBfGPSezzossEpe-pJDSlEpzsuZjH6ssSEOyqypqCpKPikAHjs4zaukUySC7nFIm-nvp1XLz5jsk0_akkO1Nai3SLRHp8dTIwfaE-swQSAchGKWCw4oBGyAZTsBN2pewWIP2bpLnQT24rNlQSO7Fy1xVC76gkIqgUCO0mcquLrCyK8DYna_y5GgOBZvNal9Tzh0Kv1LWMoadCFVOEiU5fAKeXVUhhtsH-gnmDFJO9EEp_iLkXKcIkozDhdP3d-f6nFqxGnWtEE-bKJX4PVWVfGlDSCDfBJbPVOdgT2bmcJwDFSpgXPbxA7LU3lgAZkJPtv_mKYOn-cmEXcgDkGVjr7r9JzRxXaK3jeeiAeHuDbNIbfNjolVT7tn1RzAo6i_hYZlCJZVWZFXne_ihVv2eWc1mGGkd_gsQC_A60-TPjU7s6ux0Pab1cKdSFz2yqTh8IQdL0M67QbkuYOUQrB3t7_TZh3sFoySx5cYer6Glo5wBPuBedNy7SXJdM5QEBqUJXrghsDdApwWf-FquQAIMJGS31SWhjodd7rpJGa9aFSaWCEa4eYnjQkGSDOjuXUemcRSLAIHx6lO54lJ_Obo9lRRmHPcF_MCKCfjwMNzpmtaq6uov7OYq16JxYnu_VbFaThfTgGyDQWOOtXAPBzaA421hFLWFhSnMwFuLIr1cfpwe7gr8gk2XbvZGeHPIgCjqhQusPp8YUNGR4N9JTBXUc7Zfyrol9D_YqSkVQyEN4vhjlvGUAmENnq3ijCEjY6bW0yRIzcBn5OnFjyDECfu6Y9ODBDjzSNPhbrhh8dI6HNQBa1dk9yRR5V2IAzcHf99dPTrkFqShrUYg9QEnf97IW0b6f5X9qXczpT6QbOjr24H04nIUKBsKnqvbwLPIUzSb8n_4qRyFfACa7kMmA/https://www.amazon.in/dp/B0DNB8VPSS/?_encoding=UTF8&aref=vSrAOVydTe&pd_rd_i=B0DNB8VPSS&pd_rd_i=B0DNB8VPSS&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=9R6o6&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f",
+   "link_clean": "https://www.amazon.in/dp/B0DNB8VPSS/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DNB8VPSS&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51Gr+NyT3FL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/08452927-4a0b-4379-8d3b-e9125a302c5f.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/08452927-4a0b-4379-8d3b-e9125a302c5f.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 3.6,
+   "reviews": 12,
+   "price": "₹260.00",
+   "extracted_price": 260.0,
+   "old_price": "₹399.00",
+   "extracted_old_price": 399.0
+  },
+  {
+   "position": 5,
+   "asin": "B0BVWDLMSW",
+   "title": "Little Fingers Healthy Nutritious Cookies With No Refined Sugar And Preservatives For Kids - 150 Grams (Honey Almond, Pack Of 1)",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JM_FwiKBKqS0OXaRxqDdPX0AAAGg3z8yNAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDn0NXk/clv1c_ek-wBXc2U8bW3jIWmF0Ifw-ucU1C75d5sB92RvuwyjYS2NlcvW-wjKgOMokf92qc4_xtyr_G1K1sbTThggO9QQtetet7pl9TGQ1BwLVi7Aq-ml0HF9kMi2D7ksnV50X5pLpevSQfloDIAq254WI3-drL4NyWjhHmxjRAT_YsxJxTsXf3O9f3y4Nt6GI54xrUK0dq9VOrfkZLmGH3kwSLZD-eWRNzEQ_FJJpRB0Id4WwCqk33vJwkK_zOcx21kbyLDi0bkySSPT5FxRhXcpPEMB1PprV0rE4QMXDcyuU3F23-GC5vhnmK1WLk58wTpOmGpfsv9UcYhEM1FuF0uktOiHNW3VbPNnudb6Y8OpaHLWTf2U6DSiygF3HFMY7Cs2MsXdg_FvzZQoQft-BK2U0Nk0Ke_hJcU2dVoqvxPQqedF2o1iwpAOtigEywYCxV4jH9n_893ylJeVevKa0W2gD6Z2zhpYFYBgRKksk8MGq3jBmMlnIBYdlr19dPPZo3av8e1Y435r14oZ-NnvxqZy3gdRMI_xCHk9W4KzhLaFQRep6J1MFO5slNBbGTN9PQ9b3hF5dd3r3yoltH69Rhb5wKwKJzpKXvFc1vmxXrBrTQkUm2cSb9lLGdfTROFFZNC34MWMZVKuYFjxwGAmO3tEwE3If8HvawLdUeiJy3uBDTH7VGLrimo85IL4Y72RkzefCQNF8oWDwjW0VSZZvxYlD5zmQ3j2tDn4-CQhbIjq3-Ji10cZ0qoALJavmcTmpB1Cvq0CAMX_4It68FCrvGT6rC_ULmBGa6A4s85JDBtQnEQ4I3PBnCveh5Y7g5JZlxBDFY3gBN4pyAifJD2F_QEdfw7r_wVnoQqfZ9_VAmZUjki2uugPT8xZy7pDNwrTTUQ8e_NkUP97c992qlYGbc3VkvJQpjSi-FM09no3-G0kngzoAeyzq07RuaT89PBygjOJXw3lyyLB8BZubd0M41B4k2loMs_L4s6U-aWQzQSkZzHznfCCcvfKLnE7RYR5vTLXnQMOcf1RCU4lIa9yxmDWGzCrsyZcZyv_04ih3ZjWMjAyFQNr07fJ5msHYmJmqj7EcgOyYFrpGANm0K0eLhUsxuoIk3BcVPdyLIkDQmGzBkXblee_b7Tblge2ke72DILVgcZz6Nh4Pc43xQ5wcvjscB2X_SyLgLkPEoJcW5uktjO_v0D1DrPffBaqCX-JnPw1zFOWtHmyRjORIcQvIxwLxyInleKf_i44VcpL_D7Hq5_6VmNzA360Rsf1yIOLQ5jfAfJyIMyqWzgEd6h0xh0Snpadn5xRHixt2qO9Y4nnLPPSGXt2cgfn1kGkmBh5rCtNJPhDIsjTHCzwlEaYt3VdzgDdhisOz9ffo1cWy6qDh-XZb1xlV48JnNcvVpz6g_tJYGMy0GAuAp2xo5W1c8nMONDGD2jVlceatNOqzzpWYThaWcTSl4S-CHOk0YOE8TIvcUhtUR9ALYV_VifO2ckyB5-1wLIwVz-8IcO3VVcCbGWXpq_ko1VIwl1dG4e7-IOEMfFSZ0q8nnGYDvNJi42-kaUyHxCVElY1XqdhrCmlzQ79oXUqjS-z4DmxVnBZ4/https://www.amazon.in/dp/B0BVWDLMSW/?_encoding=UTF8&aref=kAclC2yUix&pd_rd_i=B0BVWDLMSW&pd_rd_i=B0BVWDLMSW&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=9R6o6&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=1179WQ548Y5MTXS1T9WY&pd_rd_wg=hIruL&pd_rd_r=55e198f0-afa6-46a9-b99e-1d68d9ecc18f",
+   "link_clean": "https://www.amazon.in/dp/B0BVWDLMSW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BVWDLMSW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/31UgXtqfTlL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a6696bc0-3a04-41ae-9dc6-439de2cc6788.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a6696bc0-3a04-41ae-9dc6-439de2cc6788.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.0,
+   "reviews": 78,
+   "price": "₹289.00",
+   "extracted_price": 289.0,
+   "old_price": "₹299.00",
+   "extracted_old_price": 299.0
+  }
+ ],
+ "reviews_information": {
+  "summary": {
+   "text": "Customers find these cookies delicious with three different flavors and appreciate their nutritional value as a relatively healthy dessert option. They are good for gifting, though customers note they are smaller than usual cookies. The quantity and ingredients receive mixed feedback - while some confirm they are full of nuts as described, others report insufficient cookies and one customer mentions receiving only peanuts instead of cashews. Customers find the cookies not worth the price.",
+   "insights": [
+    {
+     "title": "Quality",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 120,
+      "positive": 85,
+      "negative": 35
+     },
+     "summary": "Customers love these cookies, with one customer describing them as world-class snacks.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Good and enjoyable.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R32J3RGAHSYEYW"
+      },
+      {
+       "position": 2,
+       "snippet": "Awesome product but slightly overpriced",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R312MSYFQ4RAEA"
+      },
+      {
+       "position": 3,
+       "snippet": "...I particularly wanted a gift with 2 rakhis so I chose this product. Disappointed",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1HSWFGO4ORY0N"
+      },
+      {
+       "position": 4,
+       "snippet": "Good product",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3EHA7B5MP2LCX"
+      }
+     ]
+    },
+    {
+     "title": "Taste",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 116,
+      "positive": 95,
+      "negative": 21
+     },
+     "summary": "Customers enjoy these cookies, which come in three different flavors and are not overly sweet.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Nice and fresh. All the flovour are unique, tasty and healthy. Perfect for gifting. I sent it as Ralhi gift and my brother's family loved it.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RHPO6BNLSCRR5"
+      },
+      {
+       "position": 2,
+       "snippet": "One of the best kind of cookies I have ever tasted in my life. Its very tasty with no refined flour. Filled with nuts....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R38RAFPQOK03DO"
+      },
+      {
+       "position": 3,
+       "snippet": "It's such a amazing gift for your brothers ... The cookies are delicious 😋 n rakhies are good too 🙂 Thank you 👌",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3CZKLKZBJ8KTK"
+      },
+      {
+       "position": 4,
+       "snippet": "Great taste & quality. Loved the cashew & almond cookies. Feels like finishing it all at once. Must try.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2E70NNX8Y2ZWU"
+      }
+     ]
+    },
+    {
+     "title": "Nutritional value",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 25,
+      "positive": 24,
+      "negative": 1
+     },
+     "summary": "Customers appreciate the nutritional value of these cookies, describing them as a healthy dessert option.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Nice and fresh. All the flovour are unique, tasty and healthy. Perfect for gifting. I sent it as Ralhi gift and my brother's family loved it.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RHPO6BNLSCRR5"
+      },
+      {
+       "position": 2,
+       "snippet": "Very tasty and healthy cookies. M really the fan of the taste. Came with roli rice and rakhi.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1FN47BBJA7AOD"
+      },
+      {
+       "position": 3,
+       "snippet": "...I have ever had.. they have perfectly optimised its taste and nutritional value..You can also gift this combo box to your loved ones.. overall a...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R120TM6H92CA3F"
+      },
+      {
+       "position": 4,
+       "snippet": "These are the best healthy cookies... It's not overly sweet and the packaging is very convenient also not that high calorie",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RM4LX5ATE4QWH"
+      }
+     ]
+    },
+    {
+     "title": "Gift-giving",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 18,
+      "positive": 18,
+      "negative": 0
+     },
+     "summary": "Customers find these cookies excellent for gifting, with one mentioning that their daughter particularly enjoys the choco almond flavor.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Nice and fresh. All the flovour are unique, tasty and healthy. Perfect for gifting. I sent it as Ralhi gift and my brother's family loved it.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RHPO6BNLSCRR5"
+      },
+      {
+       "position": 2,
+       "snippet": "...While, it was nice for a gift hamper but unnecessary for usual consumption OVERALL 3.5/5: Cool concept, but overpriced for what it is....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RUEUXEDJDF5S9"
+      },
+      {
+       "position": 3,
+       "snippet": "Flavor is good & tasty 😋 my children’s like this so I giving more again order. But money is expensive. Please give some reduction",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1RO3EU6KWX0TY"
+      },
+      {
+       "position": 4,
+       "snippet": "Quality was extremely good..Worth buying. Best for those who don't have time and wanted to present something nice to brothers.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R12FMJ1GIWN2XL"
+      }
+     ]
+    },
+    {
+     "title": "Quantity",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 14,
+      "positive": 5,
+      "negative": 9
+     },
+     "summary": "Customers have mixed opinions about the cookie quantity, with some noting they are full of nuts as described, while others report receiving insufficient cookies and low amounts overall.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Insufficient number of cookies....it says 18 cookies but we got only 6...Misleading information has been provided....Please DONOT BUY IT.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RVRSC1Q47KJM3"
+      },
+      {
+       "position": 2,
+       "snippet": "I love the size of the cookie and the taste is amazing. Full of nuts. One cookie is good enough for snacking but you can't stop at one ☺️",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3743VUYBE2L65"
+      },
+      {
+       "position": 3,
+       "snippet": "Quality and taste is good too much price, too little quantity !!",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3SEZNODER374W"
+      },
+      {
+       "position": 4,
+       "snippet": "...- they are bite sized extremely small and not much than few nuts dipped in chocolate. 2) Everything is about packaging and boxing....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RS215GAKFW0N9"
+      }
+     ]
+    },
+    {
+     "title": "Ingredients",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 12,
+      "positive": 5,
+      "negative": 7
+     },
+     "summary": "Customers have mixed opinions about the ingredients in these cookies, with some appreciating the nut-based composition while others note the presence of hydrogenated vegetable fats.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Just an improvised version of peanut chikki with posh name , exorbitant price and full of single use plastic packaging. Waste of money.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RA788JRA3OCJS"
+      },
+      {
+       "position": 2,
+       "snippet": "...These are perfect- crunchy, sweet and nutty. Most importantly gluten free. I loved the vanilla and peanut butter flavor....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RE7E0P76URGEE"
+      },
+      {
+       "position": 3,
+       "snippet": "...like regular chikki but soft instead of crunchy and there is coating of chocolate. What a waste.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RM9JFP5K4FBP2"
+      },
+      {
+       "position": 4,
+       "snippet": "...Its very tasty with no refined flour. Filled with nuts. Its definitely healthy, rich and decadent.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R38RAFPQOK03DO"
+      }
+     ]
+    },
+    {
+     "title": "Value for money",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 83,
+      "positive": 24,
+      "negative": 59
+     },
+     "summary": "Customers find the cookies overpriced and not worth the cost.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "It's not worth too costly Simply waste of money Dont go for it",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3T52JGKHUG96N"
+      },
+      {
+       "position": 2,
+       "snippet": "...OVERALL 3.5/5: Cool concept, but overpriced for what it is. I would make my own or buy a chikki from a local shop to get similar satisfaction.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RUEUXEDJDF5S9"
+      },
+      {
+       "position": 3,
+       "snippet": "All good, and value for money but my brother received only 1 rakhi in the package....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1HSWFGO4ORY0N"
+      },
+      {
+       "position": 4,
+       "snippet": "This is essentially overpriced chikki with added flavours in a prettybox. Leaves a weird taste on your tongue especially the peanut butter one.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3FIZE67VEODD8"
+      }
+     ]
+    },
+    {
+     "title": "Size",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 21,
+      "positive": 4,
+      "negative": 17
+     },
+     "summary": "Customers find the cookies smaller than usual, with one customer noting they are about 3-3.5 cm in diameter.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Over priced and undersized. I liked the concept and thought when I read in TOI about this product, hence ordered it....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2HSMF6NTZ2QJQ"
+      },
+      {
+       "position": 2,
+       "snippet": "Too small 😐",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2ST3WICPT38S"
+      },
+      {
+       "position": 3,
+       "snippet": "The cookies are so small you can easily eat one in just one bite. Not worth the money",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R199GM0D07PGCW"
+      },
+      {
+       "position": 4,
+       "snippet": "...And of course the cookies are really small.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RN984QTDB3JXB"
+      }
+     ]
+    }
+   ],
+   "images": [
+    "https://m.media-amazon.com/images/I/51MmQfbsR4L.jpg",
+    "https://m.media-amazon.com/images/I/81K86IiAAYL.jpg",
+    "https://m.media-amazon.com/images/I/61xfeD3uuDL.jpg",
+    "https://m.media-amazon.com/images/I/614LTATufKL.jpg",
+    "https://m.media-amazon.com/images/I/71sE6qdxTxL.jpg",
+    "https://m.media-amazon.com/images/I/71rY-8OMXiL.jpg",
+    "https://m.media-amazon.com/images/I/61moX6HbCmL.jpg",
+    "https://m.media-amazon.com/images/I/51C6hXPTSjL.jpg",
+    "https://m.media-amazon.com/images/I/915qqb6Fq1L.jpg",
+    "https://m.media-amazon.com/images/I/61iks10OuPL.jpg",
+    "https://m.media-amazon.com/images/I/D1F8SQjcGyS.jpg",
+    "https://m.media-amazon.com/images/I/51fk6zSYTcL.jpg"
+   ],
+   "customer_reviews": {
+    "5 star": 57,
+    "4 star": 21,
+    "3 star": 12,
+    "2 star": 3,
+    "1 star": 7
+   }
+  },
+  "authors_reviews": [
+   {
+    "position": 1,
+    "title": "Too good",
+    "text": "Tastes like heaven 🤤",
+    "rating": 5.0,
+    "date": "27 May 2026",
+    "author": "Riya rojifa",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEQAOTUIQ5J4WCFDTQRX4VOLECJQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "150gms (Pack of 12 cookies)"
+    }
+   },
+   {
+    "position": 2,
+    "title": "Taste good",
+    "text": "Nice taste and flavours! I recommend to try.",
+    "rating": 4.0,
+    "date": "13 June 2026",
+    "author": "Shreyasmk",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFK4LXU5FAYZVP3PKYELZTEZYKPA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "150gms (Pack of 12 cookies)"
+    }
+   },
+   {
+    "position": 3,
+    "title": "Tastiest cookies ever ♥️♥️",
+    "text": "Its value for money quality is very good so satisfying I will share some photo for you",
+    "rating": 5.0,
+    "date": "3 April 2026",
+    "author": "Ranjana Saha",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHV4EFTAUL4GB5TA7J3AQWWU3LOQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "helpful_votes": "One person found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "size": "25 g (Pack of 3)"
+    }
+   },
+   {
+    "position": 4,
+    "title": "Overpriced Chikki",
+    "text": "I had first bought this product to send as a Rakhi gift to my brothers living far away. The feedback I got was good. So, I decided to get myself a box too.INGREDIENTS 4/5: The description says No Maida, so I thought they might be using a gluten free substitute. Turns out, it is a cookie which is more like a Energy bar - Mix of nut, chocolate and rice crisps or oats or granola. The base is chocolate for some structure and then there are other stuff stuck on it bonded with Chocolate.TASTE 4/5: Overall, the taste is good. It is a relatively healthy dessert than actual cookies. So, good for a sweet tooth on diet.PACKAGING 1/5: The packaging is excessive! A thin cardboard box, a cardboard cover encasing just two cookies in a plastic wrap each. While, it was nice for a gift hamper but unnecessary for usual consumptionOVERALL 3.5/5: Cool concept, but overpriced for what it is. I would make my own or buy a chikki from a local shop to get similar satisfaction.",
+    "rating": 3.0,
+    "date": "6 September 2020",
+    "author": "Visheshika",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEHTNESB562W7DAKO3IP3I2KP3GQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "helpful_votes": "13 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "size": "25 g (Pack of 3)"
+    }
+   },
+   {
+    "position": 5,
+    "title": "Good",
+    "text": "It tastes awesome but it has not that much kaju as it shows in picture",
+    "rating": 5.0,
+    "date": "12 December 2025",
+    "author": "Zaman Khan",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFLUMILEVHHGORPEQFBMVLEJ2WMA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "White Coco Cashew (Pack of 24)"
+    }
+   },
+   {
+    "position": 6,
+    "title": "Healthy & a cookie",
+    "text": "It was a Christmas gift. My friend loved it as she loves cookies & is a healthy alternative as well",
+    "rating": 5.0,
+    "date": "20 January 2026",
+    "author": "Vaibhav s.",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AGUAEANTQ4U6Y72EKD6KIBHRTSNA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "25 g (Pack of 3)"
+    }
+   },
+   {
+    "position": 7,
+    "title": "Expired items provided",
+    "text": "Very old rotten items , would not recommend buying this .",
+    "rating": 1.0,
+    "date": "25 February 2026",
+    "author": "Rahul",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEFLPXIQNXRPRF7ZFVQHEWY2NJ7A?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "192gms (Pack of 5)"
+    }
+   },
+   {
+    "position": 8,
+    "title": "Loved the taste",
+    "text": "Taste is good but sugar content is way lot more if you will order just for taste than go ahead",
+    "rating": 4.0,
+    "date": "19 June 2026",
+    "author": "Lavish Talesara",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHJUSUJASDLY4IFSLEFDO4UWYA3A?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "25 g (Pack of 3)"
+    }
+   }
+  ]
+ }
+}

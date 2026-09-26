@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Bazaar Radar{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Outfit:wght@380;500;640&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+<body>
+  <header class="mast">
+    <a class="brand" href="/">
+      <span class="mark" aria-hidden="true"></span>
+      <span>
+        <strong>Bazaar Radar</strong>
+        <small>For sellers, before the stock lands</small>
+      </span>
+    </a>
+    <div id="credits" hx-get="/credits" hx-trigger="load" hx-swap="innerHTML">
+      {% include "_credits.html" %}
+    </div>
+  </header>
+  <main>
+    {% block body %}{% endblock %}
+  </main>
+  <footer class="colophon">
+    <p>Built for the SerpApi India Hackathon 2026. Trends numbers are relative. Bought-in-past-month figures are buckets. Nothing here is a sales forecast.</p>
+  </footer>
+  <script src="/static/charts.js"></script>
+</body>
+</html>

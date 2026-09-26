@@ -1,0 +1,2382 @@
+{
+ "search_metadata": {
+  "id": "6ab8205c5c4bf47c7d83f978",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/W9z_s7N9tPcuWXHCa3k2mEGv6JCVW1n0MtTcJILk5qY/6ab8205c5c4bf47c7d83f978.json",
+  "markdown_endpoint": "https://serpapi.com/searches/W9z_s7N9tPcuWXHCa3k2mEGv6JCVW1n0MtTcJILk5qY/6ab8205c5c4bf47c7d83f978.md",
+  "created_at": "2026-09-26 19:43:24 UTC",
+  "processed_at": "2026-09-26 19:43:24 UTC",
+  "amazon_url": "https://www.amazon.in/s?k=brass+diya",
+  "raw_html_file": "https://serpapi.com/searches/W9z_s7N9tPcuWXHCa3k2mEGv6JCVW1n0MtTcJILk5qY/6ab8205c5c4bf47c7d83f978.html",
+  "total_time_taken": 1.24
+ },
+ "search_parameters": {
+  "engine": "amazon",
+  "k": "brass diya",
+  "amazon_domain": "amazon.in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "total_results": 38805,
+  "query_displayed": "brass diya",
+  "store": "gateway",
+  "page": 1
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "asin": "B0CHBCGFZR",
+   "title": "eCraftIndia Golden Decorative Brass Diya with Stand and Holder | Auspicious Diya for Puja Room, Home, Office, Festive Decor | Gift for Diwali, Housewarmings, Ganesh Chaturthi Festival",
+   "link": "https://www.amazon.in/eCraftIndia-Golden-Decorative-Brass-Holder/dp/B0CHBCGFZR/ref=sr_1_1?keywords=brass+diya&qid=1790451804&sr=8-1",
+   "link_clean": "https://www.amazon.in/eCraftIndia-Golden-Decorative-Brass-Holder/dp/B0CHBCGFZR/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CHBCGFZR&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61+UQY53sFL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 450,
+   "bought_last_month": "600+ bought in past month",
+   "price": "₹129",
+   "extracted_price": 129,
+   "old_price": "₹249",
+   "extracted_old_price": 249,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹129",
+     "extracted_primary_price": 129,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹249",
+     "extracted_old_primary_price": 249
+    }
+   ]
+  },
+  {
+   "position": 2,
+   "asin": "B0FMXW6YGK",
+   "badges": [
+    "Amazon's Choice for \"brass diya\""
+   ],
+   "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 2, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam Diwali Decoration Items (7 CM Height)",
+   "link": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Decoration/dp/B0FMXW6YGK/ref=sr_1_2?keywords=brass+diya&qid=1790451804&sr=8-2",
+   "link_clean": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Decoration/dp/B0FMXW6YGK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FMXW6YGK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81thmSvVl9L._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 139,
+   "bought_last_month": "700+ bought in past month",
+   "price": "₹615",
+   "extracted_price": 615,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹615",
+     "extracted_primary_price": 615,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5
+    }
+   ]
+  },
+  {
+   "position": 3,
+   "asin": "B0BB29GHRT",
+   "title": "Shubhkart Nitya Brass Dhan Kuber Diya for Daily Puja & Festival Time (Pack of 6) Traditional Kuber Deepak for Home,Temples,Office, Festive Gifts|Unique Decorative Item(6.1cm Length x 4.2 Height) 180Gm",
+   "link": "https://www.amazon.in/Shubhkart-Festival-Traditional-Deepak-Decorative/dp/B0BB29GHRT/ref=sr_1_3?keywords=brass+diya&qid=1790451804&sr=8-3",
+   "link_clean": "https://www.amazon.in/Shubhkart-Festival-Traditional-Deepak-Decorative/dp/B0BB29GHRT/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BB29GHRT&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61FOy7HPHRL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 445,
+   "bought_last_month": "300+ bought in past month",
+   "price": "₹332",
+   "extracted_price": 332,
+   "old_price": "₹515",
+   "extracted_old_price": 515,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹332",
+     "extracted_primary_price": 332,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹515",
+     "extracted_old_primary_price": 515
+    }
+   ]
+  },
+  {
+   "position": 4,
+   "asin": "B08KDP17QW",
+   "title": "TIED RIBBONS 100% Pure Brass Diya for Puja - Set of 10 | Room Oil Lamp - Decorations Items for Home Décor Office (2 cm X 6.3 cm, Brass) - Pooja Diya - Gift Item",
+   "link": "https://www.amazon.in/TIED-RIBBONS-Brass-Diyas-Indian/dp/B08KDP17QW/ref=sr_1_4?keywords=brass+diya&qid=1790451804&sr=8-4",
+   "link_clean": "https://www.amazon.in/TIED-RIBBONS-Brass-Diyas-Indian/dp/B08KDP17QW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08KDP17QW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91pM30MaDzL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 246,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹1,099",
+   "extracted_price": 1099,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,099",
+     "extracted_primary_price": 1099,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 5,
+   "asin": "B0FS7HDJ2Y",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Behoma 100% Pure Brass Kalpavriksha Diya for Puja | Deepak for Mandir",
+   "link": "https://www.amazon.in/Kalpavriksha-Diya-Decoration-Handcrafted-Anniversary/dp/B0FS7HDJ2Y/ref=sr_1_5?keywords=brass+diya&qid=1790451804&sr=8-5",
+   "link_clean": "https://www.amazon.in/Kalpavriksha-Diya-Decoration-Handcrafted-Anniversary/dp/B0FS7HDJ2Y/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FS7HDJ2Y&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81s-OzWNydL._AC_UL320_.jpg",
+   "rating": 4.6,
+   "reviews": 152,
+   "bought_last_month": "500+ bought in past month",
+   "price": "₹993.99",
+   "extracted_price": 993.99,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹993.99",
+     "extracted_primary_price": 993.99,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 6,
+   "asin": "B0FT3XNZZ9",
+   "title": "Brass Diya Pure Brass Traditional Oil Puja Lamp for Temple, Mandir, Festival Decoration, Home Decor & Diwali Gift",
+   "link": "https://www.amazon.in/DSH-Traditional-Temple-Festival-Decoration/dp/B0FT3XNZZ9/ref=sr_1_6?keywords=brass+diya&qid=1790451804&sr=8-6",
+   "link_clean": "https://www.amazon.in/DSH-Traditional-Temple-Festival-Decoration/dp/B0FT3XNZZ9/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FT3XNZZ9&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/716VpH4FX2L._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 110,
+   "bought_last_month": "500+ bought in past month",
+   "price": "₹339",
+   "extracted_price": 339,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹339",
+     "extracted_primary_price": 339,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 7,
+   "asin": "B0HHDV5X26",
+   "title": "Pure Kuber Diya Brass for Pooja with Kuber Yantra and Cotton Batti , Big Size Brass Diya with Stand, Gold Finish Kuber Oil Lamp for Home Temple, Puja Room & Diwali Decoration",
+   "link": "https://www.amazon.in/Yantra-Cotton-Finish-Temple-Decoration/dp/B0HHDV5X26/ref=sr_1_7?keywords=brass+diya&qid=1790451804&sr=8-7",
+   "link_clean": "https://www.amazon.in/Yantra-Cotton-Finish-Temple-Decoration/dp/B0HHDV5X26/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HHDV5X26&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61PfHyPTX2L._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 1,
+   "price": "₹165",
+   "extracted_price": 165,
+   "old_price": "₹1,252",
+   "extracted_old_price": 1252,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Sat, 3 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹165",
+     "extracted_primary_price": 165,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,252",
+     "extracted_old_primary_price": 1252
+    }
+   ]
+  },
+  {
+   "position": 8,
+   "asin": "B0H3CBVW3Z",
+   "title": "Anciently Premium Heavyweight Brass Agal Vilakku Set of 2 (Design 1) | Traditional Brass Diya for Pooja Room | Deepam / Oil Lamp for Home Decor & Gifting",
+   "link": "https://www.amazon.in/Heavyweight-Brass-Agal-Vilakku-Traditional/dp/B0H3CBVW3Z/ref=sr_1_8?keywords=brass+diya&qid=1790451804&sr=8-8",
+   "link_clean": "https://www.amazon.in/Heavyweight-Brass-Agal-Vilakku-Traditional/dp/B0H3CBVW3Z/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H3CBVW3Z&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91t0laoRbtL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 13,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹675",
+   "extracted_price": 675,
+   "old_price": "₹750",
+   "extracted_old_price": 750,
+   "save_with_coupon": "You pay ₹661.50 with coupon",
+   "delivery": [
+    "FREE delivery 29 Sept - 3 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹675",
+     "extracted_primary_price": 675,
+     "old_primary_price": "₹750",
+     "extracted_old_primary_price": 750
+    }
+   ]
+  },
+  {
+   "position": 9,
+   "asin": "B0CL4TY3NY",
+   "title": "Craftvatika Pure Brass Shanku Chakra kuber Diya Diwali Decoration Item for Home Decor - Brass shanku chakra diya vilakku for puja Room & Office Decor, Living Room, Diwali Festival Gift Item (Set of 2)",
+   "link": "https://www.amazon.in/Craftvatika-Shanku-Chakra-Diwali-Decoration/dp/B0CL4TY3NY/ref=sr_1_9?keywords=brass+diya&qid=1790451804&sr=8-9",
+   "link_clean": "https://www.amazon.in/Craftvatika-Shanku-Chakra-Diwali-Decoration/dp/B0CL4TY3NY/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CL4TY3NY&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/815ptyPIScL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 292,
+   "bought_last_month": "700+ bought in past month",
+   "price": "₹599",
+   "extracted_price": 599,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹599",
+     "extracted_primary_price": 599,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 10,
+   "asin": "B0FKMHY4HL",
+   "title": "Navratri Puja Brass Arti Diya for Puja Ghee Akhand Jyot Diya for Pooja || Heavy Base Aarti Deepak for Puja Diwali Gift Item, Home Temple Decor |Golden Dia |||GT98",
+   "link": "https://www.amazon.in/Navratri-Akhand-Deepak-Diwali-Temple/dp/B0FKMHY4HL/ref=sr_1_10?keywords=brass+diya&qid=1790451804&sr=8-10",
+   "link_clean": "https://www.amazon.in/Navratri-Akhand-Deepak-Diwali-Temple/dp/B0FKMHY4HL/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FKMHY4HL&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/31Tzhpi4hkL._AC_UL320_.jpg",
+   "rating": 3.3,
+   "reviews": 22,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹90",
+   "extracted_price": 90,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹90",
+     "extracted_primary_price": 90,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 11,
+   "asin": "B0FZHZPJSV",
+   "title": "Pure Brass Diya (Dia - 2.5 inches) Set of 2 | Diya for Pooja | Oil Lamp for Mandir | for Daily/Festive Worship, Home, Diwali, Housewarming, Wedding & Spiritual Return Gift",
+   "link": "https://www.amazon.in/Daanyaa-Pure-Brass-Small-Diya/dp/B0FZHZPJSV/ref=sr_1_11?keywords=brass+diya&qid=1790451804&sr=8-11",
+   "link_clean": "https://www.amazon.in/Daanyaa-Pure-Brass-Small-Diya/dp/B0FZHZPJSV/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FZHZPJSV&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61JDzSzgm-L._AC_UL320_.jpg",
+   "rating": 4.9,
+   "reviews": 31,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹285",
+   "extracted_price": 285,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹285",
+     "extracted_primary_price": 285,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 12,
+   "asin": "B09NPZMMMD",
+   "title": "Bhimonee Decor | Pure Brass Akhand Diya | Handcrafted in India | Ideal for Return Gifts for Pooja | Elegant Diya for Pooja | Perfect Diyas for Home Decoration | Dimensions: 2.5 Inches | Single Piece",
+   "link": "https://www.amazon.in/Bhimonee-Decor-Brass-Udupi-inches/dp/B09NPZMMMD/ref=sr_1_12_mod_primary_new?keywords=brass+diya&qid=1790451804&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-12",
+   "link_clean": "https://www.amazon.in/Bhimonee-Decor-Brass-Udupi-inches/dp/B09NPZMMMD/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09NPZMMMD&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81k6wf9q5rL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 692,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹599",
+   "extracted_price": 599,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹599",
+     "extracted_primary_price": 599,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    },
+    {
+     "type": "Get it faster",
+     "free_with_subscription": true,
+     "primary_price": "₹649",
+     "extracted_primary_price": 649,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 13,
+   "asin": "B0GZHG2FMF",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Behoma 100% Pure Brass Handcrafted Padma Diya Set of 2 for Puja",
+   "link": "https://www.amazon.in/Behoma-100-Brass-Handcrafted-Padma/dp/B0GZHG2FMF/ref=sr_1_13?keywords=brass+diya&qid=1790451804&sr=8-13",
+   "link_clean": "https://www.amazon.in/Behoma-100-Brass-Handcrafted-Padma/dp/B0GZHG2FMF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0GZHG2FMF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81UeCF2zw8L._AC_UL320_.jpg",
+   "rating": 4.6,
+   "reviews": 28,
+   "bought_last_month": "300+ bought in past month",
+   "price": "₹901",
+   "extracted_price": 901,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹901",
+     "extracted_primary_price": 901,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 14,
+   "asin": "B0CVQKMRLR",
+   "title": "Heaven Decor Brass and Glass akhand deep Diya with Cover for Puja | Deepam Jyot Diya Oil Lamp | Pooja Articles and Pooja Items for Home Temple 4.8 inch",
+   "link": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/ref=sr_1_14?keywords=brass+diya&qid=1790451804&sr=8-14",
+   "link_clean": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CVQKMRLR&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71+-b+fh6pL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 931,
+   "bought_last_month": "900+ bought in past month",
+   "price": "₹328",
+   "extracted_price": 328,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹328",
+     "extracted_primary_price": 328,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 15,
+   "asin": "B0GYD4QXHV",
+   "title": "Anciently Shankh Chakra Diya Set (Big) | Brass Shanku Chakra Vilakku Set for Diwali Gift, House Warming Gifts, Return Gift, Gold Colour, Set of 2 Pieces (Big)",
+   "link": "https://www.amazon.in/Anciently-Shankh-Chakra-Diya-Set/dp/B0GYD4QXHV/ref=sr_1_15?keywords=brass+diya&qid=1790451804&sr=8-15",
+   "link_clean": "https://www.amazon.in/Anciently-Shankh-Chakra-Diya-Set/dp/B0GYD4QXHV/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0GYD4QXHV&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91ZV-vIBP1L._AC_UL320_.jpg",
+   "rating": 4.5,
+   "reviews": 11,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹595",
+   "extracted_price": 595,
+   "old_price": "₹1,200",
+   "extracted_old_price": 1200,
+   "save_with_coupon": "You pay ₹583 with coupon",
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹595",
+     "extracted_primary_price": 595,
+     "old_primary_price": "₹1,200",
+     "extracted_old_primary_price": 1200
+    }
+   ]
+  },
+  {
+   "position": 16,
+   "asin": "B0CNPCT2R2",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "Spillbox Brass Diya for Puja | Pooja Aarti | Arti Deepak Deepam Oil Lamp for Diwali, Aarti & Home Mandir, Home Temple Puja Articles Decor Gifts - Leaf Deep",
+   "link": "https://www.amazon.in/Spillbox-Deepak-Deepam-Temple-Articles/dp/B0CNPCT2R2/ref=sr_1_16?keywords=brass+diya&qid=1790451804&sr=8-16",
+   "link_clean": "https://www.amazon.in/Spillbox-Deepak-Deepam-Temple-Articles/dp/B0CNPCT2R2/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CNPCT2R2&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71F0cWGN8gL._AC_UL320_.jpg",
+   "rating": 4.8,
+   "reviews": 20,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹284",
+   "extracted_price": 284,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹284",
+     "extracted_primary_price": 284,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 17,
+   "asin": "B0FQPG8MWJ",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "P-TAL Brass Diya for Pooja Set of 2 | 100% Pure Brass Handmade Diya for Mandir, Festival Decoration, Home Decor & Diwali Gift",
+   "link": "https://www.amazon.in/P-TAL-Handmade-Mandir-Festival-Decoration/dp/B0FQPG8MWJ/ref=sr_1_17?keywords=brass+diya&qid=1790451804&sr=8-17",
+   "link_clean": "https://www.amazon.in/P-TAL-Handmade-Mandir-Festival-Decoration/dp/B0FQPG8MWJ/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FQPG8MWJ&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71fjekdiCEL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 33,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹599",
+   "extracted_price": 599,
+   "old_price": "₹799",
+   "extracted_old_price": 799,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹599",
+     "extracted_primary_price": 599,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹799",
+     "extracted_old_primary_price": 799
+    }
+   ]
+  },
+  {
+   "position": 18,
+   "asin": "B0H37TF25P",
+   "title": "Brass Diya with Dome Lid and Star Cut-Outs Set of 2 | 2x2x2.2 Inch Traditional Deepak for Pooja Diwali Mandir & Gift Oil Lamp (2)",
+   "link": "https://www.amazon.in/HOOMERT-Cut-Outs-2x2x2-2-Traditional-Deepak/dp/B0H37TF25P/ref=sr_1_18?keywords=brass+diya&qid=1790451804&sr=8-18",
+   "link_clean": "https://www.amazon.in/HOOMERT-Cut-Outs-2x2x2-2-Traditional-Deepak/dp/B0H37TF25P/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H37TF25P&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61jfj7dGCgL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 14,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹372",
+   "extracted_price": 372,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "save_with_coupon": "You pay ₹360.84 with coupon",
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹372",
+     "extracted_primary_price": 372,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 19,
+   "asin": "B0BPST66HN",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "eCraftIndia Golden Lotus Shaped Crystal Brass Diya - Diwali Decoration Items for Home Decor- Gift for Diwali Housewarming",
+   "link": "https://www.amazon.in/White-Golden-Shaped-Crystal-Holder/dp/B0BPST66HN/ref=sr_1_19?keywords=brass+diya&qid=1790451804&sr=8-19",
+   "link_clean": "https://www.amazon.in/White-Golden-Shaped-Crystal-Holder/dp/B0BPST66HN/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BPST66HN&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71xYB+Os7QL._AC_UL320_.jpg",
+   "rating": 3.9,
+   "reviews": 102,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹161",
+   "extracted_price": 161,
+   "old_price": "₹599",
+   "extracted_old_price": 599,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹161",
+     "extracted_primary_price": 161,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹599",
+     "extracted_old_primary_price": 599
+    }
+   ]
+  },
+  {
+   "position": 20,
+   "asin": "B0CRDNF51F",
+   "title": "Craftvatika Brass Lotus Diya for Puja Set of 8 - Lotus Flower Diya for Pooja Room , Temple , Mandir, Office, Oil Lamp Diya for Home Decoration",
+   "link": "https://www.amazon.in/Craftvatika-Brass-Lotus-Diya-Puja/dp/B0CRDNF51F/ref=sr_1_20?keywords=brass+diya&qid=1790451804&sr=8-20",
+   "link_clean": "https://www.amazon.in/Craftvatika-Brass-Lotus-Diya-Puja/dp/B0CRDNF51F/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CRDNF51F&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71ejR5ayosL._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 246,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹1,488",
+   "extracted_price": 1488,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,488",
+     "extracted_primary_price": 1488,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5
+    }
+   ]
+  },
+  {
+   "position": 21,
+   "asin": "B0H2PRD2BT",
+   "title": "Anciently Brass Peacock Diya (9 CM Height, 2 Piece Combo) | Decorative Annam Vilakku Brass Oil Lamp | Traditional Annam Kuthu Vilakku for Pooja Room & Home Decor | 5-Face Mayur Deepam (Gift Item)",
+   "link": "https://www.amazon.in/Brass-Peacock-Diya-Decorative-Traditional/dp/B0H2PRD2BT/ref=sr_1_21?keywords=brass+diya&qid=1790451804&sr=8-21",
+   "link_clean": "https://www.amazon.in/Brass-Peacock-Diya-Decorative-Traditional/dp/B0H2PRD2BT/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H2PRD2BT&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91pn4W1McoL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 9,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹695",
+   "extracted_price": 695,
+   "old_price": "₹1,200",
+   "extracted_old_price": 1200,
+   "save_with_coupon": "You pay ₹681 with coupon",
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹695",
+     "extracted_primary_price": 695,
+     "old_primary_price": "₹1,200",
+     "extracted_old_primary_price": 1200
+    }
+   ]
+  },
+  {
+   "position": 22,
+   "asin": "B0CKLRBSDX",
+   "title": "NEAC Pure Brass Niranjan Kadi, Wick Holder for Diya and Oil Lamps, Thiri Stand for Deepak (Pack of 6) Gold",
+   "link": "https://www.amazon.in/Brass-Niranjan-Holder-Lamps-Deepak/dp/B0CKLRBSDX/ref=sr_1_22?keywords=brass+diya&qid=1790451804&sr=8-22",
+   "link_clean": "https://www.amazon.in/Brass-Niranjan-Holder-Lamps-Deepak/dp/B0CKLRBSDX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CKLRBSDX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71QvdO8EoAL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 697,
+   "bought_last_month": "900+ bought in past month",
+   "price": "₹139",
+   "extracted_price": 139,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "save_with_coupon": "You pay ₹136.22 with coupon",
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹139",
+     "extracted_primary_price": 139,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 23,
+   "asin": "B07Y6J7X5J",
+   "title": "Collectible India Brass Peacock Mahabharat Diya Oil Lamp (Golden, 10.5 X 3.5 Inches )",
+   "link": "https://www.amazon.in/Collectible-India-Brass-Peacock-Mahabharat/dp/B07Y6J7X5J/ref=sr_1_23?keywords=brass+diya&qid=1790451804&sr=8-23",
+   "link_clean": "https://www.amazon.in/Collectible-India-Brass-Peacock-Mahabharat/dp/B07Y6J7X5J/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07Y6J7X5J&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71hx9aM9THL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 422,
+   "bought_last_month": "200+ bought in past month",
+   "price": "₹876",
+   "extracted_price": 876,
+   "old_price": "₹1,199",
+   "extracted_old_price": 1199,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹876",
+     "extracted_primary_price": 876,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,199",
+     "extracted_old_primary_price": 1199
+    }
+   ]
+  },
+  {
+   "position": 24,
+   "asin": "B0D9M7WS3N",
+   "title": "Premium Brass Diya Kerala Samai 7 Inch (Set of 2) Traditional Oil Lamp Deepak Lamp Kutthu vilakku Panchmahal Deepam for Pooja Mandir Diwali Indian Puja Wedding Return Gift Items",
+   "link": "https://www.amazon.in/Copperika-Traditional-vilakku-Panchmahal-Wedding/dp/B0D9M7WS3N/ref=sr_1_24?keywords=brass+diya&qid=1790451804&sr=8-24",
+   "link_clean": "https://www.amazon.in/Copperika-Traditional-vilakku-Panchmahal-Wedding/dp/B0D9M7WS3N/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0D9M7WS3N&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71WNW+EXzIL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 98,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹979",
+   "extracted_price": 979,
+   "old_price": "₹2,199",
+   "extracted_old_price": 2199,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹979",
+     "extracted_primary_price": 979,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,199",
+     "extracted_old_primary_price": 2199
+    }
+   ]
+  },
+  {
+   "position": 25,
+   "asin": "B0H29P487X",
+   "title": "Premium Brass Diya| Handcrafted Brass Oil Lamp for Temple, Home & Festive Rituals | Lakshmi Kubera Deepam (Pack of 2)/Round Bowl Design Diyas",
+   "link": "https://www.amazon.in/Premium-Handcrafted-Festive-Rituals-Lakshmi/dp/B0H29P487X/ref=sr_1_25?keywords=brass+diya&qid=1790451804&sr=8-25",
+   "link_clean": "https://www.amazon.in/Premium-Handcrafted-Festive-Rituals-Lakshmi/dp/B0H29P487X/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H29P487X&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61L17iRnzSL._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 5,
+   "price": "₹479",
+   "extracted_price": 479,
+   "old_price": "₹1,099",
+   "extracted_old_price": 1099,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹479",
+     "extracted_primary_price": 479,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,099",
+     "extracted_old_primary_price": 1099
+    }
+   ]
+  },
+  {
+   "position": 26,
+   "asin": "B0FRY7JH99",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Pure Brass Kuber Diya with Stand Akhand Deepak Jyoti Oil Lamp Handcrafted Pital Vilakku for Mandir Temples Home Pooja Decoration Diwali Navratri Festivals Spiritual Gift (1)",
+   "link": "https://www.amazon.in/Divine-Tales-Kuber-Diya-Handcrafted/dp/B0FRY7JH99/ref=sr_1_26?keywords=brass+diya&qid=1790451804&sr=8-26",
+   "link_clean": "https://www.amazon.in/Divine-Tales-Kuber-Diya-Handcrafted/dp/B0FRY7JH99/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FRY7JH99&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/617EEdV4OQL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 14,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹284.05",
+   "extracted_price": 284.05,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹284.05",
+     "extracted_primary_price": 284.05,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 27,
+   "asin": "B09JMX9VC4",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Lamina Brass Diya for Puja (Small 5.8 cm, Golden Color) – Set of 2 Pital Kuber Deep Vilakku for Daily/Festive Worship, Home Temple Decoration, Diwali, Housewarming, Wedding & Spiritual Return Gift.",
+   "link": "https://www.amazon.in/Lamina-Vilakku-Decoration-Housewarming-Spiritual/dp/B09JMX9VC4/ref=sr_1_27?keywords=brass+diya&qid=1790451804&sr=8-27",
+   "link_clean": "https://www.amazon.in/Lamina-Vilakku-Decoration-Housewarming-Spiritual/dp/B09JMX9VC4/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09JMX9VC4&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/818ecf6cf3L._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 242,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹283.15",
+   "extracted_price": 283.15,
+   "old_price": "₹600",
+   "extracted_old_price": 600,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹283.15",
+     "extracted_primary_price": 283.15,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹600",
+     "extracted_old_primary_price": 600
+    }
+   ]
+  },
+  {
+   "position": 28,
+   "asin": "B07HKL8Y7S",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Collectible India Small Crystal Akhand Diya Brass Oil Puja Lamp for Home Office Gifts Pooja Articles Decor (Golden, 3.5 X 1.5 Inch) (DFBS144-Small)",
+   "link": "https://www.amazon.in/Collectible-India-Crystal-Akhand-Golden/dp/B07HKL8Y7S/ref=sr_1_28?keywords=brass+diya&qid=1790451804&sr=8-28",
+   "link_clean": "https://www.amazon.in/Collectible-India-Crystal-Akhand-Golden/dp/B07HKL8Y7S/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07HKL8Y7S&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61VPP+8RpYL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 2100,
+   "bought_last_month": "500+ bought in past month",
+   "price": "₹189",
+   "extracted_price": 189,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹189",
+     "extracted_primary_price": 189,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 29,
+   "asin": "B0FGJQRXS1",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "Amazon Brand Solimo - Gemstone Work Brass Peacock Diya with Bell | Antique Finish Ethnic Oil Lamp for Home Décor | 12.5 x 7.5 x 19.5 cm",
+   "link": "https://www.amazon.in/Amazon-Brand-Solimo-Gemstone-Peacock/dp/B0FGJQRXS1/ref=sr_1_29?keywords=brass+diya&qid=1790451804&sr=8-29",
+   "link_clean": "https://www.amazon.in/Amazon-Brand-Solimo-Gemstone-Peacock/dp/B0FGJQRXS1/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FGJQRXS1&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/715FAPM-jqL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 25,
+   "price": "₹1,233",
+   "extracted_price": 1233,
+   "old_price": "₹2,899",
+   "extracted_old_price": 2899,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,233",
+     "extracted_primary_price": 1233,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,899",
+     "extracted_old_primary_price": 2899
+    }
+   ]
+  },
+  {
+   "position": 30,
+   "asin": "B07JF5CK6F",
+   "title": "Collectible India Set of 8 Brass Diya for Puja Oil Lamp Lotus Shape - Deepak for Pooja Diwali Decoration Items - Diwali Gift - Return Gift",
+   "link": "https://www.amazon.in/Collectible-India-Brass-Temple-Articles/dp/B07JF5CK6F/ref=sr_1_30?keywords=brass+diya&qid=1790451804&sr=8-30",
+   "link_clean": "https://www.amazon.in/Collectible-India-Brass-Temple-Articles/dp/B07JF5CK6F/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07JF5CK6F&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81SWZ2QPiHL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 1300,
+   "price": "₹1,149",
+   "extracted_price": 1149,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,149",
+     "extracted_primary_price": 1149,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 31,
+   "asin": "B0FMXVJS33",
+   "options": "See options",
+   "options_link": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Diwali/dp/B0FMXVJS33/ref=sr_1_31_so_HOME_FURNITURE_AND_DECOR?keywords=brass+diya&qid=1790451804&sr=8-31",
+   "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 1, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam (7 CM Height)",
+   "link": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Diwali/dp/B0FMXVJS33/ref=sr_1_31?keywords=brass+diya&qid=1790451804&sr=8-31",
+   "link_clean": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Diwali/dp/B0FMXVJS33/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FMXVJS33&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71Dq2QKLnOL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 78,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹315",
+   "extracted_price": 315,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹315",
+     "extracted_primary_price": 315,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 32,
+   "asin": "B07HHYLT45",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Collectible India Brass Diya Oil Puja Lamp Engraved Design Dia with Turtle Base for Home Temple Pooja Articles Decor Gifts (1Pcs).",
+   "link": "https://www.amazon.in/Collectible-India-Engraved-Design-Articles/dp/B07HHYLT45/ref=sr_1_32?keywords=brass+diya&qid=1790451804&sr=8-32",
+   "link_clean": "https://www.amazon.in/Collectible-India-Engraved-Design-Articles/dp/B07HHYLT45/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07HHYLT45&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61KxLYNecaL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 316,
+   "price": "₹200",
+   "extracted_price": 200,
+   "old_price": "₹599",
+   "extracted_old_price": 599,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹200",
+     "extracted_primary_price": 200,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹599",
+     "extracted_old_primary_price": 599
+    }
+   ]
+  },
+  {
+   "position": 33,
+   "asin": "B071W7D1SB",
+   "title": "Collectible India Akhand Diya for Puja | Diyas Decorative Brass Crystal Oil Lamp | Diwali Decoration Item - Lantern Oval Shape Diwali Gifts | Return Gift | Home Decor Puja Lamp",
+   "link": "https://www.amazon.in/Collectible-India-Decorative-Festival-Decoration/dp/B071W7D1SB/ref=sr_1_33?keywords=brass+diya&qid=1790451804&sr=8-33",
+   "link_clean": "https://www.amazon.in/Collectible-India-Decorative-Festival-Decoration/dp/B071W7D1SB/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B071W7D1SB&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61K+U8DJY+L._AC_UL320_.jpg",
+   "rating": 3.9,
+   "reviews": 2400,
+   "bought_last_month": "600+ bought in past month",
+   "price": "₹297",
+   "extracted_price": 297,
+   "old_price": "₹699",
+   "extracted_old_price": 699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹297",
+     "extracted_primary_price": 297,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹699",
+     "extracted_old_primary_price": 699
+    }
+   ]
+  },
+  {
+   "position": 34,
+   "asin": "B08GZDSDJ8",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Two Moustaches Parrot Design 7.5 Inches Brass Hanging Diya Pair, Diya for Home Temple, Brass Home Decoration, Housewarming Gifts, Antique Yellow, Standard, (Pack of 2)",
+   "link": "https://www.amazon.in/Two-Moustaches-Parrot-Design-Hanging/dp/B08GZDSDJ8/ref=sr_1_34?keywords=brass+diya&qid=1790451804&sr=8-34",
+   "link_clean": "https://www.amazon.in/Two-Moustaches-Parrot-Design-Hanging/dp/B08GZDSDJ8/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08GZDSDJ8&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81dSqkAAxQL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 737,
+   "price": "₹2,495",
+   "extracted_price": 2495,
+   "old_price": "₹2,699",
+   "extracted_old_price": 2699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹2,495",
+     "extracted_primary_price": 2495,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,699",
+     "extracted_old_primary_price": 2699
+    }
+   ]
+  },
+  {
+   "position": 35,
+   "asin": "B0DSZH4Y1H",
+   "title": "ServDharm Brass Akhand Diya with Adjustable Bati for Puja, Wick Adjustment Screw Knob and Borosilicate Glass Cover I Large, 250 ml Oil Capacity, Long Lasting 48 Hours Burn Time, 2 Wicks Included",
+   "link": "https://www.amazon.in/ServDharm-Akhand-Adjustable-Adjustment-Borosilicate/dp/B0DSZH4Y1H/ref=sr_1_35?keywords=brass+diya&qid=1790451804&sr=8-35",
+   "link_clean": "https://www.amazon.in/ServDharm-Akhand-Adjustable-Adjustment-Borosilicate/dp/B0DSZH4Y1H/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DSZH4Y1H&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/619MpfgVGvL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 676,
+   "bought_last_month": "1K+ bought in past month",
+   "price": "₹975",
+   "extracted_price": 975,
+   "old_price": "₹3,299",
+   "extracted_old_price": 3299,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Sat, 3 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹975",
+     "extracted_primary_price": 975,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹3,299",
+     "extracted_old_primary_price": 3299
+    }
+   ]
+  },
+  {
+   "position": 36,
+   "asin": "B08MLGFGQF",
+   "title": "Two Moustaches 100% Pure Brass Ethnic Handcarved Brass Diya with Curved Handle, Brass Diyas for Pooja , Diyas for Home Decor , Gift for House Warming , Golden , Standard , Pack of 1",
+   "link": "https://www.amazon.in/Two-Moustaches-Ethnic-Handcarved-Curved/dp/B08MLGFGQF/ref=sr_1_36?keywords=brass+diya&qid=1790451804&sr=8-36",
+   "link_clean": "https://www.amazon.in/Two-Moustaches-Ethnic-Handcarved-Curved/dp/B08MLGFGQF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08MLGFGQF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71RJBl-+ElL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 139,
+   "price": "₹1,675",
+   "extracted_price": 1675,
+   "old_price": "₹1,890",
+   "extracted_old_price": 1890,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,675",
+     "extracted_primary_price": 1675,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,890",
+     "extracted_old_primary_price": 1890
+    }
+   ]
+  },
+  {
+   "position": 37,
+   "asin": "B09JXPDZ6W",
+   "title": "Bhimonee Decor | Pure Brass Udupi Nanda Bowl Long Table Diya | 4.25 Inches Big | Brass | Pack of 2 Pieces | Traditional Lighting for Home Decor",
+   "link": "https://www.amazon.in/Bhimonee-Decor-Brass-Udupi-inches/dp/B09JXPDZ6W/ref=sr_1_37?keywords=brass+diya&qid=1790451804&sr=8-37",
+   "link_clean": "https://www.amazon.in/Bhimonee-Decor-Brass-Udupi-inches/dp/B09JXPDZ6W/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09JXPDZ6W&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81Rhbkh-uBL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 483,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹1,599",
+   "extracted_price": 1599,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,599",
+     "extracted_primary_price": 1599,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5
+    }
+   ]
+  },
+  {
+   "position": 38,
+   "asin": "B0FF9VLGGW",
+   "title": "Klassic 11 Inch Brass Kerala Diya Samai | Traditional Peacock Oil Lamp | Kutthu Vilakku Panchmahal Deepam | Ideal for Home Temple, Pooja Room, Diwali & Festivals",
+   "link": "https://www.amazon.in/Klassic-Traditional-Peacock-Panchmahal-Articles/dp/B0FF9VLGGW/ref=sr_1_38?keywords=brass+diya&qid=1790451804&sr=8-38",
+   "link_clean": "https://www.amazon.in/Klassic-Traditional-Peacock-Panchmahal-Articles/dp/B0FF9VLGGW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FF9VLGGW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51lGw-idanL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 278,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹998",
+   "extracted_price": 998,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹998",
+     "extracted_primary_price": 998,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 39,
+   "asin": "B074J71WC4",
+   "title": "Collectible India Set of 10 Brass Diya for Puja Room Oil Lamp, Kuber Brass Oil Lamp Holder, Festive Decor, Diwali Decorations Items for Home Decor Office Diwali Decor Items, Festive Gifts for Family",
+   "link": "https://www.amazon.in/Collectible-India-Brass-Diya-Golden/dp/B074J71WC4/ref=sr_1_39?keywords=brass+diya&qid=1790451804&sr=8-39",
+   "link_clean": "https://www.amazon.in/Collectible-India-Brass-Diya-Golden/dp/B074J71WC4/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B074J71WC4&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81rihk2sqgL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 156,
+   "price": "₹849",
+   "extracted_price": 849,
+   "old_price": "₹1,299",
+   "extracted_old_price": 1299,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹849",
+     "extracted_primary_price": 849,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,299",
+     "extracted_old_primary_price": 1299
+    }
+   ]
+  },
+  {
+   "position": 40,
+   "asin": "B00JNKH3DU",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Two Moustaches Brass Ganesha Wall Hanging Diya with Bells for Home Decor, Brass Hanging Diyas Oil Lamp, Diwali Gifts, Diyas for Diwali, Ghanti for Pooja, Brass Diya , Temple Decor, Standard, Pack Of 1",
+   "link": "https://www.amazon.in/Two-Moustaches-Ganesha-Hanging-Deepak/dp/B00JNKH3DU/ref=sr_1_40?keywords=brass+diya&qid=1790451804&sr=8-40",
+   "link_clean": "https://www.amazon.in/Two-Moustaches-Ganesha-Hanging-Deepak/dp/B00JNKH3DU/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00JNKH3DU&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71nHerf6CZL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 1800,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹1,695",
+   "extracted_price": 1695,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,695",
+     "extracted_primary_price": 1695,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 41,
+   "asin": "B0DDXXZ8TF",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "LABHCART Ethnic Carved Peacock Design Brass Diya with Bell, Brass Antique Oil Lamp, Brass Diyas for Home, Size - 8 Inches, Standard, Pack of 2",
+   "link": "https://www.amazon.in/LABHCART-Ethnic-Carved-Peacock-Design/dp/B0DDXXZ8TF/ref=sr_1_41?keywords=brass+diya&qid=1790451804&sr=8-41",
+   "link_clean": "https://www.amazon.in/LABHCART-Ethnic-Carved-Peacock-Design/dp/B0DDXXZ8TF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DDXXZ8TF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71PEq61bhtL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 132,
+   "price": "₹631",
+   "extracted_price": 631,
+   "old_price": "₹1,499",
+   "extracted_old_price": 1499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Mon, 5 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹631",
+     "extracted_primary_price": 631,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,499",
+     "extracted_old_primary_price": 1499
+    }
+   ]
+  },
+  {
+   "position": 42,
+   "asin": "B08JYLRV6H",
+   "title": "Brass Crystal Akhand Diya Lotus Kamal Shape Round Diya Jyoti Oil Lamp for Home Puja Pooja Temple Mandir Diwali Decoration Items for Home",
+   "link": "https://www.amazon.in/Collectible-India-Golden-Crystal-Decoration/dp/B08JYLRV6H/ref=sr_1_42?keywords=brass+diya&qid=1790451804&sr=8-42",
+   "link_clean": "https://www.amazon.in/Collectible-India-Golden-Crystal-Decoration/dp/B08JYLRV6H/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08JYLRV6H&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81MbI9nhIUL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 1000,
+   "price": "₹1,855",
+   "extracted_price": 1855,
+   "old_price": "₹3,999",
+   "extracted_old_price": 3999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,855",
+     "extracted_primary_price": 1855,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹3,999",
+     "extracted_old_primary_price": 3999
+    }
+   ]
+  },
+  {
+   "position": 43,
+   "asin": "B07X96T13Z",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Collectible India Ganesha Diya Oil Lamp - Diwali Diya for Puja Diwali Gift Home Temple Articles Decoration Gifts - Diwali Decoration Items for Home Decor -Return Gift",
+   "link": "https://www.amazon.in/Collectible-India-Ganesha-Diya-Lamp/dp/B07X96T13Z/ref=sr_1_43?keywords=brass+diya&qid=1790451804&sr=8-43",
+   "link_clean": "https://www.amazon.in/Collectible-India-Ganesha-Diya-Lamp/dp/B07X96T13Z/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07X96T13Z&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71TBhGIOigL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 1500,
+   "bought_last_month": "300+ bought in past month",
+   "price": "₹226",
+   "extracted_price": 226,
+   "old_price": "₹699",
+   "extracted_old_price": 699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹226",
+     "extracted_primary_price": 226,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹699",
+     "extracted_old_primary_price": 699
+    }
+   ]
+  },
+  {
+   "position": 44,
+   "asin": "B0GNJZRX2Q",
+   "title": "Brass Dhupiya Diya with Wooden Handle for Puja, Traditional Dhoop Aarti Holder, Peetal Dhupia Oil Lamp, Handheld Aarti Diya for Home Temple, Mandir, Havans & Diwali Pooja Items",
+   "link": "https://www.amazon.in/Dhupiya-Diya-Wooden-Traditional-Handheld/dp/B0GNJZRX2Q/ref=sr_1_44?keywords=brass+diya&qid=1790451804&sr=8-44",
+   "link_clean": "https://www.amazon.in/Dhupiya-Diya-Wooden-Traditional-Handheld/dp/B0GNJZRX2Q/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0GNJZRX2Q&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41fbkFM5FvL._AC_UL320_.jpg",
+   "rating": 3.5,
+   "reviews": 11,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹230",
+   "extracted_price": 230,
+   "old_price": "₹499",
+   "extracted_old_price": 499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹230",
+     "extracted_primary_price": 230,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹499",
+     "extracted_old_primary_price": 499
+    }
+   ]
+  },
+  {
+   "position": 45,
+   "asin": "B0B5VB44TR",
+   "title": "Two Moustaches Brass Ganesha Mouse Oil Lamp Diya with Gemstone Work, Brass Diya for Pooja Room, Mandir Decor, Diwali Decoration, Spiritual Gift Item for Home Temple, Pack of 1",
+   "link": "https://www.amazon.in/Two-Moustaches-Gemstone-Ganesha-Standard/dp/B0B5VB44TR/ref=sr_1_45?keywords=brass+diya&qid=1790451804&sr=8-45",
+   "link_clean": "https://www.amazon.in/Two-Moustaches-Gemstone-Ganesha-Standard/dp/B0B5VB44TR/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0B5VB44TR&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71PeHinNHnL._AC_UL320_.jpg",
+   "rating": 4.5,
+   "reviews": 86,
+   "price": "₹995",
+   "extracted_price": 995,
+   "old_price": "₹1,095",
+   "extracted_old_price": 1095,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹995",
+     "extracted_primary_price": 995,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,095",
+     "extracted_old_primary_price": 1095
+    }
+   ]
+  },
+  {
+   "position": 46,
+   "asin": "B0FQ5P8GV2",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Kuber Diya for Pooja Room Temple Decor Golden Pure Brass Diya Engraved Design Deepak for Diwali, Navratri, Housewarming, Festive Home Office Puja, Gift for Spiritual Decor (2)",
+   "link": "https://www.amazon.in/Divine-Tales-Kuber-Diya-Housewarming/dp/B0FQ5P8GV2/ref=sr_1_46?keywords=brass+diya&qid=1790451804&sr=8-46",
+   "link_clean": "https://www.amazon.in/Divine-Tales-Kuber-Diya-Housewarming/dp/B0FQ5P8GV2/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FQ5P8GV2&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61g+NA6bTnL._AC_UL320_.jpg",
+   "rating": 3.4,
+   "reviews": 19,
+   "price": "₹348.68",
+   "extracted_price": 348.68,
+   "old_price": "₹1,099",
+   "extracted_old_price": 1099,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹348.68",
+     "extracted_primary_price": 348.68,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,099",
+     "extracted_old_primary_price": 1099
+    }
+   ]
+  },
+  {
+   "position": 47,
+   "asin": "B0CKXZ5HRG",
+   "title": "Two Moustaches 100% Pure Brass Diya with Bell , Gemstone Work Ethnic Carved Peacock Design , Brass Antique Oil Lamp, Diyas for Home , Luxury Pooja Decor , Size - 8 Inches , Standard , Pack of 1",
+   "link": "https://www.amazon.in/Two-Moustaches-Gemstone-Peacock-Antique/dp/B0CKXZ5HRG/ref=sr_1_47?keywords=brass+diya&qid=1790451804&sr=8-47",
+   "link_clean": "https://www.amazon.in/Two-Moustaches-Gemstone-Peacock-Antique/dp/B0CKXZ5HRG/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CKXZ5HRG&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/7113KBhtmfL._AC_UL320_.jpg",
+   "rating": 4.5,
+   "reviews": 312,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹2,290",
+   "extracted_price": 2290,
+   "old_price": "₹2,990",
+   "extracted_old_price": 2990,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹2,290",
+     "extracted_primary_price": 2290,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,990",
+     "extracted_old_primary_price": 2990
+    }
+   ]
+  },
+  {
+   "position": 48,
+   "asin": "B00EZMNH9A",
+   "title": "Borosil Medium Size Akhand Diya Decorative Brass Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir | Lantern with Cover",
+   "link": "https://www.amazon.in/Borosil-Akhand-Diya-Medium-Brass/dp/B00EZMNH9A/ref=sr_1_48?keywords=brass+diya&qid=1790451804&sr=8-48",
+   "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Medium-Brass/dp/B00EZMNH9A/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNH9A&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61tFDSCoNGL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 5700,
+   "bought_last_month": "500+ bought in past month",
+   "price": "₹896",
+   "extracted_price": 896,
+   "old_price": "₹1,055",
+   "extracted_old_price": 1055,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹896",
+     "extracted_primary_price": 896,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,055",
+     "extracted_old_primary_price": 1055
+    }
+   ]
+  }
+ ],
+ "related_searches": [
+  {
+   "position": 1,
+   "query": "brass diyas for puja",
+   "link": "https://www.amazon.in/s?k=brass+diyas+for+puja&ref=rsl_sug_0_0&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  },
+  {
+   "position": 2,
+   "query": "brass decorative items for living room",
+   "link": "https://www.amazon.in/s?k=brass+decorative+items+for+living+room&ref=rsl_sug_0_3&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  },
+  {
+   "position": 3,
+   "query": "brass pooja items",
+   "link": "https://www.amazon.in/s?k=brass+pooja+items&ref=rsl_sug_0_1&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  },
+  {
+   "position": 4,
+   "query": "brass bowl",
+   "link": "https://www.amazon.in/s?k=brass+bowl&ref=rsl_sug_0_4&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  },
+  {
+   "position": 5,
+   "query": "brass utensils",
+   "link": "https://www.amazon.in/s?k=brass+utensils&ref=rsl_sug_0_2&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  },
+  {
+   "position": 6,
+   "query": "brass plate",
+   "link": "https://www.amazon.in/s?k=brass+plate&ref=rsl_sug_0_5&pd_rd_w=7vcqs&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=ZK7QFVP7GXJXF359VKR4&pd_rd_wg=aJSrG&pd_rd_r=f981c9fe-1d1e-4843-a9da-b058c2d26dbf&qid=1790451804"
+  }
+ ],
+ "categories": [
+  {
+   "position": 1,
+   "name": "Sell",
+   "link": "https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3",
+   "node": "32702023031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=32702023031"
+  },
+  {
+   "position": 2,
+   "name": "Mobiles",
+   "link": "https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles",
+   "node": "1389401031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1389401031"
+  },
+  {
+   "position": 3,
+   "name": "Electronics",
+   "link": "https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics",
+   "node": "976419031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976419031"
+  },
+  {
+   "position": 4,
+   "name": "Home & Kitchen",
+   "link": "https://www.amazon.in/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home",
+   "node": "976442031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976442031"
+  },
+  {
+   "position": 5,
+   "name": "Car & Motorbike",
+   "link": "https://www.amazon.in/Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive",
+   "node": "4772060031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4772060031"
+  },
+  {
+   "position": 6,
+   "name": "Pet Supplies",
+   "link": "https://www.amazon.in/Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets",
+   "node": "2454181031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=2454181031"
+  },
+  {
+   "position": 7,
+   "name": "Grocery & Gourmet Foods",
+   "link": "https://www.amazon.in/Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery",
+   "node": "2454178031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=2454178031"
+  },
+  {
+   "position": 8,
+   "name": "Beauty & Personal Care",
+   "link": "https://www.amazon.in/beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty",
+   "node": "1355016031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1355016031"
+  },
+  {
+   "position": 9,
+   "name": "Gift Cards",
+   "link": "https://www.amazon.in/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc",
+   "node": "3704982031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=3704982031"
+  },
+  {
+   "position": 10,
+   "name": "Computers",
+   "link": "https://www.amazon.in/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc",
+   "node": "976392031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976392031"
+  },
+  {
+   "position": 11,
+   "name": "Toys & Games",
+   "link": "https://www.amazon.in/Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys",
+   "node": "1350380031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1350380031"
+  },
+  {
+   "position": 12,
+   "name": "Video Games",
+   "link": "https://www.amazon.in/video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games",
+   "node": "976460031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976460031"
+  },
+  {
+   "position": 13,
+   "name": "Home Improvement",
+   "link": "https://www.amazon.in/Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi",
+   "node": "4286640031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4286640031"
+  },
+  {
+   "position": 14,
+   "name": "Sports, Fitness & Outdoors",
+   "link": "https://www.amazon.in/Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports",
+   "node": "1984443031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1984443031"
+  },
+  {
+   "position": 15,
+   "name": "Custom Products",
+   "link": "https://www.amazon.in/Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom",
+   "node": "32615889031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=32615889031"
+  },
+  {
+   "position": 16,
+   "name": "Health, Household & Personal Care",
+   "link": "https://www.amazon.in/health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc",
+   "node": "1350384031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1350384031"
+  },
+  {
+   "position": 17,
+   "name": "Baby",
+   "link": "https://www.amazon.in/Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby",
+   "node": "1571274031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1571274031"
+  },
+  {
+   "position": 18,
+   "name": "Audible",
+   "link": "https://www.amazon.in/Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible",
+   "node": "17941593031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=17941593031"
+  },
+  {
+   "position": 19,
+   "name": "AmazonBasics",
+   "link": "https://www.amazon.in/b/?node=6637738031&ref_=nav_cs_amazonbasics",
+   "node": "6637738031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=6637738031"
+  },
+  {
+   "position": 20,
+   "name": "Kindle eBooks",
+   "link": "https://www.amazon.in/Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books",
+   "node": "1634753031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1634753031"
+  }
+ ],
+ "filters": {
+  "popular_shopping_ideas": [
+   {
+    "position": 1,
+    "name": "Pooja",
+    "link": "https://www.amazon.in/s?k=brass+diya+for+pooja&ref=sr_nr_p_rag_integrated_qb_0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya+for+pooja"
+   },
+   {
+    "position": 2,
+    "name": "Akhand",
+    "link": "https://www.amazon.in/s?k=brass+akhand+diya&ref=sr_nr_p_rag_integrated_qb_1",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+akhand+diya"
+   },
+   {
+    "position": 3,
+    "name": "Small",
+    "link": "https://www.amazon.in/s?k=small+brass+diya&ref=sr_nr_p_rag_integrated_qb_2",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=small+brass+diya"
+   },
+   {
+    "position": 4,
+    "name": "Big",
+    "link": "https://www.amazon.in/s?k=big+brass+diya&ref=sr_nr_p_rag_integrated_qb_3",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=big+brass+diya"
+   },
+   {
+    "position": 5,
+    "name": "Lotus",
+    "link": "https://www.amazon.in/s?k=brass+lotus+diya&ref=sr_nr_p_rag_integrated_qb_4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+lotus+diya"
+   },
+   {
+    "position": 6,
+    "name": "Antique",
+    "link": "https://www.amazon.in/s?k=brass+diya+antique&ref=sr_nr_p_rag_integrated_qb_5",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya+antique"
+   }
+  ],
+  "delivery_day": [
+   {
+    "position": 1,
+    "name": "Get It Today",
+    "rh": "p_90:6741117031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_90%3A6741117031&dc&qid=1790451804&rnid=6741116031&ref=sr_nr_p_90_1&ds=v1%3AoC2ntZW%2F7DDBiIHMZp30zMIVEGMz27VRLv6GY0oYGqY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_90%3A6741117031"
+   },
+   {
+    "position": 2,
+    "name": "Get It by Tomorrow",
+    "rh": "p_90:6741118031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_90%3A6741118031&dc&qid=1790451804&rnid=6741116031&ref=sr_nr_p_90_2&ds=v1%3Ar5UzgHVHegr7bZNcLWKvUcZIQR2Ul4I6YY4t2C%2FOcVA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_90%3A6741118031"
+   },
+   {
+    "position": 3,
+    "name": "Get It in 2 Days",
+    "rh": "p_90:20912642031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_90%3A20912642031&dc&qid=1790451804&rnid=6741116031&ref=sr_nr_p_90_3&ds=v1%3Ad%2FALJ6xvv3nC0ukiJbyI20JxpAPis61GsT3KQN8EoGA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_90%3A20912642031"
+   },
+   {
+    "position": 4,
+    "name": "Free Shipping",
+    "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+    "rh": "p_n_free_shipping_eligible:205563695031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1790451804&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AWBjGi5ANLTRCMJLlW4hrps7JjC6AoH9XetyKzUIK%2Fe0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_free_shipping_eligible%3A205563695031"
+   }
+  ],
+  "eligible_for_free_delivery": [
+   {
+    "position": 1,
+    "name": "Free Shipping",
+    "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+    "rh": "p_n_free_shipping_eligible:205563695031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1790451804&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AWBjGi5ANLTRCMJLlW4hrps7JjC6AoH9XetyKzUIK%2Fe0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_free_shipping_eligible%3A205563695031"
+   }
+  ],
+  "price": [
+   {
+    "position": 1,
+    "name": "All Discounts",
+    "rh": "p_n_deal_type:26921226031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_deal_type%3A26921226031&dc&qid=1790451804&rnid=26921223031&ref=sr_nr_p_n_deal_type_1&ds=v1%3Aj7FTucLaHVhjRilzcc4xF%2FlG4APavywKxFsxhegoRvY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_deal_type%3A26921226031"
+   },
+   {
+    "position": 2,
+    "name": "Buy More, Save More",
+    "rh": "p_n_deal_type:210770213031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_deal_type%3A210770213031&dc&qid=1790451804&rnid=26921223031&ref=sr_nr_p_n_deal_type_2&ds=v1%3ALTEvqyhn3ECQHPFrm8Z0%2B8wsYuWMoPbC%2Fv%2FrNc9o6xc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_deal_type%3A210770213031"
+   },
+   {
+    "position": 3,
+    "name": "Coupons",
+    "rh": "p_n_deal_type:210770212031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_deal_type%3A210770212031&dc&qid=1790451804&rnid=26921223031&ref=sr_nr_p_n_deal_type_3&ds=v1%3AVHMGaIss2imXP%2F1t9aLG7iBmLsEGFGqfsoWRWWEpt98",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_deal_type%3A210770212031"
+   },
+   {
+    "position": 4,
+    "name": "Today's Deals",
+    "rh": "p_n_deal_type:26921224031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_deal_type%3A26921224031&dc&qid=1790451804&rnid=26921223031&ref=sr_nr_p_n_deal_type_4&ds=v1%3AOFu0vyjD31IlKw3Fel%2BsQxAphO3yE57iqE8aoR1QL48",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_deal_type%3A26921224031"
+   },
+   {
+    "position": 5,
+    "name": "Up to ₹250",
+    "rh": "p_36:dynamic-picker-0",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_36%3A-25000&dc&qid=1790451804&rnid=1318502031&ref=sr_nr_p_36_1&ds=v1%3APFdYj%2Fgqpy4B5fHgBmzJNGPuBBy7YnbeNG%2F%2Fskr60Wg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_36%3A-25000"
+   },
+   {
+    "position": 6,
+    "name": "₹250 - ₹350",
+    "rh": "p_36:dynamic-picker-1",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_36%3A25000-35000&dc&qid=1790451804&rnid=1318502031&ref=sr_nr_p_36_2&ds=v1%3Aq6SybZd%2FPh17CgybjQRKgnjs30nbq%2BYv%2BLGpgZM1idM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_36%3A25000-35000"
+   },
+   {
+    "position": 7,
+    "name": "₹350 - ₹500",
+    "rh": "p_36:dynamic-picker-2",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_36%3A35000-50000&dc&qid=1790451804&rnid=1318502031&ref=sr_nr_p_36_3&ds=v1%3AkT4%2Fkk%2B0hakXqEhyzH2N%2FLJVD%2FhHghUGEEnPue8kkKo",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_36%3A35000-50000"
+   },
+   {
+    "position": 8,
+    "name": "₹500 - ₹900",
+    "rh": "p_36:dynamic-picker-3",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_36%3A50000-90000&dc&qid=1790451804&rnid=1318502031&ref=sr_nr_p_36_4&ds=v1%3A1Es19bRTulsgJQ7ptOsPhVpemOH7zJJpYKWXH7N14OA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_36%3A50000-90000"
+   },
+   {
+    "position": 9,
+    "name": "Over ₹900",
+    "rh": "p_36:dynamic-picker-4",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_36%3A90000-&dc&qid=1790451804&rnid=1318502031&ref=sr_nr_p_36_5&ds=v1%3Am7V%2BTGxM0A9VdrrHVVKMbOkNZFAHMnTOpMPfnJ0K4FU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_36%3A90000-"
+   }
+  ],
+  "customer_reviews": [
+   {
+    "position": 1,
+    "name": "& Up",
+    "rh": "p_72:1318476031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_72%3A1318476031&dc&qid=1790451804&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AIC9O9zjLkMwV%2FFBCDj71DZu1suAb0NzmPOD8ovvQ1Ms",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_72%3A1318476031"
+   }
+  ],
+  "brands": [
+   {
+    "position": 1,
+    "name": "CraftVatika",
+    "rh": "p_123:189005",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A189005&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3AJ%2FE3sm1ylAi%2FjZsEc3v7A1bfOS1FsHA00v%2B3D5fbw2M",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A189005"
+   },
+   {
+    "position": 2,
+    "name": "BEHOMA",
+    "rh": "p_123:2208472",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A2208472&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AtCjLyYFWWAAJBijD4jP2mNOy7bpwXGLsJxuki%2Bk6Se4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A2208472"
+   },
+   {
+    "position": 3,
+    "name": "anciently",
+    "rh": "p_123:1256066",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A1256066&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_3&ds=v1%3A4hdjHoG9qadFcc97KH4b2JIswTSMP3J%2FIvaH3PCU8Uw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A1256066"
+   },
+   {
+    "position": 4,
+    "name": "Collectible India",
+    "rh": "p_123:74218",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A74218&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_4&ds=v1%3AlLmaO2%2BNgpXS7AMeCfxpJBb1waPglxs9z%2B1dgfkjpD8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A74218"
+   },
+   {
+    "position": 5,
+    "name": "eCraftIndia",
+    "rh": "p_123:47355",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A47355&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_5&ds=v1%3AdliIWXA8FMQ4TrH1xgo43iDmBuXrY73qTa%2B1yhrUVWU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A47355"
+   },
+   {
+    "position": 6,
+    "name": "ESPLANADE",
+    "rh": "p_123:382568",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A382568&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_6&ds=v1%3AXggxLBgUea4IPEtZPGcIQbWJw8pgEkilqO1ne8Cd6lY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A382568"
+   },
+   {
+    "position": 7,
+    "name": "DSH CRAFTING YOUR CURIOSITY",
+    "rh": "p_123:1166542",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A1166542&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_7&ds=v1%3AFL%2F8RRt9pILletXfW8D5V%2BqRcct%2BVnwttqNOqi1l0Sc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A1166542"
+   },
+   {
+    "position": 8,
+    "name": "TIED RIBBONS",
+    "rh": "p_123:76691",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A76691&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_8&ds=v1%3A5MSiRjIewySB2L7FG8ELS01sMGNEZff15IIYYFDswzE",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A76691"
+   },
+   {
+    "position": 9,
+    "name": "Shubhkart",
+    "rh": "p_123:617551",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A617551&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_9&ds=v1%3A3u0Yvs0syr8RKFE3mKzMFY4PusMuVHW8Zoxc%2BKD2Mrc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A617551"
+   },
+   {
+    "position": 10,
+    "name": "Bhimonee Decor",
+    "rh": "p_123:977273",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A977273&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_10&ds=v1%3ArS9KA%2B39VmGSjyX6ejXuq7B2uTw0R0A9YKSBKmTIdOQ",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A977273"
+   },
+   {
+    "position": 11,
+    "name": "Two Moustaches",
+    "rh": "p_123:477096",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A477096&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_11&ds=v1%3ADLeHPPb0jpsOWxkqKcAvKB47gxYhWUQpEPl4Br7ZXi4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A477096"
+   },
+   {
+    "position": 12,
+    "name": "Spillbox",
+    "rh": "p_123:827603",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A827603&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_12&ds=v1%3AYxlsttmwzp%2Bu9oVcKEWouqEhKsc%2BHKsMOTsPkP3J%2BFY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A827603"
+   },
+   {
+    "position": 13,
+    "name": "DreamKraft",
+    "rh": "p_123:803037",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A803037&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_13&ds=v1%3APIJB7aoWTHhvIZE5tKF%2BInfF13ZG5vAclecEI88E6FY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A803037"
+   },
+   {
+    "position": 14,
+    "name": "Heaven Decor",
+    "rh": "p_123:169162",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A169162&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_14&ds=v1%3AALDbJGGSGtGKtEv3SQrv%2Fs3BNTzympHYzxy%2F0UIZtrU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A169162"
+   },
+   {
+    "position": 15,
+    "name": "Ekhasa",
+    "rh": "p_123:5948753",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A5948753&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_15&ds=v1%3Al9gTmbGIXpSYnQRCq6Ak0n9pWhjOZ5XctbwQDeLUkFE",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A5948753"
+   },
+   {
+    "position": 16,
+    "name": "Habere India-All the Cultures Fabricating India",
+    "rh": "p_123:588245",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A588245&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_16&ds=v1%3AEnbaVcOzQwCmr0EvJtdb%2BdUFrEhhw%2Fw1R2q2fjoUzPY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A588245"
+   },
+   {
+    "position": 17,
+    "name": "Borosil",
+    "rh": "p_123:363752",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A363752&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_17&ds=v1%3A%2FUx%2BAbzqV4N8XUblM78VnGslvRxrReXyA2Vc4Bamvxw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A363752"
+   },
+   {
+    "position": 18,
+    "name": "Pure Source India",
+    "rh": "p_123:393223",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A393223&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_18&ds=v1%3AMW0zj18KLR%2BW14Wq4Bh4YErk9vTewmsc5SmuY4Owqms",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A393223"
+   },
+   {
+    "position": 19,
+    "name": "PURESTORY",
+    "rh": "p_123:1200318",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A1200318&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_19&ds=v1%3ASw2WobVg5r%2F1thmtjFy4sKREwTn2htDcf8znsgjffLE",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A1200318"
+   },
+   {
+    "position": 20,
+    "name": "Servdharm",
+    "rh": "p_123:1547994",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A1547994&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_20&ds=v1%3Ah5Ct3WuNio4F093R%2BJ89DIeyUazSla3u5FmAwJYMuA4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A1547994"
+   },
+   {
+    "position": 21,
+    "name": "Handicrafts Paradise",
+    "rh": "p_123:70253",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A70253&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_21&ds=v1%3AhFlNnwapg6un8Int8%2B%2Fj7cZ8LJKZkSwtt07WQlAPU0o",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A70253"
+   },
+   {
+    "position": 22,
+    "name": "Vintageware",
+    "rh": "p_123:616871",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A616871&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_22&ds=v1%3AmnjkRrovK6mx9AlzMJuqsdKvEb2Y3TJwnGUbSNoszuU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A616871"
+   },
+   {
+    "position": 23,
+    "name": "BHAKTI SHRINGAR",
+    "rh": "p_123:3983151",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A3983151&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_23&ds=v1%3AcVw61V7hIwnCSQgzsC6ongP8A6kfTchhkiRi3kCNfh0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A3983151"
+   },
+   {
+    "position": 24,
+    "name": "Kartique",
+    "rh": "p_123:140259",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A140259&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_24&ds=v1%3ArRrYZjJQbHiH6N3kRrz5674htGHFwhw4F5rKLtcnSZg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A140259"
+   },
+   {
+    "position": 25,
+    "name": "ARTVARKO",
+    "rh": "p_123:843204",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A843204&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_25&ds=v1%3Ajx5hIX7De8fwqbA3aUHUKQDVIcPDoOvMS6aXg%2BUClzM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A843204"
+   },
+   {
+    "position": 26,
+    "name": "SHIV SHAKTI ARTS",
+    "rh": "p_123:131636",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A131636&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_26&ds=v1%3AqI%2F0Oa9n%2BWjuk5UCtSBQ72JiPUVYsG4TgSjWBy6Fb7I",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A131636"
+   },
+   {
+    "position": 27,
+    "name": "PujaNPujari",
+    "rh": "p_123:1747342",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A1747342&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_27&ds=v1%3ACK9CEFyV%2Fm14a%2B3EC4v1hIEyRaaXiL59qJDn%2B5nQ0wU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A1747342"
+   },
+   {
+    "position": 28,
+    "name": "ascension",
+    "rh": "p_123:246227",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A246227&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_28&ds=v1%3ALmLzodWP06k5MCdGX8kKV3z9zTBSDJxQcCqFWJ4LNV0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A246227"
+   },
+   {
+    "position": 29,
+    "name": "Amazon Brand - Umi",
+    "rh": "p_123:460925",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A460925&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_29&ds=v1%3AVl5ioW0iUqfsJY98mRVeomHjUPLzTTjDdXsHTDLYUSA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A460925"
+   },
+   {
+    "position": 30,
+    "name": "Indian-Shelf",
+    "rh": "p_123:577461",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A577461&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_30&ds=v1%3AKI3Ns%2FfI49O%2FV53rJfheH2qnbuk0skKdA7COYrFYcEk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A577461"
+   },
+   {
+    "position": 31,
+    "name": "KridayKraft",
+    "rh": "p_123:817743",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_123%3A817743&dc&qid=1790451804&rnid=91049095031&ref=sr_nr_p_123_31&ds=v1%3AdsXVBfgt0epgnIShv1ikdRtnPrnyb%2FUwWWn9Z%2FjzGaM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_123%3A817743"
+   }
+  ],
+  "item_condition": [
+   {
+    "position": 1,
+    "name": "New",
+    "rh": "p_n_condition-type:8609960031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_condition-type%3A8609960031&dc&qid=1790451804&rnid=8609959031&ref=sr_nr_p_n_condition-type_1&ds=v1%3AuhWkcEXKMD26ohZ2%2BaNgnfWESZY%2Bz5Ds5iNl7OegOV4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_condition-type%3A8609960031"
+   }
+  ],
+  "sporting_goods_brands": [
+   {
+    "position": 1,
+    "name": "Made for Amazon",
+    "rh": "p_n_format_browse-bin:27915246031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_format_browse-bin%3A27915246031&dc&qid=1790451804&rnid=27915244031&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AFnYB2D5I4%2FCYKELY0e2ZNOTcF0bi9Cfi%2B0JbQAmPN%2FU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_format_browse-bin%3A27915246031"
+   },
+   {
+    "position": 2,
+    "name": "Top Brands",
+    "rh": "p_n_format_browse-bin:27915245031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_format_browse-bin%3A27915245031&dc&qid=1790451804&rnid=27915244031&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3A%2BAD8qIUku2k%2B9gkM2d6e5q0iNqSbSbme7LLoMfUcrHc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_format_browse-bin%3A27915245031"
+   }
+  ],
+  "discount": [
+   {
+    "position": 1,
+    "name": "10% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665399031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A2665399031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AyzRj%2FlYAXwLI5RZ4i2xEtMB0yDpRo36%2BGllBOYzZf%2Bg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A2665399031"
+   },
+   {
+    "position": 2,
+    "name": "25% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665400031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A2665400031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AoiCLo4Ffbhv5o%2Fx30HWX3QExT0245t9KIycti3OMzLk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A2665400031"
+   },
+   {
+    "position": 3,
+    "name": "35% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665402031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A2665402031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AHzg%2F%2F%2BboTaqRoPjm0oK43W034p%2BPifk7MC3fstr%2BSQ8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A2665402031"
+   },
+   {
+    "position": 4,
+    "name": "50% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665401031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A2665401031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AwPv6MMm4TFoWlOeV0D7KyRGRhwdRyumeRamVK5FWTok",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A2665401031"
+   },
+   {
+    "position": 5,
+    "name": "60% Off or more",
+    "rh": "p_n_pct-off-with-tax:27060456031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A27060456031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AgrSmJFntN4msJlff6J5uUbtQ0p3KFYTb%2BM0sb9a0LKY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A27060456031"
+   },
+   {
+    "position": 6,
+    "name": "70% Off or more",
+    "rh": "p_n_pct-off-with-tax:27060457031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_pct-off-with-tax%3A27060457031&dc&qid=1790451804&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3A2VfQfQ04uEA%2BiTGx%2BJ4wTsUSc%2B4ikdPWmVLa1B%2Ff3oM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_pct-off-with-tax%3A27060457031"
+   }
+  ],
+  "pay_on_delivery": [
+   {
+    "position": 1,
+    "name": "Eligible for Pay On Delivery",
+    "rh": "p_n_is_cod_eligible:4931671031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_is_cod_eligible%3A4931671031&dc&qid=1790451804&rnid=4931670031&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AruSXNFapM%2FATwQKWAPE3qNYYUF1ayur%2B0eyfsisBWX4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_is_cod_eligible%3A4931671031"
+   }
+  ],
+  "availability": [
+   {
+    "position": 1,
+    "name": "Include Out of Stock",
+    "rh": "p_n_availability:1318485031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_availability%3A1318485031&dc&qid=1790451804&rnid=1318483031&ref=sr_nr_p_n_availability_2&ds=v1%3Ah9O8dvcatb83ZFnEbRbwt%2F8OHwF80Dm0%2BvNBpLh9fyY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_availability%3A1318485031"
+   }
+  ],
+  "new_arrivals": [
+   {
+    "position": 1,
+    "name": "Last 30 days",
+    "rh": "p_n_date_first_available_absolute:1318487031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_date_first_available_absolute%3A1318487031&dc&qid=1790451804&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AttOlKHJTBIeN2HGGmX0TLNORpI3NA6YzTFtT21%2B%2BF8M",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_date_first_available_absolute%3A1318487031"
+   },
+   {
+    "position": 2,
+    "name": "Last 90 days",
+    "rh": "p_n_date_first_available_absolute:1318488031",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_n_date_first_available_absolute%3A1318488031&dc&qid=1790451804&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3A9%2FRzj%2B6ZWU995pAsGmQtoOkAU1F6SzJNVzrRTxs1lRw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_n_date_first_available_absolute%3A1318488031"
+   }
+  ],
+  "seller": [
+   {
+    "position": 1,
+    "name": "SHRI BALAJI E RETAIL",
+    "rh": "p_6:A35P3C97MD53KX",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA35P3C97MD53KX&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_1&ds=v1%3AcVDAkEdmpKSj4tEZDiNcZU9ft0F7uKEifp9%2BInAElX4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA35P3C97MD53KX"
+   },
+   {
+    "position": 2,
+    "name": "iSMART Enterprises",
+    "rh": "p_6:A3J96BG6P9UE9T",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA3J96BG6P9UE9T&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_2&ds=v1%3AQQ7Q9YsVOa1o7ZxbGw%2FXs%2F%2BL46qlOMX%2BWlTwXqb8eiU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA3J96BG6P9UE9T"
+   },
+   {
+    "position": 3,
+    "name": "VEENA ENTERPRIZE",
+    "rh": "p_6:A26XG13ID8X4Z8",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA26XG13ID8X4Z8&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_3&ds=v1%3AfuR4Vt%2BXg4XjXw3oo7chttZ4VNAQU9PKrri4%2BsrtqHk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA26XG13ID8X4Z8"
+   },
+   {
+    "position": 4,
+    "name": "ETrade Online",
+    "rh": "p_6:A2AL6IVND0I91F",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA2AL6IVND0I91F&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_4&ds=v1%3AyW0g9kQh0Bb%2FW0OJXYOX8MP5li0S53CeO3G86YYldNc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA2AL6IVND0I91F"
+   },
+   {
+    "position": 5,
+    "name": "Indian-Shelf",
+    "rh": "p_6:A2JRM4UZTXMZ7J",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA2JRM4UZTXMZ7J&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_5&ds=v1%3AAYxB3NeGXMi3fN6Z4wF4A3j8c6DQqlp%2FPeStdtcbQdo",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA2JRM4UZTXMZ7J"
+   },
+   {
+    "position": 6,
+    "name": "KRISHNA ENTERPRISES STORE ONLINE",
+    "rh": "p_6:A1GP5EZUOPD3M",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA1GP5EZUOPD3M&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_6&ds=v1%3AlVhzN8UepQsIa4Xns46XOjY7eK2ev%2BCjvWx1MaxCHPA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA1GP5EZUOPD3M"
+   },
+   {
+    "position": 7,
+    "name": "JSV enterprises",
+    "rh": "p_6:A1ROCDV6ZE1XVZ",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_6%3AA1ROCDV6ZE1XVZ&dc&qid=1790451804&rnid=1318474031&ref=sr_nr_p_6_7&ds=v1%3A0gpKp3gZ7QKDnD%2FGVUkkVxZO2ywl%2FAD8RL86Aa0IRrY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_6%3AA1ROCDV6ZE1XVZ"
+   }
+  ],
+  "country_of_origin": [
+   {
+    "position": 1,
+    "name": "India",
+    "rh": "p_country_of_origin-bin:IN",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_country_of_origin-bin%3AIN&dc&qid=1790451804&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_1&ds=v1%3AyrzUGfuy0xTYZBs%2BrmFBOxMYCUY9YaLduP5XHmnhmwI",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_country_of_origin-bin%3AIN"
+   },
+   {
+    "position": 2,
+    "name": "United States",
+    "rh": "p_country_of_origin-bin:US",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_country_of_origin-bin%3AUS&dc&qid=1790451804&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_2&ds=v1%3AGKekj0%2Fz99hJQEosp%2FI%2FVPevEv7ZMTS3OZzWExBeGFw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_country_of_origin-bin%3AUS"
+   },
+   {
+    "position": 3,
+    "name": "China",
+    "rh": "p_country_of_origin-bin:CN",
+    "link": "https://www.amazon.in/s?k=brass+diya&rh=p_country_of_origin-bin%3ACN&dc&qid=1790451804&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_3&ds=v1%3AiniYeCj4eOw%2F%2Fzsh9Td%2BNhBV3xddgNInAPQRCOjOVg0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&rh=p_country_of_origin-bin%3ACN"
+   }
+  ]
+ },
+ "serpapi_pagination": {
+  "current": 1,
+  "next": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=brass+diya&page=2"
+ }
+}

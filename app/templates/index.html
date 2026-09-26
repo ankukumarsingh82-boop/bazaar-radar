@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}{% if report %}{{ report.keyword }} · Bazaar Radar{% else %}Bazaar Radar{% endif %}{% endblock %}
+{% block body %}
+<section class="hero">
+  <p class="kicker">Commerce &amp; market intelligence · Diwali 2026</p>
+  <h1>Know the gap before you stock.</h1>
+  <p class="lede">Price trackers tell buyers where it is cheapest. Bazaar Radar tells a small Indian seller whether to stock a product, at what price, for which states, and what to fix.</p>
+</section>
+
+<section class="scenarios">
+  {% for scenario in scenarios.values() %}
+  <a class="scenario" href="/s/{{ scenario.slug }}">
+    <span class="tag">{{ scenario.category }}</span>
+    <strong>{{ scenario.keyword }}</strong>
+    <em>{{ scenario.blurb }}</em>
+    <span class="go">Open the recorded report</span>
+  </a>
+  {% endfor %}
+</section>
+
+<section class="form-card" id="idea">
+  <h2>Read an idea</h2>
+  <p class="hint">Type a product idea, the price you want to sell at, and the states you can ship to. Variant keywords are extra listing phrases. They do not spend extra searches.</p>
+  {% if error %}<p class="error">{{ error }}</p>{% endif %}
+  <form
+    method="post"
+    action="/analyze"
+    hx-post="/analyze"
+    hx-target="#report"
+    hx-swap="innerHTML"
+    hx-indicator="#spinner">
+    <div class="grid-2">
+      <label>Product idea
+        <input name="keyword" required value="{{ prefill.keyword }}" placeholder="brass diya" autocomplete="off">
+      </label>
+      <label>Head term
+        <input name="head_term" value="{{ prefill.head_term }}" placeholder="diya">
+        <span class="field-note">Used when the full phrase is too sparse on Google Trends.</span>
+      </label>
+    </div>
+    <div class="grid-3">
+      <label>Target price (₹)
+        <input name="target_price" type="number" min="1" step="1" required value="{{ prefill.target_price }}" placeholder="699">
+      </label>
+      <label>Category
+        <select name="category">
+          {% for category in categories %}
+          <option value="{{ category }}" {% if category == prefill.category %}selected{% endif %}>{{ category }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Variant keywords
+        <input name="variants" value="{{ prefill.variants }}" placeholder="akhand diya, brass diya set">
+      </label>
+    </div>
+    <fieldset>
+      <legend>States you ship to</legend>
+      <div class="states">
+        {% for code, name in states %}
+        <label class="check">
+          <input type="checkbox" name="states" value="{{ code }}" {% if code in prefill.states %}checked{% endif %}>
+          <span>{{ name }}</span>
+        </label>
+        {% endfor %}
+      </div>
+    </fieldset>
+    <div class="actions">
+      <button type="submit" class="primary">Read the bazaar</button>
+      <span id="spinner" class="htmx-indicator">Reading SerpApi…</span>
+      {% if settings_mode != "fixtures" %}
+      <span class="quiet">Live mode spends SerpApi credits. A full report is about 9–14 searches.</span>
+      {% else %}
+      <span class="quiet">Fixture mode. The three recorded ideas run with no API key.</span>
+      {% endif %}
+    </div>
+  </form>
+</section>
+
+<div id="report">
+  {% if report %}
+    {% include "report_body.html" %}
+  {% endif %}
+</div>
+{% endblock %}

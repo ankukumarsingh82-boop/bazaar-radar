@@ -1,0 +1,1178 @@
+{
+ "search_metadata": {
+  "id": "6ab82092b4ab727d40ea3937",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/WbqY933UCe_Q5LaSz-fbqmEV3jWSrQzHtijw7slM3WQ/6ab82092b4ab727d40ea3937.json",
+  "markdown_endpoint": "https://serpapi.com/searches/WbqY933UCe_Q5LaSz-fbqmEV3jWSrQzHtijw7slM3WQ/6ab82092b4ab727d40ea3937.md",
+  "created_at": "2026-09-26 19:44:18 UTC",
+  "processed_at": "2026-09-26 19:44:18 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/TIMESERIES?hl=en&tz=-330&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22diya%22%2C%22geo%22%3A%22IN%22%2C%22time%22%3A%222025-08-01+2025-09-26%22%7D%2C%7B%22keyword%22%3A%22diya%22%2C%22geo%22%3A%22IN%22%2C%22time%22%3A%222026-08-01+2026-09-26%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/WbqY933UCe_Q5LaSz-fbqmEV3jWSrQzHtijw7slM3WQ/6ab82092b4ab727d40ea3937.html",
+  "prettify_html_file": "https://serpapi.com/searches/WbqY933UCe_Q5LaSz-fbqmEV3jWSrQzHtijw7slM3WQ/6ab82092b4ab727d40ea3937.prettify",
+  "total_time_taken": 4.5
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "diya,diya",
+  "hl": "en",
+  "geo": "IN",
+  "date": "2025-08-01 2025-09-26,2026-08-01 2026-09-26",
+  "tz": "-330",
+  "data_type": "TIMESERIES"
+ },
+ "interest_over_time": {
+  "timeline_data": [
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 1, 2025",
+      "timestamp": "1754006400",
+      "value": "38",
+      "extracted_value": 38
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 1, 2026",
+      "timestamp": "1785542400",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 2, 2025",
+      "timestamp": "1754092800",
+      "value": "41",
+      "extracted_value": 41
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 2, 2026",
+      "timestamp": "1785628800",
+      "value": "80",
+      "extracted_value": 80
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 3, 2025",
+      "timestamp": "1754179200",
+      "value": "47",
+      "extracted_value": 47
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 3, 2026",
+      "timestamp": "1785715200",
+      "value": "70",
+      "extracted_value": 70
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 4, 2025",
+      "timestamp": "1754265600",
+      "value": "37",
+      "extracted_value": 37
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 4, 2026",
+      "timestamp": "1785801600",
+      "value": "74",
+      "extracted_value": 74
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 5, 2025",
+      "timestamp": "1754352000",
+      "value": "38",
+      "extracted_value": 38
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 5, 2026",
+      "timestamp": "1785888000",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 6, 2025",
+      "timestamp": "1754438400",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 6, 2026",
+      "timestamp": "1785974400",
+      "value": "73",
+      "extracted_value": 73
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 7, 2025",
+      "timestamp": "1754524800",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 7, 2026",
+      "timestamp": "1786060800",
+      "value": "69",
+      "extracted_value": 69
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 8, 2025",
+      "timestamp": "1754611200",
+      "value": "38",
+      "extracted_value": 38
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 8, 2026",
+      "timestamp": "1786147200",
+      "value": "77",
+      "extracted_value": 77
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 9, 2025",
+      "timestamp": "1754697600",
+      "value": "38",
+      "extracted_value": 38
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 9, 2026",
+      "timestamp": "1786233600",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 10, 2025",
+      "timestamp": "1754784000",
+      "value": "42",
+      "extracted_value": 42
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 10, 2026",
+      "timestamp": "1786320000",
+      "value": "69",
+      "extracted_value": 69
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 11, 2025",
+      "timestamp": "1754870400",
+      "value": "37",
+      "extracted_value": 37
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 11, 2026",
+      "timestamp": "1786406400",
+      "value": "71",
+      "extracted_value": 71
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 12, 2025",
+      "timestamp": "1754956800",
+      "value": "39",
+      "extracted_value": 39
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 12, 2026",
+      "timestamp": "1786492800",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 13, 2025",
+      "timestamp": "1755043200",
+      "value": "42",
+      "extracted_value": 42
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 13, 2026",
+      "timestamp": "1786579200",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 14, 2025",
+      "timestamp": "1755129600",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 14, 2026",
+      "timestamp": "1786665600",
+      "value": "72",
+      "extracted_value": 72
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 15, 2025",
+      "timestamp": "1755216000",
+      "value": "50",
+      "extracted_value": 50
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 15, 2026",
+      "timestamp": "1786752000",
+      "value": "78",
+      "extracted_value": 78
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 16, 2025",
+      "timestamp": "1755302400",
+      "value": "44",
+      "extracted_value": 44
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 16, 2026",
+      "timestamp": "1786838400",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 17, 2025",
+      "timestamp": "1755388800",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 17, 2026",
+      "timestamp": "1786924800",
+      "value": "70",
+      "extracted_value": 70
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 18, 2025",
+      "timestamp": "1755475200",
+      "value": "44",
+      "extracted_value": 44
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 18, 2026",
+      "timestamp": "1787011200",
+      "value": "74",
+      "extracted_value": 74
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 19, 2025",
+      "timestamp": "1755561600",
+      "value": "41",
+      "extracted_value": 41
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 19, 2026",
+      "timestamp": "1787097600",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 20, 2025",
+      "timestamp": "1755648000",
+      "value": "41",
+      "extracted_value": 41
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 20, 2026",
+      "timestamp": "1787184000",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 21, 2025",
+      "timestamp": "1755734400",
+      "value": "48",
+      "extracted_value": 48
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 21, 2026",
+      "timestamp": "1787270400",
+      "value": "77",
+      "extracted_value": 77
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 22, 2025",
+      "timestamp": "1755820800",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 22, 2026",
+      "timestamp": "1787356800",
+      "value": "78",
+      "extracted_value": 78
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 23, 2025",
+      "timestamp": "1755907200",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 23, 2026",
+      "timestamp": "1787443200",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 24, 2025",
+      "timestamp": "1755993600",
+      "value": "48",
+      "extracted_value": 48
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 24, 2026",
+      "timestamp": "1787529600",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 25, 2025",
+      "timestamp": "1756080000",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 25, 2026",
+      "timestamp": "1787616000",
+      "value": "77",
+      "extracted_value": 77
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 26, 2025",
+      "timestamp": "1756166400",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 26, 2026",
+      "timestamp": "1787702400",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 27, 2025",
+      "timestamp": "1756252800",
+      "value": "48",
+      "extracted_value": 48
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 27, 2026",
+      "timestamp": "1787788800",
+      "value": "68",
+      "extracted_value": 68
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 28, 2025",
+      "timestamp": "1756339200",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 28, 2026",
+      "timestamp": "1787875200",
+      "value": "60",
+      "extracted_value": 60
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 29, 2025",
+      "timestamp": "1756425600",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 29, 2026",
+      "timestamp": "1787961600",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 30, 2025",
+      "timestamp": "1756512000",
+      "value": "46",
+      "extracted_value": 46
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 30, 2026",
+      "timestamp": "1788048000",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Aug 31, 2025",
+      "timestamp": "1756598400",
+      "value": "48",
+      "extracted_value": 48
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Aug 31, 2026",
+      "timestamp": "1788134400",
+      "value": "73",
+      "extracted_value": 73
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 1, 2025",
+      "timestamp": "1756684800",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 1, 2026",
+      "timestamp": "1788220800",
+      "value": "72",
+      "extracted_value": 72
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 2, 2025",
+      "timestamp": "1756771200",
+      "value": "42",
+      "extracted_value": 42
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 2, 2026",
+      "timestamp": "1788307200",
+      "value": "73",
+      "extracted_value": 73
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 3, 2025",
+      "timestamp": "1756857600",
+      "value": "42",
+      "extracted_value": 42
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 3, 2026",
+      "timestamp": "1788393600",
+      "value": "69",
+      "extracted_value": 69
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 4, 2025",
+      "timestamp": "1756944000",
+      "value": "44",
+      "extracted_value": 44
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 4, 2026",
+      "timestamp": "1788480000",
+      "value": "78",
+      "extracted_value": 78
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 5, 2025",
+      "timestamp": "1757030400",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 5, 2026",
+      "timestamp": "1788566400",
+      "value": "72",
+      "extracted_value": 72
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 6, 2025",
+      "timestamp": "1757116800",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 6, 2026",
+      "timestamp": "1788652800",
+      "value": "75",
+      "extracted_value": 75
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 7, 2025",
+      "timestamp": "1757203200",
+      "value": "49",
+      "extracted_value": 49
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 7, 2026",
+      "timestamp": "1788739200",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 8, 2025",
+      "timestamp": "1757289600",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 8, 2026",
+      "timestamp": "1788825600",
+      "value": "71",
+      "extracted_value": 71
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 9, 2025",
+      "timestamp": "1757376000",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 9, 2026",
+      "timestamp": "1788912000",
+      "value": "77",
+      "extracted_value": 77
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 10, 2025",
+      "timestamp": "1757462400",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 10, 2026",
+      "timestamp": "1788998400",
+      "value": "76",
+      "extracted_value": 76
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 11, 2025",
+      "timestamp": "1757548800",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 11, 2026",
+      "timestamp": "1789084800",
+      "value": "82",
+      "extracted_value": 82
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 12, 2025",
+      "timestamp": "1757635200",
+      "value": "41",
+      "extracted_value": 41
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 12, 2026",
+      "timestamp": "1789171200",
+      "value": "88",
+      "extracted_value": 88
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 13, 2025",
+      "timestamp": "1757721600",
+      "value": "44",
+      "extracted_value": 44
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 13, 2026",
+      "timestamp": "1789257600",
+      "value": "82",
+      "extracted_value": 82
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 14, 2025",
+      "timestamp": "1757808000",
+      "value": "41",
+      "extracted_value": 41
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 14, 2026",
+      "timestamp": "1789344000",
+      "value": "91",
+      "extracted_value": 91
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 15, 2025",
+      "timestamp": "1757894400",
+      "value": "40",
+      "extracted_value": 40
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 15, 2026",
+      "timestamp": "1789430400",
+      "value": "85",
+      "extracted_value": 85
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 16, 2025",
+      "timestamp": "1757980800",
+      "value": "42",
+      "extracted_value": 42
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 16, 2026",
+      "timestamp": "1789516800",
+      "value": "88",
+      "extracted_value": 88
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 17, 2025",
+      "timestamp": "1758067200",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 17, 2026",
+      "timestamp": "1789603200",
+      "value": "100",
+      "extracted_value": 100
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 18, 2025",
+      "timestamp": "1758153600",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 18, 2026",
+      "timestamp": "1789689600",
+      "value": "93",
+      "extracted_value": 93
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 19, 2025",
+      "timestamp": "1758240000",
+      "value": "46",
+      "extracted_value": 46
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 19, 2026",
+      "timestamp": "1789776000",
+      "value": "79",
+      "extracted_value": 79
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 20, 2025",
+      "timestamp": "1758326400",
+      "value": "52",
+      "extracted_value": 52
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 20, 2026",
+      "timestamp": "1789862400",
+      "value": "52",
+      "extracted_value": 52
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 21, 2025",
+      "timestamp": "1758412800",
+      "value": "52",
+      "extracted_value": 52
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 21, 2026",
+      "timestamp": "1789948800",
+      "value": "39",
+      "extracted_value": 39
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 22, 2025",
+      "timestamp": "1758499200",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 22, 2026",
+      "timestamp": "1790035200",
+      "value": "88",
+      "extracted_value": 88
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 23, 2025",
+      "timestamp": "1758585600",
+      "value": "45",
+      "extracted_value": 45
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 23, 2026",
+      "timestamp": "1790121600",
+      "value": "90",
+      "extracted_value": 90
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 24, 2025",
+      "timestamp": "1758672000",
+      "value": "46",
+      "extracted_value": 46
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 24, 2026",
+      "timestamp": "1790208000",
+      "value": "91",
+      "extracted_value": 91
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 25, 2025",
+      "timestamp": "1758758400",
+      "value": "44",
+      "extracted_value": 44
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 25, 2026",
+      "timestamp": "1790294400",
+      "value": "92",
+      "extracted_value": 92
+     }
+    ]
+   },
+   {
+    "values": [
+     {
+      "query": "diya",
+      "query_index": 0,
+      "date": "Sep 26, 2025",
+      "timestamp": "1758844800",
+      "value": "43",
+      "extracted_value": 43
+     },
+     {
+      "query": "diya",
+      "query_index": 1,
+      "date": "Sep 26, 2026",
+      "timestamp": "1790380800",
+      "partial_data": true,
+      "value": "96",
+      "extracted_value": 96
+     }
+    ]
+   }
+  ],
+  "averages": [
+   {
+    "query": "diya",
+    "value": 43
+   },
+   {
+    "query": "diya",
+    "value": 77
+   }
+  ]
+ }
+}
