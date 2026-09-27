@@ -229,10 +229,12 @@ def recommend_states(
             warning = (
                 "Some states you ship to have no measurable Trends interest, so they count as 0."
             )
-    if served_ranked:
-        pick = served_ranked[:3]
+    # A state at 0 has no measurable interest, so it is never recommended.
+    served_live = [row for row in served_ranked if row.value > 0]
+    if served_live:
+        pick = served_live[:3]
     else:
-        pick = ranked[:3]
+        pick = [row for row in ranked if row.value > 0][:3] or ranked[:3]
         if not served:
             warning = warning or "No states were selected, so these are the national leaders."
     return [row.location for row in pick], warning

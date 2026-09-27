@@ -121,6 +121,7 @@ class AdSignal(BaseModel):
     last_shown: int | None = None
     last_shown_label: str | None = None
     recent: bool = False
+    marketplace: bool = False
 
 
 class Band(BaseModel):
