@@ -6,7 +6,7 @@ Small Indian online sellers guess festive demand and price before Diwali. Amazon
 
 SerpApi is the data layer. Google Trends gives the India curve, the five-year peak, states, and related queries. Amazon Search and Amazon Product give prices, ratings, sales buckets, and review insights. Google Shopping and Immersive Product show other stores. Ads Transparency counts India creatives. The Account API is the credit meter.
 
-Rangoli colours, at one hundred and ninety-nine rupees, for Maharashtra, Karnataka, Tamil Nadu, and Telangana. The five-year curve peaks in Diwali week. Last year’s peak started one day before Diwali. Momentum is one point one two times, flat.
+Rangoli colours, at one hundred and ninety rupees, for Maharashtra, Karnataka, Tamil Nadu, and Telangana. The five-year curve peaks in Diwali week. Last year’s peak started one day before Diwali. Momentum is one point one two times, flat.
 
 Price bands, not a cheapest offer. From one hundred and ninety to two hundred and fifty rupees, sales-bucket share beats listing share, median four point zero. That is white space, on the target. Sponsored share is twenty percent. Review insights flag quality, colour selection, and value for money.
 

@@ -8,8 +8,8 @@ Times below match that narration. A later live segment should say the numbers on
 |---|---|---|
 | 0:00–0:05 | Title card | “Small Indian online sellers guess festive demand and price before Diwali.” |
 | 0:05–0:23 | Home. Credit pill reads fixtures, 0 credits. Slow pass over the three recorded ideas, then back to the pill. | “Amazon.in has twenty lakh sellers… Bazaar Radar answers before that stock lands… Fixture mode… No API key is used.” |
-| 0:23–0:47 | Fill the form: rangoli colours, head term rangoli, ₹199, Maharashtra, Karnataka, Tamil Nadu, Telangana. | Name the SerpApi engines actually used: Google Trends, Amazon Search, Amazon Product, Google Shopping, Immersive Product, Ads Transparency, and the Account API credit meter. |
-| 0:47–0:55 | Submit. The report opens on GO, target ₹199. | “Rangoli colours, at one hundred and ninety-nine rupees…” |
+| 0:23–0:47 | Fill the form: rangoli colours, head term rangoli, ₹190, Maharashtra, Karnataka, Tamil Nadu, Telangana. | Name the SerpApi engines actually used: Google Trends, Amazon Search, Amazon Product, Google Shopping, Immersive Product, Ads Transparency, and the Account API credit meter. |
+| 0:47–0:55 | Submit. The report opens on GO, target ₹190. | “Rangoli colours, at one hundred and ninety rupees…” |
 | 0:55–1:04 | Demand. Pause on 1.12×, 1 day before Diwali, and the five-year curve. | “The five-year curve peaks in Diwali week… Momentum is one point one two times, flat.” |
 | 1:04–1:19 | Competition. Pause on the ₹190–250 white-space row (your price), then the 20% sponsored stat. | “Price bands, not a cheapest offer… That is white space, on the target. Sponsored share is twenty percent.” |
 | 1:19–1:24 | Buyer pain: Quality, colour selection, value for money. | “Review insights flag quality, colour selection, and value for money.” |
