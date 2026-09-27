@@ -1,0 +1,1475 @@
+{
+ "search_metadata": {
+  "id": "6ab820896f1e4083de8bf7b8",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/lahgwbxoimVc3zNSyvfduFIVXkx3djcpRyI4IdvSYlI/6ab820896f1e4083de8bf7b8.json",
+  "markdown_endpoint": "https://serpapi.com/searches/lahgwbxoimVc3zNSyvfduFIVXkx3djcpRyI4IdvSYlI/6ab820896f1e4083de8bf7b8.md",
+  "created_at": "2026-09-26 19:44:09 UTC",
+  "processed_at": "2026-09-26 19:44:09 UTC",
+  "amazon_product_url": "https://www.amazon.in/dp/B08M3PBSHG/?",
+  "raw_html_file": "https://serpapi.com/searches/lahgwbxoimVc3zNSyvfduFIVXkx3djcpRyI4IdvSYlI/6ab820896f1e4083de8bf7b8.html",
+  "total_time_taken": 7.87
+ },
+ "search_parameters": {
+  "engine": "amazon_product",
+  "asin": "B08M3PBSHG",
+  "amazon_domain": "amazon.in",
+  "device": "desktop"
+ },
+ "product_results": {
+  "categories": [
+   {
+    "position": 1,
+    "name": "Home & Kitchen",
+    "link": "https://www.amazon.in/Home-Kitchen/b/ref=dp_bc_1?ie=UTF8&node=976442031",
+    "node": "976442031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976442031"
+   },
+   {
+    "position": 2,
+    "name": "Home & Décor",
+    "link": "https://www.amazon.in/Home-D%C3%A9cor/b/ref=dp_bc_2?ie=UTF8&node=1380374031",
+    "node": "1380374031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1380374031"
+   },
+   {
+    "position": 3,
+    "name": "Seasonal Decorations",
+    "link": "https://www.amazon.in/Seasonal-Decorations/b/ref=dp_bc_3?ie=UTF8&node=1380419031",
+    "node": "1380419031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1380419031"
+   },
+   {
+    "position": 4,
+    "name": "Diwali Decorations",
+    "link": "https://www.amazon.in/Diwali-Decorations/b/ref=dp_bc_4?ie=UTF8&node=5176883031",
+    "node": "5176883031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=5176883031"
+   },
+   {
+    "position": 5,
+    "name": "Rangoli",
+    "link": "https://www.amazon.in/Rangoli/b/ref=dp_bc_5?ie=UTF8&node=5176884031",
+    "node": "5176884031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=5176884031"
+   }
+  ],
+  "asin": "B08M3PBSHG",
+  "title": "CraftVatika 12 Rangoli Kolam Colour Powder Tube Kit, Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 12) (1 Box- 12 Bottle)",
+  "link": "https://www.amazon.in/CraftVatika-Rangoli-Decoration-Bottles-Navratri/dp/B08M3PBSHG/",
+  "link_clean": "https://www.amazon.in/dp/B08M3PBSHG/",
+  "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08M3PBSHG&device=desktop&engine=amazon_product",
+  "badges": [
+   "Limited time deal"
+  ],
+  "variants": [
+   {
+    "title": "Size",
+    "items": [
+     {
+      "position": 1,
+      "asin": "B0CLPCCCSN",
+      "name": "5 Boxes - 12 bottle Each",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CLPCCCSN&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 2,
+      "asin": "B08M3PBSHG",
+      "name": "12 Count (Pack of 1)",
+      "selected": true,
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08M3PBSHG&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 3,
+      "asin": "B0FP2XH3KS",
+      "name": "850g White Rangoli",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FP2XH3KS&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 4,
+      "asin": "B09KH9C4GM",
+      "name": "Medium",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09KH9C4GM&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 5,
+      "asin": "B09GG3CLPR",
+      "name": "Rangoli Making Tools",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09GG3CLPR&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 6,
+      "asin": "B0FP2SL59Q",
+      "name": "1 Box- 10 White Bottles",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FP2SL59Q&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 7,
+      "asin": "B0FT8VCTP1",
+      "name": "Rangoli Making Kit",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FT8VCTP1&device=desktop&engine=amazon_product"
+     }
+    ]
+   }
+  ],
+  "brand": "Visit the CraftVatika Store",
+  "thumbnail": "https://m.media-amazon.com/images/I/41NDdNTnxwL._SY300_SX300_QL70_FMwebp_.jpg",
+  "thumbnails": [
+   "https://m.media-amazon.com/images/I/71RRNzUfGtL._SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/71HInnTquzL._SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/61vBqB34RWL._SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/718ARiFbUbL._SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/81CRVNVPQpL._SL1500_.jpg",
+   "https://m.media-amazon.com/images/I/71ScQt4mbNL._SL1500_.jpg"
+  ],
+  "rating": 3.9,
+  "reviews": 3833,
+  "bought_last_month": "600+ bought in past month",
+  "discount": "-65%",
+  "price": "₹208",
+  "extracted_price": 208,
+  "old_price": "₹599",
+  "extracted_old_price": 599,
+  "delivery": [
+   "FREE delivery Tuesday, 29 September Limited Period Festive Offer. Details",
+   "Or FREE delivery Today on eligible orders. Order within 8 hrs 45 mins. Details"
+  ],
+  "purchase_policies": [
+   {
+    "title": "Pay on Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-cod._CB562506657_.png",
+    "description": "Pay on Delivery (Cash/Card) payment method includes Cash on Delivery (COD) as well as Debit card / Credit card / Net banking payments at your doorstep."
+   },
+   {
+    "title": "10 days Returnable",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB562506492_.png",
+    "table": [
+     {
+      "heading": "Return Reason",
+      "content": [
+       "Physical Damage, Defective, Wrong and Missing Item",
+       "Any other reason"
+      ]
+     },
+     {
+      "heading": "Return Period",
+      "content": [
+       "10 days from delivery",
+       "10 days from delivery"
+      ]
+     },
+     {
+      "heading": "Return Policy",
+      "content": [
+       "Full refund and replacement",
+       "Full refund"
+      ]
+     }
+    ],
+    "links": [
+     {
+      "text": "Read full returns policy",
+      "link": "https://www.amazon.in/gp/help/customer/display.html/?ie=UTF8&nodeId=201149900"
+     }
+    ]
+   },
+   {
+    "title": "Amazon Delivered",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB562550117_.png",
+    "description": "Order processed by Amazon; delivered through our courier partners"
+   },
+   {
+    "title": "Free Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB562549966_.png",
+    "description": "Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200534000"
+     }
+    ]
+   },
+   {
+    "title": "Top Brand",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-top-brand._CB562506657_.png",
+    "description": "Top Brand indicates high quality, trusted brands on Amazon aggregated basis verified ratings, returns/refunds and recent order history at brand level."
+   },
+   {
+    "title": "Secure transaction",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/Secure-payment._CB650126890_.png",
+    "description": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202115020"
+     }
+    ]
+   }
+  ],
+  "stock": "In stock",
+  "bank_offers": [
+   {
+    "title": "Cashback",
+    "content": "Upto ₹6.00 cashback as Amazon Pay Balance when you pay with Amazon Pay ICICI Bank Credit Cards",
+    "savings": "₹6.00",
+    "extracted_savings": 6.0,
+    "offers_count": 1
+   },
+   {
+    "title": "Bank Offer",
+    "content": "Upto ₹1,250.00 discount on select Credit Cards",
+    "savings": "₹1,250.00",
+    "extracted_savings": 1250.0,
+    "offers_count": 9
+   },
+   {
+    "title": "Partner Offers",
+    "content": "Buy any 2 get extra 2% off; Buy any 3 get extra 4% off on Select Home, Sports, Lawn & Garden, Auto & Kitchen Products. View products",
+    "link": "https://www.amazon.in/promotion/psp/A16XLNHIJFZSQC?ref=psp_external&redirectAsin=B08M3PBSHG&redirectMerchantId=A2AL6IVND0I91F",
+    "offers_count": 2
+   }
+  ]
+ },
+ "purchase_options": {
+  "single_offer": {
+   "price": "₹208.00",
+   "extracted_price": 208.0,
+   "delivery": [
+    "FREE delivery Tuesday, 29 September Limited Period Festive Offer. Details",
+    "Or FREE delivery Today on eligible orders. Order within 8 hrs 45 mins. Details"
+   ],
+   "stock": "In stock",
+   "features": {
+    "ships_from": {
+     "text": "Amazon",
+     "details": {
+      "heading": "Ships from",
+      "content": "Amazon"
+     }
+    },
+    "sold_by": {
+     "text": "ETrade Online",
+     "details": {
+      "heading": "Sold by",
+      "content": "ETrade Online"
+     },
+     "link": {
+      "text": "ETrade Online",
+      "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A2AL6IVND0I91F&asin=B08M3PBSHG&ref_=dp_merchant_link&isAmazonFulfilled=1"
+     }
+    },
+    "gift_options": {
+     "text": "Available at checkout Available at checkout This item is a gift. Change",
+     "details": {
+      "content": "Add gift options at checkout"
+     }
+    }
+   }
+  }
+ },
+ "about_item": [
+  "Rangaoli Package Contain: Set of 12 Multicolour Rangoli color bottles .Quantity : Approx 80 Grams each bottle (960 Grams Total). HOW TO USE: Please follow instruction on the box. Please cut atleast 70% of Front nozzle with knife or more if need larger hole and free flow..",
+  "Set of 12 colors are sure to brighten up your Home Festive decoration.",
+  "Colors spread positive vibrations within the environment and make to lively and entertaining.Rangoli Powder is used as a diwali decoration of entrance of Home, Office Or Temples.",
+  "Used as a decoration or adornment for your entryway, doors or temples. Also, said to be an auspicious way of welcoming Hindu deities.",
+  "VOCAL FOR LOCAL: Made in India | No Harmful Chemicals | Support Vocal for Local | Prepared By Local Women Entrepreneurs In Rajasthan"
+ ],
+ "bought_together": [
+  {
+   "position": 1,
+   "title": "CraftVatika 12 Rangoli Kolam Colour Powder Tube Kit, Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 12) (1 Box- 12 Bottle)",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71RRNzUfGtL._AC_UL116_SR116,116_.jpg",
+   "price": "₹208.00",
+   "extracted_price": 208.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 2,
+   "title": "CraftVatika Rangoli Kolam Stencil Set of 12, Diwali Decoration Items, Rangoli Making Stencils for Floor Decorations, Reusebale Rangoli Stencils (15.5 CM Round)",
+   "link": "https://www.amazon.in/CraftVatika-Decoration-Stencils-Decorations-Reusebale/dp/B0DJM9MHZH/ref=pd_bxgy_thbs_d_sccl_1/520-6448111-1856439?pd_rd_w=8eeyC&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0DJM9MHZH&psc=1",
+   "asin": "B0DJM9MHZH",
+   "link_clean": "https://www.amazon.in/CraftVatika-Decoration-Stencils-Decorations-Reusebale/dp/B0DJM9MHZH/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJM9MHZH&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81GdXU7UdLL._AC_UL116_SR116,116_.jpg",
+   "price": "₹198.00",
+   "extracted_price": 198.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 3,
+   "title": "CRAFTAM Different Design Ready to Draw Rangoli Making Stencils, Rangoli Plastic Stencils for Floor Decoration (Set of 12, Size 3x7 Inch)",
+   "link": "https://www.amazon.in/Different-Stencils-Decoration-12-3x7/dp/B0DG9BMPYW/ref=pd_bxgy_thbs_d_sccl_2/520-6448111-1856439?pd_rd_w=8eeyC&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0DG9BMPYW&psc=1",
+   "asin": "B0DG9BMPYW",
+   "link_clean": "https://www.amazon.in/Different-Stencils-Decoration-12-3x7/dp/B0DG9BMPYW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DG9BMPYW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81fzDLDntHL._AC_UL116_SR116,116_.jpg",
+   "price": "₹186.00",
+   "extracted_price": 186.0,
+   "price_unit": "₹15.50/count",
+   "extracted_price_unit": 15.5,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  }
+ ],
+ "related_products": [
+  {
+   "position": 1,
+   "title": "CraftVatika 13 Inch Rangoli Stencils for Main Door Entrance, Peacock Design Portable Reusable Rangoli Stencils for Diwali Dec",
+   "link": "https://www.amazon.in/CraftVatika-Stencils-Entrance-Portable-Decoration/dp/B0FTMNWCFH/ref=bmx_dp_d_sccl_1_1/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0FTMNWCFH&psc=1",
+   "asin": "B0FTMNWCFH",
+   "link_clean": "https://www.amazon.in/CraftVatika-Stencils-Entrance-Portable-Decoration/dp/B0FTMNWCFH/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FTMNWCFH&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/614ZXYhTvUL._AC_UL165_SR165,165_.jpg",
+   "rating": 3.8,
+   "reviews": 177,
+   "price": "₹192.00",
+   "extracted_price": 192.0,
+   "price_unit": "M.R.P: ₹999.00",
+   "extracted_price_unit": 999.0,
+   "old_price": "₹999.00",
+   "extracted_old_price": 999.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 2,
+   "title": "12 Inches Rangoli Stencils Rangoli Making Tools Kit, Rangoli Template for Diwali Decor, Reusable Poratable Floating Rangoli -",
+   "link": "https://www.amazon.in/Template-Reusable-Poratable-Waterproof-Decoration/dp/B0BHPFJNQF/ref=bmx_dp_d_sccl_1_2/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0BHPFJNQF&psc=1",
+   "asin": "B0BHPFJNQF",
+   "link_clean": "https://www.amazon.in/Template-Reusable-Poratable-Waterproof-Decoration/dp/B0BHPFJNQF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BHPFJNQF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81nqb0tGiyL._AC_UL165_SR165,165_.jpg",
+   "rating": 3.9,
+   "reviews": 470,
+   "price": "₹196.00",
+   "extracted_price": 196.0,
+   "price_unit": "M.R.P: ₹999.00",
+   "extracted_price_unit": 999.0,
+   "old_price": "₹999.00",
+   "extracted_old_price": 999.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 3,
+   "title": "CraftVatika Rangoli Stencil Set of 12, Diwali Decoration Items, Rangoli Making muggu Stencils for Floor Decorations, Reusebal",
+   "link": "https://www.amazon.in/CraftVatika-Decoration-Decorations-Reusebale-Rectangular/dp/B0DJMBDFNJ/ref=bmx_dp_d_sccl_1_3/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0DJMBDFNJ&psc=1",
+   "asin": "B0DJMBDFNJ",
+   "link_clean": "https://www.amazon.in/CraftVatika-Decoration-Decorations-Reusebale-Rectangular/dp/B0DJMBDFNJ/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJMBDFNJ&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/815snaEYcoL._AC_UL165_SR165,165_.jpg",
+   "rating": 3.8,
+   "reviews": 529,
+   "price": "₹188.00",
+   "extracted_price": 188.0,
+   "price_unit": "M.R.P: ₹499.00",
+   "extracted_price_unit": 499.0,
+   "old_price": "₹499.00",
+   "extracted_old_price": 499.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 4,
+   "title": "Ascension 12 Different Design Draw Rangoli Making Kit Rangoli Stamp Om Swastik Flower Design Colourful Rangoli Making Stencil",
+   "link": "https://www.amazon.in/Ascension-Different-Rangoli-Colourful-Stencils/dp/B0BFC91NG5/ref=bmx_dp_d_sccl_1_4/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0BFC91NG5&psc=1",
+   "asin": "B0BFC91NG5",
+   "link_clean": "https://www.amazon.in/Ascension-Different-Rangoli-Colourful-Stencils/dp/B0BFC91NG5/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BFC91NG5&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71Zewda9-JL._AC_UL165_SR165,165_.jpg",
+   "rating": 3.9,
+   "reviews": 342,
+   "price": "₹187.00",
+   "extracted_price": 187.0,
+   "price_unit": "₹10.39/count",
+   "extracted_price_unit": 10.39,
+   "old_price": "₹599.00",
+   "extracted_old_price": 599.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 5,
+   "title": "Ascension � 800g Design Creativity Diwali Floor White Rangoli Powder |White Color Rangoli Powder for Navratri Pongal Pooja Ma",
+   "link": "https://www.amazon.in/Ascension-Design-Creativity-Rangoli-Navratri/dp/B07ZHFRV2W/ref=bmx_dp_d_sccl_1_5/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B07ZHFRV2W&psc=1",
+   "asin": "B07ZHFRV2W",
+   "link_clean": "https://www.amazon.in/Ascension-Design-Creativity-Rangoli-Navratri/dp/B07ZHFRV2W/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07ZHFRV2W&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71JQNceup+L._AC_UL165_SR165,165_.jpg",
+   "rating": 3.7,
+   "reviews": 217,
+   "price": "₹105.00",
+   "extracted_price": 105.0,
+   "price_unit": "M.R.P: ₹599.00",
+   "extracted_price_unit": 599.0,
+   "old_price": "₹599.00",
+   "extracted_old_price": 599.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 6,
+   "title": "ULOM 3D Peacock & Floral Door Mat | Water Absorbent, Anti-Skid, Machine Washable Floor Mat | Soft Microfiber Carpet for Home,",
+   "link": "https://www.amazon.in/ULOM-Absorbent-Anti-Skid-Microfiber-Decorative/dp/B0FVL4X13T/ref=bmx_dp_d_sccl_1_6/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0FVL4X13T&psc=1",
+   "asin": "B0FVL4X13T",
+   "link_clean": "https://www.amazon.in/ULOM-Absorbent-Anti-Skid-Microfiber-Decorative/dp/B0FVL4X13T/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FVL4X13T&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71dl1Km8vOL._AC_UL165_SR165,165_.jpg",
+   "rating": 3.8,
+   "reviews": 147,
+   "price": "₹299.00",
+   "extracted_price": 299.0,
+   "price_unit": "M.R.P: ₹1,499.00",
+   "extracted_price_unit": 1499.0,
+   "old_price": "₹1,499.00",
+   "extracted_old_price": 1499.0
+  },
+  {
+   "position": 7,
+   "asin": "B082CDN29K",
+   "title": "Gluman Squeezy Sauce Bottle For Clean & Mess-Free Dispensing | 100% Food Grade | Dishwasher Safe | Freezer Safe | Ergonomically Designed | Reusable Multicolor (Set Of 4), Plastic, 400 ml Each",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjoyMDA4ODk0MDExMDk5ODo6Ojo&url=%2Fdp%2FB082CDN29K%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB082CDN29K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DmdYVvYhPL4%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=mdYVvYhPL4&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B082CDN29K/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B082CDN29K&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/51rtIuNScoL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.1,
+   "reviews": 753,
+   "discount": "-9%",
+   "price": "₹289.00",
+   "extracted_price": 289.0,
+   "price_unit": "₹72.25 / count",
+   "extracted_price_unit": 72.25,
+   "old_price": "null"
+  },
+  {
+   "position": 8,
+   "asin": "B0C5WW824V",
+   "title": "Welburn Veda&Co® Pure Cow Ghee Diya 60 pcs for Puja & Diwali Decoration | Upto 50-55 Burn time | Smoke Free | Diyas for Pooja Havans & Religious Rituals,Festivals | Ready to use",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDA2NjQwNjA4ODY5MzI6Ojo6&url=%2Fdp%2FB0C5WW824V%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0C5WW824V%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3D6VJnF6XBeH%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=6VJnF6XBeH&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0C5WW824V/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0C5WW824V&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "Limited time deal"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/61WwnNBhV8L._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.8,
+   "reviews": 555,
+   "discount": "-30%",
+   "price": "₹841.00",
+   "extracted_price": 841.0,
+   "old_price": "null"
+  },
+  {
+   "position": 9,
+   "asin": "B08L37YSVV",
+   "title": "Sanvatsar Home Decorative Rangoli Set of 7",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEwNjAxMzgxMjIyMzI6Ojo6&url=%2Fdp%2FB08L37YSVV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB08L37YSVV%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DWmqcjtZP2d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WmqcjtZP2d&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B08L37YSVV/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08L37YSVV&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "Amazon's Choice",
+    "Limited time deal"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/71XU7PGm81L._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.1,
+   "reviews": 790,
+   "discount": "-58%",
+   "price": "₹551.00",
+   "extracted_price": 551.0,
+   "price_unit": "₹78.71 / count",
+   "extracted_price_unit": 78.71,
+   "old_price": "null"
+  },
+  {
+   "position": 10,
+   "asin": "B09FJKTY1K",
+   "title": "CraftVatika Set of 5 Rangoli Plastic Bottles with Tubes Nozeles Set Rangoli Making Tool Kit Squeezeme Bottle Easy to use Dry Rangoli Making Bottle, Squeeze Rangoli Bottles Multicolor",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDAwNjMwMTUwODE0MzI6Ojo6&url=%2Fdp%2FB09FJKTY1K%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09FJKTY1K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DQ85wxyPbQs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Q85wxyPbQs&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B09FJKTY1K/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09FJKTY1K&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/41F4oh2CKAL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.7,
+   "reviews": 122,
+   "discount": "-49%",
+   "price": "₹178.00",
+   "extracted_price": 178.0,
+   "old_price": "null"
+  },
+  {
+   "position": 11,
+   "asin": "B08MD3GV6K",
+   "title": "CraftVatika 24 Rangoli Colour Powder Tube Kit Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 24)",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjE0MzI3MzA4MzI6Ojo6&url=%2Fdp%2FB08MD3GV6K%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB08MD3GV6K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DP5IbaFpHtm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=P5IbaFpHtm&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B08MD3GV6K/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08MD3GV6K&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "Sale Price Live"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/81QOQ2pbt-L._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.1,
+   "reviews": 765,
+   "discount": "-79%",
+   "price": "₹309.70",
+   "extracted_price": 309.7,
+   "old_price": "null"
+  },
+  {
+   "position": 12,
+   "asin": "B0DJM9MHZH",
+   "title": "CraftVatika Rangoli Kolam Stencil Set of 12, Diwali Decoration Items, Rangoli Making Stencils for Floor Decorations, Reusebale Rangoli Stencils (15.5 CM Round)",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzMzAzNTEyOTQ0MzI6Ojo6&url=%2Fdp%2FB0DJM9MHZH%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0DJM9MHZH%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DDYthHnRLOO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DYthHnRLOO&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0DJM9MHZH/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJM9MHZH&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "thumbnail": "https://m.media-amazon.com/images/I/81GdXU7UdLL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 3.8,
+   "reviews": 529,
+   "discount": "-60%",
+   "price": "₹198.00",
+   "extracted_price": 198.0,
+   "old_price": "null"
+  },
+  {
+   "position": 13,
+   "asin": "B0FNR62HGY",
+   "title": "CraftVatika Pack of 10 Lotus Buds Hanging Latkan for Wall Door Festival Decorations, Diwali Decor Items, Size 1.6 Ft, Pooja Room Decoration Items, Pink Lotus Buds Hangings for Mandir Decorations",
+   "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzMzA1NjgwNDcwMzI6Ojo6&url=%2Fdp%2FB0FNR62HGY%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0FNR62HGY%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3Dfxvb02JwRU%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=fxvb02JwRU&sp_cr=ZAZ",
+   "link_clean": "https://www.amazon.in/dp/B0FNR62HGY/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FNR62HGY&device=desktop&engine=amazon_product",
+   "sponsored": true,
+   "badges": [
+    "Sale Price Live"
+   ],
+   "thumbnail": "https://m.media-amazon.com/images/I/81rFyvQ8APL._AC_UF480,480_SR480,480_.jpg",
+   "rating": 4.2,
+   "reviews": 142,
+   "discount": "-50%",
+   "price": "₹597.00",
+   "extracted_price": 597.0,
+   "old_price": "null"
+  }
+ ],
+ "related_product_sections": [
+  {
+   "title": "More items to explore",
+   "items": [
+    {
+     "position": 1,
+     "title": "CraftVatika 13 Inch Rangoli Stencils for Main Door Entrance, Peacock Design Portable Reusable Rangoli Stencils for Diwali Dec",
+     "link": "https://www.amazon.in/CraftVatika-Stencils-Entrance-Portable-Decoration/dp/B0FTMNWCFH/ref=bmx_dp_d_sccl_1_1/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0FTMNWCFH&psc=1",
+     "asin": "B0FTMNWCFH",
+     "link_clean": "https://www.amazon.in/CraftVatika-Stencils-Entrance-Portable-Decoration/dp/B0FTMNWCFH/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FTMNWCFH&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/614ZXYhTvUL._AC_UL165_SR165,165_.jpg",
+     "rating": 3.8,
+     "reviews": 177,
+     "price": "₹192.00",
+     "extracted_price": 192.0,
+     "price_unit": "M.R.P: ₹999.00",
+     "extracted_price_unit": 999.0,
+     "old_price": "₹999.00",
+     "extracted_old_price": 999.0,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    },
+    {
+     "position": 2,
+     "title": "12 Inches Rangoli Stencils Rangoli Making Tools Kit, Rangoli Template for Diwali Decor, Reusable Poratable Floating Rangoli -",
+     "link": "https://www.amazon.in/Template-Reusable-Poratable-Waterproof-Decoration/dp/B0BHPFJNQF/ref=bmx_dp_d_sccl_1_2/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0BHPFJNQF&psc=1",
+     "asin": "B0BHPFJNQF",
+     "link_clean": "https://www.amazon.in/Template-Reusable-Poratable-Waterproof-Decoration/dp/B0BHPFJNQF/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BHPFJNQF&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81nqb0tGiyL._AC_UL165_SR165,165_.jpg",
+     "rating": 3.9,
+     "reviews": 470,
+     "price": "₹196.00",
+     "extracted_price": 196.0,
+     "price_unit": "M.R.P: ₹999.00",
+     "extracted_price_unit": 999.0,
+     "old_price": "₹999.00",
+     "extracted_old_price": 999.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 3,
+     "title": "CraftVatika Rangoli Stencil Set of 12, Diwali Decoration Items, Rangoli Making muggu Stencils for Floor Decorations, Reusebal",
+     "link": "https://www.amazon.in/CraftVatika-Decoration-Decorations-Reusebale-Rectangular/dp/B0DJMBDFNJ/ref=bmx_dp_d_sccl_1_3/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0DJMBDFNJ&psc=1",
+     "asin": "B0DJMBDFNJ",
+     "link_clean": "https://www.amazon.in/CraftVatika-Decoration-Decorations-Reusebale-Rectangular/dp/B0DJMBDFNJ/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJMBDFNJ&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/815snaEYcoL._AC_UL165_SR165,165_.jpg",
+     "rating": 3.8,
+     "reviews": 529,
+     "price": "₹188.00",
+     "extracted_price": 188.0,
+     "price_unit": "M.R.P: ₹499.00",
+     "extracted_price_unit": 499.0,
+     "old_price": "₹499.00",
+     "extracted_old_price": 499.0,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    },
+    {
+     "position": 4,
+     "title": "Ascension 12 Different Design Draw Rangoli Making Kit Rangoli Stamp Om Swastik Flower Design Colourful Rangoli Making Stencil",
+     "link": "https://www.amazon.in/Ascension-Different-Rangoli-Colourful-Stencils/dp/B0BFC91NG5/ref=bmx_dp_d_sccl_1_4/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0BFC91NG5&psc=1",
+     "asin": "B0BFC91NG5",
+     "link_clean": "https://www.amazon.in/Ascension-Different-Rangoli-Colourful-Stencils/dp/B0BFC91NG5/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BFC91NG5&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71Zewda9-JL._AC_UL165_SR165,165_.jpg",
+     "rating": 3.9,
+     "reviews": 342,
+     "price": "₹187.00",
+     "extracted_price": 187.0,
+     "price_unit": "₹10.39/count",
+     "extracted_price_unit": 10.39,
+     "old_price": "₹599.00",
+     "extracted_old_price": 599.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 5,
+     "title": "Ascension � 800g Design Creativity Diwali Floor White Rangoli Powder |White Color Rangoli Powder for Navratri Pongal Pooja Ma",
+     "link": "https://www.amazon.in/Ascension-Design-Creativity-Rangoli-Navratri/dp/B07ZHFRV2W/ref=bmx_dp_d_sccl_1_5/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B07ZHFRV2W&psc=1",
+     "asin": "B07ZHFRV2W",
+     "link_clean": "https://www.amazon.in/Ascension-Design-Creativity-Rangoli-Navratri/dp/B07ZHFRV2W/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07ZHFRV2W&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71JQNceup+L._AC_UL165_SR165,165_.jpg",
+     "rating": 3.7,
+     "reviews": 217,
+     "price": "₹105.00",
+     "extracted_price": 105.0,
+     "price_unit": "M.R.P: ₹599.00",
+     "extracted_price_unit": 599.0,
+     "old_price": "₹599.00",
+     "extracted_old_price": 599.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 6,
+     "title": "ULOM 3D Peacock & Floral Door Mat | Water Absorbent, Anti-Skid, Machine Washable Floor Mat | Soft Microfiber Carpet for Home,",
+     "link": "https://www.amazon.in/ULOM-Absorbent-Anti-Skid-Microfiber-Decorative/dp/B0FVL4X13T/ref=bmx_dp_d_sccl_1_6/520-6448111-1856439?pd_rd_w=QgKBK&content-id=amzn1.sym.abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_p=abd96d9d-0945-4da0-9b73-5d7e9e3ec9c1&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47&pd_rd_i=B0FVL4X13T&psc=1",
+     "asin": "B0FVL4X13T",
+     "link_clean": "https://www.amazon.in/ULOM-Absorbent-Anti-Skid-Microfiber-Decorative/dp/B0FVL4X13T/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FVL4X13T&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71dl1Km8vOL._AC_UL165_SR165,165_.jpg",
+     "rating": 3.8,
+     "reviews": 147,
+     "price": "₹299.00",
+     "extracted_price": 299.0,
+     "price_unit": "M.R.P: ₹1,499.00",
+     "extracted_price_unit": 1499.0,
+     "old_price": "₹1,499.00",
+     "extracted_old_price": 1499.0
+    }
+   ]
+  },
+  {
+   "title": "Related products with free delivery on eligible orders",
+   "items": [
+    {
+     "position": 1,
+     "asin": "B082CDN29K",
+     "title": "Gluman Squeezy Sauce Bottle For Clean & Mess-Free Dispensing | 100% Food Grade | Dishwasher Safe | Freezer Safe | Ergonomically Designed | Reusable Multicolor (Set Of 4), Plastic, 400 ml Each",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjoyMDA4ODk0MDExMDk5ODo6Ojo&url=%2Fdp%2FB082CDN29K%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB082CDN29K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DmdYVvYhPL4%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=mdYVvYhPL4&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B082CDN29K/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B082CDN29K&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/51rtIuNScoL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.1,
+     "reviews": 753,
+     "discount": "-9%",
+     "price": "₹289.00",
+     "extracted_price": 289.0,
+     "price_unit": "₹72.25 / count",
+     "extracted_price_unit": 72.25,
+     "old_price": "null"
+    },
+    {
+     "position": 2,
+     "asin": "B0C5WW824V",
+     "title": "Welburn Veda&Co® Pure Cow Ghee Diya 60 pcs for Puja & Diwali Decoration | Upto 50-55 Burn time | Smoke Free | Diyas for Pooja Havans & Religious Rituals,Festivals | Ready to use",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDA2NjQwNjA4ODY5MzI6Ojo6&url=%2Fdp%2FB0C5WW824V%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0C5WW824V%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3D6VJnF6XBeH%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=6VJnF6XBeH&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0C5WW824V/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0C5WW824V&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "Limited time deal"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/61WwnNBhV8L._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.8,
+     "reviews": 555,
+     "discount": "-30%",
+     "price": "₹841.00",
+     "extracted_price": 841.0,
+     "old_price": "null"
+    },
+    {
+     "position": 3,
+     "asin": "B08L37YSVV",
+     "title": "Sanvatsar Home Decorative Rangoli Set of 7",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEwNjAxMzgxMjIyMzI6Ojo6&url=%2Fdp%2FB08L37YSVV%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB08L37YSVV%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DWmqcjtZP2d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=WmqcjtZP2d&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B08L37YSVV/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08L37YSVV&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/71XU7PGm81L._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.1,
+     "reviews": 790,
+     "discount": "-58%",
+     "price": "₹551.00",
+     "extracted_price": 551.0,
+     "price_unit": "₹78.71 / count",
+     "extracted_price_unit": 78.71,
+     "old_price": "null"
+    },
+    {
+     "position": 4,
+     "asin": "B09FJKTY1K",
+     "title": "CraftVatika Set of 5 Rangoli Plastic Bottles with Tubes Nozeles Set Rangoli Making Tool Kit Squeezeme Bottle Easy to use Dry Rangoli Making Bottle, Squeeze Rangoli Bottles Multicolor",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDAwNjMwMTUwODE0MzI6Ojo6&url=%2Fdp%2FB09FJKTY1K%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09FJKTY1K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DQ85wxyPbQs%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=Q85wxyPbQs&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B09FJKTY1K/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09FJKTY1K&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/41F4oh2CKAL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.7,
+     "reviews": 122,
+     "discount": "-49%",
+     "price": "₹178.00",
+     "extracted_price": 178.0,
+     "old_price": "null"
+    },
+    {
+     "position": 5,
+     "asin": "B08MD3GV6K",
+     "title": "CraftVatika 24 Rangoli Colour Powder Tube Kit Diwali Decoration Items Bottles Tool Floor Art Rang for Home Navratri Pongal Pooja Mandir Decor (Pack of 24)",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzNjE0MzI3MzA4MzI6Ojo6&url=%2Fdp%2FB08MD3GV6K%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB08MD3GV6K%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DP5IbaFpHtm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=P5IbaFpHtm&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B08MD3GV6K/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08MD3GV6K&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "Sale Price Live"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/81QOQ2pbt-L._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.1,
+     "reviews": 765,
+     "discount": "-79%",
+     "price": "₹309.70",
+     "extracted_price": 309.7,
+     "old_price": "null"
+    },
+    {
+     "position": 6,
+     "asin": "B0DJM9MHZH",
+     "title": "CraftVatika Rangoli Kolam Stencil Set of 12, Diwali Decoration Items, Rangoli Making Stencils for Floor Decorations, Reusebale Rangoli Stencils (15.5 CM Round)",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzMzAzNTEyOTQ0MzI6Ojo6&url=%2Fdp%2FB0DJM9MHZH%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0DJM9MHZH%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3DDYthHnRLOO%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=DYthHnRLOO&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0DJM9MHZH/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJM9MHZH&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "thumbnail": "https://m.media-amazon.com/images/I/81GdXU7UdLL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 3.8,
+     "reviews": 529,
+     "discount": "-60%",
+     "price": "₹198.00",
+     "extracted_price": 198.0,
+     "old_price": "null"
+    },
+    {
+     "position": 7,
+     "asin": "B0FNR62HGY",
+     "title": "CraftVatika Pack of 10 Lotus Buds Hanging Latkan for Wall Door Festival Decorations, Diwali Decor Items, Size 1.6 Ft, Pooja Room Decoration Items, Pink Lotus Buds Hangings for Mandir Decorations",
+     "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjQ4OTc2ODcxNzUyMjgyOjE3OTA0NTE4NTU6c3BfZGV0YWlsMjozMDEzMzA1NjgwNDcwMzI6Ojo6&url=%2Fdp%2FB0FNR62HGY%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0FNR62HGY%26pd_rd_w%3D6x1QI%26content-id%3Damzn1.sym.9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_p%3D9a67d0ba-b3d8-41ee-8e29-a3d839054b56%26pf_rd_r%3DHBSSGNDEHHVEESCF9NTP%26pd_rd_wg%3D5FF1y%26pd_rd_r%3D05a65077-005b-4810-9aa2-62fa0087cd47%26aref%3Dfxvb02JwRU%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=fxvb02JwRU&sp_cr=ZAZ",
+     "link_clean": "https://www.amazon.in/dp/B0FNR62HGY/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FNR62HGY&device=desktop&engine=amazon_product",
+     "sponsored": true,
+     "badges": [
+      "Sale Price Live"
+     ],
+     "thumbnail": "https://m.media-amazon.com/images/I/81rFyvQ8APL._AC_UF480,480_SR480,480_.jpg",
+     "rating": 4.2,
+     "reviews": 142,
+     "discount": "-50%",
+     "price": "₹597.00",
+     "extracted_price": 597.0,
+     "old_price": "null"
+    }
+   ]
+  }
+ ],
+ "product_description": [
+  {
+   "position": 1,
+   "title": "RANGOLI",
+   "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f0b5809f-940a-4991-a08c-b48fe0a9d643.__CR0,0,970,600_PT0_SX970_V1___.png"
+  },
+  {
+   "position": 2,
+   "title": "RANGOLI",
+   "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b08f821d-8744-4b1b-bb77-cd566dbf04c7.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+  },
+  {
+   "position": 3,
+   "title": "rangoli",
+   "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bd4a53ee-91fb-4875-b450-aefd15d5077f.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+  },
+  {
+   "position": 4,
+   "features": [
+    {
+     "position": 1,
+     "title": "Proudly Handmade by Indian Women",
+     "text": "Each piece showcases the skill and dedication of our 150+ women artisans who pour their heart and soul into creating something truly exceptional. With high-quality materials and traditional artistry, our products have aesthetic designs and shimmering highlights. Own a piece that will make you and your sibling smile!",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a3b10455-d103-4272-9f1f-686dcc77d829.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+    },
+    {
+     "position": 2,
+     "title": "Quality Where We Never Adjust",
+     "text": "We take immense pride in our 10+ years of expertise, driven by an unwavering commitment to uncompromising quality. Our products undergo rigorous 15+ quality checks before reaching you. Rest assured, our rakhis are crafted from eco and skin-safe/friendly materials, ensuring a lasting and delightful experience.",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d0aaf4fc-f0ff-4bc3-9695-96bafb9a87f7.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+    },
+    {
+     "position": 3,
+     "title": "Elegant Packaging by Professionals",
+     "text": "As a leading manufacturer and supplier, our products boast unique designs and meet export standards. Our packaging is a testament to our dedication, as each item is meticulously wrapped in high-quality boxes with added safety measures, ensuring your order arrives in perfect condition.",
+     "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/92863a4e-2d7e-4a8e-9cd2-9c10f67618e5.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+    }
+   ]
+  },
+  {
+   "position": 5
+  },
+  {
+   "position": 6,
+   "compare_with_similar": [
+    {
+     "position": 1,
+     "asin": "B0BHPFJNQF",
+     "title": "12 INCH Lotus Design Wooden Stencil",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5b888f81-c0dc-49ca-bee5-e56b0f762a36.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0BHPFJNQF?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BHPFJNQF&device=desktop&engine=amazon_product",
+     "price": "₹196.00",
+     "extracted_price": 196.0,
+     "make_in_india": "✓"
+    },
+    {
+     "position": 2,
+     "asin": "B0FTVV3PB8",
+     "title": "Wooden Long Stencil Set of 2",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4062af30-284c-4de0-acf1-382cc1e9124b.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0FTVV3PB8?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FTVV3PB8&device=desktop&engine=amazon_product",
+     "price": "— no data",
+     "make_in_india": "✓"
+    },
+    {
+     "position": 3,
+     "asin": "B0DK7MSJNQ",
+     "title": "Rangoli Bottlers with Lotus Stencils",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/20025b94-c369-4f5e-b570-11f48b7f1e45.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0DK7MSJNQ?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DK7MSJNQ&device=desktop&engine=amazon_product",
+     "price": "₹248.00",
+     "extracted_price": 248.0,
+     "make_in_india": "✓"
+    },
+    {
+     "position": 4,
+     "asin": "B0DJM9MHZH",
+     "title": "Rangoli Making Stencils Set of 12",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/725ee312-9ed3-4912-81b2-ec7b675f55c4.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0DJM9MHZH?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJM9MHZH&device=desktop&engine=amazon_product",
+     "price": "₹198.00",
+     "extracted_price": 198.0,
+     "make_in_india": "✓"
+    },
+    {
+     "position": 5,
+     "asin": "B0FP2SL59Q",
+     "title": "Rangoli Making White Bottles Set",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2ce369c7-a060-42cb-b82d-e9acd13d2673.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0FP2SL59Q?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FP2SL59Q&device=desktop&engine=amazon_product",
+     "price": "— no data",
+     "make_in_india": "✓"
+    },
+    {
+     "position": 6,
+     "asin": "B0FT8VCTP1",
+     "title": "Rangoli Making Tools Kit",
+     "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1b8077fb-91f4-4a0a-90a9-dd2afd695427.__AC_SR150,300___.jpg",
+     "link": "https://www.amazon.in/dp/B0FT8VCTP1?ref=emc_s_m_5_i_atc",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FT8VCTP1&device=desktop&engine=amazon_product",
+     "price": "— no data",
+     "make_in_india": "✓"
+    }
+   ]
+  }
+ ],
+ "product_details": {
+  "manufacturer": "CraftVatika, CraftVatika , 9829180502",
+  "country_of_origin": "India",
+  "item_model_number": "RANGOLI101_V",
+  "product_dimensions": "4 x 3 x 5.1 cm; 200 g",
+  "asin": "B08M3PBSHG",
+  "packer": "Craftvatika, 151 , Keshav Vihar, Gopalpura bypass, Jaipur-302018,Rajasthan, PH : 9971610929",
+  "item_weight": "200 g",
+  "item_dimensions_lx_wx_h": "40 x 30 x 51 Millimeters",
+  "net_quantity": "1 Count",
+  "included_components": "Rangoli Set",
+  "generic_name": "Rangoli Decorations",
+  "best_sellers_rank": [
+   {
+    "text": "#3,021 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+    "extracted_rank": 3021,
+    "link": "https://www.amazon.in/gp/bestsellers/kitchen/ref=pd_zg_ts_kitchen",
+    "link_text": "See Top 100 in Home & Kitchen"
+   },
+   {
+    "text": "#29 in Home Decorative Accessories",
+    "extracted_rank": 29,
+    "link": "https://www.amazon.in/gp/bestsellers/kitchen/22809165031/ref=pd_zg_hrsr_kitchen",
+    "link_text": "Home Decorative Accessories"
+   }
+  ]
+ },
+ "sponsored_brands": [
+  {
+   "position": 1,
+   "asin": "B0HJ53XK2F",
+   "title": "Phool Jugmug Diwali Gift Box 2026 | Premium Diwali Gift Hamper for Family, Friends & Corporate Gifting | Diyas, Ganesh Idol, Agarbatti, Havan Cups, Sweets & Incense Cones | Festive Gift Box",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JI9nsmAiPwZZ2dAe3s4txc8AAAGg3z8vYQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBMx5qp/clv1c_ek-wBfHXUsbWHn2mJrbe-lzmUA1Ka8TLNP7VhO_B2toiAFj6aFyDHxRFo5lvJQyc6XoqyL_J-E7ENi73IZOXwwNOlWt752tY8ALwWo7XnsRVLxnNzDY5ey884uU4TkKTgaAhC-uWyUqOEGOjDvQ7udLeuP2dk1noj_bIl3fJjoYSf2e-r8QikvoB9Tdjo7F7u6JCrVOrf0ZPmGH7swSTZD-eWStLER8FDQQFeGT2EuJNAD67wX68LB1Ocx21cT-fTA_jTrjtbygisxcgpaeojuZIs2RnocSpa3WD2uCshgW64x-GgKCqXY-y3ct-CkOCjndaWJAjcQaEwlEpPcru3PYWBaQTlyPQzBA1Gt5ZHfUJr26EfQ3BXrqtALbQRguH8pIcsbvCF8PAGzYBC9z16Nv5_yhksnT8YFSEBwL0G6WWTwKZAipAVptfHHpndNzMMNlLv7uPZFfeeIAN_FJaNwDDJG5WTGi9KbeUOWEpfsZ1wMMvVPPVnBBh4hj50fZ4sb_CKN681Yks1XCWbLx4kq-S2RZhfoYrWHgsKjf5WHTES0dj5pN1hCfCC1XeYID4473eYX7_BrB96aczA3swN7r9R58N8EJj2u0dUZjORom_Tzpfgg2yw5JO3TSwDX_7A-cjILwQ-DVcqIdp--VaO5D4Lw5Ok-FNd73cYUSw_ske8DougMkZfE1gid47QS6-aA2sSCEOS7AkZNhUPimAHTs4GSqJtZmFOyw0XhjP-xfbfrd1Vl2h-TC1n_OZT5ISRqi85bli5l3FtaZyOAdrRuAtrxorcAGw23Fr3prU7k6C9QD80o4ebM15dCtMuFwUW0KhklCZmKdUJ77eyKejpCK-1IkCX191rksTFh5EmcxfFOh_DqMv3YWSJ6LUBVCZBXZdlF1wf8mR8znNaeqAMTVjCW6FabydDNjyov9MmFCWYzgp9TQZT7xrEHBInaduScbiMvDIvUpyLZ-InJ8zqkTv7DLpkh4HdnEeH0i2jivMPo8Wvujt0YEKO1W5Rhtigtp-JKrdBrIMu7nfU2-ajBn9e_S1c8WXJsHYJ-feDOtRjPkSN8ZPUoEVt0e-9bX5vQD08ymej3l2Rww4iCvMa5m-T5gnhg6usiJfsCd-eajF5n4p1QgM7EMIqD-QxkjaWwm86hvDvWENYvL2ynu2eO2tMs5YP63U1t6-3KB6GB-d-6Y1IVwQofzuF5DjalhaWt4LK7TQCBUVNEHgykPsyu4HKGW4T3qDxAMTp_Hd-g3nY04DT1qLjWg70Lm0DJJOqDtX8KsTSq7iXulA5nklFVGsN0Qyzdx-BAZ8wTvBEF2OQVwHusAPu7qANeVxZoVxGkCw4ibwOoz9IRBbOlJHB9KEb4oPqB3VV5LU177LcddUqp5IZz00HMmLpWEzAGoWyh9qAItWDYPoSIChFbnblMM1Q_UHHVYzyigxB1_EWQfYvCi6-Ve-F1TiMRlRARbb3Bv3i7NA7XDCv94I8skqFNnEfIe5BAMHC2R7DZevjb5faNYp9j-HgnaCCaLbBn4nu48kFM6DVSNpfElGqqDSBaZ7F1ahI2VWK_bd6vFZ7wP-fmdV0Whyfrjv4-1EFhQ/https://www.amazon.in/dp/B0HJ53XK2F/?_encoding=UTF8&aref=EAKQsgbTxa&pd_rd_i=B0HJ53XK2F&pd_rd_i=B0HJ53XK2F&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=Qvl7N&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47",
+   "link_clean": "https://www.amazon.in/dp/B0HJ53XK2F/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ53XK2F&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51r5Ft006HL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0cebe653-3869-4b06-9759-05daae43a7e2.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0cebe653-3869-4b06-9759-05daae43a7e2.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.6,
+   "reviews": 49,
+   "price": "₹619.00",
+   "extracted_price": 619.0,
+   "old_price": "₹845.00",
+   "extracted_old_price": 845.0
+  },
+  {
+   "position": 2,
+   "asin": "B0FV88K7WX",
+   "title": "Set of 25 Golden Bells & Beads for DIY Crafts, Pooja Mandir, Christmas Tree, Toran, Latkan & Festive Home Decoration",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JCqpLcNLvQCM99eR3qK7LlYAAAGg3z8vYgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDZ0nmg/clv1c_ek-wBfHXFbbWzjK3YiveC8GUmjKRmFldRi6sB4DnFUkyeQ3qVuWid-gN2oSk5nB1ea0KTnmDTMflSBI_ivdrUIBL3mfzpzGds8tnClBhzYouKjIzgsMB52nx9NkUZPIoA9pODtyYfXhbwh86HOfVvtSLINmQttVr8Ef4zjm6ZEafX3A7CqCYTBLI_8TyidA8-M7P76Rp34XI0uKhkTyAk3Gfn3O-hMKah5tN7eM36bXCczmSzm4AJvkJDRvYGp_3E62bz3Vc2Lq1b1HQWXurEUsiKMi9xw5_iYX-5yTkthX9GfrTEBVGOBSjVoAKKdZkY1Eg9vFqlVkszQBnaDmyTvDas2cL1iZ2QTzg5sCe2HTXlSjdxEdy4IAKmBa-leapc3py9Lfzu3POiU1rBrDokfuS-WJSEFHOWhlQhcNkAeXXCD9hE2UGjE2P70Ur8Y1bF6ic1z0segG0_d1rU9EdysUriHo1W8Gsh-td00aJ2Kzy3EWqEfCk0vbJY9YWiOYhc_qqUj1S23YBb6Zb5L3gh3UUujWnn-g_djc-8p0sV-ZJXQibjoVRbg6rUEUl92LpScgSGjZKwJ0cFAX3gUseY6Ih6-X-jiSfw887N48OBfOB2pKz9EbQHWcROzMeyRSHA2meGQLJyfMVh1DzcvgWCtROQquNtYz7f9zBs9h2FoDUHicyrAzy6KeHaAWTZGqQ19r4xry-kSHDiUeb31Na5ooNCRxBvfrb-ojcxxAuvssajrEGv-FgITcZ2lXGOi7s4z_idRW1lV5Psxv2Agr1-YCSmiDgtKvLJlBnohD7Btqc9iegMYH-MQsYhVhXBKW91USCuDjiiRn_OUni1WUYJnCx9UD4-bKC0JOzXhm1k9ZRhdOF0I5JHiKP5LEYm9R1slJH41Rwewnmllw4_NA46NY-lOZr106Zf57IUpsslAczMOnuERjAvlfbUEjknZ54ITw-pdfBmf71WttUEQhfzBw2GpCkFB5ql_5LcZLPiRiNSytIMC358VTJwqkv2nNv5MCs4zpejZykGvz7C3zpg5WU4lJFE8bAvuvwSA-E13bU9fnjAPq-xPbsZNCISitBNy3WY_sg-Px0DjyFMC3-FoIhkKihYJaIZ-rP0JRfyGmUfQusQSiW17B21FKzjory_hoRWH53GvxWFYzLs8YNAsSdB6FJD7SB1W72HlRW6NepLbu0nrS71trnFaVJ3gudjmXsKnzJvffV8gbzVKBp4iA0MLyD5jesJrDfQHIU1rq8NfJNREgudWG8yseyM83TeyZvaGSsbeDCxvisXKrzY2-dryzdfVEKxY86TMX-LMYLaLIEbU7FCVuZlNnmwnXq3jI-XemHi3q67e152VhH3lz36YT_HtBraco1InvYF80ko_mGRuUnwZCDr0Ik0C1Ic5ExdY6mtwF57gUjgd8o7M6WyDVUi1HPyeOJGEN-i2TBx1mGTrXrSQI7MJE_Itxji7iWzgqrYwgAbbIIxOq9vkaKNopmqhnVeao8lyJOeIjywwpPrYSLJxaqRWMaMUOxyY5Hkpj08mCnF4smFP1xM4E5KTWiO3aUreoAtNv_Jqz62454wx9qPqB9ACZ9-u8kCSx7aA/https://www.amazon.in/dp/B0FV88K7WX/?_encoding=UTF8&aref=OIk7CJcZNa&pd_rd_i=B0FV88K7WX&pd_rd_i=B0FV88K7WX&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=Qvl7N&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47",
+   "link_clean": "https://www.amazon.in/dp/B0FV88K7WX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FV88K7WX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51EfCHKkSVL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/9b6e67c4-6e54-4818-8c8c-a999c26ce6c5.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/9b6e67c4-6e54-4818-8c8c-a999c26ce6c5.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.6,
+   "reviews": 11,
+   "price": "₹189.05",
+   "extracted_price": 189.05,
+   "old_price": "₹559.00",
+   "extracted_old_price": 559.0
+  },
+  {
+   "position": 3,
+   "asin": "B0CJ92XLNF",
+   "title": "Diwali Art and Craft Kit For Kids | Diwali Gift for Kids Age - 3,4,5,6,7,8",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JMOSbTRl96cnMOv7GfVMB7YAAAGg3z8vYwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCRGWD5/clv1c_ek-YBff3Vcba3jI2mMVy-l3hTE1Wb8XMLPoDAe6wylLbWB3oP4czln2Uk4m7dUCc6VvM05SQzVa3gi0QDgcIzptByvNRzk32qWM4cvtRP_0-CQmITHBJdg4j7_BiRhLyV1F3KsDsMIe_et4nrSvi-0nygV-amsVqkMLs3FOivAZZXH0RxvAI9F0Xj2jXZK2m-AFbxUISWYPN1OrxD3wosqoteQZqRAz3xX_ca2_jwXbBq8DUJEbVvKpe61XMlF3m1wqjHqzqGsEyVQLTa-BXztOrW8n-18xPtVuMLCF8Dw0YTu4Th3a9gyfIMO7mCrR2fZA9ntlXRHeoXgltEhm-yxt7h_4M7uRuhwxYmOQSguf3m5H7P2gvRxfF-m93saviZhUOTBxLeXHVVNckt7B_WfY96ypaMmtawURs07bhT7fDBl2ukiXZNdARQkleF-VyvopiCmofETF83UWq6kyh8mbnrrZDUEfymtiJSMKaW_9tF87qCXaGETYf_11ZewqAd2ZqvZVPxElBpD-p_4Qoo_cI6au0cQz8noGwK35LVv3PTQ59MSe6DAQeyJfyRx1ocFxrtpbeVTEGnbSZACpjTBbO8bI1N0kItwzvMkPoK2sE9V3_FukhgK4NbMlcU53Y2SE3xtRQTzSX2PoeX7yEzuSvW0WkMLRUc8S7i-7Jy9BvQL5hf2MqXYM54RkShPxdxgO8ZLd_J5xr01nN0ZvuiH0dHz4WYGXwd3DLf0AkvEMZD7TpwMe7AQBNG61C9h257pwVKxPxxq4FCuxSlgxdPyX655j9fmzlR9TpsNTEg4wrynucncrNN554OHKmy9psf78GSg4U8gUPktSTs8MrPlvlEtQvEIWwxbECrGsCujwR_eN8mExY1z9gUBsmYQNWuvkpNBX34zLWtpMAgcxr2rhcZtg5c6vxcmS4TZ9BmWTH2TIzP6Nk6n3ubIxb4ahFPkvlTqu5U5x8gLPKV9ykzTLty5qUvJEmDT8dpqz0FiACp-edlKsdYA89kknIWteNEyBLFXszcAqD6wD6AcjzEtrRP9z46j9kqCQcUz4b3N3WLmvAyrqLpX0DEPh5WoVq2JTNwEjNrrvCSVGDTdeD3o_yEGwKeevCv296Mq9W2mJn0xO_eIGb1N6v5p1pCflWVVWuKBqBnVOLhpgmSF1yuDaWXAjJtndMQnaOsW5tCbwrD4yKDwrzse_3_LQNPp6viGgNXlIY_mC7aIv4qO0ryQe0zh0CYXM_4_MTfGkY_THXyfcFj8Lfztv7jhvceo9EFGOZwl9Fp6HTQCfxMAPD2dnvAgh4CplzAc0UPVowQKUzkPWbJxXRzygqaDVNkKIAfpoldhgpt5a59qF6L4VF5Khs4ionM7yCQMqMoUlNh9ZFBe_awz6WwFqIpXncPixACWNSz8FkkHGom6fFd8Vmbnm-_cIlAIN8-ubn_Oa3AKw-TKWJss-TTKk6vrFQiKFtJn3J---AO3_ZGzGIwsbRN2VSi2J1wIvdlIq5mLVUpqb5AvMcKDALueW9-w46zkUGN8myuXE5MGR6818DSfSy-GMPXekzcg/https://www.amazon.in/dp/B0CJ92XLNF/?_encoding=UTF8&aref=FgVGOBIhdL&pd_rd_i=B0CJ92XLNF&pd_rd_i=B0CJ92XLNF&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=Qvl7N&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47",
+   "link_clean": "https://www.amazon.in/dp/B0CJ92XLNF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CJ92XLNF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51QCDVqIK9L._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0797c52c-c3a7-47e9-9252-66f35c24721d.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0797c52c-c3a7-47e9-9252-66f35c24721d.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 3.9,
+   "reviews": 11,
+   "price": "₹999.00",
+   "extracted_price": 999.0
+  },
+  {
+   "position": 4,
+   "asin": "B0HCCMMMNK",
+   "title": "Easyera Decorative Lotus Candle Holder Set of 3| Gold Metal Tealight Holder for Home Decor | Lotus Diya Stand for Diwali, Pooja & Wedding Decoration | 12, 10 & 8 Inch",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JBRtAVj3xXhialqS6WAzdAAAAAGg3z8vZAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBul4Jd/clv1c_ek-YBfHXUsbWHn2mJrZegEGXlJKxEtkWEP-y0YhzPYOnAVj6aFyDHxRZo5lvJQxc6HoqSL2RFwASF5kCdT2qojdP1d28Om2jzQUAXztLPv30g3JPIp4Hk9SO4f5_9sJQFxRBQSo7ja4vGYzYxkjuM-Taqek8llLygmSZHxdrzZQMAVt93QzkkzO4L7E_7JqCjaH9LvTgNV9YNSR97MnK6gbGCTo2QDrCjd93mR0060IKBedtT3u8V2iv61VIlN3GG4lL-vCc67CMwBw9s0WD04Ae-YP0nBx_-qOJLCCIaNPzbeFybYxHt8yat3y2vVAyeTd8vQ9DpoDTe2kmENHIGk5Vy_k1N-799pL_23m7fMc4a2t_8BQ5cMivzB2OKE9K_3nVpp1iNPzEGGlLV4BxKXQsiCq5E2MA4Iw88EuTfWgUFz1Rmz5a-oAeApsuAI1dF6iQVz0E-gCcR4p0j7E5gJZXAZBNrPc0ItCYnaSyg9WI5k8oCSw5u9fAh_NW3uNXwF6WiWBRpIAqhd1N6T7R4hXzVL8-aZpIMYNNhQL9Ve4uHQbleFEh0_jF_-SHoLkgmlBqOrnWxLkfbWhrwangDnmGxfQxOeDTWN4pAW6GBP8B2pKPNEXIHWcxO76sYCWYUL8QPWZ4iLYOlUhFy3i7p31_K5S1oyXpkrS9A-h2VIBbXygSLA3OHKeHaAmTZOyA19r--ry-niHDj0epxJNZWG8uBhxZvb4oJD1AXwp4QqI9cAN9q1KGnwx0jyaYAzY50Eqa55k1U3GFrrrR4xhYM26g_F02thMF3dRyqAAjEcc09w_DsfCovr8WEoYcqfyz8RLzM4h8rqPgTH98rV7NACejPeESeLaaEo_2PS3L0p7pNo3bFUy8pwtsh-Et7Ljob0Tp3WHt1JIaWO5W2fdQMTFGlZeWio7id5vb3lFZm4R8hoHMvx1PneHoopelmC-mvP-h7kEvlM687nq77glpNauWrU_LefdvGIW_9KvdcNH02yr9i3NE5DZ9lPMnp0Dnvlus-B27fSVAu-jI3mL8YHam4Wi5vuhaIZoaEJCawzhKoFNH83Ssk4JgMybgUwPDy4-914734fbKTEBXI7aYFT4ILWjFikshqCsGCqtQI5hGpqP0G0goLd0s_HwgPFONjj0DLUMmzYApIp2QNJ6pBnf-Sy-V-Jq5nFoaKRTLWwNFVfLUrPfw-qVRTEw7A3szSPf-fltqIDC_YC1-W8abCFA9cun1oIZCasnCDI9ZN3FRW-5tS7Jxa2jA_yjrDuJNzcNSWt4xNtka-BQRPsExxorHVMB060jYvMNgRzzD9Str-3a7zhd11XH46BVVg6_6ulJhM0_YVanNrPTjfUyf7Sz5cp6u0F1wdI7xwtDrqGQ8ZONv2kCsIk18SEsqUE9NOonuZTfF97-qDXoZQwvYR3WKhQMqrXVH2Dg9OiRAlSnj1IFmXTg-1y4cZmX2_UYEYhESqvXFCXnEBxAEdeDa23WrYMEu6XfhIkZfEfnUP73jcS7o4UzZCqgfGG8KdpJzmClj2oz4-GQeo_Iey56G4wXG476fl6xJwxJfLyjfaA/https://www.amazon.in/dp/B0HCCMMMNK/?_encoding=UTF8&aref=sST3sCyde0&pd_rd_i=B0HCCMMMNK&pd_rd_i=B0HCCMMMNK&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=Qvl7N&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47",
+   "link_clean": "https://www.amazon.in/dp/B0HCCMMMNK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HCCMMMNK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41xHLChyG5L._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3cdb8fd-6dc2-409d-ad87-6f7683153695.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3cdb8fd-6dc2-409d-ad87-6f7683153695.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 5.0,
+   "reviews": 1,
+   "price": "₹749.00",
+   "extracted_price": 749.0,
+   "old_price": "₹2,900.00",
+   "extracted_old_price": 2900.0
+  },
+  {
+   "position": 5,
+   "asin": "B0FR9J712F",
+   "title": "JEMOX Rangoli Stickers for Door Entrance (Size-40x40Cm) Self Adhesive Rangoli Stickers for Pooja Room | Rangoli for Diwali Decoration Wall Stickers Genda Rangoli Stickers for Floor-Vinyl",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JH_ubKRc03eD3rtY8ESQuSgAAAGg3z8vZQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAt10CF/clv1c_ek-IBXfWLcTSXk6hthmOIYmm3pxFshEXQg4orx9yjwGOeO7xkhMLI3XA5K1Cj5-xmPt1-h7tjBZY1Ffx5_wJq_7yXgGxYjII-ryFXnuy2EYcD0FeILuUezDBo311nsrhd4tQXij7rKYPmfqU3sp262nJnMVcllzC8gSCjrKqx-5LuaqfF90MKAJijPBosep6A15_xG1MDQzO0bwt1_tg8GtIPU8rHVrS8AsOGmlbxjhSsz4o-GUsla6ycgnfEdTXAMZwiul0i-5nxVLIGVjhnRE523dFF1Y1ZUSnFbol2VcPbZmBcKReX6PJzxIAVKVsB0RIASzFze2j1vdSqDzL0RwoSrwxToGaYSNAqKNoXQQ9LgJJ7vPlMPCowJjqfE7WsbU2oTSzKq_-N4tzw05dQxV0aBuWB8FTdChnKbJT6_jkkWYgwBzdh59R74qcCpWNcDVMFwbtN11Xkej_RYnD5pzXMfTQO6iIZxRuxpWxwCFEmIGVN1RkXD-rca8tp2g7guoZSdyyk4cCBGuHu6KZiRqHN0UqMKdU9B-1PYReUBFAgROPY0TD_Q3OpVRlR7pduL8M144Uic6txv0AKdyrGRK4GDhbxx_ZHMoqY90u4gpN5N95DppZsczwLsDosDY06mZo1g8OM1gvhcaNS2Qnf656VtHiNvLNYDjIGJ1-uFqbZU2aPJtT-SWla8f_hAhb5UsgkDbc10Ykl0dmG4nE2flRANiMmPYUFTlIVHSnFx0z5bkHjdhWgYeNOlTkpOvpt9dmBcGFz72P0kXRGAD182uo21E1JbM2EeWFqJ5Yt7mkgb4BkcBGyPhXJvFkB0yvB6yC_je6sE0JSwnkjkuZhl-wkkfxReLFzEuyYrgaagPCKHClM0hDcEPKSSUU3QyQYlPdtV591EO65IYOWsCktukAT9_uHgpYb02OdzaKgZP-gS1USDIC5kvQ4EDkaB8WGldUIgYBD8aSFoVULy4jdXgAN3SNgkyNEDYL6-oq6QDGw50uF6ArDZfFYznWQM1mPT7Hk75ysTmB8EiMzcktUC67iemMad7nogcpX7Nxj0THzP7AeMLubkqgrd2ii2GgT_HZNLqiPOFr6YuFtVrYXg2TLhxvQUUkqHiTnt45PHftdfmXM6ULyYr_8Hju0fCmtRlK1O56IULf8Fc8NarORTHgdNgwRxHDS2flwQeiJCG1mgGaY4u3ghuUi9_mW0wAxyVExOz3TUX0_WgkawP7nb-Txee6NlR3cJEeJ2IyNcwmCb11HKz_BNbJYHVhWXV2TXi7LXHP1cNJzmDqB32loG6BMZntYYO_j8ggHdJQMGzuFxyZ1gy59RcNV_pd5YSsSNcIs9DnCeyT-eCXK1kV4JMfXmV922y--3GCrr1wt_4H7-o0I3_VyzfaO6_hBt066p5klK0Jr7J42LVToV40s0lUZo6ERouJXCwV2cQ9J2-1L52h1y-zQT6gk2JOCuOwYAP4ybT-oR2YP-l2VGyLZuIx_Fv1NALnXIZ6aSJcbQIEE9_BY0ZP3AUmb_Y7j7zpFfD2mQx-JOSSzbvNtj65Lv16slpFke0G_ZqUtygfjl3WiCQr85bHem7G5cZEULBGb_0/https://www.amazon.in/dp/B0FR9J712F/?_encoding=UTF8&aref=lVSlEFvXSU&pd_rd_i=B0FR9J712F&pd_rd_i=B0FR9J712F&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=Qvl7N&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=HBSSGNDEHHVEESCF9NTP&pd_rd_wg=5FF1y&pd_rd_r=05a65077-005b-4810-9aa2-62fa0087cd47",
+   "link_clean": "https://www.amazon.in/dp/B0FR9J712F/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FR9J712F&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51MrDbkubCL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/f7e691ae-ae1a-4c73-a851-25c97303e7a2.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/f7e691ae-ae1a-4c73-a851-25c97303e7a2.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 3.9,
+   "reviews": 79,
+   "price": "₹90.00",
+   "extracted_price": 90.0,
+   "old_price": "₹299.00",
+   "extracted_old_price": 299.0
+  }
+ ],
+ "reviews_information": {
+  "summary": {
+   "text": "Customers find the rangoli powder useful for festivals, though the quality and color selection receive mixed reviews - while some find it good, others report issues with colors not coming out of the bottles. Moreover, the bottles are very small, the powder is coarse, and customers report poor functionality with nozzles not working properly. Additionally, customers disagree on whether the product is worth the price.",
+   "insights": [
+    {
+     "title": "Usefulness",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 27,
+      "positive": 19,
+      "negative": 8
+     },
+     "summary": "Customers find the rangoli powder kit useful, particularly for festivals, with one customer noting it's perfect for all family needs.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Useful",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RUOF5GRBZWAHO"
+      },
+      {
+       "position": 2,
+       "snippet": "Very useful for festivals",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3V0T7G0UQYJ7X"
+      },
+      {
+       "position": 3,
+       "snippet": "Quality is very Bad and not useful",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3IDHQ3V24OJID"
+      },
+      {
+       "position": 4,
+       "snippet": "It is in different colours and very bright very useful for keeping rangoli the quality is very nice easy to use the the size is very big",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1XINNAAU2EPE1"
+      }
+     ]
+    },
+    {
+     "title": "Quality",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 214,
+      "positive": 105,
+      "negative": 109
+     },
+     "summary": "Customers have mixed opinions about the quality of the rangoli powder kit, with some finding it nice while others describe it as not very fine and a complete waste.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Bad quality ,small quantity and hole of the bottle is very small couldn’t be used to make rangoli .",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1PY460V7Q4530"
+      },
+      {
+       "position": 2,
+       "snippet": "Its good but very smaal in size. Not buy oneline",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RZ6E1J9TDDPAB"
+      },
+      {
+       "position": 3,
+       "snippet": "WORST PRODUCT!!!",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2N9SKA8HAPE1X"
+      },
+      {
+       "position": 4,
+       "snippet": "...It is easy to use size is good for the price . Good product.! Go for it Thank you Amazon !",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3859RR8QUVU82"
+      }
+     ]
+    },
+    {
+     "title": "Color selection",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 124,
+      "positive": 56,
+      "negative": 68
+     },
+     "summary": "Customers have mixed experiences with the color selection: while some find them good, others report issues with poor color quality and the colors not coming out of the bottles.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "nice, but dull colours",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2RDEM6PGCIPN6"
+      },
+      {
+       "position": 2,
+       "snippet": "...It’s easy to draw with these bottles and they come in all varied colors kids like. Bright appearance while you put Rangoli.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2WIRVBQU4AMIP"
+      },
+      {
+       "position": 3,
+       "snippet": "Good product. But white color has been removed. And additional blue color has been given.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2KW5I36FLVV8P"
+      },
+      {
+       "position": 4,
+       "snippet": "Beautiful colours. Easy to use. Add spart to your festival celebration. Happy and satisfied with the product.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RSCL3ENF9YB4W"
+      }
+     ]
+    },
+    {
+     "title": "Value for money",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 79,
+      "positive": 26,
+      "negative": 53
+     },
+     "summary": "Customers have mixed opinions about the rangoli powder kit's value for money, with some finding it worth the price while others consider it overpriced and a complete waste of money.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "...doesn’t come of nozzle of the tube.... no use of the tubes... waste of money rather buy lose colour packs",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R5RUI9Y0KZEYF"
+      },
+      {
+       "position": 2,
+       "snippet": "...use, colors were of low and poor quality, got allergy as well - not worth the money!",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3N3IKJ8Q0A0WK"
+      },
+      {
+       "position": 3,
+       "snippet": "Good but the tube is very small in size. Otherwise it's good. Value for money. And one tube's cap is missing.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R30H9SJYDWZUQZ"
+      },
+      {
+       "position": 4,
+       "snippet": "Very bad in every respect don't buy",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2TMBIMBIXPQ2F"
+      }
+     ]
+    },
+    {
+     "title": "Bottle size",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 27,
+      "positive": 4,
+      "negative": 23
+     },
+     "summary": "Customers find the bottle size of the rangoli powder kit unsatisfactory, with multiple reviews noting that the bottles are very small and the particles are large.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "The size of the colours came out to be very small and there were no holes in the bottles .the quality of the colours were not good",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R37AL86WOEJNXQ"
+      },
+      {
+       "position": 2,
+       "snippet": "...product quality is Average, product is dusty and old, The plastic nozzle bottles are small, 3/4 filled with coloured rangoli",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3DBFO6BVGWU45"
+      },
+      {
+       "position": 3,
+       "snippet": "Very pretty colours.. just one problem was that the tip of the bottles are too narrow and colours don’t come out easily.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R123P6HG9C9KBY"
+      },
+      {
+       "position": 4,
+       "snippet": "This is not good material. Size of raw materials has too large. Which is not passed from bottol neck.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1ZG92IT9PQLGN"
+      }
+     ]
+    },
+    {
+     "title": "Flow",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 21,
+      "positive": 6,
+      "negative": 15
+     },
+     "summary": "Customers report that the rangoli powder does not flow freely from the bottles.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Bottle are of no use. The rangoli powder doesn't flow flow from it,",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1ZQW9OXLZPFC6"
+      },
+      {
+       "position": 2,
+       "snippet": "Not at all smooth output from nozzles. Very thick contents or somewhat damp powder causing no output even after squeezing the bottles.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3S9WMFV0ULE96"
+      },
+      {
+       "position": 3,
+       "snippet": "Making a Rangoli with this was very easy ... free flow and consistent...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R24D3N49OO0GK9"
+      },
+      {
+       "position": 4,
+       "snippet": "...holes were too small and though I tried to make them bigger, it pours without control. Not worth it. Change the bottle quality.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RRP8U4KUELRQG"
+      }
+     ]
+    },
+    {
+     "title": "Functionality",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 20,
+      "positive": 1,
+      "negative": 19
+     },
+     "summary": "Customers report significant issues with the functionality of the rangoli powder kit, with multiple customers noting that the nozzles do not work properly.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "...serve the purpose of pouring colours through their nozzles but they dint work well..had to open nozzle n use it like normal colours..wonder y d caps...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1AJXXU73KSGQ8"
+      },
+      {
+       "position": 2,
+       "snippet": "...Very thick contents or somewhat damp powder causing no output even after squeezing the bottles.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3S9WMFV0ULE96"
+      },
+      {
+       "position": 3,
+       "snippet": "The color was good so we used it. The bottle nozzle did not work, so it was of no use.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1LI7ZCA6BM3LC"
+      },
+      {
+       "position": 4,
+       "snippet": "Rongoli pipe not working properly, it's like old stock..",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3AS4HWP5LTN9W"
+      }
+     ]
+    },
+    {
+     "title": "Texture",
+     "sentiment": "negative",
+     "mentions": {
+      "total": 17,
+      "positive": 4,
+      "negative": 13
+     },
+     "summary": "Customers have mixed opinions about the texture of the rangoli powder, with some finding it coarse, while one customer notes it's not powdery at all.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Paise bohot jada h 5 rs. Ki rangoli or 5 rs ki botal 10 rs bas 10x12=120 pas 395 bohot jada h or bottle bhikharab qualitie ki h",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1XC72MXZSRMRR"
+      },
+      {
+       "position": 2,
+       "snippet": "...Powder not coming out of the tube nozzle...colour powder used is coarse and big granules....doesn't work at all. Waste of money",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RCNK8XEU3P2RL"
+      },
+      {
+       "position": 3,
+       "snippet": "I initaited return aince it is a crystal not powder Hence the tube is useless . We can it use it for rangloi.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R5RD33W7YI7HS"
+      },
+      {
+       "position": 4,
+       "snippet": "Nice rangoli powder",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1CC5MY0DUT73O"
+      }
+     ]
+    }
+   ],
+   "images": [
+    "https://m.media-amazon.com/images/I/718zBNw0oRL.jpg",
+    "https://m.media-amazon.com/images/I/71bMaiTLI-L.jpg",
+    "https://m.media-amazon.com/images/I/71Dh1dwzS1L.jpg",
+    "https://m.media-amazon.com/images/I/71x1mxwEaAL.jpg",
+    "https://m.media-amazon.com/images/I/717u3FWTKWL.jpg",
+    "https://m.media-amazon.com/images/I/61RYhAopiLL.jpg",
+    "https://m.media-amazon.com/images/I/81MiEfBZHXL.jpg",
+    "https://m.media-amazon.com/images/I/71Ii-TnYSPL.jpg",
+    "https://m.media-amazon.com/images/I/71YTVUC1u1L.jpg",
+    "https://m.media-amazon.com/images/I/71dAcLsotmL.jpg",
+    "https://m.media-amazon.com/images/I/71vat4W2HQL.jpg",
+    "https://m.media-amazon.com/images/I/71ivKSOrtbL.jpg"
+   ],
+   "customer_reviews": {
+    "5 star": 49,
+    "4 star": 22,
+    "3 star": 14,
+    "2 star": 6,
+    "1 star": 9
+   }
+  },
+  "authors_reviews": [
+   {
+    "position": 1,
+    "title": "Best product 👍🏻",
+    "text": "My Pre Diwali buy for Diwali this year these are very comfortable bottles of rangoli colors. It’s easy to draw with these bottles and they come in all varied colors kids like. Bright appearance while you put Rangoli",
+    "rating": 5.0,
+    "date": "23 September 2026",
+    "author": "Prajapati Mehul Kumar",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFEQUSG5LXWEPUIO34HJBCZ3FZVA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/718zBNw0oRL.jpg",
+     "https://m.media-amazon.com/images/I/71Dh1dwzS1L.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 2,
+    "title": "Hard to use",
+    "text": "I found the bottles difficult to squeeze. The holes were too small and though I tried to make them bigger, it pours without control. Not worth it. Change the bottle quality.",
+    "rating": 4.0,
+    "date": "1 November 2024",
+    "author": "Ayesha Sheeba",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AGXA67YE6HKILM55VEFHC7V7LGSQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "helpful_votes": "3 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 3,
+    "title": "Diffrent colours",
+    "text": "This rangoli powder has very good quality .comes in 12 bottles diffrent colors ..comes in a plastick bottle ..good for deepwali ..easy to use ..",
+    "rating": 5.0,
+    "date": "20 September 2026",
+    "author": "Niharika",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHLEX3CTZBARJIG7EDSDCTDFMIPQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/22ec6b69-fc08-4d87-b4c4-bd8ab566dcd0._CR0%2C0%2C500%2C500_SX460_SX48_.jpg",
+    "images": [
+     "https://m.media-amazon.com/images/I/71Ii-TnYSPL.jpg",
+     "https://m.media-amazon.com/images/I/71dAcLsotmL.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 4,
+    "title": "The bottle points",
+    "text": "Quality not so ok it can be better",
+    "rating": 3.0,
+    "date": "10 January 2026",
+    "author": "priyanka.ch",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEIV6XF3GWWAZPJJRZMAMSOKAW2A?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "helpful_votes": "2 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 5,
+    "title": "Nice quality",
+    "text": "Rangoli all colours is very beautiful. quality is good easy to use makeing design. Best option for rangoli designs. I like it.",
+    "rating": 5.0,
+    "date": "16 September 2026",
+    "author": "Jyoti Singh",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AGK66NW4UJUQPXXHFQL6NJ7CT4DQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/50c6a337-c140-490b-9e24-404b7c0ee63d._CR0%2C0%2C500%2C500_SX460_SX48_.jpg",
+    "images": [
+     "https://m.media-amazon.com/images/I/71ivKSOrtbL.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 6,
+    "title": "Bad",
+    "text": "The thing received was really bad seemed like the package the bottle s in which the kolam powder received looked old worn out used bottles. We are paying for this thing right. Why pay for something used and worn out.",
+    "rating": 1.0,
+    "date": "18 September 2026",
+    "author": "Shilpa",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHCXZU2BDUV2ZVQVZ54SBKWUTMLQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 7,
+    "title": "rangoli powder",
+    "text": "Nice.",
+    "rating": 4.0,
+    "date": "2 February 2026",
+    "author": "Amazon customer",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHKUHQBHQXXTS2WJ4IX62UK56PEA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   },
+   {
+    "position": 8,
+    "title": "Bright Colors",
+    "text": "My Pre Diwali buy for Diwali this year these are very comfortable bottles of rangoli colors. It’s easy to draw with these bottles and they come in all varied colors kids like. Bright appearance while you put Rangoli.",
+    "rating": 5.0,
+    "date": "20 September 2026",
+    "author": "Sujith Nair",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFI54LIL76AXAS2E4XB26T6RN5SQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/717u3FWTKWL.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "size": "12 Count (Pack of 1)"
+    }
+   }
+  ]
+ }
+}

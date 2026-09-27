@@ -1,0 +1,176 @@
+{
+ "search_metadata": {
+  "id": "6ab82062fbbebb60e3712e35",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/XaGb3MVyB1qgoQZU1jIX-TuDvC9IEqaSocn79B3FASM/6ab82062fbbebb60e3712e35.json",
+  "markdown_endpoint": "https://serpapi.com/searches/XaGb3MVyB1qgoQZU1jIX-TuDvC9IEqaSocn79B3FASM/6ab82062fbbebb60e3712e35.md",
+  "created_at": "2026-09-26 19:43:30 UTC",
+  "processed_at": "2026-09-26 19:43:30 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=en&tz=-330&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22diwali+gift+hamper%22%2C%22geo%22%3A%22IN%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/XaGb3MVyB1qgoQZU1jIX-TuDvC9IEqaSocn79B3FASM/6ab82062fbbebb60e3712e35.html",
+  "prettify_html_file": "https://serpapi.com/searches/XaGb3MVyB1qgoQZU1jIX-TuDvC9IEqaSocn79B3FASM/6ab82062fbbebb60e3712e35.prettify",
+  "total_time_taken": 2.15
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "diwali gift hamper",
+  "hl": "en",
+  "geo": "IN",
+  "date": "today 12-m",
+  "tz": "-330",
+  "data_type": "RELATED_QUERIES"
+ },
+ "related_queries": {
+  "rising": [
+   {
+    "query": "diwali 2026",
+    "value": "Breakout",
+    "extracted_value": 124300,
+    "link": "https://trends.google.com/trends/explore?q=diwali+2026&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+2026&tz=-330"
+   },
+   {
+    "query": "diwali gift hampers for corporate",
+    "value": "+200%",
+    "extracted_value": 200,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hampers+for+corporate&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hampers+for+corporate&tz=-330"
+   },
+   {
+    "query": "diwali gift hampers under 500",
+    "value": "+90%",
+    "extracted_value": 90,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hampers+under+500&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hampers+under+500&tz=-330"
+   }
+  ],
+  "top": [
+   {
+    "query": "gift hamper for diwali",
+    "value": "100",
+    "extracted_value": 100,
+    "link": "https://trends.google.com/trends/explore?q=gift+hamper+for+diwali&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=gift+hamper+for+diwali&tz=-330"
+   },
+   {
+    "query": "gift hampers",
+    "value": "41",
+    "extracted_value": 41,
+    "link": "https://trends.google.com/trends/explore?q=gift+hampers&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=gift+hampers&tz=-330"
+   },
+   {
+    "query": "diwali gift hampers",
+    "value": "41",
+    "extracted_value": 41,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hampers&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hampers&tz=-330"
+   },
+   {
+    "query": "diwali hampers",
+    "value": "38",
+    "extracted_value": 38,
+    "link": "https://trends.google.com/trends/explore?q=diwali+hampers&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+hampers&tz=-330"
+   },
+   {
+    "query": "diwali gift box",
+    "value": "33",
+    "extracted_value": 33,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+box&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+box&tz=-330"
+   },
+   {
+    "query": "haldiram diwali gift hamper",
+    "value": "18",
+    "extracted_value": 18,
+    "link": "https://trends.google.com/trends/explore?q=haldiram+diwali+gift+hamper&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=haldiram+diwali+gift+hamper&tz=-330"
+   },
+   {
+    "query": "diwali gifts",
+    "value": "17",
+    "extracted_value": 17,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gifts&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gifts&tz=-330"
+   },
+   {
+    "query": "diwali gift hamper ideas",
+    "value": "17",
+    "extracted_value": 17,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hamper+ideas&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hamper+ideas&tz=-330"
+   },
+   {
+    "query": "diwali hamper ideas",
+    "value": "16",
+    "extracted_value": 16,
+    "link": "https://trends.google.com/trends/explore?q=diwali+hamper+ideas&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+hamper+ideas&tz=-330"
+   },
+   {
+    "query": "diwali gift ideas",
+    "value": "16",
+    "extracted_value": 16,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+ideas&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+ideas&tz=-330"
+   },
+   {
+    "query": "diwali gift pack",
+    "value": "12",
+    "extracted_value": 12,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+pack&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+pack&tz=-330"
+   },
+   {
+    "query": "diwali hamper boxes",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=diwali+hamper+boxes&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+hamper+boxes&tz=-330"
+   },
+   {
+    "query": "diwali gift hampers for corporate",
+    "value": "6",
+    "extracted_value": 6,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hampers+for+corporate&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hampers+for+corporate&tz=-330"
+   },
+   {
+    "query": "haldiram gift hamper for diwali",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=haldiram+gift+hamper+for+diwali&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=haldiram+gift+hamper+for+diwali&tz=-330"
+   },
+   {
+    "query": "diwali gift hampers under 500",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=diwali+gift+hampers+under+500&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+gift+hampers+under+500&tz=-330"
+   },
+   {
+    "query": "corporate gift hampers",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=corporate+gift+hampers&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=corporate+gift+hampers&tz=-330"
+   },
+   {
+    "query": "diwali 2026",
+    "value": "3",
+    "extracted_value": 3,
+    "link": "https://trends.google.com/trends/explore?q=diwali+2026&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=diwali+2026&tz=-330"
+   },
+   {
+    "query": "gift hamper for women",
+    "value": "2",
+    "extracted_value": 2,
+    "link": "https://trends.google.com/trends/explore?q=gift+hamper+for+women&date=today+12-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+12-m&engine=google_trends&geo=IN&hl=en&q=gift+hamper+for+women&tz=-330"
+   }
+  ]
+ }
+}

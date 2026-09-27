@@ -1,0 +1,219 @@
+{
+ "search_metadata": {
+  "id": "6ab8208b4a0898361f1c95c8",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/7ZyRfzMO8fiaVWPlYnQUsV542XDaxdrUaVlJTDv8iZ0/6ab8208b4a0898361f1c95c8.json",
+  "markdown_endpoint": "https://serpapi.com/searches/7ZyRfzMO8fiaVWPlYnQUsV542XDaxdrUaVlJTDv8iZ0/6ab8208b4a0898361f1c95c8.md",
+  "created_at": "2026-09-26 19:44:11 UTC",
+  "processed_at": "2026-09-26 19:44:11 UTC",
+  "google_immersive_product_url": "https://www.google.com/async/oapv?yv=3&ei=XCC4aoWYMpW2qtsP1I_qmQU&q=brass+diya&gl=in&hl=en&cs=1&async=productid:17411394659793800361,catalogid:10940387766100069375,gpcid:4893260343399868764,headlineOfferDocid:13995950125498536420,imageDocid:16582190467940198424,isp:true,query:brass%20diya,pvt:hg,oapvfc:ErcCCvcBQUppVDR0SVRXX2JQYkpZWExUbWxhT2VwNE8wcVViX3FHaHhIZ1RlSk5Gckt6YklsWEVDMmpxTkF5OE01ejFLeXV0aEV0NnMyZG1Wb0xicHlFM0JPY3FyOTVxeWRlQVlGdlEyVGxvaEFiRWR0ZFpXeF80UXJ2VjRGUmdMUkxPb2J1YXNnaTQ3QjBjS3QzT0w5YW5QeG92LXZlTVZpWk1DVjkzYXBrdUZfTnBMUzVKTkczdHE4STRBU1Y1WE5NOGtSWXdXNGxodWVnS3NKdXA1dnh4SlVGN0ZybGVHYWJEUlFQbVBOU0NHT3dDemtPX2xrQzBfNnlXNBIXWENDNGFvV1lNcFcycXRzUDFJX3FtUVUaIkFEc3I5ZlRuT01GQVVYSTNVTU1MOHFDNDg3VE1FM1pVbUE,xsrf:AF5tSO5q1DZJWESgd9slq20_wUi5odvJAQ%3A1790451835558,sori:0,mno:3,_fmt:jspb",
+  "raw_html_file": "https://serpapi.com/searches/7ZyRfzMO8fiaVWPlYnQUsV542XDaxdrUaVlJTDv8iZ0/6ab8208b4a0898361f1c95c8.html",
+  "prettify_html_file": "https://serpapi.com/searches/7ZyRfzMO8fiaVWPlYnQUsV542XDaxdrUaVlJTDv8iZ0/6ab8208b4a0898361f1c95c8.prettify",
+  "total_time_taken": 5.59
+ },
+ "search_parameters": {
+  "engine": "google_immersive_product",
+  "page_token": "awDwgXicLZTHjutWEoZnMC_gR-j9hS7OYWY3tGA4TGIQMyVgIDA3g0QxqBmexuhrG7B3E4B5lvHCz2IZuIvaVP1Vhfrwo_742w-fefW_SBCIuAtPxj3E-mk8QvXSX23_1_vQZY90qrL_QpqAEGcJimRpFmcAwCn4axpPcduVf5UBSwCcoWmKggAAisVp8t_veZy11S23iiIfxC79S4ezLMmSAGIkwTIkThEY-K26xmX-vU6RDAZZQFD0cyBkGQIjvg3Z-OPP_SMf1t-SIR7HL1m1xj-X92fDfwiGxTEK4AT-nMxQDE0R365V9uO3-8f0-V7-9Hi0-b_mLwKn2qqgSm5INnGIPsv2s7p9vref-e2XLr5_FOnvf_-GhlQQPlLe9u_3QHSAGzhRhGn2qbmfQ7T4Sbi8e1gwm4iZ0yCoIlxSYuVdPUOndRtSTpuJOjXtGKJANK73xWsk0kIA5rWk51EAYhQA82asZxmGCViqVGklA2jHEy6tlhcseei0dtDKWYvWQF4-YiRVTuiAs3SPcokBfqRhQe3I_jUz_GY5JpgGT5F5iz0bt2u-dnF788BMnkLSzmUW06Nz6wXne9hAMaib7RTxQ-afC-_GG_4WHLwm3TIFEa7n8D48wRCRpiVPbhhlkSkvXRYGNxc3D1nEwez2TrhtIJvgvCZyoJxCDfmtZCcBb_nAVDw8E_PrdIywZbA3vjBvbWTyahQiUzRl6SOArZlK6ZpGzuaLkvZkN_mBH6uNhFJcJc-t8_AAlO0gOLmeGXg-NCxFEk2xxAMEJQPeg8RHPy3jUPwfcBI5uRYNF-ycnrdAfNz4rA35Q_yeCcz1elftV0g_XURCBpCQhL-kXddU-e__-KdrCe7-6Ya3l8vFzdPHkO-e5x_3nHk9zzEI9Vyq6e54GY5Ssjsy-XL5CPhEVrd4omUjAhVf4luE56uk62polvq0YsfbSYiVee7Nvu55ZfTaWJAiJHeZQke9tTHjluD224uLOEdQLi5nIFf10F4obZXpEf_2wiFhz8Uxi7S-T2ZnPJ0iqI5qcWj0-4PpldNDk0yteNRC2N_mElrFjLIhDjfq_Gi4txfZsmQdXTjed9EFRcg4eqpl7lVxj1EUW8SAiWkakCDBXz1j_x0NxKhXYT-8qsc9TX2FFPGVJr5CyO5e3T2Ynbm9OkcTre5WJcUBVtWhLN9exGCPdrGjM_QFGmPoa4qigcWEH8-X0Bw30eneXsznXqFvBIFDLjYj3lpk0UW9tz25dx2XujsOdKnfaFK19i7RZU2PbeFZ2tg7LZsB7aaHM4ErbE0pidLKzVpDovLIZeeWflYCNKsXv6c6vn-wdaX0ouHgB4fGMGf0tDZenNWkzxJVlcLO1W_iZbyKeVgq7yVXkGbNkOkExKCvVgbpOy1jmFrCBFyvzCIialxjry09d8J2cHDeoVONNqHIs208DKL-IIAxeumQ3J_O8FWmLiyFUbSC6tWi9NZr4qJix1PLzWJzJ11zxlKHrJqORjmBgHmCJGFpG4U1li2P6uM0FdYuqiAbMR3naRKXHUae2WX6qtWco-PtxfFpZ6RSPyrxBMOrGsm2QAhG6tt8klwhGHhtgDc4q4tNmt3upEcGNZXpTTI92cUOMw_BPDHGWD495vs62tdfwg2Nhqc-IyUN0YaGV86m-GwXudkQlkcWLqMujash-qSxnYhnfjS38klOJaynJnK_awSw6DU3JrdgTIQZi-z9_k-WCxGH",
+  "more_stores": true
+ },
+ "product_results": {
+  "thumbnails": [
+   "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSihHyx5zHV8MdfesZop8aVtoI1UdrJVnN3MKaR1fDd_mc3DsOoXm4f2IO1et5hI7b2tFBoX0hpLR8gvqNj0HZh9So3ejwGUTx0mec2Rhk",
+   "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRwTSWFmFV8q4Qd20-qNcd8Gr86YOqTkcFH9F_PAE0M0ibSjsh-5VZYKIQQdcLjOUFz-Cl6Lros-2oJTXqrgKKQszaa1o7US6Rn15Yh8o83B-P6lfGFmGj0LbE",
+   "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTneRD71Fzl-6ko6SEN1mmocWfITTtkCUW1uCgCVSY8RHiydL3Tsst6XZWb-eirJnDUn8lh8Id8r6qNxEliLGPMbDlEtFZ9deWpu2l_eloRlssbCMAq66rHWQ",
+   "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSlH-LX9Z-2PWnovOy2r6YZnmxd3fG5c7CmCOzm4uqqOKj1W9uBrarY_FFP0OzbAhXDjHOqIEKCsoHmT4LXP8epc_hQy6g-pIXGJz0dfP9r9q0unHJsZn4TCS54",
+   "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTFrfDpp7tJp_xZ-Km1e9-n-e4eNmu07B9HXbp6BPLh8jkY0EGswCpjl-xoj_0yNtXy9W-JfWNWrLu6CC5UW0r9MN86fhz_dg"
+  ],
+  "title": "Peacock Design Brass Diya Set of 2",
+  "brand": "craftvatika",
+  "price_range": "₹584-₹615",
+  "stores": [
+   {
+    "name": "Amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Decoration/dp/B0FMXW6YGK?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A380B3WNC3LCZM",
+    "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 2, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam Diwali",
+    "tag": "Best price",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery"
+    ],
+    "price": "₹615",
+    "extracted_price": 615,
+    "shipping": "Free",
+    "total": "₹615",
+    "extracted_total": 615
+   },
+   {
+    "name": "Flipkart",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.flipkart.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.flipkart.com/craftvatika-pure-brass-peacock-diya-set-2-7-cm-kuthu-vilakku-oil-lamp-diwali-decor-pack-2-table/p/itm03fc42cfe9c2a?pid=DIYHF89ZKCRFWDDZ&lid=LSTDIYHF89ZKCRFWDDZZEP2LW&marketplace=FLIPKART&cmpid=content_diya_8965229628_gmc",
+    "title": "Craftvatika Pure Brass Peacock Diya Set Of 2 | 7 Cm Kuthu Vilakku Oil Lamp For Diwali Decor Brass Pack Of 2 Table Diya Set",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery by 6 Oct"
+    ],
+    "price": "₹615",
+    "extracted_price": 615,
+    "shipping": "Free",
+    "total": "₹615",
+    "extracted_total": 615
+   },
+   {
+    "name": "Craft Vatika",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://craftvatika.com&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://craftvatika.com/products/peacock-design-brass-diya-set-of-2-kuthu-vilakku-for-temple-oil-wick-lamp-dfbs568-2?variant=46440372895913&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AU7gw4WLQYAXCPeCriZiVaVyUFgts5CnxjR18K_T48FJP3VgL4NPqfbr7Yg",
+    "title": "Peacock Design Brass Diya Set of 2, Kuthu Vilakku for Temple, Oil Wick Lamp (DFBS568-2)",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery",
+     "7-day returns"
+    ],
+    "price": "₹648",
+    "extracted_price": 648,
+    "shipping": "Free",
+    "total": "₹648",
+    "extracted_total": 648
+   },
+   {
+    "name": "Desertcart.ae",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.desertcart.ae&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.desertcart.ae/products/766982613-craftvatika-pure-brass-diya-peacock-design-brass-diya-set-of-2-kuthu-vilakku-for-home-diwali-decor-items-oil-wick-lamp-deepak-deepam-diwali-decoration-items-7-cm-height",
+    "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 2, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam Diwali Decorat",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery between 6–9 Oct"
+    ],
+    "price": "₹1,174.07",
+    "extracted_price": 1174.07,
+    "shipping": "Free",
+    "total": "₹1,174.07",
+    "extracted_total": 1174.07
+   },
+   {
+    "name": "Amazon.in",
+    "logo": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.amazon.in&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.amazon.in/CraftVatika-Peacock-Design-Vilakku-Diwali/dp/B0FMXVJS33?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A380B3WNC3LCZM",
+    "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 1, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam (7 CM Height)",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery"
+    ],
+    "price": "₹315",
+    "extracted_price": 315,
+    "shipping": "Free",
+    "total": "₹315",
+    "extracted_total": 315
+   },
+   {
+    "name": "Desertcart.ae",
+    "logo": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.desertcart.ae&client=SHOPPING&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "link": "https://www.desertcart.ae/products/767945717-craftvatika-pure-brass-diya-peacock-design-brass-diya-set-of-1-kuthu-vilakku-for-home-diwali-decor-items-oil-wick-lamp-deepak-deepam-7-cm-height",
+    "title": "CraftVatika Pure Brass Diya, Peacock Design Brass Diya Set of 1, Kuthu Vilakku for Home Diwali Decor Items, Oil Wick Lamp Deepak Deepam (7 CM Height)",
+    "details_and_offers": [
+     "In stock online",
+     "Free delivery between 6–9 Oct"
+    ],
+    "price": "₹547.90",
+    "extracted_price": 547.9,
+    "shipping": "Free",
+    "total": "₹547.90",
+    "extracted_total": 547.9
+   }
+  ],
+  "about_the_product": {
+   "features": [
+    {
+     "title": "Brand",
+     "value": "craftvatika"
+    }
+   ]
+  },
+  "more_options": [
+   {
+    "title": "Handcrafted Brass Diya for Pooja, Traditional Oil & Ghee Lamp with Raised Pedestal Base, Decorative Deepak for Home Mandir, Aarti, Meditation & ",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTp5kMsZIQkl7Xmwp0J-9aSk9n-qNk3cyjazA1qbxossYhiZJQCqHFenSjpCIxA3jtodr551pkBBj6xL0XSC-8TIQbi5vs37a_mVycfuNqbf2totSMhx1tr",
+    "price": "₹289",
+    "extracted_price": 289,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=HQhhbnicLVRJruNGErXhE_QhalVQIZPJsXccRVIcxJniRuAsTqIoUp8ib-EbNH7ZBuxd2wa89TXshc9iqlCLzARePEQ8vIjIf775z3te_RHyPB73wUm_BdgwjUeonIfO8n6-3fvskU5V9jukcAgRg5MEQzGIBgCR8Oc0nuK2L19hwOAA0RRFkhAAQDKIIn695HHWVtfcLIr8LvTpFx5FYzhEJAVpQNA0jTDml6qLy_xrHCMQQ0EKkQBSJAIYAZkfh0d-X35J7vE4fsyqJf6xvG3c33CaQRgJEI4Qw9AkTZH459vb9H4pf3g82vz_80eeVSyFVyQnIJo4EN_L9r26vl_a9_z6Ux_f3or0729rsZ95fpw5y7vdfMEGThPJJ59RHNkewjXTdYxYDNDe8oCp88DmI3hBkWD0utvWyV4io_1zMRpidH3VsH2myMKWdOULjMVxsrDW8t1mtYUWZYF9itsWGWG0pq0BEt_QTDfDjMB3jEB5Rp6vRnsCJgGjxlhWRMGl8sOUiF3pkexVNe2gZ7c3x5X8R9BlTtS1Yt7BIe6YJb6219hTN26rptLN0fc6ZoNLYTfz6vjGW4RZyBGZwXVVyZa5g9dFhBYQ3QnZtr6qfBZGXOo9HxmYyFi0JV32D-IlG2JPB6dQdeNmMt3Vx9Kas-IgIk-rbcfPvrI8e03rtvOA5HhriefiBU994-KGzZxc1WeEsjdDYPG0aW_Z_MNzvBd_AVYiJsfEL4Q5WaHdHHU84-hj1h0BoXWL_HSs_0KKATgBaQJnaPBT2vdNlf_93feOyTsfkLC19QPiPp7PTp4-7vnOce3jBrNGF80xCLRcqqn-eL4fpWR3pPPn-c3nkr2yxhO110NQcSVaQ5QvkqYpgVFq04Idryc-lud5MIZ64OTRbWNeCsV9n8lUOJgrPa4Jsl5VHZG1efnssLroKK74klNaCj2I3CvKivxLSRwzojoMyWyPp1MIlVEpDo12e9CDfHqokqEWj5oPhutcQrOYxeweBysZPRr2lWNvmntNPLOc54hnMRT1o6uYxpZWEbYLI0mmiAEdUxQgQII-INbVN_yrZRAjN-Ql4r69yssXivwESfwThX-CkNlt6MtDMNtz29lHQ1yctUqKA6yqQ1m-6gv-Fhd3sa3R1BnqY-CpsqyCpwHftr1vjqtg9y-e8UUPPzQ8z4oONouc-dwLjji469ahvmdTZ8eCPvUaVaqWwcH7rBmwNYiklblRe8OnnPQQ4UhmalJO5HbfLDXEK5d47pzSy0ogzsrZG8ieGx5MXcmDoNvoYFMYZo-u2sZPezGoSCKrkt852lU4j52QB6V8KdmCMGqaSCcg-EO10KK2UzOariWMR1plFCFeI5XpWmru-fVgI86mUpUyoMAxbXy_C9oDB_ropvfkts2Pp9B1Ycq0rBbkoBSlu3SJIxY7jnxeTSa30yWnTeWeVdNRLyfg05uhBCwtvTDHsuXE-jhNhbkLK8iEdM9uK8hmh5Gjd5m2qDVra6g92x5lj2TqhSVKMFTV4t7icV5PPYtLkg6CO6fe4RXOytMijH530kKdnMr0Khnu3sEOMwfBPNH6WH6ZQs_TXoNZfwxWcdRdZTspoQsW1N1yNoQthcDOOr_te_AcNWlcdMEj9PWEb_horOXmnoKbGyd0vnJ48NRqdkyu_pjwMxZuq_Bq_ud7Nv7vc1dlf24_b_Hnvzk3Dqo"
+   },
+   {
+    "title": "Grehshobha Brass Diya Kerala Samai - Heavyweight | Kutthu Vilakku Deepam | Brass Pack Of 2 Table Diya Set",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQMc7FydIe3z19N74U10E7dNebhvdXgWi9nLUkOl0YetpCRdcykMWhKUQgJ126LF8r_nIe_u5y7z9-RMyelLDpDkjY8DGgtZ37Pmh4SC5ONw_f4hpJy8K0",
+    "price": "₹1,765",
+    "extracted_price": 1765,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=U8J-LHicLVTJrqNGFE2UL8hH9KrlVhUz2TEUBsxgM8PGYjYYjAH7gfmL_EH0epC6dxmkbPs30ot8S3Ari6qSzj269-jce-vfH35-zau_A0Eg4s4P9auP9bdxD5Vj3x7cz9ehy-7prcr-gjQBIc4SFMnSLM4AgFPwcxrf4qYrn2HAEgBnaJqiIACAYnGa_OOUx1lTXXKzKPJB7NInj6QhRdEsSTOQwCADSIr5UrVxmX-P_0liLLsmwSgAIE6SGKCZj_09Hx5fkiEex7dZ9Yg_ltcnlWBYfOXhBI6zLEMxNEW8v77cXk_lh_u9yX-f3gqcclAERbJ98hz76LVsXqvL66l5zS-fuvj6UqTffqxRNwnCOPEH93r1RAvYZ8lP2-spbDLSWNQ2hjzSa751QKTpojXbjhT6btT60onIzqfIk098Bi3Pdccnn3SgOuSNGkf-vHOk5mS6KubCcsp8iwgbtcrczNUC3tC9k59fjDjz58XanuYQGE0I2dkMLF_H4HTwb1KIq7wnerKDjMqFUWyLJebh6BGdp9lwFDJ0SRBAyTAaQ_ZFr9PdaIkcAxlYdE-QFxxaA_qNTji-1TmBaliut0vbufIdCRnoNOYSg0fbKLC3qulvG_nQNr2PyEN-aRx0yvrY1UEYqE58vpnO4mFpzR9iP6LCxbLiuasOrrWkddO6PnuJwLyz4Rkki0KkrjS4W32yXXVYta91jTCaPszjUPwDOIm82SYp7WqqaMPl8qLnkeC-uDtK0oSSxDDuF0izgCAhQxIsAz-lXXeu8m8__Wqbgv0GF9e2vsH5t8ejnaf3Id_YjrVfYc5ooykGvpZLNd3tj8NeSjZ7Jp-PLx6fbJUlvtFbPQAVX-JLgOcPSdMU3yi12wPbX0IhlqepN_q65-XRaWJBCtC2y2Q66M2FGZcEPzyr2oizBPloczqyFQc95ZQHhekR_4xySHgqiWMWqX2fTNYYhgFURqXYnbXrnenl8K5Khlrca8HvL1MJzWJC2RD7CxXdz9wzx9Y0txo6crxroyMKkL53FNNY0yriemEUxRYxYGKaBiRI8Dc45-gr_r9lEKNW5CliWF_l6QtNvYMU8Y4m3kHIblb06SGYrKlprb2BHvZSJcUOVtWuLJ_1RW-No01saQx9hProu6osq2A24Mu69uf9Ilrdk2d81yP0Z0HgkI1NiDfnrWij3lnWDnUdl9obDnSpe1al6tHbRJede2zxI2lhr_TW8Gg73UUELrM1JSdysz0_akhUDjlv7NLNSoAm5ej2VMf3d7au5F7ULXxn0RhmjY7axLP1MOhIoqpS2NjaRTyOrZj7pXwquYI0aoZMb0D0-urBIG2jZgxTS5iAa5VRBESNq2zb0FMnLDsL5y06VWkDijzbxMMgancC6KOTDsl1nR9XYerClBlZLaheKUrn0SY2KjY8NV9MNrfSR86YypBVt71e3oDHrIaSsDzohTmWDY_q_e1WmJuggmzAdJyjSly2G3lmk2kPteYsDW-OlktbI5W6QYknGF7VaHsQCEFP3QOfJC0EA68O8AInZT6QRrcJtUCnbmV6kQxna2O7iYdgujH6WH6fQtfVnoNZv_UXNOqOsp6U1MUD1J1yMsQ1hchNujDf179n1KTxoYsuqS8hseKjsZSrewphrpzA_p8jgFmruTG5eGMiTFiwrsKz-e-HbPztfVtlX9eft_j6H31yDSA"
+   },
+   {
+    "title": "Pure Brass Diya | Akhand Deepam | Nanda Vilakku for Puja, Mandir & Home Décor | Long-Lasting Brass Oil Lamp | Traditional Indian Deepam Gift 2pc",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSGVvLNzwmYgPZCmdqWdG_BXF3OpVebvrfLIEwKZNHPGkNdpSEeb4plE1N4xwCdHS7EaTHamsWnF6YlO0LI9YkReAiPrMu-0E06AmhYtHO9j-mItG9ruKA8",
+    "price": "₹390",
+    "extracted_price": 390,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=noR4xHicLVRJruNGEm2jT-BD1KqgQiZnesdRJMVBTI7SRuAsDhLFQZ_DLXwD41fZgL2z3UBvfQ174bOYKnjBJPLFw4vAi4j8-z_fvmfl_0NBIKI2OBmPAOvG4QjVS3ezvZ8ffZs-k7FM_wdpAkKcJSiSpVmcAQCn4M9JNEZNW7zCgCUAztA0RUEAAMXiNPnbNYvSprxnVp5nvdgmLx7OYpBkAMtQLI3j5HYDv5S3qMi-xn-nSQLS5ItBAwhoggT4j90z65df4j4aho9puUQ_Fo8XlWBYHKMATuA4u8kxNEV8fryN79fiy_PZZL9OHwVOtVVBlZ2ArKNAei-a9_L-fm3es_tPbfR4y5O_vqmkdhKEYeJt7_HwRQQc14Sm51eBN9doz8pZ_XARzj8y3387--yS-Kwc30jFWQAZQu0eY9rNBjPpB3BLMrsncCWStWmQfy0NAUz-3Vhi-QST1YC-nD5t-Dj5e_luAzOywXlO4Qnz4FVD8vmRgnPg1CkMPG9Fq3ba9JrozvuuIq9phWpUm03aXEW3MlavHrXEG5tMmkAmN6V_80Yn1CpfkrszuC5bPSuCvKt7mhOHZoWkAQu3TAhqtgnG23m9vp1LiAf7axPcmtnxHyCqZ3jGU912ZVK6pl3kGeAUam5Uj5a7-lhS8XYUnKnTilA0t6XtoTWpmpsHCiyq_ckP_OZcj_ukvu5TbH4GMntHXnNAASLP05d56PM_ASeTo2ORpdkwJHbr6acW1XJL6pZCcAlqNJ77DtIsIEjIkATLYD8lbVuX2V___d6xBOcDLm5t_YDzHy8XJ0uefbZzXHTcYM68nacIBHomV3R7vPRHOd4dmWy-vPl8vFfXaKT3RghKvsDXEM8WWdfVwCz0ccGO95MQKdPUmV3V8crgNpEgh9K-TRU67KyVGdYYt19ZHYlDgnJxOENyVFd6lVPYKtNJ_CvKScKrkihiJa3r4gkNp1MI1UHND7X-eDKdcnpqsqnlz0oIuvtUQCufpLSPgpU6P2vupbG3rL0uXTjec6SLFErG0VUtc5NVxe3AKIrNI8BENA1IEOMfcM41NvxfyyBGbciriH77qy9faOoTpIhPNPEJQna3oS8PwYSm5oaOprQ4axnnB1iWh6J45Rf9LS7tIqQz9AUaQ-BpiqKB2YRv29rXx1VE7Ytnfq1H6GpB4CQHmyTemveiI3XuunWobbnE2XGgTbxak8ulc4g2rTtsDc7yyj7ovenTTnI4E7jCVpQSK82-XipIlC4575zCSwsgTerF66iW755sVSqdaCD8gGgMQ4OrNdGMFpM-y1RZCDtHv4uX4SZmQaFcCy4nzYohkxGIflcujKTvtJRhKhkTcL0085CocI29NfTUCuthW25EJxptQpFnm6jvRf1JAGNwkz5-bPPjqUyVWwqjaDnVqXnhLrfYkfIdT813i81QsmSMpfZpOR6NYgQ-sxlKwsI2cmsoGl6qjuOYW7uwhGzItJyryVx6GHhml-qLVnFIx5sL8mg0UIkXFniM4WUl7W2BEIzEs_k4vkHQ81oP73BSZ5s0291JDw1qLJK7bLp7BztMPATTyBhD8XUKPU9_DWb1MVilwXDV7UtIQ7Sh4RaTKW4SIjcZwvxMg3nQ5WExRI801hOx4YO5Fpt7KmFtnND5lyOAWa-4Ib77QyxMWLitwqv5n_t0-OHzrUz_2F7e_I9_AC80Dyc"
+   },
+   {
+    "title": "Elitetouch Brass Akhand Jyot Diya/Akand Jot Diya/Oil Lamp/Aarti Jyoti Brass Table Diya",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTk-2yfdjaBrMpucmGPKJY3XwBvIVLrDBOdf5GOcznpl9M8SrJtx06W2wvuo18myoqI0AQPBShZ-W-HyPFJ1IaGtnA6MN_PUMSSldjIZXv_LOKU6zXWIO81",
+    "price": "₹254",
+    "extracted_price": 254,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=0J2eGnicLVRHruNGELXhE_gQsxpo0E02k3fMQQwSs7QRmMUgUQz6pHgBr30D408AxjsHwFtfw174LKY-3EB3A69eVxVeVfW_33z_mpV_hjyPojY4GLcA68ZhB9VTd9l7X299m96TsUz_gBSCEGcQSTAUg9MA4CT8mkRj1LTF00wihkSIQBSEDAkBwnD6t3MWpU15zaw8z3qhTZ48xCBmXYhEJI0gTkES_6W8REX2Zv8drS8pGtGQwCDGABIA-Lm7Z_3jl7iPhuF9Wj6iz8XtjUozOEYCHOE4w9AkTZHo4-1lfD0Xn-73Jvt1es-z6l7lVckJiDoKxNeieS2vr-fmNbt-aaPbS5788-2PYqfy_F3l9t7t5gs2cGCC-f5-9sAZRdfzcgAE73pNaco39XA5GonPkMeleQSSKaWhbbjyiGeBNzv1sOw9EcWeGXqNj6fLGaSAEb3lqFsinLLQ37oVZ3jCMXIbyfL99J7iTRiCUbYEs0-r1HeBGSWyRqbwvLjXo7GvVMKX0-DY-HaKEWQsSlMgm1bq2moi-7NXz7Mhp64LJT0JGMKs0Wwu6pIpNukuJmnUTHTwZrSvicVVWNwImoPRtEvizcb-MgZ6ePQc_Cx5y_nFxxvOuQz4IfAxS2EJx4PVAfi-I9h7w9U6W2Ymv0qN6Mpx6ayG0aURTFl6eNhNd2sapld18uTmkl0M4AVDpNaSmOAqcWzMLvMbJwbqlLp-kPn20a8lP6hTMfA8ZPp2lEnip3no878BKxGjYxGl2dAEdumpuxbVUkvoloLYxG40jv0BUgxABKQJxNDYl6Rt6zL757ufHIt33uHCWvN3OPf-dHKy5N5nG8e1dyvMmpfjFIFAz6SKanenfifFmx2dzacXn4tldYlGSjZCUHIFvoR49pB0XQ3MQh8f2O564CNlmjqzqzpOGdwm4qVQlNtUocLOWuhhifH9M6ojsjavnBzWEB3VFZ_pFHuV7kTuaWVF_plJFDGi1nXxZA-HQwjVQc23tX67051yuGuSqeX3ig-661RAK5_EtI-ChTzea_bpQ7YsWRdPLOc54kkMRWPnqpa5ulWF9cBIkskjQEcUBQgQ4-9w1jVW_H_JIEauyDOJfr3Vpy4U-WEd3Q8U-rDO7WZFnxqCyZ6ai70zxYezlHG-hWW5LYpnfMFf7eImsnWaOkFjCDxNUTQwm_Bl_RPq3SLY7ZNnvuXDdzXPs6KDTSJnzbLgiJ27rBVqWzZxNixoE6_WpPLROahN6w5bgqO0MDdKNn3KSbZHhCtMRSqx0sj1o4KodIl54xReWgBxUk9eR7Zcd2eqUukEw8a3NoVh9uBqTTTbD5M6SmRZ8BtHvwqn4SJkQaGcCzYnzIomkhEIflc-aFHfaClNVxLG43pp5iGqcI25NNTU8svWxjmbSjTKhALHNFHfC_odAWNwkz6-rf3jqXSVWwqtaDnZqXnhPi6xI-YbjpyvFpPZySOjLbVPy3FnFCPw6VVQAhZ7I7eGouHEajeOubUJS8iEdMu6msSm24GjN6n-0CrW1vHmZHuUPZCJFxZ4jOFlJcp7HvFG4u25OL5A0HNaD69wUuc9Ybabgx4a5FgkV8l0ZQfbThwE00gbQ_HWhZ6nPxuzeh8s4mC46roTwhD20HCLyRRWFwI7Gfx8T4N50KXhYQgeYSwHtOKDuRSreiqyVk7o_M_hwaxX7BBf_SHmJyxcR-FZ_I99Ovz88VKmf63fcv7Xf7eHFjk"
+   },
+   {
+    "title": "Yoshiva Panchmukhi Brass Diya/Lamp for Arti Puja",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTZUoWOxZcSkpiD2GEH5kJzng7wDrm6ZQ6ywxg4Lfv6g38w5H0Fsd7uiLXpFCgG958_VN9eFV6j_2OCU2iItDkNgit9Mv0T3HrCrYv4nNU6CFoC9B-TxZoaTA",
+    "price": "₹489",
+    "extracted_price": 489,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=_XaI_3icLVRJruNGFmyjT9CHqFVBhUzO7B2H5PQ5iDOljcBZnERx0KfIW_gGjV-2AXvX7ga89TXaiz6LqYIXmQnEC7wMREa-___tHx959VskCETchyfjHmLDPB2hehk62__5PvbZI52r7L-QJiDEWYIiWZrFGQBwCv6cxnPc9uW3MssSBMQxHKNwQDEMzZC_XvM4a6tbbhVFPop9-uJRNEMBgOE0xCmKwEgKg79UXVzm3-q_YgRNUAyN7YskCUgxxI_DIx_XX5IxnqbPWbXGP5b3nfmfXQRB0DQkKYDjGCBpHP96f58_ruUPj0eb_3v5LHCqrQqq5IZkE4foo2w_qtvHtf3Ibz_18f29SP_47isaU0F4T3nbv98D0QGe5GxZwE4OZIgASO-unAlpkBKW1zwd5Ry6QU_GSjaam71miFnMsFVONxs3AMvbjRbl6CokgTY4AgzPMumesQkzu0DyOw03gQ38FRrB1hoemo8-xj7s-hwHEht6tQEtiVdzRDwNENxS3-TdqJVOQbrGLX81FW7LFGe1fHU20XmLvfY9R4GbNu2SdCowwieZhqweYHdwRlcxEU3Vheqa-nc1QeY1adtjUvvAdgHIm3OQhM3mIOeWeXs_hVvPmLQ6_r1wt9PTQstyRsZq-6xhRW1rtu3JxgzM2fhHAplNDyfCwTPDx9unU19X3TOrLLiDuDMHg1ejuGtFU5ZWH7vrXsPA7KYuvtx2eWcAP5xitZFQiqvkuXXkDJfk0GdDYzuvVkha5ia1ZkeGnqxhptzAsEt_eE5j8T_ASeTsWmQ1u6wQ7YG5WchsdtsVCref6cM17X_uKQQECRmSYBn8p7Tvmyr_4-_fu5bgfsLFPQ-fcP7z5eLm6WPMD67nHHeYM7vzEoNQz6Wa7o-X8SglhyOTPy_vAZ_I6hbPtGxEoOJLfIvwfJV0XQ3NUp9X7Hg7CbGyLIM51AOvTF4bC1KE5D5T6GiwNmbaEtx-3eoizhGUi8sZyFU99JJT2iozIP5V5ZDwUhLHLNKGIVmc6XSKoDqpxVuj3x_MoJwemmRqxaMWwuG2lNAqFpSNcbhR50fDvXrIliXr6MLxvosuKELG0VMtc2-rivuGURRbxICJaRqQIME_4Zxn7PhflkGM2pGXiHE_1ZcvNPUFUsQXmvgCIXvY0ZeHYHGWtnOOJlrdrUqKN1hVb2X5ul8M9jo6xI7O0BdoTKGvKYoGniZ838dFc9xEp3_xzG96hKERBA652IJ46ymLLhq8bX-hvudS98CBPvUbTarWwSX6rBmwLTxLG3unZTOg3fTtTOAKW1NKorRys9aQqDzyeXBLPysBWtSLP1A9PzzYulIG0XDwN4fGMGfytDZ-OqtJnyWqKoWDq9_Ey9SJeVgq15IrSLNmyHQGYjBUK4P0g5YxTC1hAq5XZhERNa6xXUsvvbC9OTjv0KlGm1Dk2TYeR1F_EMCYvHRM7nt-fJWpC0thFK2gBrUovbVLXFQceOp5s9jcSdecsdQxq-ajUc4gYHZDSVjaRmFNZcuj-jjPhXWIKshGTM95msRlbxPPHDJ91WrO0fH24vi0M1GpH5V4guFVjWRbIAQj9W0-SToIRl4b4Q0u6tMmzf5w0iODmsv0Jpme7GJvCw_BMjPGVH5Loe_rr2DWn8MNTYan7islDdGGhlcupri3ELnFEJ6PLHxOujSthuiTxnYidnwyt3J3TyWsnRO5f3EE8NRrbkpuwZQICxbtX-H1-F_HbPrX126f9yRNERTGQoIEkGUAiRH7EC9-_xNnkSMl"
+   },
+   {
+    "title": "Brass Diya for Puja Oil Lamp Brass Diwali diyas Puja Items for Diwali Decor",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4iwVt5-J-WH_UWtHEL9ECo2aR_d1k_-aAaYgpWOCo36L9QaPZanHSaGC82v5s8TG7sTxHv-BBn4qIa2vllKYT4w_EO0OJV0M3F-yNk7IWayVlZY1vzP7jlw",
+    "price": "₹840",
+    "extracted_price": 840,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=8vyljHicLVRJruPIEbXhE_gQtSqokMnk6B3n4XMQZ4obgbM4iBRF6pPiLfoGxq_uBrp37jbgbV_DvfBZTBVqkZlAxMPLyJcv4n9_-ftHUf8n4nk8GcKTcQuxcZ6OUD2PV9v_5XYf8kc21_m_IYVDiBicJBiKQTQAiIS_ZMmcdENV578jksRpgkI7isIwDGIY_dulSPKu7gurLIu7MGQvFpzBIcJpkiEADRGicQz_tb4mVfE9T-xBBuA4QAgnIaAQjX4aH8X9-Wt6T6bpc14_k5-q2zcsgJAh0E65Q_eNgID5enufPy7Vj49HV_xr-cyzqq3yquSGRJuE4kfVfdT9x6X7KPqfh-T2XmZ__vWreM94_j3jbP92CwQHeOIcBIrkOPKNc7DglPU5CrxqTn0tcTFmTHsNs7v46PpEkkjxzW0uggFWKYDxKQ9nQw8uQdLfkhg5wcn3kb3lMIYGnojBMwCOn13XzkGXMfU6wvIylMjLGoGYszdtDrwgOgUX0cQYvJDj1URSaXSOHzZdEqDb9bQFmtGa11jqHFM057i91PamgiC08aDPLzvnFovaZCg5MJU4joXYixXHSkQcj_0biFB3dZHUWqLm60H8ljdanzYOljSa7QWxmksSSDzpeGrXOZdvIEaxanrc4nvmMeiCOA0lPJBV6PUOMASzd5oTbsqxHF7n0muJ2oiyLVvVKLl2gilLTx-76V5Lw7xXF1_ursXVAH44JWoriRlSibgzH4E4YOYWIMufhf1NhuFnhBFxtwgG1wyxS9CKP67TvfwvYCVidi2inl2Gj3bP9JZotgZgFBLZa_ZwTfsfkNrdQ0CawBka_ZwNQ1sXf_7tB9fi3U9I2P3wCXGfz2e3yB734uB6znEPs7ugSwJCvZAaajie70cpPRzpYj2_B1wqq1syU7IRgZqr0Bah4inpuhqalT4_sWN_4hNlWUZzbEZOmbwu4aVIlIdcoaLR2uhpS5H9utUVWYdXzi5riK7qia9yKlulR5F7ZVmRf1WSJIyojWO6ONPpFEF1Usu3Vr896FE5PTTJ1MpHw4djv1TQKhcxvyfhRsaPln1xyJYl6-KZ5XxXPIuRaBw91TJ3WlXYN4wkmTIBdEJRgAAp-oRYz9jj3yWDGLlHXkXc91N96UKRXyCJf6HwL3unHfboS0OwOEt3dY6m-HS3Oi3fYF2_VdXrfiHY8-IhcXSaOkNjCn1NUTSwmvB9HxjtcROc4YUzv9XDjy3Ps6KLLSJnrbLgiqO37T80DGzmHlgwZH6rSfVzdPEhb0dsC2NpY26UbAaUm73FOFKYhlRSpZPbZwPx2iPWg1v5eQXERT37Izlw44NpamUUDAe9OftgciZP65LVeZpULJF1xR9cvRfO01Uowkq5VGxJmA1NZDMQgrF-0qJ-0HKabiSMR3ptlhHeII25dtQy8NubgziHyjTKhALHdMn9LugPHBiTl93T2-4fX6Wb0lJoRSvJUS0r73lNXbE8cOTaW0zhZM-CttR7Xs9Ho5pBQO-CErCyjdKaqo4Tm-M8l9YhqiET0QPraRKbv00cfcj1p9awjo66s-NTzkRmflShFEN1I8o2j_NG5ttcml4huHPaHfZwUVebMIfDSY8Mcq6yXjI92cXeFg6CZaaNqfrmQt_XX8ZsPoebOBmeuq-9GQUbGl61mMJOIbCLwa-PPFwnXZqehuATxrYPAYGdzK3a1VNxa8dE7ncMD1a9Yae0D6aUX7Bob4XX53-959M_v17r_I99ZJd__B_RIR-9"
+   },
+   {
+    "title": "Tinku K Store Traditional Brass Deepak For Diwali, Navratri & Spiritual Decor Pack Of 1 Brass Table Diya",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRg-zJfZd4JnUbCCx7cDf9dqkq6qZk3D3rg9DndbNXDPhmhdTanGcT8_iu5FXDsFPS5cUa5g08BhXVoEwZ5aaHwbyIpUJa_GMu-8XYJTDsM_z8eoQT7vZ2R",
+    "price": "₹378",
+    "extracted_price": 378,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=2BMeh3icLVRHzuNGGp3BnMCH6FVDjSpmesdQTGKQmKWNwCwmURSpn-ECXvsGxt92A-2dAzBbX2O8mLMM5fGiqoD3Rbzv1ffff3zznpX_DgWBiLrgZNwDrB-HA1QvfXv0vt4fXfpMxjL9HdIEhDhLUCRLszgDAE7Br0k0Rk1XvMw4wHAKJ1kWMCRBkBSBUb9esyhtyltm5Xn2ELukTH9jMJxmtnCCggQkKIqgiZ_LNiqy_5spGkCGpLY6GKAgxVIM81P_zB7Lz_EjGoaPablEPxX3lyvBsDhGAZzAcZZlKIamiM_3t_H9Wvz4fDbZL9NHgVOPqqBKTkDWUYDei-a9vL1fm_fs9qWL7m958uc_v0O9KghPlT9697sv2sBVzqsLO-h5Uh4HCIvWtHLBVToCKJktvHp-uj-BK-7hvJ3KxGqLWnCqONKsidlvTjCpzijxeTVu7qZxS-8GIN9sGc5H17ftig9CYC5-O-Ie9J9p29w8n4NnTBIzNGOGyDuWPFvHSso9-f7mi2c5aW0lxsYoU0w58Ube87XVQGfk1XZuNKwcKBLmKI1t1uaUtRBmASJP7cwbwX3wwzTwa7a3grMTy7NvNvberOfKXOBsIo03ZUmL6o48Qy3wvUYMbrzuehPhA-0YyKfljKWE3bB15ptSpvj7yOXJRL7v01kNo7YRt_jFw-66WzMwvamTJzdt1hrAC4ZIrSWU4Cp5biTFb6-Yh_lhghola9LFqE148hLghGkZ4w0ZIfTjPDzy_wBOIkfHIgA_bDrYMV1u9HygG8Ex2d0o-ZqHx28hzQKC3FRCsAzxJem6usz-_Nf3jiU4H3Bxm_kHnP94uThZ8nxkO8e1DxvMme15ikCgZ1JFd4fL4yDFuwOTzZc3n49ldY1GWjZCUPIFvoZ4tki6rgZmoY8LdridhEiZpt7sq55XBreJBClEcpcqdNhbKzOsMX58VXUQZwvKxeEM5KguerVTHFWmR_zLyiHh1UkUsUjr-3iyh9MphOqg5vtavz-ZXjk9NcnU8mclBP1tKqCVTyh9RMFKnZ8198ohW5asowvHew66oBAZB1e1zC2tKm4XRlFsHgEmomlAghj_gHOuseF_UwYxakNeTTy2V33xQlOfIEV8oolPELK7DX1xCCZ7alr7YKLFWcs438Oy3BfFq77ob3a0i2ydoS_QGAJPUxQNzCZ821ZCfVhFu3v5mX_1I_S1IHDIwSbEW7MsOqh3121CXcclzo4DXeLVmlQuvUN0ad1ja3CWVvZOy6ZPO8n-TOAKW1FKrDRyvVSQKF1y3jmFlxYATerF66mO759sVSq9aNj43qYxzB5crYlmezHps0SVhbBz9Jt4GVoxCwrlWnA5aVYMmYxA9PtyYZC-01KGqSRMwPXSzEOiwjW2beipE9a9vf1yOtFoE4o820SPh6g_CWAMbvKI75t-PJWpckthFC2nejUv3KWNHZTveGq-WWxmJ0vGWOojLceDUYzAZzZCSVgcjdwaioZH1WEcc2sXlpANmY5zNYlL9wPP7FJ90SrO1vHmYnu0PVCJFxZ4jOFlheSjQAhG4h35OG4hePDaA97gpM5H0ux2Jz00qLFIbpLpyg62n3gIppExhuIvFXqe_hJm9TFY0WC46nYS0hCP0HCLyRS3FCI3GcL8TIN50KVhMUSPNNYTseGDuRYbeyphbT6h87ePAGa94ob45g-xMGHh9hVew__8SIcfPrdl-se2lvM__gcSgBQ8"
+   },
+   {
+    "title": "Saara Herbal Fresh Traditional Brass Diya Oil lamp for Pooja (6.5 L x 5 W x 6 H cm)",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQyBAeRzSJyDQjsgY_EBbDQef7gGTXyCi2oLLuuVgbl8sBU_kl6top9kpV_W4JsPERLPTRVaHISLOSSSYrQ_Uy3LOq5x3lbVhpEtpKXmP9AIkSJkkSSPuyq",
+    "price": "₹450",
+    "extracted_price": 450,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=JtdM2XicLVRHruNGELXhE_gQsxpo0M1M75iDGMQkUtwIzSgGiWLQp8Rb-AbGnwDM7BwAb-canoXPYmrgRXcDrx6qHl5V9b8__PyaV39HgkCgLjyY1xDrp3EHtWN_doLP16HLbulUZX9BmoAQZwmKZGkWZwDAKfg5RRNqu_IZBiwBcIamKQoCACgWp8k_TjnK2uqS20WRD2KXfk_DrESGxgCL0SRLEgTBfKnOqMy_x_8kaQgYfC1CMQSJA4qh8I_9LR8eX5IBjePbrHqgj-X1SSUYFscogBM4zrIMxdAU8f76Mr2eyg-3W5v_Pr8VOM3RBE32QrJBofRatq_V5fXUvuaXTx26vhTptx9rqZsFYZx5J7he96ILPD8lTD_eepg7o_OpMAKLtBZ-PISxgNSWcBYLec3-mp312Q9hl4K29uXVJcjPPsjirLnGXmPCPMpws3GXWHQbv5HAXrTM9Az3CWhHe3_1svqkWhjADwHZW4EOgsjqcskVjaAkUEAiBGPdluQpFw-Eqbg7I8xuQcg6pnwdYtXdZso8-e1eCcRT64T6iGQHT_yW9OrTfR-2yI3i8XC-ms6yRxHO1-6lhEiR7lbLakghX8xwslzsToU-HwXw8IhbPczO08WT4m16cSvplPUoMMEh0n3UTLa_7LG05h0UxtRhcV107yoncJe0bs8BlKcMtwxLjO1M5WAcTqp50e1UYZUMkAcHXm-B8-E-DsU_gJPJybMJwI8AMhumK8yeDw0zdNLNhVJOReT8AmkWECRkSIJliE9p1zVV_u2nXz1b8N7g4trWNzj_9nj08vQ25BvPd3crzFnneEYgNHK5prvdcdjJyWbH5Pfjy55PFG1BE62YEaj4El8iPH_IhqGFVmlMD2x3OazNnefe6uueV0e_RYIcSUqXqXTU2wszLgnuPKt6EucK6tHjTMnTfOkpp3Q0ppf4Z5SThKcShFhJ7_tkdsfDIYLaqBXbxrjemF493HTZ0otbLYT9ZS6hXcxSNqBwoeJbwz1zKLatGNKR4wNPOkqRZO58zbbWtJq4XhhFsQUCDKJpQIIEf4Nzvrni_1sGMWpFniKG9dWevtDUO0gR72jiHYTsZkWfHoLZnduzu7Okh7dUSbGFVbUty2d9cb_GpQ1yDYY-QnMMA11VdXC34Mu69s1uEd3uybO-6xH6RhA4ycNmibfviuhJvb-sHeo6LvU2HOjSoNHl6tF7RJc1PbaEsbywV1qx9rSXbmMCV9maUhO1VZpHDYnKJ-8brwyyEkizdgx6quP7G1tXai-aLr51aQxzR19v0d19WHQsU1UpbDzjIh7Hs5iHpXoquYK0aoZMJyDu--rBSMZGzximljEBNyqriIga19lzS8-dsGxdnHfpVKctKPJsi4ZBNG4EMEc_HZLrOj-BxtSFrTKqXlC9VpT-45x4UrHhqfvFZnM3feSMrQ1ZNe3McgJ7ZjWUhKVjFvZYtrxU76apsDdRBdmI6Thfl7lsO_LMJjMees25Bt4e3YB2RyoNohJPMLyqJcURCMFMA4dPkjMEA68P8AJn7e6QVrc5GJFJTWV6kS1f8bDtzEMwT4w5lt-nMAiM52DWb8NFGk1fW09KmqIDTb-cLXFNIXKzKdxvWXgfDXl8mGJAmsuBWPHRWsrVPY2wV07k_c8RwN2ouTG57MdEmLFoXYVn898P2fjb-3OVfV1_3uLrf6cDDXY"
+   },
+   {
+    "title": "Value Crafts Brass Table Diya",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQowI7RhpbzU6JSd_eWqidzrddgHyXZB-M8PVu9jkWI0bzrn__zcLt4eUTt_shoojpYRvgVdKVlYd4ybRXg51ZeOoyzmzpLBMp5uZrSf6Alxcd6JbAwDMVg",
+    "price": "₹272",
+    "extracted_price": 272,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=ujGWn3icLVRJruNGEnXDJ_AhalVQgcmZveOQFElxEJOjtBE4i5M46lPiBbz2DRq_7ALKO9sN9NbXaC_6LE0VvMhM4MXDi0DEy_jfdz-8Z-V_QlEkoy44GX2AD_N0BOplaG3vaz926T2Zy_TfgCEBIDiSpjiGI1gMI2jwNYnmqOmKVxinWIrDSJqlAUaQOMBx7vdrFqVNecusPM9GqUtePAxQBGAJmsE5gsZwnKGIX8s2KrJv8T9YhmJwelMHNEdTgONo_Jfhno3PX-MxmqaPafmMfin6F5VkOWKjEiRBcBxLswxNfu7f5vdr8fP93mS_LR9FXrVVUZWdgKqjAL4XzXt5e78279ntSxf1b3ny1z9-hIMqindVsL2-9yWEOQ3CrH1_dW59m8HUMlZ7MTzgu9hVRJL88FpE6746x5X58CX_HN9kOwnQZEHukK5a6yh9mVVozeoZM-VGtVvOOwecbOPFinxZPvsGfvLQzatR68uakYnYktZmZ7SUHAdck0hI8r3H0amuV6NKqwigNQGcgOr5ZhANaTQp5ofC1cdk4LSm4RMCZUL5mrnN4mOm6dc-0AOutx1s9hTtLfZ6FW06JuGfXXyukYQ8NzitiZtSdt3fnDalTmtquu717CnJ6lY-TNdz6Xlah-Tz3pD7PnB9EK0FZVbaPd0_Jg-pYdQ2krmXnx7e627NgvSmLt6-abPWwLxgitRahgmhUufGwB1I7Z09GCMFrn51Vh3PtN1QQJbcXD3gka6S_PyYxvy_GC9Ts2NRWIgZMIzRgQlyZL_Bw-5Ucef7VFT8PwGz-YwCLEVyLPUl6bq6zP76_ifHEp0PhLTN_AMhfLxcnCy5j9nOcdFxg3mzPS8RFuiZXDHd8TIe5Xh3ZLPH5c0X4r26RjOzN0KsFApiDYnsKeu6GpiFPj_x4-0kRsqyDOZQDYIyuU0kyiHcd6nChIO1stMaE_YrqwN5JCoXhzego7rwVU5hq-wAhVeUh-KrkijioDYM8YKm0ykE6qTmh1rv7-ygnO6abGr5vRKD4bYUwMoXmI5RsNLne82_NPaWtdfhhRc8B15gCI2jq1rmJqtK24XTNJdHGBsxDEZhMfGB4F1jw_9uGcDpDXkVMW6v-uoLQ38CNPmJIT8BwO029NVDbEFL06KjCZ_OWsb5AZTloShe-SV_i8NdhHSWuQBjCjxNUTTsYYK3bSfUx1VC3YtnfqtHHGpR5KGDL1CwHnvJgYO7bhPqOj5xdjzWJV6tyeVzcMgurQd8Dc7yyvXM3vQZJzmcSULhKlqJlWZfPytAli712DmFlxYYXNSLN9CdMNy5qlQGyUDEATE4jiZXa6IHeprMWabLQtw5-k26TK2UBYVyLfh8szFLJTMm-UP5ZKG-01KWrWRcJPTSzEOyIjSubZilE9cDIgTEJBpjAkngmmgcJf1OYsbkJmPcb_7xVLbKLYVVtJwe1Lxwn23swHwn0I-bxWUoeWaspY5pOR-NYsZ8dmsoBQrbyK2paARYHec5t3ZhCbiQ7XhXk_n0MAnsLtWfWsUjnWguyGPQRCdeWBAxTpQV3NsiKRqJZwtx3AJsFLQR3MCiPmzK7HYnPTTouUhusunuHfywCABbZtaYim8u9Dz9ZczqY7DCyXDV7SSUIdnAcIvFlDYJiV8M8XFPg8eky9PTkDzKWE_khk_mtyWgktbGCZ2_OSL20Ct-im_-FIsLHm5f4TX8z2M6_etzW6Z_bms5__P_w_wXBA"
+   },
+   {
+    "title": "Brass Diya for Pooja (Pack of 2) – Lightweight Traditional Deepam – 64 mm Height × 54 mm Width – Golden Agal Vilakku Oil Lamps for Temple, Aarti &",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQorhdLRUe8eDFZJswOJuEFZzsz3lt9Yx2udwVVZoBrcuVOmvchQv_4xbNjtkZqicKkXua05Aas0cxlYb1m64CIImpcK9mQkI0tMdAEM0c12VWdZjfDBovmpg",
+    "price": "₹227",
+    "extracted_price": 227,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=09-1QXicLVRJruO2Fv0ffwVZRI0KLpBqqczUUJZkNVYva2Kot2TZsho_2dpFdhC8SgIkszRAptlGMshaItfPgCRw7sXhwbmH_Ps_X70X9e-RKFJJFx6MW0j007iH6rG_2P6Pt6HL79lU579BloKQ5CiG5liORACQDPwxS6ak7apXGXAUIBHLMgwEADAcydK_nIokb-trYZVlMUhdVue_UgTFQkggCkEGUoiGiPypviRV8f8ySyBEUisFTZE0IBDg0Pf9vRieP6VDMo4f8_qZfF_dvjAhjiQYQFIkyXGIQSxDfb69Te-n6rv7vS1-nj-KvGqroiq7IX1OQvxete_19f3UvhfXH7rk9lZmf_23wd0siuMs2P7tFkgOcAObDrA5h61DpRduyVtZdqTYyMlgshRZD2XTzHEbZuSJzs_jYlxvlhk-iGALrwG4NcFiqmmQPexWLmNFs5Iz51v-qXHB1DsXQBrQpFJYLeEWMoUUxMl5ejNamciIwM2lfDKJ6ZpgLnRkBG3fiV0YdDEwI0fOSV_hH7kSa4dGSOJIwJYkSMU199IaGvEZ0lkgS3kYE3oQw2QbLxHIZQc7bx5xSkyswYPXngo_6DI_ENPFvGcQPZPtFGZE3NgXRIZnisjIgDJBBfAp7xPfAIdI81aNlrcERNYIdhLGzGFxnOTR1au-JWvai3-h1aw1hzSkoYnh3V2q5RBy9YGgY3sJZgOeRN_-7jEO5Z-Al-nJtWgQAQNHqbNjw9Kx3_Buc2i4-D5WDf81ZDlArdGgKQ7RP2Rdd66Lv_73jWuJ7gdSWsf6gRQ-Ho9ukd2HYuN6zn6FefMSzwkI9UJu2G5_HPZyutmj4nF8C4R0qy7JxG6NCNRCRS4RWTxlXVdDs9KnJ7G_HsREmefe7JteUEavTUQ5wtsuV9iotxY0Lilpv251Me-IytHlDeyqHn7JqWwV9Vh4VXksvpQkCYe1vk9nZzwcIqiOark767c76pXDXZNNrbw3Ythf5wpa5YzzIQkXJr6f-RfH1rK2Oj7ygu_iI46wsfdUy1xpVWndCIbhygSghGUBDVLyA8l7xor_axkkmBV5iRjWU335wjKfIEN9YqlPEHKbFX15CGZnbi_O3sRPd6nTcgfreldVr_ulYK3jTeLoiD1CYwx9TVE08DDh2_rqz_tFcrpXn_lFj9ifRZHHLjFjwXpsJRf33rJOqOv4zN3wYM3aWZPrZ-9SXX7uiSWM5YW7sVszYN1sF1OkwjWMkirt9vxsIFV79GPjVn6-JnBWj37PdEJ_55pa6SXDIXcOSxDO6Glt8nCeJhvLTF2JG1e_SsfxIhVhpZwqvqTNBtHZBKSgr58I6xstR6iRCZHUa7OMqIbUuEvLzp247BxScNhMY00oCVybDIOk3ylgjF42pLc1P76KmtJSkKKVTK-Wlfe8pC4uNwLzuFpc4WTPAlnqkNfT3qgmEKDVUBpWtlFaY9UKuNlPU2ltohpyEep4T5P5fDcKaJPrT63hHZ1sj47POiOT-VFFpgRZN3hri5RoZL4tpOkFgkHQBniFs_qwabPbHPTIYKYqu8qmt3WJ3SxAME_IGKsvKfR9_RXM5mO44NHw1HVltCHZ0PCq2ZRWComfDfFxz8PHqMvj05B82lgO1IqP5lKt7qmUtfZE7r89InjoDT-m12BMxZmI1qfwGv7nIR-__Xyp8z_Wn7f84x-PVguD"
+   },
+   {
+    "title": "Value Crafts Brass Table Diya",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTI0g5qjBt0CiY7mrINOgFDfni9MrS6mo63f1XPPnALxAopQtKOc59GMrXq3rPJTlYsY7oiqfjRnVQIcik1fQY-_aTh76sMQ0V95oCkyTr2bchKGhnnmfMBqQ",
+    "price": "₹328",
+    "extracted_price": 328,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eQzAwHicLVRJruNGEu1Gn8CHqFVBBSaTo3ecRYpMSZzFjcBZnMVBnxQv4LVvYPyyCyjvPAC99TXaiz5LU24nkJnAi4cXgReR-d9_fPOeFv_2BYEIO-9i3D28n8YTUK99c3a-3ocuecRTkfwOaAIAyBIUydIsZDAMUuBrHE5h3eVF8huJUQQNKZJhGZqlIaQZ-tdbGiZ10abHLEsHsYs3GgVxiiQBJGmKZTAaYAT8uWjCPP1_GN8WS0EKZ1mapAALIPZT_0iH58_REI7jx6R4hj_l9xeVYNhNC4MEhCzLUAxNEZ_vb9P7Lf_x8ajTX-aPAqeeVUGVLY-sQk96z-v3on2_1e9p-6UL729Z_Oc_v5N6VRAeKn927ndXNDFrzQFyNNlzkiWsli4QwMGyazLxa-Xo3EzbAyDCtculdKADzcBQkB85iWvCu2hV0-TatzmE2sOQEqg742zVQZHUd8ooY2isN8nAlzeELVrkyVTaBtBtXcwQAzNu0GL4Setj2gkpiX-2UZjYie80CLNqmQzlIHChpiCYlGZlkBF-WYM6mFKX5V2Xly8-ejNbdLs4NR7BGwps0zNqeXZxAMI1uUXOfQgAX4bN_WFUQD9aYLRsfssXiDaOgaiuJ9Qg0yprxXIdmMCcQFBDaZuA0Ls9fNzAQ3ySLr55SBbVD5taRIr8dPC7blcMSFp1dpS6SRsDc7wxVCtZiqFKBjVSkJxUnh9D3eWxzdPLGSNLqw3ulycIjaY2HC_-cRmH7D8YJ5OTdaT9WzH6Aam9VQ-uEcvhLK6pTR0YduG-BTSLESRgSGLr-pe466oi_fNf31tHwfoAxa3nHyD_8Xq10vgxpDvLNk8bzKEmmEPM01O5pLvTdTjJ0e7EpMv1zeUjRV3DiVYMHyv4HK4-TJ-yrqseyvXpiZ_aixDu57lHfdnz-9GuQ0H2JaVL9rTfH1dmXCN4fmW1JM4U9leLMyRLtaVXOflZZXqJf0U5SXhVEoaspPV9NJvj5eIDdVSzQ6XfH0y_vzw0GWnZoxS8vp1zcMxmKRlCb6WCR8W9NJTjUdGlK8c7lnSVfMk42eoRbbKquB04RbFZiDEhTWMkFsEPkLONDf_bMoBTG_IqYthu9eULTX0CFPGJJj4BwO429OUhNptz3ZgnJD2ttYiyAyiKQ56_8ovuFpd2oakz9BUYo-do-72GLQi8bT9CdVpFs3vx0F_1CH0lCJxk4bPEHxdFtKTeXrcOdR0XWzsO62Kn0uTi2VtEl1Q9vnqBvLJ3WkEubcWHgIB7tqT20b5WqmcJiMIml52VO0mOSbN6dXqq4_sHWxb7XjRMeDBpHDdHW6vDxXwiOpCpIhd2lt6K17ERUy_f33IuI1HJkPGEiW5fPBlJ32kJw5QyLkC9QJlPlFBjm5qeO2E9mJA36VijERB5tg6HQdQfBGaMdjxE921-HJUps-Oe2WsZ1atZbj-byJKyHU8t7ZFNzfiZMkd1SIrpZOQT5jKboSTIz0Z2HPOal8rTNGXHnV8A1mc6ztZkLjmMPLNL9KdWcqYO66vp0OZIxY6fwwiHRSkpZ4EQjNg581HUAGzgtQG0YFaXM4m63UX3DWrK41ZGtmLhh5kH2Dwxxpj_NYWOo78Gs_zordJo2Oq2Y9IQz8Cw8xmJm4TIzYawPBJvGXV5fBqiQxrrhdjwEa355p5KHDeOb_3NEbBFL7kxat0xEmbc357Cq_mfh2T84XNTJH9s33L2x_8AsnUWeA"
+   },
+   {
+    "title": "Kuber Brass Diya | Brass Diya for Diwali | Kuberan Vilaku | 4 cm Dia (X-Small, 10)",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRNwPKbe_o-pbFhzE6qP39-PMZQSu8aok0T1p1UmOBolzHFr-2jcctY33OKuVMeDy_74z5fFwRe699D3IeZnhMso1Tg_vM75w",
+    "price": "₹1,300",
+    "extracted_price": 1300,
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=yokRXXicLVRHruNGELXhE_gQsxpo0M1M75iDGMRMcSMwi0GiGPRJ8Ra-gfEnADM7B8DbuYZn4bOYMmbR3cB7haqHV1X97w8_v-bV3yHHYXEXHPVbgPTTeIDKqb9Y3ufb0GX3dKqyvyCJQYjSGIHTJI1SAKAE_JzGU9x25ZMGNAZQiiQJAgIACBol8T_OeZy11TU3iyIf-C6tsj8RiiKwjaYAQpIYDnCa-FJd4jL_TuM0hmIYgpEISSMYBmj6Y3_Ph8eXZIjH8W1WPeKP5e0ZilE0ihAAxVCUpimCIgns_e1lej2XH-73Nv99fssxiqVwiugEeBMHwmvZvlbX13P7ml8_dfHtpUi__VgL3cxx48xa3u3m8zZwwIQGFeSOF3XIW9ZIfHbWXPuYS_O0JYKRrHourxauFx3ctVm9ANoRelMymKLHxuay1cJSiQ5M2Zsz2fACCecTb5l1AZciKVpC2L540Od9r5zTljZ0V_SMyznO3PaQN7D1Q3ZJ27Y2pEmKYIpogWEkIWuka6t6FxrGoRjorT-m_rmJgR9niGHFyPnFkA3CumZuFJ69OLyF4WpPQZChTkPjURjtXWihSWu4Hi9KHjQCD54HH7ZxiIiKix4RX0pX_3LEEj6dDNBgwjnrY08Hx1B142Yy3dVH0pq14iAijqttx0tXWZ69pnV78dCbnks4d0QmLgjZ1RMW3AP6wweRbbi2kAolZlkflnEo_gGMiE-OSYbnagwjXH1p7syFrweLX3OX2FP0wvwCSRpgOKRwbGvsp7Trmir_9tOvjsk5b1B-a-sblH17Ojl5eh_ynePahw1mjEs0xyDQcrEmu8NpOIjJ7kDly-nFZxNJWeOJlPQQVGyJriGaP0RNUwKj1KYHcrgeuVie597o656VR7eNOTEUpC6TybA3V2pcE9R6VnUExubkk8PogqO4wlNOaSlUL7BPlhG4p5I4pgW175PZHo_HECqjUuwb7Xanevl4V0VDLe41F_TXuYRmMQvZEAcrEd0b5plDMk1JE04M6znCSQgF_eAqprGlVfjtQgiCLmJAxSQJcJCgb1DG1Tf8u2UQITbkKWLYXuXpC0m8gwT2jsTeQUjvNvTpIZjtub3YB0N4OGuVFHtYVfuyfNbn_Y0XdrGtUeQJ6mPgqbKsgsWAL9vWN4eVt7tnnPG_Hq5vOI4RHGQWWHOReEfo3XXrUNcxqbNjQJd6jSpWj97BuqzpkTWIxJW-kZLhk066jzBUpmtCTuRWah41xCoXX3ZO6WUlEGbl5PVEx_Z3uq7kntdtdG-TCGKPrtrGi_0wyEgkqpLbOdqVP40XPg9K-VwyBW7UFJ5OgPf76kEJ2k7NKKoWEQ7VKqMIsRpV6UtLzh237m2UtclUJQ3Is3QbDwOv3TGgj246JLdtfjyFqgtTpmS1IHqlKN3HJXGEYscSy9Wkczt95JSpDFk1HfRyAj61GYrD0tILcyxbVqgP01SYu7CCdEh1jKuKTLYfWWqXaQ-1ZmwNbU-2R9ojkXphiSYIWtWCZHEYp6eexSbJBYKBVQd4hbOyWLjR7Y5aqBNTmV5Fw5UcZD-zEMwTpY_l_1PoedpzMOu3wSqMuqtsJ8V13oK6W84Gv6XgmVnnlnsWLKMmjg-d93B9PWIbPhprubmnYOYWEzrfYziwaDUzJld_TLgZCbdVeDb__ZCNv72_VNnX7ectvv4H4QcM5A"
+   }
+  ]
+ }
+}

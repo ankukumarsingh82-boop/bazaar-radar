@@ -1,0 +1,2292 @@
+{
+ "search_metadata": {
+  "id": "6ab8206009a51a4a46e319b1",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/IawpDsDpD1V-XgNGllSYsuXwJ530psf65GIGIS30c28/6ab8206009a51a4a46e319b1.json",
+  "markdown_endpoint": "https://serpapi.com/searches/IawpDsDpD1V-XgNGllSYsuXwJ530psf65GIGIS30c28/6ab8206009a51a4a46e319b1.md",
+  "created_at": "2026-09-26 19:43:28 UTC",
+  "processed_at": "2026-09-26 19:43:28 UTC",
+  "amazon_url": "https://www.amazon.in/s?k=diwali+gift+hamper",
+  "raw_html_file": "https://serpapi.com/searches/IawpDsDpD1V-XgNGllSYsuXwJ530psf65GIGIS30c28/6ab8206009a51a4a46e319b1.html",
+  "total_time_taken": 1.06
+ },
+ "search_parameters": {
+  "engine": "amazon",
+  "k": "diwali gift hamper",
+  "amazon_domain": "amazon.in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "total_results": 30404,
+  "query_displayed": "diwali gift hamper",
+  "store": "gateway",
+  "page": 1
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "asin": "B0FMF9D2L8",
+   "title": "NutriSnacksBox 8 Items Royal Blue Diwali Gift Hamper with Metal Diya, Chocolates Nutties, Almonds, Protein Mix, Cranberry & Diwali Greeting Card | Diwali Gift Box for Employees, Staff, Boss, Family & Friends",
+   "link": "https://www.amazon.in/NutriSnacksBox-Chocolates-Tiramisu-Greeting-Employees/dp/B0FMF9D2L8/ref=sr_1_1?keywords=diwali+gift+hamper&qid=1790451808&sr=8-1",
+   "link_clean": "https://www.amazon.in/NutriSnacksBox-Chocolates-Tiramisu-Greeting-Employees/dp/B0FMF9D2L8/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FMF9D2L8&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/812RJuepqxL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 34,
+   "price": "₹599",
+   "extracted_price": 599,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹599",
+     "extracted_primary_price": 599,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 2,
+   "asin": "B0CKQ3H3GJ",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "NutriSnacksBox Golden White 12 Items Diwali Gift Hamper | Chocolates, Dry Fruits, Almond Brittle, 2 Diyas with Tlights & Greeting Card | Festive Corporate Gift Box for Employees",
+   "link": "https://www.amazon.in/NutriSnacksBox-Employees-Chocolate-Tealight-Corporate/dp/B0CKQ3H3GJ/ref=sr_1_2?keywords=diwali+gift+hamper&qid=1790451808&sr=8-2",
+   "link_clean": "https://www.amazon.in/NutriSnacksBox-Employees-Chocolate-Tealight-Corporate/dp/B0CKQ3H3GJ/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CKQ3H3GJ&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81+ySKJI9dL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 39,
+   "price": "₹899",
+   "extracted_price": 899,
+   "old_price": "₹1,199",
+   "extracted_old_price": 1199,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹899",
+     "extracted_primary_price": 899,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,199",
+     "extracted_old_primary_price": 1199
+    }
+   ]
+  },
+  {
+   "position": 3,
+   "asin": "B0H71SYY4J",
+   "badges": [
+    "Amazon's Choice for \"diwali gift hamper\""
+   ],
+   "title": "AuraDecor Divine Pooja Gift Hamper | Premium Diwali Gift Box with Lotus Urli Candle, Dhoop Cones, Havan Cups, Decorative Diyas | Home Decor & Spiritual Gift Set",
+   "link": "https://www.amazon.in/AuraDecor-Divine-Premium-Decorative-Spiritual/dp/B0H71SYY4J/ref=sr_1_3?keywords=diwali+gift+hamper&qid=1790451808&sr=8-3",
+   "link_clean": "https://www.amazon.in/AuraDecor-Divine-Premium-Decorative-Spiritual/dp/B0H71SYY4J/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H71SYY4J&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71lFdWRHZpL._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 6,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹299",
+   "extracted_price": 299,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹299",
+     "extracted_primary_price": 299,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 4,
+   "asin": "B0FC32QCMK",
+   "title": "THE GIFT STUDIO.COM | Midnight Stash Premium Snack Gift Hamper | Smoked Almonds, Roasted & Salted Cashews, Cashew Brittle, Chocolate Gift Box | Gourmet Gift Hamper, Dry Fruit Gift, Corporate Diwali Gifting, Diwali Gift for Friends & Family",
+   "link": "https://www.amazon.in/GIFT-STUDIO-COM-Midnight-Chocolate-Corporate/dp/B0FC32QCMK/ref=sr_1_4?keywords=diwali+gift+hamper&qid=1790451808&sr=8-4",
+   "link_clean": "https://www.amazon.in/GIFT-STUDIO-COM-Midnight-Chocolate-Corporate/dp/B0FC32QCMK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FC32QCMK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/51GvdhnB5dL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 49,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹1,099",
+   "extracted_price": 1099,
+   "old_price": "₹1,499",
+   "extracted_old_price": 1499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,099",
+     "extracted_primary_price": 1099,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,499",
+     "extracted_old_primary_price": 1499
+    }
+   ]
+  },
+  {
+   "position": 5,
+   "asin": "B0HJ44R92R",
+   "title": "Surprise in a Box Diwali Gift Hamper – Royal Slider Gift Box with Flavoured Dry Fruits, Muesli or Makhana, Metal Diyas & Festive Toran",
+   "link": "https://www.amazon.in/Surprise-Box-Diwali-Gift-Hamper/dp/B0HJ44R92R/ref=sr_1_5?keywords=diwali+gift+hamper&qid=1790451808&sr=8-5",
+   "link_clean": "https://www.amazon.in/Surprise-Box-Diwali-Gift-Hamper/dp/B0HJ44R92R/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ44R92R&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/716AsY7MJWL._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 2,
+   "price": "₹799",
+   "extracted_price": 799,
+   "old_price": "₹1,499",
+   "extracted_old_price": 1499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹799",
+     "extracted_primary_price": 799,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,499",
+     "extracted_old_primary_price": 1499
+    }
+   ]
+  },
+  {
+   "position": 6,
+   "asin": "B08ZB5FQVM",
+   "title": "Omay Foods 6 Pcs Wonderful Delights Diwali Gift Hamper | Healthy Snack Hamper | Chocolate & Potpourri | Corporate Hamper for Clients & Employees | Diwali Gift for Friends & Family I Festive Hamper",
+   "link": "https://www.amazon.in/Omay-Foods-Delights-Corporate-Non-Fried/dp/B08ZB5FQVM/ref=sr_1_6?keywords=diwali+gift+hamper&qid=1790451808&sr=8-6",
+   "link_clean": "https://www.amazon.in/Omay-Foods-Delights-Corporate-Non-Fried/dp/B08ZB5FQVM/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08ZB5FQVM&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81sFZFw83dL._AC_UL320_.jpg",
+   "rating": 3.9,
+   "reviews": 202,
+   "price": "₹516",
+   "extracted_price": 516,
+   "old_price": "₹555",
+   "extracted_old_price": 555,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹516",
+     "extracted_primary_price": 516,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹555",
+     "extracted_old_primary_price": 555
+    }
+   ]
+  },
+  {
+   "position": 7,
+   "asin": "B0CNRXL7SW",
+   "title": "Food Essential Chocolate Gift Hamper Basket for Family/Friend/Corporate/Wedding/Diwali/Christmas/New Year/Bhai Dooj/Rakhi (All Occasions)",
+   "link": "https://www.amazon.in/Essential-Chocolate-Corporate-Christmas-Occasions/dp/B0CNRXL7SW/ref=sr_1_7?keywords=diwali+gift+hamper&qid=1790451808&sr=8-7",
+   "link_clean": "https://www.amazon.in/Essential-Chocolate-Corporate-Christmas-Occasions/dp/B0CNRXL7SW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CNRXL7SW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/8182vjS4sdL._AC_UL320_.jpg",
+   "rating": 3.4,
+   "reviews": 90,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹654",
+   "extracted_price": 654,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹654",
+     "extracted_primary_price": 654,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 8,
+   "asin": "B0HJP4JZ1M",
+   "title": "Indian Karigar 14 Items Suitcase Diwali Gift 2026 | Premium Unique Diwali Gift Hamper | With Dry Fruit, Bandhanwar, Metal Hanging Lamp, Greeting & More | Diwali Gifts for Family and Friends | Deepawali Gifts for Employees",
+   "link": "https://www.amazon.in/Indian-Karigar-Bandhanwar-Deepawali-Employees/dp/B0HJP4JZ1M/ref=sr_1_8?keywords=diwali+gift+hamper&qid=1790451808&sr=8-8",
+   "link_clean": "https://www.amazon.in/Indian-Karigar-Bandhanwar-Deepawali-Employees/dp/B0HJP4JZ1M/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJP4JZ1M&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91MDpEfn+EL._AC_UL320_.jpg",
+   "price": "₹1,750",
+   "extracted_price": 1750,
+   "old_price": "₹1,950",
+   "extracted_old_price": 1950,
+   "save_with_coupon": "You pay ₹1,680 with coupon",
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,750",
+     "extracted_primary_price": 1750,
+     "old_primary_price": "₹1,950",
+     "extracted_old_primary_price": 1950
+    }
+   ]
+  },
+  {
+   "position": 9,
+   "asin": "B0BDFTF7BQ",
+   "title": "Omay Foods 10 Pcs Sparkling Delights Gift Hamper | Diwali Gift Hamper I Healthy Snacks, Dry Fruits, Tea & Chocolate | Corporate Gift for Clients & Employees | Premium Gift for Family & Friends",
+   "link": "https://www.amazon.in/Omay-Foods-Dry-Fruits-Motivational-Chocolates/dp/B0BDFTF7BQ/ref=sr_1_9?keywords=diwali+gift+hamper&qid=1790451808&sr=8-9",
+   "link_clean": "https://www.amazon.in/Omay-Foods-Dry-Fruits-Motivational-Chocolates/dp/B0BDFTF7BQ/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BDFTF7BQ&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81jLlofl6aL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 81,
+   "price": "₹765",
+   "extracted_price": 765,
+   "old_price": "₹870",
+   "extracted_old_price": 870,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹765",
+     "extracted_primary_price": 765,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹870",
+     "extracted_old_primary_price": 870
+    }
+   ]
+  },
+  {
+   "position": 10,
+   "asin": "B0BF7S8QD3",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "NutriSnacksBox Evergreen Diwali Hamper | 13 Items Luxury Festive Gift Pack | Assorted Dry Fruits, Chocolates, Diya & Namkeen | Premium Almonds, Cashews & Cranberry | Diwali Gift for Family & Clients",
+   "link": "https://www.amazon.in/NutriSnacksBox-Employees-Chocolate-Tealight-Greeting/dp/B0BF7S8QD3/ref=sr_1_10?keywords=diwali+gift+hamper&qid=1790451808&sr=8-10",
+   "link_clean": "https://www.amazon.in/NutriSnacksBox-Employees-Chocolate-Tealight-Greeting/dp/B0BF7S8QD3/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BF7S8QD3&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81cCQVWjbDL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 103,
+   "price": "₹1,349",
+   "extracted_price": 1349,
+   "old_price": "₹2,299",
+   "extracted_old_price": 2299,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,349",
+     "extracted_primary_price": 1349,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,299",
+     "extracted_old_primary_price": 2299
+    }
+   ]
+  },
+  {
+   "position": 11,
+   "asin": "B09F8G2BDX",
+   "title": "PrettyNutty Diwali Dry Fruits Gift 400g (Almonds, Cashews, Pistachios, Raisins - 100 Each) | Premium Healthy Hamper for Family & Friends",
+   "link": "https://www.amazon.in/PrettyNutty-Dry-Fruits-Combo-Pack/dp/B09F8G2BDX/ref=sr_1_11?keywords=diwali+gift+hamper&qid=1790451808&sr=8-11",
+   "link_clean": "https://www.amazon.in/PrettyNutty-Dry-Fruits-Combo-Pack/dp/B09F8G2BDX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09F8G2BDX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61jBBtORGmL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 690,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹549",
+   "extracted_price": 549,
+   "old_price": "₹799",
+   "extracted_old_price": 799,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹549",
+     "extracted_primary_price": 549,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹799",
+     "extracted_old_primary_price": 799
+    }
+   ]
+  },
+  {
+   "position": 12,
+   "asin": "B0B9Y6C4T6",
+   "title": "HARIBAS Gift Hamper for Diwali & Bhai Dooj|(Pack of 8 Jars) Gift Combo-Mukhwas & Digestives|Festive Sweet & Healthy Gift Box for Family,Friends & Corporate Gifting|Celebration Gift Pack|Festive Hamper",
+   "link": "https://www.amazon.in/HARIBAS-Sankranti-Assorted-Digestives-Christmas/dp/B0B9Y6C4T6/ref=sr_1_12?keywords=diwali+gift+hamper&qid=1790451808&sr=8-12",
+   "link_clean": "https://www.amazon.in/HARIBAS-Sankranti-Assorted-Digestives-Christmas/dp/B0B9Y6C4T6/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0B9Y6C4T6&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71zZqNNF3SL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 79,
+   "price": "₹399",
+   "extracted_price": 399,
+   "old_price": "₹799",
+   "extracted_old_price": 799,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow 8 am - 12 pm"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹399",
+     "extracted_primary_price": 399,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹799",
+     "extracted_old_primary_price": 799
+    }
+   ]
+  },
+  {
+   "position": 13,
+   "asin": "B0H9R4H4F1",
+   "title": "Bay Nut diwali Gift Hamper with cranberries, chocoalmond,trail mix 50gm each and 2 choclates",
+   "link": "https://www.amazon.in/Bay-Nut-cranberries-chocoalmond-choclates/dp/B0H9R4H4F1/ref=sr_1_13?keywords=diwali+gift+hamper&qid=1790451808&sr=8-13",
+   "link_clean": "https://www.amazon.in/Bay-Nut-cranberries-chocoalmond-choclates/dp/B0H9R4H4F1/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H9R4H4F1&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71lsIiDl39L._AC_UL320_.jpg",
+   "rating": 2.6,
+   "reviews": 23,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹249",
+   "extracted_price": 249,
+   "old_price": "₹699",
+   "extracted_old_price": 699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹249",
+     "extracted_primary_price": 249,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹699",
+     "extracted_old_primary_price": 699
+    }
+   ]
+  },
+  {
+   "position": 14,
+   "asin": "B09HBBSH5Z",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "NUTRI MIRACLE Diwali Dry Fruits Hamper with Diya | Diwali Gift Hampers for Family and Friends",
+   "link": "https://www.amazon.in/NUTRI-MIRACLE-Newyear-Basket-Hamper/dp/B09HBBSH5Z/ref=sr_1_14?keywords=diwali+gift+hamper&qid=1790451808&sr=8-14",
+   "link_clean": "https://www.amazon.in/NUTRI-MIRACLE-Newyear-Basket-Hamper/dp/B09HBBSH5Z/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B09HBBSH5Z&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81dPdRPtqPL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 42,
+   "price": "₹1,613.10",
+   "extracted_price": 1613.1,
+   "old_price": "₹3,398",
+   "extracted_old_price": 3398,
+   "save_with_coupon": "You pay ₹1,532.44 with coupon",
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,613.10",
+     "extracted_primary_price": 1613.1,
+     "old_primary_price": "₹3,398",
+     "extracted_old_primary_price": 3398
+    }
+   ]
+  },
+  {
+   "position": 15,
+   "asin": "B0HJ54BQ7L",
+   "title": "Phool Diwali Lakshmi Poojan Gift Box |12 item Premium Diwali Gift Hamper for Family, Friends & Corporate Gifting | Laxmi Charan, Diya, Toran, Agarbatti, Playing Cards & Festive Treats",
+   "link": "https://www.amazon.in/Lakshmi-Premium-Friends-Corporate-Agarbatti/dp/B0HJ54BQ7L/ref=sr_1_15?keywords=diwali+gift+hamper&qid=1790451808&sr=8-15",
+   "link_clean": "https://www.amazon.in/Lakshmi-Premium-Friends-Corporate-Agarbatti/dp/B0HJ54BQ7L/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ54BQ7L&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/915Wv+PsHAL._AC_UL320_.jpg",
+   "rating": 4.5,
+   "reviews": 41,
+   "price": "₹1,019",
+   "extracted_price": 1019,
+   "old_price": "₹2,445",
+   "extracted_old_price": 2445,
+   "save_with_coupon": "You pay ₹998.62 with coupon",
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,019",
+     "extracted_primary_price": 1019,
+     "old_primary_price": "₹2,445",
+     "extracted_old_primary_price": 2445
+    }
+   ]
+  },
+  {
+   "position": 16,
+   "asin": "B0HJ8KW4VL",
+   "title": "Giftana Diwali Gift Hamper for Employees, Clients & Corporate Gifting",
+   "link": "https://www.amazon.in/Giftana-Employees-Clients-Corporate-Gifting/dp/B0HJ8KW4VL/ref=sr_1_16?keywords=diwali+gift+hamper&qid=1790451808&sr=8-16",
+   "link_clean": "https://www.amazon.in/Giftana-Employees-Clients-Corporate-Gifting/dp/B0HJ8KW4VL/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ8KW4VL&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81H2yuVVmmL._AC_UL320_.jpg",
+   "price": "₹1,999",
+   "extracted_price": 1999,
+   "old_price": "₹2,599",
+   "extracted_old_price": 2599,
+   "save_with_coupon": "You pay ₹1,899.05 with coupon",
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,999",
+     "extracted_primary_price": 1999,
+     "old_primary_price": "₹2,599",
+     "extracted_old_primary_price": 2599
+    }
+   ]
+  },
+  {
+   "position": 17,
+   "asin": "B0BFDQP4FK",
+   "title": "Food Library The Magic Of Nature Assorted Gourmet Gift Hamper Basket | Festive Diwali Gift for Family, Friends, Corporate & All Occasions | Premium Snacks, Beautifully Packed & Delivered Pan India",
+   "link": "https://www.amazon.in/Library-Corporate-Wedding-Occasions-Assorted/dp/B0BFDQP4FK/ref=sr_1_17?keywords=diwali+gift+hamper&qid=1790451808&sr=8-17",
+   "link_clean": "https://www.amazon.in/Library-Corporate-Wedding-Occasions-Assorted/dp/B0BFDQP4FK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0BFDQP4FK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71a0IUgXzCL._AC_UL320_.jpg",
+   "rating": 3.8,
+   "reviews": 68,
+   "price": "₹830",
+   "extracted_price": 830,
+   "old_price": "₹1,200",
+   "extracted_old_price": 1200,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹830",
+     "extracted_primary_price": 830,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,200",
+     "extracted_old_primary_price": 1200
+    }
+   ]
+  },
+  {
+   "position": 18,
+   "asin": "B0FVVQ4SN3",
+   "title": "Browntree Bluemina 6P- 650g | Dry Fruit Hamper | 6 Piece luxury Gift Hamper - Almonds, Cashews, Raisins, Pista, Apricots & Walnuts | Festive & Corporate Gifting Box | Ideal Gift Box for all celebration",
+   "link": "https://www.amazon.in/Browntree-Bluemina-Fruit-Hamper-luxury/dp/B0FVVQ4SN3/ref=sr_1_18?keywords=diwali+gift+hamper&qid=1790451808&sr=8-18",
+   "link_clean": "https://www.amazon.in/Browntree-Bluemina-Fruit-Hamper-luxury/dp/B0FVVQ4SN3/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FVVQ4SN3&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91a-nOou8dL._AC_UL320_.jpg",
+   "rating": 3.0,
+   "reviews": 3,
+   "price": "₹3,200",
+   "extracted_price": 3200,
+   "old_price": "₹3,800",
+   "extracted_old_price": 3800,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹3,200",
+     "extracted_primary_price": 3200,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹3,800",
+     "extracted_old_primary_price": 3800
+    }
+   ]
+  },
+  {
+   "position": 19,
+   "asin": "B0DGXZMMQ5",
+   "title": "Healthy Treat Grand Diwali Gift Hamper | Roasted Dry fruits, Healthy Snacks, Diwali-Gift Box with Vastu Turtle, Brass Diya & Greeting Card | Wholesome Corporate Gifting | Deepawali Gift Hamper for Gifting",
+   "link": "https://www.amazon.in/Healthy-Treat-Wholesome-Corporate-Anniversary/dp/B0DGXZMMQ5/ref=sr_1_19?keywords=diwali+gift+hamper&qid=1790451808&sr=8-19",
+   "link_clean": "https://www.amazon.in/Healthy-Treat-Wholesome-Corporate-Anniversary/dp/B0DGXZMMQ5/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DGXZMMQ5&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/910xc3J+n8L._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 57,
+   "price": "₹2,199",
+   "extracted_price": 2199,
+   "old_price": "₹2,299",
+   "extracted_old_price": 2299,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹2,199",
+     "extracted_primary_price": 2199,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,299",
+     "extracted_old_primary_price": 2299
+    }
+   ]
+  },
+  {
+   "position": 20,
+   "asin": "B0FCYQJF3G",
+   "tags": [
+    "Floral"
+   ],
+   "title": "Women’s hamper Gift Set Wallet, Watch, Perfume | gifts for woman | birthday gifts for women | gift for Girlfriend | gift for wife | Diwali gift hamper | Diwali gifts for friends and family - Pink",
+   "link": "https://www.amazon.in/Kalpavruksha-Long-Lasting-birthday-Christmas-colleague/dp/B0FCYQJF3G/ref=sr_1_20?keywords=diwali+gift+hamper&qid=1790451808&sr=8-20",
+   "link_clean": "https://www.amazon.in/Kalpavruksha-Long-Lasting-birthday-Christmas-colleague/dp/B0FCYQJF3G/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FCYQJF3G&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71OPHdVDFEL._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 378,
+   "bought_last_month": "1K+ bought in past month",
+   "price": "₹999",
+   "extracted_price": 999,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹999",
+     "extracted_primary_price": 999,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 21,
+   "asin": "B0CDXR23TH",
+   "title": "Paper Boat Dry Fruits Gift Box, 200g - Gift Hamper | Festive Dry Fruit Gift | Assorted Mixed Nuts, Dry Fruits & Trail Mix | Cashew, Almonds, Berries and Mixed Nuts",
+   "link": "https://www.amazon.in/Paper-Boat-Fruit-Gift-260g/dp/B0CDXR23TH/ref=sr_1_21?keywords=diwali+gift+hamper&qid=1790451808&sr=8-21",
+   "link_clean": "https://www.amazon.in/Paper-Boat-Fruit-Gift-260g/dp/B0CDXR23TH/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CDXR23TH&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81ewCJ-3TML._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 303,
+   "bought_last_month": "200+ bought in past month",
+   "price": "₹517",
+   "extracted_price": 517,
+   "old_price": "₹900",
+   "extracted_old_price": 900,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹517",
+     "extracted_primary_price": 517,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹900",
+     "extracted_old_primary_price": 900
+    }
+   ]
+  },
+  {
+   "position": 22,
+   "asin": "B0HJNVG67V",
+   "title": "Indian Karigar 10 Items 3D Truck Model Diwali Gift 2026 | Premium Diwali Gift Hamper | With Dry Fruit, Laxmi Charan, Cracker Door Hanging, Greeting & More | Diwali Gifts for Family and Friends | Corporate Employees",
+   "link": "https://www.amazon.in/Indian-Karigar-Greeting-Corporate-Employees/dp/B0HJNVG67V/ref=sr_1_22?keywords=diwali+gift+hamper&qid=1790451808&sr=8-22",
+   "link_clean": "https://www.amazon.in/Indian-Karigar-Greeting-Corporate-Employees/dp/B0HJNVG67V/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJNVG67V&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91Fbs5+8mVL._AC_UL320_.jpg",
+   "price": "₹1,260",
+   "extracted_price": 1260,
+   "old_price": "₹1,265",
+   "extracted_old_price": 1265,
+   "save_with_coupon": "You pay ₹1,209 with coupon",
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,260",
+     "extracted_primary_price": 1260,
+     "old_primary_price": "₹1,265",
+     "extracted_old_primary_price": 1265
+    }
+   ]
+  },
+  {
+   "position": 23,
+   "asin": "B0DGXXR6GP",
+   "title": "Healthy Treat Khushiyan Diwali Gift Hamper | Roasted Snacks Gift Box with Vastu Turtle, Brass Diya & Diwali Greeting Card | Sweet and Savory Snacks Gift Box | Wholesome Corporate Gifting | Healthy Snacks Gift Hamper for Deepawali Gifting",
+   "link": "https://www.amazon.in/Healthy-Treat-Khushiyan-Wholesome-Corporate/dp/B0DGXXR6GP/ref=sr_1_23?keywords=diwali+gift+hamper&qid=1790451808&sr=8-23",
+   "link_clean": "https://www.amazon.in/Healthy-Treat-Khushiyan-Wholesome-Corporate/dp/B0DGXXR6GP/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DGXXR6GP&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91psUPIqToL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 19,
+   "price": "₹1,458",
+   "extracted_price": 1458,
+   "old_price": "₹1,499",
+   "extracted_old_price": 1499,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,458",
+     "extracted_primary_price": 1458,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,499",
+     "extracted_old_primary_price": 1499
+    }
+   ]
+  },
+  {
+   "position": 24,
+   "asin": "B0HGRBFXH7",
+   "title": "Phool 10 Item Shubh Diwali Popup with Lantern Giftbox - Diwali Gift Hamper with Dry Fruit ladoo, Bombay bhel chikki, Diya, Candles and More. Gift for Family & Corporate Gifting 2026",
+   "link": "https://www.amazon.in/Phool-Shubh-Diwali-Lantern-Giftbox/dp/B0HGRBFXH7/ref=sr_1_24?keywords=diwali+gift+hamper&qid=1790451808&sr=8-24",
+   "link_clean": "https://www.amazon.in/Phool-Shubh-Diwali-Lantern-Giftbox/dp/B0HGRBFXH7/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HGRBFXH7&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/911vIBWxCrL._AC_UL320_.jpg",
+   "price": "₹485",
+   "extracted_price": 485,
+   "old_price": "₹675",
+   "extracted_old_price": 675,
+   "save_with_coupon": "You pay ₹465.60 with coupon",
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹485",
+     "extracted_primary_price": 485,
+     "old_primary_price": "₹675",
+     "extracted_old_primary_price": 675
+    }
+   ]
+  },
+  {
+   "position": 25,
+   "asin": "B08MB17XNF",
+   "title": "Open Secret Diwali / Bhaidooj Gift Hamper | Combo of 18 | Dry Fruits & Assorted Chocolate Cookies | Festive Gift Pack",
+   "link": "https://www.amazon.in/Open-Secret-Assorted-Chocolate-Brothers/dp/B08MB17XNF/ref=sr_1_25?keywords=diwali+gift+hamper&qid=1790451808&sr=8-25",
+   "link_clean": "https://www.amazon.in/Open-Secret-Assorted-Chocolate-Brothers/dp/B08MB17XNF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08MB17XNF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71-5jZFKjIL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 1600,
+   "bought_last_month": "1K+ bought in past month",
+   "price": "₹499",
+   "extracted_price": 499,
+   "old_price": "₹750",
+   "extracted_old_price": 750,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow 8 am - 12 pm"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹499",
+     "extracted_primary_price": 499,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹750",
+     "extracted_old_primary_price": 750
+    }
+   ]
+  },
+  {
+   "position": 26,
+   "asin": "B0CKW9FCJS",
+   "title": "Browntree Premium 4p - 150g |Fresh & Healthy Dry Fruits (Almonds, Cashewnuts, Salted Pista, Raisins) |Gift Hamper |Dry Fruit Gift pack| Dry Fruits Gift Box|Gift for Family|Corporate Gift",
+   "link": "https://www.amazon.in/Premium-Fruits-Gift-Hampers-4p-150g/dp/B0CKW9FCJS/ref=sr_1_26?keywords=diwali+gift+hamper&qid=1790451808&sr=8-26",
+   "link_clean": "https://www.amazon.in/Premium-Fruits-Gift-Hampers-4p-150g/dp/B0CKW9FCJS/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CKW9FCJS&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61wN1j2fcyL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 218,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹399",
+   "extracted_price": 399,
+   "old_price": "₹700",
+   "extracted_old_price": 700,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹399",
+     "extracted_primary_price": 399,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹700",
+     "extracted_old_primary_price": 700
+    }
+   ]
+  },
+  {
+   "position": 27,
+   "asin": "B0DVLT4HSW",
+   "title": "Hyperfoods® Rakhi Gift Hamper for Sister Raw Fruits Gift Box 745g RawFruit Courtyard Collection Pack of 6 DryFruits Dry Fruits Gift Pack Dry Fruits Combo Pack Offer Nuts and DryFruits Combo All Dry Fruits Hamper Rakhi Gift For Sister",
+   "link": "https://www.amazon.in/Hyperfoods%C2%AE-RawFruit-Courtyard-Collection-DryFruits/dp/B0DVLT4HSW/ref=sr_1_27?keywords=diwali+gift+hamper&qid=1790451808&sr=8-27",
+   "link_clean": "https://www.amazon.in/Hyperfoods%C2%AE-RawFruit-Courtyard-Collection-DryFruits/dp/B0DVLT4HSW/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DVLT4HSW&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91by+dk6ezL._AC_UL320_.jpg",
+   "rating": 3.9,
+   "reviews": 63,
+   "price": "₹1,999",
+   "extracted_price": 1999,
+   "old_price": "₹3,759",
+   "extracted_old_price": 3759,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,999",
+     "extracted_primary_price": 1999,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹3,759",
+     "extracted_old_primary_price": 3759
+    }
+   ]
+  },
+  {
+   "position": 28,
+   "asin": "B0DJBPKMS4",
+   "title": "5 Senses Co. Prosperity Diwali Gift Hamper | Premium Festive Gift Box with Chocolate Almond Dry Fruits, Kashmiri Kahwa Tea Chai, Ganesh Ji, Pyrite Stone, Resin Pooja Thali | Diwali Gift Items for Corporate, Family and Friends, Employees, Clients, Ready-to-Gift Packaging",
+   "link": "https://www.amazon.in/Prosperity-Corporate-Contains-Chocolate-Kashmiri/dp/B0DJBPKMS4/ref=sr_1_28?keywords=diwali+gift+hamper&qid=1790451808&sr=8-28",
+   "link_clean": "https://www.amazon.in/Prosperity-Corporate-Contains-Chocolate-Kashmiri/dp/B0DJBPKMS4/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0DJBPKMS4&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81ydQO7enfL._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 29,
+   "price": "₹1,499",
+   "extracted_price": 1499,
+   "old_price": "₹2,990",
+   "extracted_old_price": 2990,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,499",
+     "extracted_primary_price": 1499,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,990",
+     "extracted_old_primary_price": 2990
+    }
+   ]
+  },
+  {
+   "position": 29,
+   "asin": "B0H8PY5T1W",
+   "badges": [
+    "Sale Price Live"
+   ],
+   "title": "Phool 11 Item Diwali Hamper Bhai Dooj Gift | Silk Pocket Square, Subko Coffee, Sandalwood Incense, eat better laddoo, bombay Chikki, Handmade Soap, Ludo Game with dice | Premium Gifts for House warming, Diwali gifting, Birthday gifts",
+   "link": "https://www.amazon.in/Sandalwood-Incense-Handmade-Premium-Birthday/dp/B0H8PY5T1W/ref=sr_1_29?keywords=diwali+gift+hamper&qid=1790451808&sr=8-29",
+   "link_clean": "https://www.amazon.in/Sandalwood-Incense-Handmade-Premium-Birthday/dp/B0H8PY5T1W/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H8PY5T1W&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91c5NMbCynL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 172,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹999",
+   "extracted_price": 999,
+   "old_price": "₹1,845",
+   "extracted_old_price": 1845,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹999",
+     "extracted_primary_price": 999,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,845",
+     "extracted_old_primary_price": 1845
+    }
+   ]
+  },
+  {
+   "position": 30,
+   "asin": "B0HJ5XZGLN",
+   "title": "Utsav Royale – Premium Diwali Dry Fruit & Festive Gift Hamper",
+   "link": "https://www.amazon.in/Utsav-Royale-Premium-Diwali-Festive/dp/B0HJ5XZGLN/ref=sr_1_30?keywords=diwali+gift+hamper&qid=1790451808&sr=8-30",
+   "link_clean": "https://www.amazon.in/Utsav-Royale-Premium-Diwali-Festive/dp/B0HJ5XZGLN/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ5XZGLN&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71zs4T8yQhL._AC_UL320_.jpg",
+   "price": "₹1,999",
+   "extracted_price": 1999,
+   "old_price": "₹3,000",
+   "extracted_old_price": 3000,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tue, 29 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹1,999",
+     "extracted_primary_price": 1999,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹3,000",
+     "extracted_old_primary_price": 3000
+    }
+   ]
+  },
+  {
+   "position": 31,
+   "asin": "B08KF3QKZ6",
+   "title": "Open Secret Chocolate Celebration Gift Box | 12 Cookies Assortment | Premium Gourmet Cookie Gift Hamper | White Cashew, Choco Almond & Peanut Butter Cookies | Sweet Treats for All Occasions",
+   "link": "https://www.amazon.in/Open-Secret-Holi-Celebration-Hamper/dp/B08KF3QKZ6/ref=sr_1_31?keywords=diwali+gift+hamper&qid=1790451808&sr=8-31",
+   "link_clean": "https://www.amazon.in/Open-Secret-Holi-Celebration-Hamper/dp/B08KF3QKZ6/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08KF3QKZ6&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61QphhL2HbL._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 2300,
+   "bought_last_month": "1K+ bought in past month",
+   "price": "₹255",
+   "extracted_price": 255,
+   "old_price": "₹350",
+   "extracted_old_price": 350,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹255",
+     "extracted_primary_price": 255,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹350",
+     "extracted_old_primary_price": 350
+    }
+   ]
+  },
+  {
+   "position": 32,
+   "asin": "B08L1RXMBB",
+   "title": "Astonished Retail Chocolate Gift Hamper with Beautiful Basket| Chocolate Gift for Rakhi, Diwali, Anniversary, Birthday, Christmas, Valentine, Her, Him | Chocolate Gift Hamper, 1",
+   "link": "https://www.amazon.in/Astonished-Retail-Chocolate-Beautiful-Anniversary/dp/B08L1RXMBB/ref=sr_1_32?keywords=diwali+gift+hamper&qid=1790451808&sr=8-32",
+   "link_clean": "https://www.amazon.in/Astonished-Retail-Chocolate-Beautiful-Anniversary/dp/B08L1RXMBB/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B08L1RXMBB&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61eYi1nOR3L._AC_UL320_.jpg",
+   "rating": 3.7,
+   "reviews": 80,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹349",
+   "extracted_price": 349,
+   "old_price": "₹459",
+   "extracted_old_price": 459,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "stock": "Only 1 left in stock.",
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹349",
+     "extracted_primary_price": 349,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹459",
+     "extracted_old_primary_price": 459
+    }
+   ]
+  },
+  {
+   "position": 33,
+   "asin": "B0FPXL9VT7",
+   "title": "Nature Purify Premium Diwali Gift Hamper – “Almond, Cashew, Pumpkin & Sunflower Seeds – Festive Gift Box (100g Each)”",
+   "link": "https://www.amazon.in/Nature-Purify-Premium-Diwali-Hamper/dp/B0FPXL9VT7/ref=sr_1_33?keywords=diwali+gift+hamper&qid=1790451808&sr=8-33",
+   "link_clean": "https://www.amazon.in/Nature-Purify-Premium-Diwali-Hamper/dp/B0FPXL9VT7/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FPXL9VT7&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81hIz2KxrrL._AC_UL320_.jpg",
+   "rating": 4.3,
+   "reviews": 9,
+   "price": "₹349",
+   "extracted_price": 349,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "stock": "Only 2 left in stock.",
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹349",
+     "extracted_primary_price": 349,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 34,
+   "asin": "B0CJVDBDWD",
+   "title": "LOYKA Bageecha Gourmet Treasury Rakhi Gift Hamper for Brother & Sister - Premium Assorted Chocolate Sweets Box with Almond Brittle, Cookies, Florentine, Dates & Paancho - Rakhi Gift Set for Bhai Behan",
+   "link": "https://www.amazon.in/Bageecha-Assorted-Chocolate-Birthdays-Anniversary/dp/B0CJVDBDWD/ref=sr_1_34?keywords=diwali+gift+hamper&qid=1790451808&sr=8-34",
+   "link_clean": "https://www.amazon.in/Bageecha-Assorted-Chocolate-Birthdays-Anniversary/dp/B0CJVDBDWD/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CJVDBDWD&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71SNBEVs3uL._AC_UL320_.jpg",
+   "rating": 4.6,
+   "reviews": 36,
+   "bought_last_month": "200+ bought in past month",
+   "price": "₹649",
+   "extracted_price": 649,
+   "old_price": "₹699",
+   "extracted_old_price": 699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹649",
+     "extracted_primary_price": 649,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹699",
+     "extracted_old_primary_price": 699
+    }
+   ]
+  },
+  {
+   "position": 35,
+   "asin": "B0FDBBXMNX",
+   "title": "Open Secret Diwali / Bhaidooj Gift Hamper | Combo of 8 | Assorted Chocolate Cookies | Festive Gift Pack",
+   "link": "https://www.amazon.in/Open-Secret-Chocolate-Colleagues-Employee/dp/B0FDBBXMNX/ref=sr_1_35?keywords=diwali+gift+hamper&qid=1790451808&sr=8-35",
+   "link_clean": "https://www.amazon.in/Open-Secret-Chocolate-Colleagues-Employee/dp/B0FDBBXMNX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FDBBXMNX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71eS-I1ysAL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 1600,
+   "bought_last_month": "1K+ bought in past month",
+   "price": "₹199",
+   "extracted_price": 199,
+   "old_price": "₹299",
+   "extracted_old_price": 299,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹199",
+     "extracted_primary_price": 199,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹299",
+     "extracted_old_primary_price": 299
+    }
+   ]
+  },
+  {
+   "position": 36,
+   "asin": "B0H6S546WV",
+   "title": "Handcrafted Floral Candle Hamper | Multicolor Flower Shaped Decorative Candles Gift Set Basket (Pack of 10) | Rose Peony Tulip Lotus Daisy | Birthday Return Gifts Home Decor",
+   "link": "https://www.amazon.in/Handcrafted-Candle-Multicolor-Flower-Gift/dp/B0H6S546WV/ref=sr_1_36?keywords=diwali+gift+hamper&qid=1790451808&sr=8-36",
+   "link_clean": "https://www.amazon.in/Handcrafted-Candle-Multicolor-Flower-Gift/dp/B0H6S546WV/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H6S546WV&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71JNo3kQsyL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 8,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹299",
+   "extracted_price": 299,
+   "old_price": "₹349",
+   "extracted_old_price": 349,
+   "save_with_coupon": "You pay ₹284 with coupon",
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹299",
+     "extracted_primary_price": 299,
+     "old_primary_price": "₹349",
+     "extracted_old_primary_price": 349
+    }
+   ]
+  },
+  {
+   "position": 37,
+   "asin": "B0HJ4XZHBB",
+   "title": "Phool Ramayana Diwali Gift Box 2026 | Premium Diwali Gift Hamper for Family, Friends & Corporate Gifting | Ramayana Tray, Diyas, Laxmi Charan, Rose Bud Lamp, Candles, Havan Cups, Sweets & Playing Cards",
+   "link": "https://www.amazon.in/Ramayana-Premium-Friends-Corporate-Gifting/dp/B0HJ4XZHBB/ref=sr_1_37?keywords=diwali+gift+hamper&qid=1790451808&sr=8-37",
+   "link_clean": "https://www.amazon.in/Ramayana-Premium-Friends-Corporate-Gifting/dp/B0HJ4XZHBB/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJ4XZHBB&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/917h159LeyL._AC_UL320_.jpg",
+   "price": "₹1,819",
+   "extracted_price": 1819,
+   "old_price": "₹3,425",
+   "extracted_old_price": 3425,
+   "save_with_coupon": "You pay ₹1,782.62 with coupon",
+   "delivery": [
+    "FREE delivery Wed, 30 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹1,819",
+     "extracted_primary_price": 1819,
+     "old_primary_price": "₹3,425",
+     "extracted_old_primary_price": 3425
+    }
+   ]
+  },
+  {
+   "position": 38,
+   "asin": "B0FQP85XSF",
+   "title": "Diwali Gift Box Hamper Almond,Cashew,Raisin,Pistachio,Chocolates -Diwali Dry Fruit with Chocolate Combo Pack for Employees,Family and Friends,Relatives,Sister,Staff,Client |Deepavali Gift Box 400Gm",
+   "link": "https://www.amazon.in/Pistachio-Chocolates-Chocolate-Employees-Relatives/dp/B0FQP85XSF/ref=sr_1_38?keywords=diwali+gift+hamper&qid=1790451808&sr=8-38",
+   "link_clean": "https://www.amazon.in/Pistachio-Chocolates-Chocolate-Employees-Relatives/dp/B0FQP85XSF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FQP85XSF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71ARleEliZL._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 3,
+   "price": "₹779",
+   "extracted_price": 779,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Sun, 4 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹779",
+     "extracted_primary_price": 779,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 39,
+   "asin": "B0CKRZ5GXT",
+   "title": "EAT BETTER CO Swarn Diwali Gift Hamper - 7-Item Diwali Gift - Dry-Fruit Chocolate Ladoos, Healthy Millet Namkeen, Urli Candle, Chocolate Nuts & Tea Sachet | Diwali Gift Pack for Friends & Employees",
+   "link": "https://www.amazon.in/Swarn-Diwali-Gift-Hamper-Dry-Fruit/dp/B0CKRZ5GXT/ref=sr_1_39?keywords=diwali+gift+hamper&qid=1790451808&sr=8-39",
+   "link_clean": "https://www.amazon.in/Swarn-Diwali-Gift-Hamper-Dry-Fruit/dp/B0CKRZ5GXT/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CKRZ5GXT&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71kIP6eYt-L._AC_UL320_.jpg",
+   "rating": 4.0,
+   "reviews": 49,
+   "price": "₹449",
+   "extracted_price": 449,
+   "old_price": "₹999",
+   "extracted_old_price": 999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹449",
+     "extracted_primary_price": 449,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹999",
+     "extracted_old_primary_price": 999
+    }
+   ]
+  },
+  {
+   "position": 40,
+   "asin": "B0HCCK582L",
+   "title": "1 Piece Collapsible Magnetic Gift Box with Ribbon, Premium Gift Box for Diwali Festive Gifting, Gift Hamper, Birthday, Wedding, Return Gifts & Packaging (25 x 20 x 10 cm) (Golden)",
+   "link": "https://www.amazon.in/Collapsible-Magnetic-Premium-Birthday-Packaging/dp/B0HCCK582L/ref=sr_1_40?keywords=diwali+gift+hamper&qid=1790451808&sr=8-40",
+   "link_clean": "https://www.amazon.in/Collapsible-Magnetic-Premium-Birthday-Packaging/dp/B0HCCK582L/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HCCK582L&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61WMnscvJ+L._AC_UL320_.jpg",
+   "rating": 4.2,
+   "reviews": 20,
+   "price": "₹248",
+   "extracted_price": 248,
+   "old_price": "₹1,200",
+   "extracted_old_price": 1200,
+   "save_with_coupon": "You pay ₹243.04 with coupon",
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹248",
+     "extracted_primary_price": 248,
+     "old_primary_price": "₹1,200",
+     "extracted_old_primary_price": 1200
+    }
+   ]
+  },
+  {
+   "position": 41,
+   "asin": "B0FLYB3YKX",
+   "options": "See options",
+   "options_link": "https://www.amazon.in/Nytarra-Premium-Corporate-Munchies-Fragrance/dp/B0FLYB3YKX/ref=sr_1_41_so_FOOD?keywords=diwali+gift+hamper&qid=1790451808&sr=8-41",
+   "title": "Nytarra Diwali Gift Hamper 18 Items | Premium Gift Box for Family, Friends & Corporate Gifting | Healthy Munchies, Ceramic Diya, Playing Cards | Festive Gift | Premium Fragrance, Laxmi Charan",
+   "link": "https://www.amazon.in/Nytarra-Premium-Corporate-Munchies-Fragrance/dp/B0FLYB3YKX/ref=sr_1_41?keywords=diwali+gift+hamper&qid=1790451808&sr=8-41",
+   "link_clean": "https://www.amazon.in/Nytarra-Premium-Corporate-Munchies-Fragrance/dp/B0FLYB3YKX/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FLYB3YKX&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91Y0zpMZ9sL._AC_UL320_.jpg",
+   "rating": 4.5,
+   "reviews": 42,
+   "no_featured_offers_available": true,
+   "more_buying_choices": "₹1,900 (1 new offer)",
+   "more_buying_choices_link": "https://www.amazon.in/gp/offer-listing/B0FLYB3YKX/ref=sr_1_41_olp?keywords=diwali+gift+hamper&qid=1790451808&sr=8-41",
+   "purchase_options": [
+    {
+     "no_featured_offers": true,
+     "more_buying_choices": "₹1,900 (1 new offer)",
+     "more_buying_choices_link": "https://www.amazon.in/gp/offer-listing/B0FLYB3YKX/ref=sr_1_41_olp?keywords=diwali+gift+hamper&qid=1790451808&sr=8-41"
+    }
+   ]
+  },
+  {
+   "position": 42,
+   "asin": "B0FRMJ4L9J",
+   "title": "Fruitri Premium Diwali Gift Hamper | Luxury Dry Fruit & Chocolate Combo with Metal Urli, Lanterns, Clay Lamps & Festive Card | Perfect Corporate & Family Gifting",
+   "link": "https://www.amazon.in/Fruitri-Premium-Chocolate-Lanterns-Corporate/dp/B0FRMJ4L9J/ref=sr_1_42?keywords=diwali+gift+hamper&qid=1790451808&sr=8-42",
+   "link_clean": "https://www.amazon.in/Fruitri-Premium-Chocolate-Lanterns-Corporate/dp/B0FRMJ4L9J/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FRMJ4L9J&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/819ftmcylnL._AC_UL320_.jpg",
+   "rating": 4.1,
+   "reviews": 5,
+   "price": "₹999",
+   "extracted_price": 999,
+   "old_price": "₹1,999",
+   "extracted_old_price": 1999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Thu, 1 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹999",
+     "extracted_primary_price": 999,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹1,999",
+     "extracted_old_primary_price": 1999
+    }
+   ]
+  },
+  {
+   "position": 43,
+   "asin": "B0FMFVJ78C",
+   "title": "NutriSnacksBox Diwali Gift Hamper | 15 Items Red Heritage Hamper with Big Metal Diyas (Diamond & Pearl) 2, T Light Candles 2, Dry Fruit Jars (Almond, Cashew, Pistachio, Apricots, Masala Berries), Chocolates & Sweets, Greeting Card. Diwali Gift for Employee, friends, relative",
+   "link": "https://www.amazon.in/NutriSnacksBox-Radiating-Hangings-Pistachio-Chocolates/dp/B0FMFVJ78C/ref=sr_1_43?keywords=diwali+gift+hamper&qid=1790451808&sr=8-43",
+   "link_clean": "https://www.amazon.in/NutriSnacksBox-Radiating-Hangings-Pistachio-Chocolates/dp/B0FMFVJ78C/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FMFVJ78C&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/81V9x77ok-L._AC_UL320_.jpg",
+   "rating": 4.8,
+   "reviews": 5,
+   "price": "₹2,449",
+   "extracted_price": 2449,
+   "old_price": "₹2,999",
+   "extracted_old_price": 2999,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹2,449",
+     "extracted_primary_price": 2449,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹2,999",
+     "extracted_old_primary_price": 2999
+    }
+   ]
+  },
+  {
+   "position": 44,
+   "asin": "B0HJNT9Y94",
+   "title": "Indian Karigar 7 Item Happy Diwali Gift Box 2026 | Premium Diwali Gift Hamper | With Diyas, Candles, Cranberry, Greeting & More | Diwali Gifts for Family and Friends | Corporate Employees",
+   "link": "https://www.amazon.in/Indian-Karigar-Cranberry-Corporate-Employees/dp/B0HJNT9Y94/ref=sr_1_44?keywords=diwali+gift+hamper&qid=1790451808&sr=8-44",
+   "link_clean": "https://www.amazon.in/Indian-Karigar-Cranberry-Corporate-Employees/dp/B0HJNT9Y94/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HJNT9Y94&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/91K31v+4phL._AC_UL320_.jpg",
+   "price": "₹549",
+   "extracted_price": 549,
+   "old_price": "₹550",
+   "extracted_old_price": 550,
+   "save_with_coupon": "You pay ₹527 with coupon",
+   "delivery": [
+    "FREE delivery Fri, 2 Oct"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹549",
+     "extracted_primary_price": 549,
+     "old_primary_price": "₹550",
+     "extracted_old_primary_price": 550
+    }
+   ]
+  },
+  {
+   "position": 45,
+   "asin": "B0H69XQ2Z5",
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "Diwali Fashion Hamper for Women – Pink PU Leather Travel Jewelry Case Gift Set with Necklace, Hair Claw, Press On Nails & Floral Crochet Keepsake Box, Diwali Gift for Girlfriend, Sister, Behen & Sis",
+   "link": "https://www.amazon.in/Diwali-Fashion-Hamper-Women-Girlfriend/dp/B0H69XQ2Z5/ref=sr_1_45?keywords=diwali+gift+hamper&qid=1790451808&sr=8-45",
+   "link_clean": "https://www.amazon.in/Diwali-Fashion-Hamper-Women-Girlfriend/dp/B0H69XQ2Z5/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H69XQ2Z5&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/719WDNQXFML._AC_UL320_.jpg",
+   "rating": 3.4,
+   "reviews": 11,
+   "bought_last_month": "100+ bought in past month",
+   "price": "₹469",
+   "extracted_price": 469,
+   "old_price": "₹1,399",
+   "extracted_old_price": 1399,
+   "save_with_coupon": "You pay ₹459.62 with coupon",
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Tomorrow, 28 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹469",
+     "extracted_primary_price": 469,
+     "old_primary_price": "₹1,399",
+     "extracted_old_primary_price": 1399
+    }
+   ]
+  },
+  {
+   "position": 46,
+   "asin": "B0HGM5R933",
+   "title": "Greenfold Embroidered Jute Hamper Bag for Gifting | Reusable Jute Gift Bag with Handles | For Sweets, Dry Fruits, Wedding, Diwali, Return Gifts & Corporate Hampers | Assorted Designs & Sizes",
+   "link": "https://www.amazon.in/Greenfold-Embroidered-Reusable-Corporate-Assorted/dp/B0HGM5R933/ref=sr_1_46?keywords=diwali+gift+hamper&qid=1790451808&sr=8-46",
+   "link_clean": "https://www.amazon.in/Greenfold-Embroidered-Reusable-Corporate-Assorted/dp/B0HGM5R933/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HGM5R933&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/714OYrfN1SL._AC_UL320_.jpg",
+   "rating": 5.0,
+   "reviews": 3,
+   "price": "₹649",
+   "extracted_price": 649,
+   "old_price": "₹1,499",
+   "extracted_old_price": 1499,
+   "save_with_coupon": "You pay ₹629 with coupon",
+   "delivery": [
+    "FREE delivery Thu, 1 Oct",
+    "Or fastest delivery Wed, 30 Sept"
+   ],
+   "purchase_options": [
+    {
+     "primary_price": "₹649",
+     "extracted_primary_price": 649,
+     "old_primary_price": "₹1,499",
+     "extracted_old_primary_price": 1499
+    }
+   ]
+  },
+  {
+   "position": 47,
+   "asin": "B0H87JGGLF",
+   "title": "Ganesh Chaturthi & Diwali Gift Hamper with Handcrafted Concrete Ganesha Idol & Sandalwood Candles | Festive Gift Box for Family, Friends, Corporate Gifting & Housewarming",
+   "link": "https://www.amazon.in/Hello-Handmade-Handcrafted-Sandalwood-Housewarming/dp/B0H87JGGLF/ref=sr_1_47?keywords=diwali+gift+hamper&qid=1790451808&sr=8-47",
+   "link_clean": "https://www.amazon.in/Hello-Handmade-Handcrafted-Sandalwood-Housewarming/dp/B0H87JGGLF/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H87JGGLF&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/71kZeGdH5PL._AC_UL320_.jpg",
+   "price": "₹449",
+   "extracted_price": 449,
+   "old_price": "₹990",
+   "extracted_old_price": 990,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Sun, 4 Oct"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹449",
+     "extracted_primary_price": 449,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹990",
+     "extracted_old_primary_price": 990
+    }
+   ]
+  },
+  {
+   "position": 48,
+   "asin": "B0CVB6D13K",
+   "tags": [
+    "Green"
+   ],
+   "badges": [
+    "Limited time deal"
+   ],
+   "title": "OH CHA - Tea Gift Box | Assorted Tea Gift Set with Infuser & Multiflora Honey | 4 Exquisite Whole Leaf Tea Flavors - Hibiscus Rose, Earl Grey, Detox Kahwa, Moroccan Mint | Corporate Gifting Hamper | Wedding Gifts, Return gifts | Diwali Gift for Clients, Employees",
+   "link": "https://www.amazon.in/OH-CHA-Assorted-Birthday-Anniversary/dp/B0CVB6D13K/ref=sr_1_48?keywords=diwali+gift+hamper&qid=1790451808&sr=8-48",
+   "link_clean": "https://www.amazon.in/OH-CHA-Assorted-Birthday-Anniversary/dp/B0CVB6D13K/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CVB6D13K&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/61j+FgbK9vL._AC_UL320_.jpg",
+   "rating": 4.4,
+   "reviews": 99,
+   "bought_last_month": "50+ bought in past month",
+   "price": "₹579",
+   "extracted_price": 579,
+   "old_price": "₹699",
+   "extracted_old_price": 699,
+   "offers": [
+    "Up to 5% back with Amazon Pay ICICI card"
+   ],
+   "delivery": [
+    "FREE delivery Tue, 29 Sept",
+    "Or fastest delivery Today"
+   ],
+   "purchase_options": [
+    {
+     "free_with_subscription": true,
+     "primary_price": "₹579",
+     "extracted_primary_price": 579,
+     "secondary_price": "Up to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI cardUp to 5% back with Amazon Pay ICICI card",
+     "extracted_secondary_price": 5,
+     "old_primary_price": "₹699",
+     "extracted_old_primary_price": 699
+    }
+   ]
+  }
+ ],
+ "related_searches": [
+  {
+   "position": 1,
+   "query": "gift hampers",
+   "link": "https://www.amazon.in/s?k=gift+hampers&ref=rsl_sug_0_0&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  },
+  {
+   "position": 2,
+   "query": "diwali gift hampers basket for gifting",
+   "link": "https://www.amazon.in/s?k=diwali+gift+hampers+basket+for+gifting&ref=rsl_sug_0_3&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  },
+  {
+   "position": 3,
+   "query": "diwali gift box",
+   "link": "https://www.amazon.in/s?k=diwali+gift+box&ref=rsl_sug_0_1&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  },
+  {
+   "position": 4,
+   "query": "chocolate gift hamper",
+   "link": "https://www.amazon.in/s?k=chocolate+gift+hamper&ref=rsl_sug_0_4&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  },
+  {
+   "position": 5,
+   "query": "diwali",
+   "link": "https://www.amazon.in/s?k=diwali&ref=rsl_sug_0_2&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  },
+  {
+   "position": 6,
+   "query": "lakshmi devi photo",
+   "link": "https://www.amazon.in/s?k=lakshmi+devi+photo&ref=rsl_sug_0_5&pd_rd_w=ijSLe&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=XFVZHEPSM0K2SCZCB2D0&pd_rd_wg=aAphV&pd_rd_r=da0c53d5-9786-4dbd-a10d-fe40e9605fdb&qid=1790451808"
+  }
+ ],
+ "categories": [
+  {
+   "position": 1,
+   "name": "Sell",
+   "link": "https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3",
+   "node": "32702023031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=32702023031"
+  },
+  {
+   "position": 2,
+   "name": "Mobiles",
+   "link": "https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles",
+   "node": "1389401031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1389401031"
+  },
+  {
+   "position": 3,
+   "name": "Electronics",
+   "link": "https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics",
+   "node": "976419031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976419031"
+  },
+  {
+   "position": 4,
+   "name": "Home & Kitchen",
+   "link": "https://www.amazon.in/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home",
+   "node": "976442031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976442031"
+  },
+  {
+   "position": 5,
+   "name": "Car & Motorbike",
+   "link": "https://www.amazon.in/Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive",
+   "node": "4772060031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4772060031"
+  },
+  {
+   "position": 6,
+   "name": "Pet Supplies",
+   "link": "https://www.amazon.in/Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets",
+   "node": "2454181031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=2454181031"
+  },
+  {
+   "position": 7,
+   "name": "Grocery & Gourmet Foods",
+   "link": "https://www.amazon.in/Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery",
+   "node": "2454178031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=2454178031"
+  },
+  {
+   "position": 8,
+   "name": "Beauty & Personal Care",
+   "link": "https://www.amazon.in/beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty",
+   "node": "1355016031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1355016031"
+  },
+  {
+   "position": 9,
+   "name": "Gift Cards",
+   "link": "https://www.amazon.in/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc",
+   "node": "3704982031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=3704982031"
+  },
+  {
+   "position": 10,
+   "name": "Computers",
+   "link": "https://www.amazon.in/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc",
+   "node": "976392031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976392031"
+  },
+  {
+   "position": 11,
+   "name": "Toys & Games",
+   "link": "https://www.amazon.in/Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys",
+   "node": "1350380031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1350380031"
+  },
+  {
+   "position": 12,
+   "name": "Video Games",
+   "link": "https://www.amazon.in/video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games",
+   "node": "976460031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976460031"
+  },
+  {
+   "position": 13,
+   "name": "Home Improvement",
+   "link": "https://www.amazon.in/Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi",
+   "node": "4286640031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=4286640031"
+  },
+  {
+   "position": 14,
+   "name": "Sports, Fitness & Outdoors",
+   "link": "https://www.amazon.in/Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports",
+   "node": "1984443031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1984443031"
+  },
+  {
+   "position": 15,
+   "name": "Custom Products",
+   "link": "https://www.amazon.in/Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom",
+   "node": "32615889031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=32615889031"
+  },
+  {
+   "position": 16,
+   "name": "Health, Household & Personal Care",
+   "link": "https://www.amazon.in/health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc",
+   "node": "1350384031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1350384031"
+  },
+  {
+   "position": 17,
+   "name": "Baby",
+   "link": "https://www.amazon.in/Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby",
+   "node": "1571274031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1571274031"
+  },
+  {
+   "position": 18,
+   "name": "Audible",
+   "link": "https://www.amazon.in/Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible",
+   "node": "17941593031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=17941593031"
+  },
+  {
+   "position": 19,
+   "name": "AmazonBasics",
+   "link": "https://www.amazon.in/b/?node=6637738031&ref_=nav_cs_amazonbasics",
+   "node": "6637738031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=6637738031"
+  },
+  {
+   "position": 20,
+   "name": "Kindle eBooks",
+   "link": "https://www.amazon.in/Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books",
+   "node": "1634753031",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1634753031"
+  }
+ ],
+ "filters": {
+  "popular_shopping_ideas": [
+   {
+    "position": 1,
+    "name": "Corporate",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper+corporate&ref=sr_nr_p_rag_integrated_qb_0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper+corporate"
+   },
+   {
+    "position": 2,
+    "name": "Premium",
+    "link": "https://www.amazon.in/s?k=phool+diwali+gift+box&ref=sr_nr_p_rag_integrated_qb_1",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=phool+diwali+gift+box"
+   },
+   {
+    "position": 3,
+    "name": "Dry Fruits",
+    "link": "https://www.amazon.in/s?k=diwali+dry+fruits+gift+hamper&ref=sr_nr_p_rag_integrated_qb_2",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+dry+fruits+gift+hamper"
+   },
+   {
+    "position": 4,
+    "name": "Basket",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hampers+basket&ref=sr_nr_p_rag_integrated_qb_3",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hampers+basket"
+   },
+   {
+    "position": 5,
+    "name": "Sweets",
+    "link": "https://www.amazon.in/s?k=diwali+sweets+gift+box&ref=sr_nr_p_rag_integrated_qb_4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+sweets+gift+box"
+   }
+  ],
+  "delivery_day": [
+   {
+    "position": 1,
+    "name": "Get It Today",
+    "rh": "p_90:6741117031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_90%3A6741117031&dc&qid=1790451808&rnid=6741116031&ref=sr_nr_p_90_1&ds=v1%3AWynLQyo7ndeqc4roZocOTqiMLc06C8hIlQM8Gh6MDrk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_90%3A6741117031"
+   },
+   {
+    "position": 2,
+    "name": "Get It by Tomorrow",
+    "rh": "p_90:6741118031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_90%3A6741118031&dc&qid=1790451808&rnid=6741116031&ref=sr_nr_p_90_2&ds=v1%3AuwMB1GEfXMrJj%2FQxucYs01JwXWhHs5U4SMFDe7q%2BRoY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_90%3A6741118031"
+   },
+   {
+    "position": 3,
+    "name": "Get It in 2 Days",
+    "rh": "p_90:20912642031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_90%3A20912642031&dc&qid=1790451808&rnid=6741116031&ref=sr_nr_p_90_3&ds=v1%3AYENFY5xydXaPkUHNTJtfvAX2BnzhDrkID8Csx9Nxu0w",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_90%3A20912642031"
+   },
+   {
+    "position": 4,
+    "name": "Free Shipping",
+    "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+    "rh": "p_n_free_shipping_eligible:205563695031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1790451808&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3A7sjiexxgNQMYfS6pRYOVvHK%2BetREPTOzjCThKvzrMo0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_free_shipping_eligible%3A205563695031"
+   }
+  ],
+  "eligible_for_free_shipping": [
+   {
+    "position": 1,
+    "name": "Free Shipping",
+    "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+    "rh": "p_n_free_shipping_eligible:205563695031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1790451808&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3A7sjiexxgNQMYfS6pRYOVvHK%2BetREPTOzjCThKvzrMo0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_free_shipping_eligible%3A205563695031"
+   }
+  ],
+  "category": [
+   {
+    "position": 1,
+    "name": "Grocery & Gourmet Foods",
+    "rh": "n:2454178031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_1&ds=v1%3ANEfUrgJZgWII960EH3HXkLJzF8JRb%2FS6ZxGTinNtEOI",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031"
+   },
+   {
+    "position": 2,
+    "name": "Dry Fruit & Nut Gifts",
+    "rh": "n:4859640031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859640031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_2&ds=v1%3AqReauKKRi57jPVa3wEblauYGe%2Bn0MG2BzlPH9pSIXCk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859640031"
+   },
+   {
+    "position": 3,
+    "name": "Chocolate Gifts",
+    "rh": "n:4859637031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859637031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_3&ds=v1%3ATX9ymzcRP%2B2fc2mNyAX4IW0kGIqCtVwvdsjwVBpYRFA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859637031"
+   },
+   {
+    "position": 4,
+    "name": "Sweets Gifts",
+    "rh": "n:4859647031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859647031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_4&ds=v1%3AkG58Dym%2BD6HatH8uuA1U3hlLEG4MHzqXEBlCYZVzGfg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859647031"
+   },
+   {
+    "position": 5,
+    "name": "Mixed Dried Fruits",
+    "rh": "n:4860222031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4860222031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_5&ds=v1%3AhSyBt5k9zS7euRKJReGH94etn8BKhpzbRmGIylZ4FUc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4860222031"
+   },
+   {
+    "position": 6,
+    "name": "Snack Gifts",
+    "rh": "n:4859645031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859645031&dc&qid=1790451808&rnid=3576079031&ref=sr_nr_n_6&ds=v1%3Adp76qLk%2FGxbNQkaEfvG6cxECd8pE3tldBVq0oEA%2FCa0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=n%3A2454178031%2Cn%3A4859645031"
+   }
+  ],
+  "brands": [
+   {
+    "position": 1,
+    "name": "NutriSnacksBox",
+    "rh": "p_123:1025600",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A1025600&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3AYW1IS%2Bdc%2FHrEU57Qvj9PC7PKrLsOqniHwAmFA6ZrE3I",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A1025600"
+   },
+   {
+    "position": 2,
+    "name": "Indian Karigar",
+    "rh": "p_123:814305",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A814305&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AxeebnS35nnbRoiTnMkdNrZptaJezGGq4VLjUYMvvPcM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A814305"
+   },
+   {
+    "position": 3,
+    "name": "Healthy Treat",
+    "rh": "p_123:815358",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A815358&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_3&ds=v1%3APGqGjCp%2BP%2FAEFZeGOgLYBkBlW3Rug0M3el5ERdUQ34w",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A815358"
+   },
+   {
+    "position": 4,
+    "name": "THE GIFT STUDIO.COM",
+    "rh": "p_123:1219247",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A1219247&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_4&ds=v1%3A7xNbtqIA7kn95kGwThnHhW9dA3hSCFjTMvD%2B6a%2F2g9E",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A1219247"
+   },
+   {
+    "position": 5,
+    "name": "OH CHA",
+    "rh": "p_123:965728",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A965728&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_5&ds=v1%3ADjLqoZl9r4K7k0zBNchI2qPAlQtYhYK7zy6U6FveH%2Fs",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A965728"
+   },
+   {
+    "position": 6,
+    "name": "7 BAZAARI",
+    "rh": "p_123:7277294",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A7277294&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_6&ds=v1%3AFsjYvJ%2FDamj7hLApLRkV0vKNc9Ug809ZAW4qy2VOPAg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A7277294"
+   },
+   {
+    "position": 7,
+    "name": "Giftana",
+    "rh": "p_123:562056",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A562056&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_7&ds=v1%3A8kpyvKwvFpcoQbjJ3YYOc0A2zxrr%2BwNyrXGjAwYWvQM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A562056"
+   },
+   {
+    "position": 8,
+    "name": "chokola",
+    "rh": "p_123:555717",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A555717&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_8&ds=v1%3A69PW%2F5uHV5W8eianIdN%2BR86dQuO0gR9NdsGxlGWpnGA",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A555717"
+   },
+   {
+    "position": 9,
+    "name": "VAHDAM",
+    "rh": "p_123:148525",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A148525&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_9&ds=v1%3AY6dTXyYwckliw1h0BBV5sInbpKN6XR33lwjzuS%2Fp1G4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A148525"
+   },
+   {
+    "position": 10,
+    "name": "Happilo",
+    "rh": "p_123:496617",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A496617&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_10&ds=v1%3AaSNItuDoKEqNGvgk7mmlyH%2B1%2BGBLKsslHVK7T%2FyB5rE",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A496617"
+   },
+   {
+    "position": 11,
+    "name": "LOYKA",
+    "rh": "p_123:1151057",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A1151057&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_11&ds=v1%3ASehODd%2Fo0m3HlTDcvjjSGCXJw54XvJTG26OXlSBKF10",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A1151057"
+   },
+   {
+    "position": 12,
+    "name": "Fruitri",
+    "rh": "p_123:621211",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A621211&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_12&ds=v1%3A%2F%2BESRPcfeCWCT2CPO0aHv1Fiia4sBP1u77Mug4dEcn0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A621211"
+   },
+   {
+    "position": 13,
+    "name": "Nature Purify",
+    "rh": "p_123:864711",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A864711&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_13&ds=v1%3A0wcC%2B4%2BleXRFxWp1dPvIjQptrc1DSl3wvzd9Zi6cnE0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A864711"
+   },
+   {
+    "position": 14,
+    "name": "GO DESi",
+    "rh": "p_123:652252",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A652252&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_14&ds=v1%3A4rq7krSIKY8N4TuuuAcX9RyrbxpIAkSdT3RT4ZwpcNo",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A652252"
+   },
+   {
+    "position": 15,
+    "name": "HYPERFOODS",
+    "rh": "p_123:835069",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A835069&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_15&ds=v1%3AJ4kLMf6pHRU02A7SZzkQxBaf8TjIn1L1dJCpy1uQu4w",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A835069"
+   },
+   {
+    "position": 16,
+    "name": "NUTTY GRITTIES",
+    "rh": "p_123:154459",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A154459&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_16&ds=v1%3ANzWDnBfLciWYADR4i6K9aIxJP9z7F1q2dpn%2FXQDlM%2FQ",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A154459"
+   },
+   {
+    "position": 17,
+    "name": "Octavius",
+    "rh": "p_123:488898",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A488898&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_17&ds=v1%3AM9SiSNCQL0%2BNvNVbuMFu0fKJE6hrskJxYkulDWYczww",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A488898"
+   },
+   {
+    "position": 18,
+    "name": "NUTTY ORGANICS",
+    "rh": "p_123:6822939",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A6822939&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_18&ds=v1%3A6CwMrPky980snTEJDBUJRIeDEUyrjvOHmOtVAcSa50c",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A6822939"
+   },
+   {
+    "position": 19,
+    "name": "Farmley",
+    "rh": "p_123:715841",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A715841&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_19&ds=v1%3AntLx3Jk3aMx%2FNsN%2FLjNFjBaMqyImcMpd%2FD2GGenrNlo",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A715841"
+   },
+   {
+    "position": 20,
+    "name": "Saugat Traders",
+    "rh": "p_123:94168",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_123%3A94168&dc&qid=1790451808&rnid=91049095031&ref=sr_nr_p_123_20&ds=v1%3AIac0IeFUVE8tOqGrALLVBvRbBcZOU7pF%2FpAocwlI2sY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_123%3A94168"
+   }
+  ],
+  "customer_review": [
+   {
+    "position": 1,
+    "name": "& Up",
+    "rh": "p_72:1318476031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_72%3A1318476031&dc&qid=1790451808&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AF93ODvyrI%2FniRwbBmgbyohK0dqAlhrUGR9m%2FlplCAbc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_72%3A1318476031"
+   }
+  ],
+  "price": [
+   {
+    "position": 1,
+    "name": "All Discounts",
+    "rh": "p_n_deal_type:26921226031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_deal_type%3A26921226031&dc&qid=1790451808&rnid=26921223031&ref=sr_nr_p_n_deal_type_1&ds=v1%3A0pgWoD1O%2FtZNhRsdrJaPbTv7Gy1%2BZJx9b1vHrpMlWBI",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_deal_type%3A26921226031"
+   },
+   {
+    "position": 2,
+    "name": "Buy More, Save More",
+    "rh": "p_n_deal_type:210770213031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_deal_type%3A210770213031&dc&qid=1790451808&rnid=26921223031&ref=sr_nr_p_n_deal_type_2&ds=v1%3AWtF%2BoQCtpCnJvbfk6vvx5WUNl%2FVXKub5TbdvjOtbLD8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_deal_type%3A210770213031"
+   },
+   {
+    "position": 3,
+    "name": "Coupons",
+    "rh": "p_n_deal_type:210770212031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_deal_type%3A210770212031&dc&qid=1790451808&rnid=26921223031&ref=sr_nr_p_n_deal_type_3&ds=v1%3AMXYYBUilkj%2BIIxK%2B7po2JnEGA2MbMeNOeuD8xX%2B3fYs",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_deal_type%3A210770212031"
+   },
+   {
+    "position": 4,
+    "name": "Today's Deals",
+    "rh": "p_n_deal_type:26921224031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_deal_type%3A26921224031&dc&qid=1790451808&rnid=26921223031&ref=sr_nr_p_n_deal_type_4&ds=v1%3ASyNCSWnuY3ZoaB8FGcplL9unaqzQsi3i6JRVC%2FS8iF8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_deal_type%3A26921224031"
+   }
+  ],
+  "local_market": [
+   {
+    "position": 1,
+    "name": "Amazon Fresh",
+    "rh": "p_n_alm_brand_id:17107035031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_alm_brand_id%3A17107035031&dc&qid=1790451808&rnid=17107034031&ref=sr_nr_p_n_alm_brand_id_1&ds=v1%3AqDCToQzI%2FT%2B1R7IwfwbIsmR49vCwAvM8o3mtEZTat4Q",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_alm_brand_id%3A17107035031"
+   }
+  ],
+  "grocery_brands": [
+   {
+    "position": 1,
+    "name": "Made for Amazon",
+    "rh": "p_n_format_browse-bin:27413412031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_format_browse-bin%3A27413412031&dc&qid=1790451808&rnid=27413410031&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3A4cSdCEQLA8yKc2oeFUZ5kzVgAlQz3L0hssT%2FVxIrCVY",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_format_browse-bin%3A27413412031"
+   },
+   {
+    "position": 2,
+    "name": "Top Brands",
+    "rh": "p_n_format_browse-bin:27413411031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_format_browse-bin%3A27413411031&dc&qid=1790451808&rnid=27413410031&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3AFZPEYVfgmeURVfEuAUoaeuTHI6wKha%2BcaheghvGfL2c",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_format_browse-bin%3A27413411031"
+   }
+  ],
+  "all_top_brands": [
+   {
+    "position": 1,
+    "name": "Top Brands",
+    "rh": "p_n_g-101014971069111:206270883031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_g-101014971069111%3A206270883031&dc&qid=1790451808&rnid=206270882031&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AQjVpcTrijPscZ8NJ902Ae%2BIzmReBYKwWFbMqjcRnFwM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_g-101014971069111%3A206270883031"
+   }
+  ],
+  "new_arrivals": [
+   {
+    "position": 1,
+    "name": "Last 30 days",
+    "rh": "p_n_date_first_available_absolute:1318487031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_date_first_available_absolute%3A1318487031&dc&qid=1790451808&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AcOWda4OaaYO0ZXGMu5x%2FaPwfG17vTGDgoX9TSDtIPMk",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_date_first_available_absolute%3A1318487031"
+   },
+   {
+    "position": 2,
+    "name": "Last 90 days",
+    "rh": "p_n_date_first_available_absolute:1318488031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_date_first_available_absolute%3A1318488031&dc&qid=1790451808&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AZOWDyrJyXS6hWjwtZuz3cgLtdbykb5PEmYHIPkiTfXU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_date_first_available_absolute%3A1318488031"
+   }
+  ],
+  "discount": [
+   {
+    "position": 1,
+    "name": "10% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665399031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665399031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Ae1eyfc1hMHI2fITZgHqWA5yr8tofkbTjV4j9OKFWTkU",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665399031"
+   },
+   {
+    "position": 2,
+    "name": "25% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665400031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665400031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3ArtxVdTP7XhPSILunRhMJ9QG8uRYRBciyieRpnXtGSx0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665400031"
+   },
+   {
+    "position": 3,
+    "name": "35% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665402031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665402031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AJOlYjMRXpPR6oL2ARQLnZZ8zpl5V2WFZ4fyXkZpF%2Bbg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665402031"
+   },
+   {
+    "position": 4,
+    "name": "50% Off or more",
+    "rh": "p_n_pct-off-with-tax:2665401031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665401031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3Ar5PriLWP8lBkNpkfvd4Oo5cKKtYYgw8L7L7b930uJp0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A2665401031"
+   },
+   {
+    "position": 5,
+    "name": "60% Off or more",
+    "rh": "p_n_pct-off-with-tax:27060456031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A27060456031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AqvLHIfMeIZQ%2FEbn%2BMnwyAZ4%2FN1F%2BFi4%2FjzIl4stkx%2Fw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A27060456031"
+   },
+   {
+    "position": 6,
+    "name": "70% Off or more",
+    "rh": "p_n_pct-off-with-tax:27060457031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A27060457031&dc&qid=1790451808&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3ADiG8xR0W%2Fi8r44YweF1F7oDc6TRnESwtLr2Xh3tO8F8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_pct-off-with-tax%3A27060457031"
+   }
+  ],
+  "availability": [
+   {
+    "position": 1,
+    "name": "Include Out of Stock",
+    "rh": "p_n_availability:1318485031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_availability%3A1318485031&dc&qid=1790451808&rnid=1318483031&ref=sr_nr_p_n_availability_2&ds=v1%3AbjfqOBuqFJERP39azBqycOyFxh2K5GqfBP8kmWL39sc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_availability%3A1318485031"
+   }
+  ],
+  "pay_on_delivery": [
+   {
+    "position": 1,
+    "name": "Eligible for Pay On Delivery",
+    "rh": "p_n_is_cod_eligible:4931671031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_is_cod_eligible%3A4931671031&dc&qid=1790451808&rnid=4931670031&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AC50H1cLdSa6PHbWd1efLlfIaigUvKp%2BHOOirzLk3eu4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_is_cod_eligible%3A4931671031"
+   }
+  ],
+  "diet_type": [
+   {
+    "position": 1,
+    "name": "Vegan",
+    "rh": "p_n_feature_twelve_browse-bin:93661138031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661138031&dc&qid=1790451808&rnid=93661131031&ref=sr_nr_p_n_feature_twelve_browse-bin_1&ds=v1%3A8fWbg%2F91Bn7aaTDs%2BgV6%2Fj%2FV2N9VSGFF7HohOwHAqIw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661138031"
+   },
+   {
+    "position": 2,
+    "name": "Plant Based",
+    "rh": "p_n_feature_twelve_browse-bin:93661135031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661135031&dc&qid=1790451808&rnid=93661131031&ref=sr_nr_p_n_feature_twelve_browse-bin_2&ds=v1%3AUE4KqypFgKpDvHctqwnL5CQ8UvAsPhvVGjyniua3KrI",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661135031"
+   },
+   {
+    "position": 3,
+    "name": "Gluten Free",
+    "rh": "p_n_feature_twelve_browse-bin:93661134031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661134031&dc&qid=1790451808&rnid=93661131031&ref=sr_nr_p_n_feature_twelve_browse-bin_3&ds=v1%3ALDjLeEqr7chnFROg4PC5BbOA9YxMKefkU0Rk8f9njlM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661134031"
+   },
+   {
+    "position": 4,
+    "name": "Halal",
+    "rh": "p_n_feature_twelve_browse-bin:93661132031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661132031&dc&qid=1790451808&rnid=93661131031&ref=sr_nr_p_n_feature_twelve_browse-bin_4&ds=v1%3AcyiQ%2BY6pFSUUv3H%2F%2Fy7i2hMdaKZll%2FyIdwbPy2YbCPI",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661132031"
+   },
+   {
+    "position": 5,
+    "name": "Kosher",
+    "rh": "p_n_feature_twelve_browse-bin:93661136031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661136031&dc&qid=1790451808&rnid=93661131031&ref=sr_nr_p_n_feature_twelve_browse-bin_5&ds=v1%3AX6OGcpNSwxnIu1tEsqWsgqtcIRoJCwjV4dT8z8j7eD4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_feature_twelve_browse-bin%3A93661136031"
+   }
+  ],
+  "seller": [
+   {
+    "position": 1,
+    "name": "RK World Infocom Pvt Ltd",
+    "rh": "p_6:A15APWRK6P7LBV",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AA15APWRK6P7LBV&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_1&ds=v1%3AnCEWZJ5SEcvmoVoKgsUxzLVXxQ7q12oQU%2BZYUTL5ezo",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AA15APWRK6P7LBV"
+   },
+   {
+    "position": 2,
+    "name": "Ghasitaram- Gifts",
+    "rh": "p_6:A1WP70CVW4AY9Q",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AA1WP70CVW4AY9Q&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_2&ds=v1%3ANXR%2FgoiKTP0H7cw6k8i%2FjeIBUdi2ItUayC%2BhOgKnMTc",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AA1WP70CVW4AY9Q"
+   },
+   {
+    "position": 3,
+    "name": "Amazon Retail",
+    "rh": "p_6:ARENK22K2PQRH",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AARENK22K2PQRH&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_3&ds=v1%3AhNZar06xsFhRL5ofTS0QiPfqwDuNODXVPdriNmkU0AQ",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AARENK22K2PQRH"
+   },
+   {
+    "position": 4,
+    "name": "Biotique Agri Foods Pvt. Ltd.",
+    "rh": "p_6:AFKQI4BASGR1U",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AAFKQI4BASGR1U&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_4&ds=v1%3Ay7nUqJRe8t5Ftlo5dW5IithhakjQzcIOEftAsPzXFL4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AAFKQI4BASGR1U"
+   },
+   {
+    "position": 5,
+    "name": "Nutri Miracle",
+    "rh": "p_6:A6ZFZBD63PMPP",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AA6ZFZBD63PMPP&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_5&ds=v1%3A%2BBCKzRf6D4dcSVFAKJVzG7CmYTTyfbIRCdt6PWyN9dg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AA6ZFZBD63PMPP"
+   },
+   {
+    "position": 6,
+    "name": "Giftrend",
+    "rh": "p_6:A1IV5E2AFMDWUL",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AA1IV5E2AFMDWUL&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_6&ds=v1%3ATVZZM%2Frq2s%2BWoBE%2BaWeeslIkOm0ea0ee5UCxLmETieM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AA1IV5E2AFMDWUL"
+   },
+   {
+    "position": 7,
+    "name": "ME and YOU®",
+    "rh": "p_6:A20JT326VBAR3G",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_6%3AA20JT326VBAR3G&dc&qid=1790451808&rnid=1318474031&ref=sr_nr_p_6_7&ds=v1%3As9Sqe4wDGb8M%2FtPfWbrgW2oJkUpff1kXSDoF39%2F5AqM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_6%3AA20JT326VBAR3G"
+   }
+  ],
+  "country_of_origin": [
+   {
+    "position": 1,
+    "name": "India",
+    "rh": "p_country_of_origin-bin:IN",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AIN&dc&qid=1790451808&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_1&ds=v1%3ASpIFug7N%2FGokteWutfgBtf6woO0c%2BdTCgp%2FCjKu7Uj8",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AIN"
+   },
+   {
+    "position": 2,
+    "name": "Brazil",
+    "rh": "p_country_of_origin-bin:BR",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_country_of_origin-bin%3ABR&dc&qid=1790451808&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_2&ds=v1%3AWpT%2Fq0Wor%2BUzSqlpTc%2FK0rdeegvqDUEPJnK9jGHoq0M",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_country_of_origin-bin%3ABR"
+   },
+   {
+    "position": 3,
+    "name": "Palestine",
+    "rh": "p_country_of_origin-bin:PS",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_country_of_origin-bin%3APS&dc&qid=1790451808&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_3&ds=v1%3AgOjdNZxTHoP7wEEVEto05%2BbN3fz1N5g1g7GXR3aWofg",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_country_of_origin-bin%3APS"
+   },
+   {
+    "position": 4,
+    "name": "United Arab Emirates",
+    "rh": "p_country_of_origin-bin:AE",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AAE&dc&qid=1790451808&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_4&ds=v1%3AaRYSHO14pD8L5ryOdcJJCDDpGSVBNUwgHcwqjYexAG0",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AAE"
+   },
+   {
+    "position": 5,
+    "name": "Japan",
+    "rh": "p_country_of_origin-bin:JP",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AJP&dc&qid=1790451808&rnid=215263484031&ref=sr_nr_p_country_of_origin-bin_5&ds=v1%3AZvu0YxnfsQmWk%2By1xltvNd2pZe06MWRhK1xgAijitLM",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_country_of_origin-bin%3AJP"
+   }
+  ],
+  "food_preference": [
+   {
+    "position": 1,
+    "name": "Vegetarian",
+    "rh": "p_n_intended_use_browse-bin:5224522031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_intended_use_browse-bin%3A5224522031&dc&qid=1790451808&rnid=5224521031&ref=sr_nr_p_n_intended_use_browse-bin_1&ds=v1%3ArtxlF32lXz%2FTNyruKIGaq6uYBViCtRzpuC0sWx9aWFw",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_intended_use_browse-bin%3A5224522031"
+   },
+   {
+    "position": 2,
+    "name": "Non-Vegetarian",
+    "rh": "p_n_intended_use_browse-bin:5224523031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_intended_use_browse-bin%3A5224523031&dc&qid=1790451808&rnid=5224521031&ref=sr_nr_p_n_intended_use_browse-bin_2&ds=v1%3AbGEUZR6D0WjgLJqrXVVuT3mjfmKD48PsrJYkN%2FPHRbs",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_intended_use_browse-bin%3A5224523031"
+   }
+  ],
+  "customizable_products": [
+   {
+    "position": 1,
+    "name": "Customizable",
+    "rh": "p_n_customizable_template_name:206762212031",
+    "link": "https://www.amazon.in/s?k=diwali+gift+hamper&rh=p_n_customizable_template_name%3A206762212031&dc&qid=1790451808&rnid=206762211031&ref=sr_nr_p_n_customizable_template_name_1&ds=v1%3AFP%2By3EOoXeIosx5afDftbvl6eKMOylKYmu1NyvZllu4",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&rh=p_n_customizable_template_name%3A206762212031"
+   }
+  ]
+ },
+ "serpapi_pagination": {
+  "current": 1,
+  "next": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&k=diwali+gift+hamper&page=2"
+ }
+}

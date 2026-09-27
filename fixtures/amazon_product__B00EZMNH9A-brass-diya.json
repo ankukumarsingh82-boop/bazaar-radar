@@ -1,0 +1,1221 @@
+{
+ "search_metadata": {
+  "id": "6ab82089217ade7cce23e298",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/oE0gKhveE-NxzOKkbxZhIFHwsInzfwl9EPnFrPDpCvE/6ab82089217ade7cce23e298.json",
+  "markdown_endpoint": "https://serpapi.com/searches/oE0gKhveE-NxzOKkbxZhIFHwsInzfwl9EPnFrPDpCvE/6ab82089217ade7cce23e298.md",
+  "created_at": "2026-09-26 19:44:09 UTC",
+  "processed_at": "2026-09-26 19:44:09 UTC",
+  "amazon_product_url": "https://www.amazon.in/dp/B00EZMNH9A/?",
+  "raw_html_file": "https://serpapi.com/searches/oE0gKhveE-NxzOKkbxZhIFHwsInzfwl9EPnFrPDpCvE/6ab82089217ade7cce23e298.html",
+  "total_time_taken": 12.82
+ },
+ "search_parameters": {
+  "engine": "amazon_product",
+  "asin": "B00EZMNH9A",
+  "amazon_domain": "amazon.in",
+  "device": "desktop"
+ },
+ "product_results": {
+  "categories": [
+   {
+    "position": 1,
+    "name": "Home & Kitchen",
+    "link": "https://www.amazon.in/Home-Kitchen/b/ref=dp_bc_1?ie=UTF8&node=976442031",
+    "node": "976442031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=976442031"
+   },
+   {
+    "position": 2,
+    "name": "Home & Décor",
+    "link": "https://www.amazon.in/Home-D%C3%A9cor/b/ref=dp_bc_2?ie=UTF8&node=1380374031",
+    "node": "1380374031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1380374031"
+   },
+   {
+    "position": 3,
+    "name": "Seasonal Decorations",
+    "link": "https://www.amazon.in/Seasonal-Decorations/b/ref=dp_bc_3?ie=UTF8&node=1380419031",
+    "node": "1380419031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=1380419031"
+   },
+   {
+    "position": 4,
+    "name": "Diyas & Lanterns",
+    "link": "https://www.amazon.in/Diyas-Lanterns/b/ref=dp_bc_4?ie=UTF8&node=3591765031",
+    "node": "3591765031",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&device=desktop&engine=amazon&node=3591765031"
+   }
+  ],
+  "asin": "B00EZMNH9A",
+  "title": "Borosil Medium Size Akhand Diya Decorative Brass Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir | Lantern with Cover",
+  "link": "https://www.amazon.in/Borosil-Akhand-Diya-Medium-Brass/dp/B00EZMNH9A/",
+  "link_clean": "https://www.amazon.in/dp/B00EZMNH9A/",
+  "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNH9A&device=desktop&engine=amazon_product",
+  "badges": [
+   "Amazon's Choice"
+  ],
+  "variants": [
+   {
+    "title": "Style Name",
+    "items": [
+     {
+      "position": 1,
+      "asin": "B00EZMNH9A",
+      "name": "Medium",
+      "selected": true,
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNH9A&device=desktop&engine=amazon_product"
+     },
+     {
+      "position": 2,
+      "asin": "B00EZMNHHW",
+      "name": "Large",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNHHW&device=desktop&engine=amazon_product"
+     }
+    ]
+   }
+  ],
+  "brand": "Visit the Borosil Store",
+  "thumbnail": "https://m.media-amazon.com/images/I/41J0xXNBENL._SY300_SX300_QL70_FMwebp_.jpg",
+  "thumbnails": [
+   "https://m.media-amazon.com/images/I/61tFDSCoNGL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/51+dzlIc84L._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/51MiGCUO+tL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61tQ608bf3L._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61U3-RNrS6L._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61vEASCpsQL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/71PoNpTemCL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/51qOLzg1FFL._SL1000_.jpg",
+   "https://m.media-amazon.com/images/I/61dcMD90X6L._SL1000_.jpg"
+  ],
+  "rating": 3.9,
+  "reviews": 5767,
+  "bought_last_month": "500+ bought in past month",
+  "discount": "-15%",
+  "price": "₹896",
+  "extracted_price": 896,
+  "old_price": "₹1,055",
+  "extracted_old_price": 1055,
+  "delivery": [
+   "FREE delivery Wednesday, 30 September. Details"
+  ],
+  "purchase_policies": [
+   {
+    "title": "Pay on Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-cod._CB562506657_.png",
+    "description": "Pay on Delivery (Cash/Card) payment method includes Cash on Delivery (COD) as well as Debit card / Credit card / Net banking payments at your doorstep."
+   },
+   {
+    "title": "10 days Returnable",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB562506492_.png",
+    "table": [
+     {
+      "heading": "Return Reason",
+      "content": [
+       "Physical Damage, Defective, Wrong and Missing Item",
+       "Any other reason"
+      ]
+     },
+     {
+      "heading": "Return Period",
+      "content": [
+       "10 days from delivery",
+       "10 days from delivery"
+      ]
+     },
+     {
+      "heading": "Return Policy",
+      "content": [
+       "Full refund and replacement",
+       "Full refund"
+      ]
+     }
+    ],
+    "links": [
+     {
+      "text": "Read full returns policy",
+      "link": "https://www.amazon.in/gp/help/customer/display.html/?ie=UTF8&nodeId=201149900"
+     }
+    ]
+   },
+   {
+    "title": "Amazon Delivered",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB562550117_.png",
+    "description": "Order processed by Amazon; delivered through our courier partners"
+   },
+   {
+    "title": "Warranty Policy",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-warranty._CB485935626_.png",
+    "description": "All Borosil products come with a two year warranty against manufacturing defects"
+   },
+   {
+    "title": "Free Delivery",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB562549966_.png",
+    "description": "The product is eligible for Free delivery. Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200534000"
+     }
+    ]
+   },
+   {
+    "title": "Top Brand",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-top-brand._CB562506657_.png",
+    "description": "Top Brand indicates high quality, trusted brands on Amazon aggregated basis verified ratings, returns/refunds and recent order history at brand level."
+   },
+   {
+    "title": "Secure transaction",
+    "icon": "https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/Secure-payment._CB650126890_.png",
+    "description": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more",
+    "links": [
+     {
+      "text": "Learn more",
+      "link": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202115020"
+     }
+    ]
+   }
+  ],
+  "stock": "In stock",
+  "bank_offers": [
+   {
+    "title": "Cashback",
+    "content": "Upto ₹26.00 cashback as Amazon Pay Balance when you pay with Amazon Pay ICICI Bank Credit Cards",
+    "savings": "₹26.00",
+    "extracted_savings": 26.0,
+    "offers_count": 1
+   },
+   {
+    "title": "Bank Offer",
+    "content": "Upto ₹1,250.00 discount on select Credit Cards",
+    "savings": "₹1,250.00",
+    "extracted_savings": 1250.0,
+    "offers_count": 9
+   },
+   {
+    "title": "Partner Offers",
+    "content": "Get GST invoice and save up to 18% on business purchases. Sign up for free",
+    "link": "https://www.amazon.in/gp/b/ref=apay_upi_sopp?node=16179244031",
+    "offers_count": 1
+   }
+  ]
+ },
+ "purchase_options": {
+  "single_offer": {
+   "price": "₹896.00",
+   "extracted_price": 896.0,
+   "delivery": [
+    "FREE delivery Wednesday, 30 September. Details"
+   ],
+   "stock": "In stock",
+   "features": {
+    "ships_from": {
+     "text": "Amazon",
+     "details": {
+      "heading": "Ships from",
+      "content": "Amazon"
+     }
+    },
+    "sold_by": {
+     "text": "ETrade Online",
+     "details": {
+      "heading": "Sold by",
+      "content": "ETrade Online"
+     },
+     "link": {
+      "text": "ETrade Online",
+      "link": "https://www.amazon.in/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A2AL6IVND0I91F&asin=B00EZMNH9A&ref_=dp_merchant_link&isAmazonFulfilled=1"
+     }
+    },
+    "gift_options": {
+     "text": "Available at checkout Available at checkout This item is a gift. Change",
+     "details": {
+      "content": "Add gift options at checkout"
+     }
+    }
+   }
+  }
+ },
+ "protection_plan": [
+  {
+   "position": 1,
+   "asin": "B0D31QZDMP",
+   "link": "https://www.amazon.in/dp/B0D31QZDMP/",
+   "title": "1 year Fire Protection for Home by OneAssist",
+   "price": "₹99.00",
+   "extracted_price": 99.0
+  }
+ ],
+ "item_specifications": {
+  "material": "Mixed",
+  "brand": "Borosil",
+  "finish_type": "Unfinished",
+  "colour": "multi",
+  "product_dimensions": "9.5L x 9.5W x 12.9H Centimeters"
+ },
+ "about_item": [
+  "Package Include: 1 Pc Brass Akhand Diya, Cotton wicks, Pitambari for that extra shine on the brass diya. Detailed Dos and Don'ts for proper usage.",
+  "Enhanced Clarity and Brightness: Crafted from high-quality borosilicate glass, it emits a brighter and more radiant light, enhancing your spiritual experience with its increased clarity.",
+  "Cool to the Touch: The Brass Diya is engineered to stay cool, even after long hours of repeated burning, ensuring your safety and comfort during worship.",
+  "Easy Maintenance: Cleaning and refilling the diya is a breeze, thanks to its thoughtful design. It's easy to keep it looking pristine and functional.",
+  "Care Instructions: Avoid using steel wool or wire mesh for cleaning. Always clean the glass portion with a soft sponge and liquid for lasting clarity and elegance."
+ ],
+ "bought_together": [
+  {
+   "position": 1,
+   "title": "Borosil Medium Size Akhand Diya Decorative Brass Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir | Lantern with Cover",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61tFDSCoNGL._AC_UL116_SR116,116_.jpg",
+   "price": "₹896.00",
+   "extracted_price": 896.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 2,
+   "title": "Borosil Small Size Akhand Diya Decorative Brass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir | Lantern Diya with Cover",
+   "link": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/ref=pd_bxgy_thbs_d_sccl_1/522-4751850-7213928?pd_rd_w=Vfeeq&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B00EZMNGI2&psc=1",
+   "asin": "B00EZMNGI2",
+   "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNGI2&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/614BJGKGaWL._AC_UL116_SR116,116_.jpg",
+   "price": "₹695.00",
+   "extracted_price": 695.0,
+   "delivery": [
+    "Get it by Friday, October 2"
+   ],
+   "stock": "In stock"
+  },
+  {
+   "position": 3,
+   "title": "Om Phool Batti Long Cotton Wicks for Diya, Lambi Batti for Puja, (Pack of 1, White) (1500)",
+   "link": "https://www.amazon.in/Pooja-Cotton-Batti-Lambi-Pieces/dp/B078N36KV9/ref=pd_bxgy_thbs_d_sccl_2/522-4751850-7213928?pd_rd_w=Vfeeq&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B078N36KV9&psc=1",
+   "asin": "B078N36KV9",
+   "link_clean": "https://www.amazon.in/Pooja-Cotton-Batti-Lambi-Pieces/dp/B078N36KV9/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B078N36KV9&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61dttXGoYGL._AC_UL116_SR116,116_.jpg",
+   "price": "₹191.00",
+   "extracted_price": 191.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ],
+   "stock": "In stock"
+  }
+ ],
+ "related_products": [
+  {
+   "position": 1,
+   "title": "Borosil Small Size Akhand Diya Decorative Brass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Man",
+   "link": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/ref=pd_sbs_d_sccl_1_1/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B00EZMNGI2&psc=1",
+   "asin": "B00EZMNGI2",
+   "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNGI2&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/614BJGKGaWL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.2,
+   "reviews": 2365,
+   "price": "₹695.00",
+   "extracted_price": 695.0,
+   "delivery": [
+    "Get it by Friday, October 2"
+   ]
+  },
+  {
+   "position": 2,
+   "title": "Klassic 4.5 Inch Swastik Akhand Diya with Borosilicate Glass Shade | Pure Brass Oil Lamp for Mandir, Daily Puja, Pooja Room,",
+   "link": "https://www.amazon.in/Klassic-Borosilicate-Temples-Special-Occasions/dp/B07VQM68H9/ref=pd_sbs_d_sccl_1_2/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B07VQM68H9&psc=1",
+   "asin": "B07VQM68H9",
+   "link_clean": "https://www.amazon.in/Klassic-Borosilicate-Temples-Special-Occasions/dp/B07VQM68H9/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07VQM68H9&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71FJQif0N+L._AC_UL165_SR165,165_.jpg",
+   "rating": 4.2,
+   "reviews": 942,
+   "price": "₹429.00",
+   "extracted_price": 429.0,
+   "price_unit": "M.R.P: ₹999.00",
+   "extracted_price_unit": 999.0,
+   "old_price": "₹999.00",
+   "extracted_old_price": 999.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 3,
+   "title": "Borosil Aarti Diya Decorative Brass Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir |",
+   "link": "https://www.amazon.in/Borosil-Glass-Aarti-Diya-Golden/dp/B012GI3EHE/ref=pd_sbs_d_sccl_1_3/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B012GI3EHE&psc=1",
+   "asin": "B012GI3EHE",
+   "link_clean": "https://www.amazon.in/Borosil-Glass-Aarti-Diya-Golden/dp/B012GI3EHE/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B012GI3EHE&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61Dr-YKHRwL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.3,
+   "reviews": 1080,
+   "price": "₹495.00",
+   "extracted_price": 495.0,
+   "price_unit": "M.R.P: ₹625.00",
+   "extracted_price_unit": 625.0,
+   "old_price": "₹625.00",
+   "extracted_old_price": 625.0,
+   "delivery": [
+    "Get it by Wednesday, September 30"
+   ]
+  },
+  {
+   "position": 4,
+   "title": "Borosil Small Size Akhand Diya Decorative Nickel Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia",
+   "link": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Nickel/dp/B00EZMNHU4/ref=pd_sbs_d_sccl_1_4/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B00EZMNHU4&psc=1",
+   "asin": "B00EZMNHU4",
+   "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Nickel/dp/B00EZMNHU4/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNHU4&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61K0XQHRy7L._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 360,
+   "price": "₹719.00",
+   "extracted_price": 719.0,
+   "price_unit": "M.R.P: ₹795.00",
+   "extracted_price_unit": 795.0,
+   "old_price": "₹795.00",
+   "extracted_old_price": 795.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  },
+  {
+   "position": 5,
+   "title": "Ein Sof Large Size Gold Brass Akhand Diya for Puja with Glass Cover - 6.4 inches Big Size Borosilicate Glass Diya with Handle",
+   "link": "https://www.amazon.in/Ein-Sof-Large-Akhand-Diya/dp/B0CNXRZ6CK/ref=pd_sbs_d_sccl_1_5/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B0CNXRZ6CK&psc=1",
+   "asin": "B0CNXRZ6CK",
+   "link_clean": "https://www.amazon.in/Ein-Sof-Large-Akhand-Diya/dp/B0CNXRZ6CK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CNXRZ6CK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81ad3bltAYL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.0,
+   "reviews": 1071,
+   "price": "₹599.00",
+   "extracted_price": 599.0,
+   "price_unit": "₹59,900.00/100 g",
+   "extracted_price_unit": 59900.0,
+   "old_price": "₹5,999.00",
+   "extracted_old_price": 5999.0,
+   "delivery": [
+    "Get it by Thursday, October 1"
+   ]
+  },
+  {
+   "position": 6,
+   "title": "Heaven Decor Brass and Glass akhand deep Diya with Cover for Puja | Deepam Jyot Diya Oil Lamp | Pooja Articles and Pooja Item",
+   "link": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/ref=pd_sbs_d_sccl_1_6/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B0CVQKMRLR&psc=1",
+   "asin": "B0CVQKMRLR",
+   "link_clean": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CVQKMRLR&device=desktop&engine=amazon_product",
+   "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71+-b+fh6pL._AC_UL165_SR165,165_.jpg",
+   "rating": 4.1,
+   "reviews": 931,
+   "price": "₹328.00",
+   "extracted_price": 328.0,
+   "price_unit": "M.R.P: ₹499.00",
+   "extracted_price_unit": 499.0,
+   "old_price": "₹499.00",
+   "extracted_old_price": 499.0,
+   "delivery": [
+    "Get it by Tuesday, September 29"
+   ]
+  }
+ ],
+ "related_product_sections": [
+  {
+   "title": "Customers who viewed this item also viewed",
+   "items": [
+    {
+     "position": 1,
+     "title": "Borosil Small Size Akhand Diya Decorative Brass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Man",
+     "link": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/ref=pd_sbs_d_sccl_1_1/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B00EZMNGI2&psc=1",
+     "asin": "B00EZMNGI2",
+     "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Brass/dp/B00EZMNGI2/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNGI2&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/614BJGKGaWL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.2,
+     "reviews": 2365,
+     "price": "₹695.00",
+     "extracted_price": 695.0,
+     "delivery": [
+      "Get it by Friday, October 2"
+     ]
+    },
+    {
+     "position": 2,
+     "title": "Klassic 4.5 Inch Swastik Akhand Diya with Borosilicate Glass Shade | Pure Brass Oil Lamp for Mandir, Daily Puja, Pooja Room,",
+     "link": "https://www.amazon.in/Klassic-Borosilicate-Temples-Special-Occasions/dp/B07VQM68H9/ref=pd_sbs_d_sccl_1_2/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B07VQM68H9&psc=1",
+     "asin": "B07VQM68H9",
+     "link_clean": "https://www.amazon.in/Klassic-Borosilicate-Temples-Special-Occasions/dp/B07VQM68H9/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B07VQM68H9&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71FJQif0N+L._AC_UL165_SR165,165_.jpg",
+     "rating": 4.2,
+     "reviews": 942,
+     "price": "₹429.00",
+     "extracted_price": 429.0,
+     "price_unit": "M.R.P: ₹999.00",
+     "extracted_price_unit": 999.0,
+     "old_price": "₹999.00",
+     "extracted_old_price": 999.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 3,
+     "title": "Borosil Aarti Diya Decorative Brass Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia for Mandir |",
+     "link": "https://www.amazon.in/Borosil-Glass-Aarti-Diya-Golden/dp/B012GI3EHE/ref=pd_sbs_d_sccl_1_3/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B012GI3EHE&psc=1",
+     "asin": "B012GI3EHE",
+     "link_clean": "https://www.amazon.in/Borosil-Glass-Aarti-Diya-Golden/dp/B012GI3EHE/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B012GI3EHE&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61Dr-YKHRwL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.3,
+     "reviews": 1080,
+     "price": "₹495.00",
+     "extracted_price": 495.0,
+     "price_unit": "M.R.P: ₹625.00",
+     "extracted_price_unit": 625.0,
+     "old_price": "₹625.00",
+     "extracted_old_price": 625.0,
+     "delivery": [
+      "Get it by Wednesday, September 30"
+     ]
+    },
+    {
+     "position": 4,
+     "title": "Borosil Small Size Akhand Diya Decorative Nickel Glass Oil Lamp | Tea Light Holder | Diya with Borosilicate Glass | Puja Dia",
+     "link": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Nickel/dp/B00EZMNHU4/ref=pd_sbs_d_sccl_1_4/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B00EZMNHU4&psc=1",
+     "asin": "B00EZMNHU4",
+     "link_clean": "https://www.amazon.in/Borosil-Akhand-Diya-Small-Nickel/dp/B00EZMNHU4/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B00EZMNHU4&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/61K0XQHRy7L._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 360,
+     "price": "₹719.00",
+     "extracted_price": 719.0,
+     "price_unit": "M.R.P: ₹795.00",
+     "extracted_price_unit": 795.0,
+     "old_price": "₹795.00",
+     "extracted_old_price": 795.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    },
+    {
+     "position": 5,
+     "title": "Ein Sof Large Size Gold Brass Akhand Diya for Puja with Glass Cover - 6.4 inches Big Size Borosilicate Glass Diya with Handle",
+     "link": "https://www.amazon.in/Ein-Sof-Large-Akhand-Diya/dp/B0CNXRZ6CK/ref=pd_sbs_d_sccl_1_5/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B0CNXRZ6CK&psc=1",
+     "asin": "B0CNXRZ6CK",
+     "link_clean": "https://www.amazon.in/Ein-Sof-Large-Akhand-Diya/dp/B0CNXRZ6CK/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CNXRZ6CK&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81ad3bltAYL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.0,
+     "reviews": 1071,
+     "price": "₹599.00",
+     "extracted_price": 599.0,
+     "price_unit": "₹59,900.00/100 g",
+     "extracted_price_unit": 59900.0,
+     "old_price": "₹5,999.00",
+     "extracted_old_price": 5999.0,
+     "delivery": [
+      "Get it by Thursday, October 1"
+     ]
+    },
+    {
+     "position": 6,
+     "title": "Heaven Decor Brass and Glass akhand deep Diya with Cover for Puja | Deepam Jyot Diya Oil Lamp | Pooja Articles and Pooja Item",
+     "link": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/ref=pd_sbs_d_sccl_1_6/522-4751850-7213928?pd_rd_w=lyXOP&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a&pd_rd_i=B0CVQKMRLR&psc=1",
+     "asin": "B0CVQKMRLR",
+     "link_clean": "https://www.amazon.in/Heaven-Decor-akhand-Deepam-Articles/dp/B0CVQKMRLR/",
+     "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0CVQKMRLR&device=desktop&engine=amazon_product",
+     "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/71+-b+fh6pL._AC_UL165_SR165,165_.jpg",
+     "rating": 4.1,
+     "reviews": 931,
+     "price": "₹328.00",
+     "extracted_price": 328.0,
+     "price_unit": "M.R.P: ₹499.00",
+     "extracted_price_unit": 499.0,
+     "old_price": "₹499.00",
+     "extracted_old_price": 499.0,
+     "delivery": [
+      "Get it by Tuesday, September 29"
+     ]
+    }
+   ]
+  }
+ ],
+ "product_description": [
+  {
+   "position": 1
+  }
+ ],
+ "product_details": {
+  "brand": "Borosil",
+  "number_of_packs": "1",
+  "upc": "027158963278 048621354508",
+  "number_of_items": "1",
+  "global_trade_identification_number": "08901309211697, 08901309211727",
+  "manufacturer_warranty_description": "All Borosil products come with a two year warranty against manufacturing defects",
+  "unit_count": "1 Count",
+  "manufacturer": "Borosil Limited, Borosil Limited, 1101, Parinee Crescenzo, G Block, BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+  "country_of_origin": "India",
+  "included_components": "Brass Diya with brass top Cap, Pitambari pouch, Cotton wick & Glass Chimney Medium",
+  "item_type_name": "Brass Diya",
+  "manufacturer_contact_information": "Borosil Limited, 1101, Parinee Crescenzo, G Block, BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+  "model_number": "HDTRAKDB100EC",
+  "packer_contact_information": "Borosil Limited, 1101, Parinee Crescenzo, G Block, BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+  "manufacturer_part_number": "BRL_HDTRAKDB100_MUI",
+  "best_sellers_rank": [
+   {
+    "text": "#2,999 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+    "extracted_rank": 2999,
+    "link": "https://www.amazon.in/gp/bestsellers/kitchen/ref=pd_zg_ts_kitchen",
+    "link_text": "See Top 100 in Home & Kitchen"
+   },
+   {
+    "text": "#319 in Home & Décor",
+    "extracted_rank": 319,
+    "link": "https://www.amazon.in/gp/bestsellers/kitchen/1380374031/ref=pd_zg_hrsr_kitchen",
+    "link_text": "Home & Décor"
+   }
+  ],
+  "asin": "B00EZMNH9A",
+  "customer_reviews": "4.4 out of 5 stars",
+  "rating": 4.4,
+  "reviews": 5767,
+  "finish_types": "Unfinished",
+  "colour": "multi",
+  "item_dimensions_l_x_w_x_h": "9.5L x 9.5W x 12.9H Centimeters",
+  "item_weight": "255 Grams",
+  "operating_life": "100 Hours",
+  "fuel_type": "Vegetable Oil",
+  "enclosure_material": "Mixed"
+ },
+ "sponsored_brands": [
+  {
+   "position": 1,
+   "asin": "B0FRY7JH99",
+   "title": "The Divine Tales Pure Brass Kuber Diya with Stand Akhand Deepak Jyoti Oil Lamp Handcrafted Pital Vilakku for Mandir Temples Home Pooja Decoration Diwali Navratri Festivals Spiritual Gift (1)",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JELgSuQNRJFMVhuWET0H1IkAAAGg3z9DpwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDItZIS/clv1c_ek-wBfHXUsbWHn2mJrZegEGXlJK_ElkZKP9SURilFamnuyUGL0rzJmbHqxn8t4jZW9s7quOlbmiClGQ6SpOWCz0i1AHoBoSUVIcxXLQj1O26GjNzssOB1mnh5BkU5PF_8TtaJYlxBxer8Jk2bpE4sJZ24NyOjhXrEUx-zSm8HB4PGOgUI1XEniCCiwHf3vJL3fTYhHMYB-eplGeg9k3CVM-zZUpHCEKK2v3eAnJrftHdWsfaRLvZn4HQ2GgeRoLG6syVUyevQlfbkLD1ToHsdNvS_ZX9rsAOkQM84OcDGM6Cr-9olYDGehhvgfM4bUxH7QxAfockwiWCHOEJMpC3Kq_xAIVIG5IS_oN0HX_huHvyd0FGVA480aI4unqLCtT0KpnFwzC0L4yfy5KtSvg1xQGB6siT082PCNglV6zSlJNMYiNdxb_JJv9HMRZHOMdnF8lqedLAoVH_i8crD-9M672j-Gnw0QF4OVaIskMGOWz2qKfsMsLgCAsO4j11YRlNbLsr8Jf2KBJ1XxGL4AHi5GTvJtsIzRJHOA5fAgQ_FZB77VsG2Q7jP38Mqv7Gdo9qzFEMF_d8f3sS6dALA3LSZ7ccm-Ax-Hf-ew3R346lHkvn9K3pQb_9UwRRBUmqYzL2VnLFMLQL6bKq0VBwDntWJ_xHpQfxykHx6EkfewwolNXkDciDegC4pd054RkSxDzd2Qu-mID5v1lg1VkP9AR8K5o41MiCi0xl3COfN-vJ4nQTWZ_AoMH8JbfKA3j94xihbwNaNzOBgqLWEt0fNgXgUDJtqLWHUcYMRzXk6-2uAX4q0mf60R8tGRPi4WFw8n5WA0dwSfz_MdcMv2i8OnDj__Xm7YzSuvPB8Ck3J1qnBpsXuzpihbqWK8wS3Ppt54KzJ2Hu3kz88lhMAMnuYuP7LBV7ARdLbASKeOvRhWBRRpSMVGDNGZxtTtdyb1pwGU-gMDUEpHctRG9har8Ith6tIYev7DLpVCYHdnEeH4RfMJy-bsqQBRqGnfbm6_0jeuNbqVTc6Gqu8DSVppQaEGjyxSunSfu8AoLb8vxBuvxMUVYHz2zBfFyoQ-OPl09-1bW4nfz38xGej3lyRyw4iKQvzludRxZkth5uc1xPNyZecajlIW4p1cs0aEMGKL9wEzBeR71AWqFjOx3DVQ1YzSBfZfTyP_Vqxs2FrP4IJcdh2ZiCJoz2X4LW0FiOO6D-450L43gCaytN3PaVkhGuZn5WtRe-vXSmK19PGdghdzviP2JC69InqkqfwncDz8u0ly3-ytu3vQHoIoJwaSlLU6gZq9cf66Gaf12-Bb4sM63aq5PezY2IyhRZV2a5MvUx8uib9Q9ok7K3Suz9IWFrz3XDRkJ7T4pB2JzVR5TURyjYk5QDXchQjSbxl3EJTyLeXQvWaWYIYDntzNIrSYChyQ_yTknds3nVCIRp0PQrtTWNUTQ_4BawhF5K5jTkCNLQlzW2isA3wDLdH4DGfg0Md6c6CLvvxaAp8hc188Ewim1W05U7bEBpOlCnf0feTMq8riU1-91glaZAw6IR1fzqwuGWfVAxZdhQusYAREsUQ6kA8E6nw77wT08RwBsyKidANWXk/https://www.amazon.in/dp/B0FRY7JH99/?_encoding=UTF8&aref=cjTB5iQzPu&pd_rd_i=B0FRY7JH99&pd_rd_i=B0FRY7JH99&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=jIfBm&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a",
+   "link_clean": "https://www.amazon.in/dp/B0FRY7JH99/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FRY7JH99&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41ylthvIhhL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/6c887c9b-f794-4803-9eed-eeb661eed935.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/6c887c9b-f794-4803-9eed-eeb661eed935.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.1,
+   "reviews": 14,
+   "price": "₹284.05",
+   "extracted_price": 284.05,
+   "old_price": "₹1,999.00",
+   "extracted_old_price": 1999.0
+  },
+  {
+   "position": 2,
+   "asin": "B0FMJC55Z3",
+   "title": "Yugan Clay Diya for Pooja & Festivals, Pack of 20 | Traditional Terracotta Oil Lamps, Eco-Friendly, Diwali, Navaratri, Karthikai Deepam, Agal Vilakku",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JKcSujdzfxyCnjXDSEnZR9UAAAGg3z9DqAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA3W5It/clv1c_ek-IBfHXEsTW3uLbkz_M8y4pPZIDMUImIOegTRzqakBzm7IsxGMYLviMWKWgP_duonvo2QsyQ1ZZ1t2Q-y7PrD6CWluLiSbTy5E3p8PNntRVD5uLiQZgpnvsunn1q3FXQYmaorXuxBrM3E3xP18QZvHp4d6AjhXqF0D87TOSjCcdVG1xhnKtwyO_OUU3B6LBadA_4O7Ff0ZI1ufTpHLQQmeZXMl_RA8nHQSDPg_blo6tiIfJ7m4AJvkJDVvCwG-brnz3F9o1513JRm3QyYqrEasCKMi9xw5_iaWJby9AA_g5yozzxkixwqtLm6Du24olA1Eg9l03fcn-ZoZansWr9wP9RX60hbkCSzJSG0Q_8ei617uk7Lsd89LZcDalcpMxIg7q754et1j2GSCDGI2JO6zHojUme243sibwNFZ2mU83dlnxtXARvhEQvmu8zdvwVAqFaGILdCpV--3LEYjp_poclFNKQUkc4FlUrGsU9pPoG8ZVcpT5L8C-WsPBOb7UexXfsf6Hi3vKkO04URjypds3I2GAQRXh1fGuK3pxSsUcTkb7F5J6xWYZqgV6MVkcwBfza4MYX5_z8kP452ONjT_ezs2EdNzwE9mZ95ZOpIUNKb4PZxfLceBTuKMIVuVgZyT54JNmTsyFGAIHnGdwWKiE11bRUJnOu4gIF7XTEoDUHicypMzy6Kf3gPSkkH6iztr4uyzDjuHziSe2yFNa5m6Hq51cnEVINEdYX078KSz4Rer0LMDR42WXQ5p-5hilzsPKeMGKY6VPtRv-CvqjFu0_a2vPyRky2ZO1-1P9YYzVxNDO4uaVYXBPjOr_e5tni6z8iP1bfdAaorVtR61u-HYRYHETPdbIUUj0H-EX5ZExcfamaSv2QPUpaibAwVHPyuvN_IqK9YGh7LaGY5qLkRr2fq14V_0WHYhQecaoz-rVA_AF61_3DA6n9kqIDayGvPwWVFIID0mN93VJwUClXsdUE1tXj6kJV5BiecRCJ-RoC_l8_L0AN43GE-PpTeR3XZw-SkFU1tEaFehuSrhhgbBLy5Rt074Jup-QKzXnCax1_AXl2kdMcGtM0-Xxjb5hxxI4Z9SIxfFvpZFo9JOQK8B9suPnJNhdAguw__dmJBE19AyMDxmYHF-oLoLA6e9OabmNl9Zm024oSCXqwpKPIzZ-kWKN4DJyYF6roVTCgTmzNDDTP_xiMowfzIg_Sm2e7MacukCz4Ky8Dvk8q0YZ_djtQImbLwKfs17lqVh_6QbeSs8mQDOtitwKRrrc8j31poGRxOZhYEobCUTJWC9ksWSO6Z95nXR8APN_XrINzoQ_6r-mLMAbKNaNIT6kZ9t1KGfAPcpIlzbL1o5qdVpVBlBivP8nHJbcZVWFH5strtmzKFN6ZS0uweIEeR06Ks7gqd0s1AI3z5hNdS0I9fmbl84Iosp7zJLyQ-e57v5MCTC90BaMrEMNSeSTeIfAVhU2zNSeOJipsOpHWzUlGNxTjgMK_bE9nKsFaZLR2_8yBB26bG4mRQ513uso1S1SB1w9SWDt1IzyP0IlnKs9y0H5GRTARPjTvsQDomNlu827IoZl1oH5BDKmqbrEvLpLuuVVKw/https://www.amazon.in/dp/B0FMJC55Z3/?_encoding=UTF8&aref=FlQzlQE6fi&pd_rd_i=B0FMJC55Z3&pd_rd_i=B0FMJC55Z3&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=jIfBm&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a",
+   "link_clean": "https://www.amazon.in/dp/B0FMJC55Z3/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FMJC55Z3&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/410aHb-c-pL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/769433c5-839c-4fa7-b872-31b1bce4377e.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/769433c5-839c-4fa7-b872-31b1bce4377e.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 3.4,
+   "reviews": 11,
+   "price": "₹148.80",
+   "extracted_price": 148.8,
+   "old_price": "₹199.00",
+   "extracted_old_price": 199.0
+  },
+  {
+   "position": 3,
+   "asin": "B0FP9H1JNM",
+   "title": "CAVY Crystal LED Candles for Home Decoration & Smokeless Flameless Decoratives Diya Candle Lights for Diwali Decoration,Festival,Christmas,Festival,Gifting",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JJ3opAKeZgaUz06IklPcS_sAAAGg3z9DqQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAh1yWi/clv1c_ek-YBXfyFcbWrkm-pvtWEYKagwpZLf_v-QaGILOitjkwWRY3tNCvNldQYw_eJxF_YJjhQQ02-UpEkD9QbJJG2aXlVBTt9F4HXS3fFjnV8oou6p3z6-4-HruXykl0o283mxKeo7laFzUYv1k0DhMPB05Zcl2YjoXqkcb5wi6o0KbO2GkYKIxwl6yLEA4jKyrd-cGapW_EDSvApYQ92ujD_LENeAq-wiwfkEMjgyfutL3NOAdwsi-6ZtUckTOidqRZUlkDPQw6tDja8SYDzzwtmKaRxtX2VQ79ph7_ZGSNX7dHhme9DVyoxYvL1SeE3Ux-7Y5geKOcFv8YifatRBBJSK34443VoHNy2gXzhz1eSV6EzExbfMeSk5yy_rsNXH0f06P3Lju33F6-6rcpOhA3_okV71gw-xZCDK6kPnh2vFxWYjud9TnJNv16OREHMEZ7ELqqz3WdXcB8nYXW-MFOtqQfankTKULyGliOSM4eav930s9aMQHDGQAf_91Z-zNs6WA31pshzk5T4C7wGLp72dZAqJY51Oz3yzUCH6KZ_di_LujFFg7Qw1nCzZv8uLpB0qLmiuSCQ3a__Jq-hfoVoOK9sSkhMMUegScU0mmILxMqFjZcH7GlL_jeVs_jARKo_WNoaYtlVVI_spEhO7kXCcwD-bcED1HpbIHcpCCbhz973D2GEfdPGUEYifK-lEl1ZJAaU4FtWqGm14DzXbYGMmgLBtiFZwi5GuoROGVTNd0PyiJdmVCBn83Fl6aYI3GU84tvYJkZ1zGNTqPZgZJHy1a5VO9hy4vUMp82zxoCmGO7mzbR04iUA22gsTvQxZ5cypX6ReQty1IGQjDEfToP09-MnQJ4qR7-CfEgHCTHROt09UJyTAPLtBEXfmPmqm5w9bLF6tnGK-XpyG34-ARsGCVVH5wkzMF7u00A_ZONUeyHSHd2YQhbScwQGw2fenbSsLQy-ZSfHcT3coc4qJBfEXV9M2H4XkiwxuClefBtOO51JPuBTKu3SKvJ4cfwzn7G3S3HcJZrjYFvDyJu2b9cq5L0n6kN_yhWcYej1NX6UYvR8tmy24yjswWf5MTVuxsOtODZzKPPzE-9Ljm6OXj7IILUv8O6siPOGykJ5gBGFgka4yG_q8T-J7YEDhGXabn_fSuOLjN0mrZ6xkiQmD0eRooycJq65no5DXiUIL6MINaiO-gGbcNmcqzCbh6UU0k8YqozxciPCCeAoTJF00I0UfNnbACAPt-ILxhwLt3XeXlXW-E6pP1IcF6axCXkFmW7dn7ncD8vgQKDU1PVJ6xC3M3qKDvDORvs3dkrPN8gqVWI1paN2EhJGNkQ1araFEwPHKyGEnmBdKcNrPS7Nk-ZLQ7JcJ6HHVPSYaNczOzIOvK1_LcM68NkXwlQ2exrQEPJCJWNSmANG3pBoYq06wZzT9OMsNYX_o86GamC0oUXLdEvRTDWYafMmE_kohRZR0W6ekSMa9BkNKq3A7K_FCpQ9KmOM2XMZRHir9w7wYDkbtn2TkffaCzUT-Ce1zQaPrYrFu1dua4PBdT1tqZ5Np9m__s_PSnxV3Lk9cxxtriqKw/https://www.amazon.in/dp/B0FP9H1JNM/?_encoding=UTF8&aref=7dPGLHcIlw&pd_rd_i=B0FP9H1JNM&pd_rd_i=B0FP9H1JNM&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=jIfBm&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a",
+   "link_clean": "https://www.amazon.in/dp/B0FP9H1JNM/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0FP9H1JNM&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/4170XUfVLXL._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/94bfeafa-16f5-4300-ba36-f6bc787728ca.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/94bfeafa-16f5-4300-ba36-f6bc787728ca.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.6,
+   "reviews": 3,
+   "price": "₹349.00",
+   "extracted_price": 349.0,
+   "old_price": "₹599.00",
+   "extracted_old_price": 599.0
+  },
+  {
+   "position": 4,
+   "asin": "B0HCCMMMNK",
+   "title": "Easyera Decorative Lotus Candle Holder Set of 3| Gold Metal Tealight Holder for Home Decor | Lotus Diya Stand for Diwali, Pooja & Wedding Decoration | 12, 10 & 8 Inch",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JJxabFgGlvhK1OSworFY7F4AAAGg3z9DqQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCKylyj/clv1c_ek-YBfHTEsbWTm7asDx08jJZfSgysdaQlBW-USDCm_5WSs761unbwEFQ29wYV8uWvXv22sEL04cloGmCJp5VsSa5UC3odkiCvO_1S6i5rf30g3JPIp4X4ZSC4Pp_9kJQF7xJPiFvmM07blehXGc_PnpyyNi0FlTnouRg_meLDocNQkPNfgP5nVjULP2kKtMrXFCqXc03DmaJUef-2UndgrI9Oc5b5H-H3cqDbquiZ-0Bk841BPUUixOfps6ugEl3Wtb9Z0ZXIHnNbtrm_U82rLfvqbS30bcCgfxnixjIftvJzQ7zBEi_oquJ8PK1nJ6wxszmFui_ABygcyimCFHotnU30_m5jJrUpG5sUPa1bJ8xsUJxgRRDjb7psKKMnZzKVVcUEiiu9dpurG9E7Ya4twAETmMrY6a2L50zlOJxwujIin22E70o3hPL5ypyTLFd_GTSiQ7YEenjXkLkQ75WwqD7rfRTAltHogMntHHS-1Arp_FYMTVj2_m86h11aWRV7g_3NRXxKBY0U5f-YazQhPYSQg1msVgHm_tKo0aWXuifxhMaTyVi1T9PjyT6-gjQwooANiFMVi0wFDdMXHSmwaDSxJI4qDBtbIdvWreb8nFBpEVZT2y9j6h1Vzvrs8GAu4vOMrtUHnEfyMCdPM7MCh4f2JHmdgBIb_uRXbbggqYmR2LiQlPgvOowZfnmJx5dDRpOPoyDbeiXIzuvcFnM2W8y9m5qkTILIBy2gCHTgEQI48mV6oN3lCKaxqU6LkvfbxUm9yiFaRv9eMT5yt16Fh0dDVTMqtdUN0j7XJZbnpu8oLCh__E_NE3cvT3Qi6uC96_P8zkxMwMoE48dDFkaikW7CiInlsSzeQ41DxiQb6ual7FoSem0N9Y6kUL3aW5yrbYHMt4Cq-ttvruMltl2Z6DimTmWiyTRpJAFfZIN8TGwVU8R40WJO_kn1CKrSRXlBNGIYoevtGCVQS4iaF7P6iAvDjnvcl7_9HpmY3yOVRhufUSpjHpXty-_DjPZ_T1OBe-Zdn3m9HitOU4qL2atrpXzaLvcKi5raDcEBdkoPYAGzRhNBy1U5oKqpMAe99f2tmnoxIg4VM5TKC5WdYUMTQUQUyGcat6X2ApW-QSwMPQbvgH1Drt7PTICqj0JPZfaDvV-wDS1qx46bQlAG9Foz-By1DGEIhdmJ_AbI_M3fig6f2MAQmjk_7s5w87MhXc5NVJuYt6B7V3n7GagaWgFKaY-jodJxMfppWBynjjdaX1RW-4mop3JQMEc9N6xeLhcXblQNJkUQYGCS8GsUTtF3yMaZrRPpPqVYW1sO8UP0jO_gFWc7FJdTyBZq9zmgq_2XhI1tc-r3A0sQZVrrC-702EaOPgHILaTXJtcfZfjqqQdaNLdC8QpMHN8yKsdTZaYXoLqB6ZUhuZd4QZbCxZsy8-IttYZIp2DX2st2IGyBbGLsAjDR-WtNvATDXCAHTxt8EchSlDpJ3xA1qAkREOi0PhoTcfW5ADuA6i8QLzkNFPz-MBJW410TMFSpiQ60DaeGut83fYGlBR4qtbff58zpMyU9VXfjXL0rj-J7mCu4A/https://www.amazon.in/dp/B0HCCMMMNK/?_encoding=UTF8&aref=sST3sCyde0&pd_rd_i=B0HCCMMMNK&pd_rd_i=B0HCCMMMNK&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=jIfBm&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a",
+   "link_clean": "https://www.amazon.in/dp/B0HCCMMMNK/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0HCCMMMNK&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41xHLChyG5L._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3cdb8fd-6dc2-409d-ad87-6f7683153695.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3cdb8fd-6dc2-409d-ad87-6f7683153695.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 5.0,
+   "reviews": 1,
+   "price": "₹749.00",
+   "extracted_price": 749.0,
+   "old_price": "₹2,900.00",
+   "extracted_old_price": 2900.0
+  },
+  {
+   "position": 5,
+   "asin": "B0H677F6TH",
+   "title": "Diviniti 999 Silver Plated Peacock Pair Tealight Holder|Antique Silver Finish|Premium Gift Box Included | Elegant Peacock Diya Stand|Luxury Home Décor Centerpiece|Housewarming, Festive Gift|9.5 x 8 cm",
+   "link": "https://aax-eu-zaz.amazon.in/x/c/JOc8L-ubxUp-gceH1G--l80AAAGg3z9DqgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAvQtBn/clv1c_ek-wBfHXUsbWHn2mJrZegEGXlJK_ElkZEA9354hzPQNzAFj6KARXxHusU-mrdrs9bq5Nq2yojDXr8LiK9-1ycgmAF1iBWK201X03kxPu_UCnqclzUcoaAHXuApm2JjsV9VuR2yWZscWSm3TquR11qruLINmaxpXKMIXzwDDCgA6_mO3ErsI7FKqj7q3s3w_CdETZ233KGhnG2VzIw2igacizVp-cp4U-HgNnkUFqVrzhtQ4DSJOoVOXVKIJ08e2ivuyREHOt-DqBT2zumeVCWcSBwrT2lj7hWT5_Z3QOY7cGnqclyh2oRbND1keKH0xH5YxgiJNcF_8YTkGNRMp2TPXBEOFzTdv6u0xaZPlgu0LyiiS_TynXr6VJBe-0nlpoaiCj6I7K9J7JsIr07YnNbmfgT5BlaNpDd5B5kdx9572hJ_QilxC-soklMN5Wdlyj42H_o5IJmOpYIvPP37Tq52zu558EH7hTh4a_iSLHbE-cYHOBAe-uPpR_PZoo6t8enF2ta8iZ6X0ludf6GAT02O2CafT4QRuXLuPaA_ueEPpM2emjMfqw0sQmKuvm1gWLaEUlc8NghGx7w1ifPD3YO1MIBOgnLl86LvJu-ZYv1DAhjyAWQkJGKXwHoG-Di37mJyOSLcLARQAEm-9uUMKzKIO8LrnELuIE1C_UAWQLbfNXT9WPJGnuVRpZn0oi7dFEAVsPoAphq6NDUmVrDRFoQvYQhpA764QGEcEmB0eku3LZ_BR0nDGkGTUa2tQGJjeX7lZJfYzimx5fVxp6fwGjr50G9lytLD02xooPOXX-niuxURNzARcUjT9Vtl8CtJcr_IgeXcaZ5yegao67-z9loQNc1DvSyIZzkdLM80GsChmf8CYdHWwXTq7DQaNLi1eeaXhvKYEt-UjbXJsLiL6PY04Ya0QYaYqszusCU0qbFuJkhQEXIQko1Qx1LHn9j-mlnUhbd6c2gQ1E0M5K6ETPIYEZqrqRwIlXbcHk208dZy_woXVnALLShzPYZEn2NGTtF9R2lh8OoRzkv-s1CRfALQizCwM9otbMcYVuSwlvK6Cq0l7ovQMj4Cga7COMhD6irB8_K-VpRRQJMOOrWoGhPo6CbD1Td9HL9oAs3y0Z3px7QUZzAS7BR-na32ixnVbHqMtdfbzwIEJEhDA8aLIjTzITs_jPuH0vka4RmHBqyFrZcgqLmwgWjDjWJIX3KIzbFNL-odL1THWPe2saBqdoAvmM927TnH-NyNgCl2vTwy-t1NS0vsTlT1Xmim2YtzoiF1qCnNZ23sBit5qqTZkVt6Dq8DHxan28t-f4bnODU3Sgfrt-1SuyFQD2d29JyzIzlqCPGqC-eh4MaUnDeOAj-3iaJ6Qq2HTYme6lp3vPOUDvQ0e13rOjk50Td3mkaVRw8Gn6XOQ-_pA1nczTM8QimpM4sS6znc22XjWoGmEWATZbWs_cK4-_FlDjMQlRwRXb3AXxi7NA7X9An9EI8rG6ExjFc4e5BAIPMiQd_K4vBurNJIKUk61aLiNz280IgEoQSFgmVVtkGLzT2ppBcX0ZvKplIkJBizSWouyFqBBYWzDxdRPkkmyYw-m0frsI3TA/https://www.amazon.in/dp/B0H677F6TH/?_encoding=UTF8&aref=S8bm5WCUu1&pd_rd_i=B0H677F6TH&pd_rd_i=B0H677F6TH&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=jIfBm&content-id=amzn1.sym.ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_p=ab6f2f77-625e-4dc9-a3fd-6dee8969103a&pf_rd_r=NB9RMAP2MJJK0AVVN31T&pd_rd_wg=6Rkgw&pd_rd_r=1b2dd597-9b7f-4c30-b01b-0a8a33a3429a",
+   "link_clean": "https://www.amazon.in/dp/B0H677F6TH/",
+   "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.in&asin=B0H677F6TH&device=desktop&engine=amazon_product",
+   "thumbnail": "https://m.media-amazon.com/images/I/41yPR+IbL2L._AC_SR100,100_QL65_.jpg",
+   "video": {
+    "link": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bc40f43a-749c-4535-b10c-ef034ad039bd.mp4/productVideoOptimized.mp4",
+    "thumbnail": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bc40f43a-749c-4535-b10c-ef034ad039bd.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+   },
+   "rating": 4.4,
+   "reviews": 203,
+   "price": "₹2,849.00",
+   "extracted_price": 2849.0,
+   "old_price": "₹6,999.00",
+   "extracted_old_price": 6999.0
+  }
+ ],
+ "reviews_information": {
+  "summary": {
+   "text": "Customers find the fuel lamp to be of good quality and appreciate its appearance, with one noting the glowing light through the whole is beautiful. Moreover, they consider it good value for money and find it useful for daily puja time, with the flame lasting more than 12 hours a day and six teaspoons of oil lasting about 14 hours. However, the size receives mixed feedback, with some finding it good while others say it's smaller than expected. The heat resistance and durability also get mixed reviews - while the glass doesn't heat up and is strong enough to handle daily bumps, some report the top becoming very hot and the lamp breaking apart within a week.",
+   "insights": [
+    {
+     "title": "Quality",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 1400,
+      "positive": 1393,
+      "negative": 102
+     },
+     "summary": "Customers find the fuel lamp to be of good quality, with many giving it five stars and describing it as a nice diya.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Five Stars",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R5MDN2STIQEE6"
+      },
+      {
+       "position": 2,
+       "snippet": "I would say it's good but not as expected to be.... I can recommend this product......",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1RC65PSIIETJ2"
+      },
+      {
+       "position": 3,
+       "snippet": "good product and good quality as per specification but original cost is high, i purchased in lightening deal for Rs.329 its worthy not more than that",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2FYPPEK7TXIWQ"
+      },
+      {
+       "position": 4,
+       "snippet": "Nice product but the base should have had some deeper support for the glass, like some sort of slots or grooves or raised edges, so that it is held...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RPX3C5V8JQ2E1"
+      }
+     ]
+    },
+    {
+     "title": "Appearance",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 334,
+      "positive": 325,
+      "negative": 9
+     },
+     "summary": "Customers find the fuel lamp visually appealing and well-designed, with one customer noting that the glowing light through the whole is beautiful.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "One of the best online purchase ever made by me.. It's beautiful and keeps the lamp burning even during high breeze. beautiful package....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R28TWQP9HYDHU"
+      },
+      {
+       "position": 2,
+       "snippet": "Beautiful product.. medium size is perfect.. very useful.. used for 3 days Ganpati Puja n came out great.. ghee filled till rim works for 7-8 hours...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RPQXIUK5E24Z2"
+      },
+      {
+       "position": 3,
+       "snippet": "...It looks beautiful with no oil leakage. Unfortunately I didn't open and check them before the return day assuming the quality would be good....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R11DH9MYSH7I4V"
+      },
+      {
+       "position": 4,
+       "snippet": "Received the product today and looks good however I didn't like the word \"BOROSIL\" to appear on the glass surface....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R24JFGZJNGTJ4G"
+      }
+     ]
+    },
+    {
+     "title": "Value for money",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 306,
+      "positive": 244,
+      "negative": 62
+     },
+     "summary": "Customers find the fuel lamp to be worth the money, describing it as a must-buy.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "...Only thing is required to use proper lid (bati). Really, this is value for money. Gifted to some of my friends, everyone likes it.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R30Z7FGDCQZ1R8"
+      },
+      {
+       "position": 2,
+       "snippet": "Very beautiful product... Must buy... not to be missed... Though medium size is a bit small..but it is great for daily use ....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RA334BV8L5Y3S"
+      },
+      {
+       "position": 3,
+       "snippet": "Good buy if u get it around Rs370 or less. In market you get it around Rs 390-400. It is also a good item to gift.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R23CRW5HR1U7L7"
+      },
+      {
+       "position": 4,
+       "snippet": "Good one, but costly! Also the laminate is BIG! If there is any small size, it would be good!",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3RZLJ1OOMC83Z"
+      }
+     ]
+    },
+    {
+     "title": "Usefulness",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 79,
+      "positive": 75,
+      "negative": 4
+     },
+     "summary": "Customers find the fuel lamp useful for daily puja time and home use.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Beautiful product.. medium size is perfect.. very useful.. used for 3 days Ganpati Puja n came out great.. ghee filled till rim works for 7-8 hours...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RPQXIUK5E24Z2"
+      },
+      {
+       "position": 2,
+       "snippet": "It's really amazing n useful too.easy to clean.now I can do my kitchen chores using my fan on .very useful during summer.also it remains lighted for...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R20TSNHKLRE5C2"
+      },
+      {
+       "position": 3,
+       "snippet": "...Thanks a lot Borosil for such an useful product",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VGATJ2CYGEVE"
+      },
+      {
+       "position": 4,
+       "snippet": "Must have item. Very much satisfied",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R14JW1LQD8Y3ZV"
+      }
+     ]
+    },
+    {
+     "title": "Burn time",
+     "sentiment": "positive",
+     "mentions": {
+      "total": 71,
+      "positive": 58,
+      "negative": 13
+     },
+     "summary": "Customers are satisfied with the lamp's burn time, with multiple reviews noting it runs for more than 12 hours daily and lasts up to 14 hours with six teaspoons of oil.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "...Material of the product is good ensure long lasting.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2IBBY51QK0SXU"
+      },
+      {
+       "position": 2,
+       "snippet": "Good product. Long burning.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2V6FP8J5CETDH"
+      },
+      {
+       "position": 3,
+       "snippet": "Unbelievable good product. Like it's name suggests, it seems to burn On and ON :) The glass quality as well as that of the brass top is excellent !",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1FQCAMYMI67FF"
+      },
+      {
+       "position": 4,
+       "snippet": "Diya was live more than 12hrs; added oil in middle of time. U have to careful once lift or remove top brass chimney as top chimney hot heated high....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R4RUBZ9W9I2P8"
+      }
+     ]
+    },
+    {
+     "title": "Size",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 121,
+      "positive": 62,
+      "negative": 59
+     },
+     "summary": "Customers have mixed opinions about the fuel lamp's size, with some finding it good and compact, while others note it's smaller than expected.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Ideal for outdoor diya. Nice looking and perfect size. Bought medium one",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1NEHXKSD478IH"
+      },
+      {
+       "position": 2,
+       "snippet": "Diya was small in size and took some effort to assemble especially \"batti\". However it was effective and true to what was promised.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2WB3T95BDT11G"
+      },
+      {
+       "position": 3,
+       "snippet": "Beautiful product.. medium size is perfect.. very useful.. used for 3 days Ganpati Puja n came out great.. ghee filled till rim works for 7-8 hours...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RPQXIUK5E24Z2"
+      },
+      {
+       "position": 4,
+       "snippet": "Overpriced, very small, glass quality is good, but product is not value for money , purchase it for Rs 465, but I think the product price should be...",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R1KNLEJ24UYJM7"
+      }
+     ]
+    },
+    {
+     "title": "Heat resistance",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 75,
+      "positive": 32,
+      "negative": 43
+     },
+     "summary": "Customers have mixed experiences with the lamp's heat resistance: while some report that the glass doesn't heat up, others mention that the top becomes very hot.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "The glass and the brass top gets really hot . Be very cautious if have kids at home and also make sure it’s cold enough before you touch it....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R17STJ16JRCRNH"
+      },
+      {
+       "position": 2,
+       "snippet": "The product is good, heat resistance as mentioned in the features but the diya gets tilted little on one side when tightly screwed....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R156Y5WZ4TPU1A"
+      },
+      {
+       "position": 3,
+       "snippet": "The material is is a super conductor of heat. Once the dhoop is ON, we can't touch the lid. I would not have bouth it knowing this fact....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2N11O8TBLO0RB"
+      },
+      {
+       "position": 4,
+       "snippet": "Exactly what we were looking for. Good size and strong glass (heat resistant). Keeps burning even in fairly strong gusts from the window....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R29Q2OJO0RV7VB"
+      }
+     ]
+    },
+    {
+     "title": "Durability",
+     "sentiment": "mixed",
+     "mentions": {
+      "total": 74,
+      "positive": 38,
+      "negative": 36
+     },
+     "summary": "Customers have mixed experiences with the fuel lamp's durability, with some finding it very durable and stable, while others report that the glass is very delicate and easily broken, with some units breaking apart within a week.",
+     "examples": [
+      {
+       "position": 1,
+       "snippet": "Product is nice and sturdy. Glass is from borosil. So no worries about the quality of glass.",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/RHD7PKPKUK0IG"
+      },
+      {
+       "position": 2,
+       "snippet": "...I had was that out of two dryad I ordered one has come with broken glass .",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R2OLY12QG0HZV1"
+      },
+      {
+       "position": 3,
+       "snippet": "Excellent quality, durable and easy to clean. Only thing is required to use proper lid (bati). Really, this is value for money....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R30Z7FGDCQZ1R8"
+      },
+      {
+       "position": 4,
+       "snippet": "Good product however need to be careful with glass as its very delicate and easily breakable....",
+       "link": "https://www.amazon.in/portal/customer-reviews/srp/-/R3O3L0QG1HO2C"
+      }
+     ]
+    }
+   ],
+   "images": [
+    "https://m.media-amazon.com/images/I/617yuLVqotL.jpg",
+    "https://m.media-amazon.com/images/I/61Rxj7OfjVL.jpg",
+    "https://m.media-amazon.com/images/I/61Qkr7Osv3L.jpg",
+    "https://m.media-amazon.com/images/I/71135EDt+wL.jpg",
+    "https://m.media-amazon.com/images/I/71NZGL1mMxL.jpg",
+    "https://m.media-amazon.com/images/I/71KFwcKjG-L.jpg",
+    "https://m.media-amazon.com/images/I/71RIoMYL2RL.jpg",
+    "https://m.media-amazon.com/images/I/71QNyku7uML.jpg",
+    "https://m.media-amazon.com/images/I/712j6ZzOiuL.jpg",
+    "https://m.media-amazon.com/images/I/61igHLc9M1L.jpg",
+    "https://m.media-amazon.com/images/I/71lNohqf+qL.jpg",
+    "https://m.media-amazon.com/images/I/71+PfPjiC3L.jpg"
+   ],
+   "customer_reviews": {
+    "5 star": 66,
+    "4 star": 21,
+    "3 star": 7,
+    "2 star": 2,
+    "1 star": 4
+   }
+  },
+  "authors_reviews": [
+   {
+    "position": 1,
+    "title": "Just amazing",
+    "text": "It is by far the best thing I have ever bought online.Packaging perfectGood quality solid metal diya with the separate holder for the wick. The base is screwed to the upper part. The glass, as expected, excellent quality, does not heat up even when the diya has been burning for hours. The top though becomes very hot (obviously) so remember to pick it up using the glass and not the top metal. (I burnt my fingers once).Sometimes, if you have not placed the wick properly, then the flame will almost go out when you put the glass n top on the metal base. So you have to adjust the wick a little so that it keeps burning.Free things !! --1. superb quality kapoor2. Roli (the red thread for tying on the wrist)3. pitambari powder for cleaning the metal4. about 30 cotton wicksThe kapoor was of such excellent quality, it gave a very strong wonderful fragrance on burningWe never knew kapoor could be so strong and awesomeMy parents were also surprised and asking all about it 😁😁😁 sadly, I dont know the company of the kapoor, else I would order that separately too.Also, all the free things without any hulabaloo on the cover of the box - sophisticated and classy. 👌I bought the medium size - perfect for homes' mandirsYou can buy the small one for the office temples which would take up much less spaceLarge one - best for major poojas in the house like Diwali, or some Hawan... It would also make for an excellent gift. ♥️Overall, I am in love with it. And I admire it every time I pray. 😊😊😊Thank you Borosil, thanks a ton!",
+    "rating": 5.0,
+    "date": "20 July 2020",
+    "author": "Honest Reviewer",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFS3OYLOSWUVAM55GXLFFH5NG6LQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/71966o8qoNL.jpg",
+     "https://m.media-amazon.com/images/I/712j6ZzOiuL.jpg",
+     "https://m.media-amazon.com/images/I/71135EDt+wL.jpg",
+     "https://m.media-amazon.com/images/I/71KFwcKjG-L.jpg",
+     "https://m.media-amazon.com/images/I/71lNohqf+qL.jpg",
+     "https://m.media-amazon.com/images/I/71IS4PyM8OL.jpg",
+     "https://m.media-amazon.com/images/I/71NZGL1mMxL.jpg",
+     "https://m.media-amazon.com/images/I/71NZGL1mMxL.jpg",
+     "https://m.media-amazon.com/images/I/61igHLc9M1L.jpg"
+    ],
+    "helpful_votes": "11 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 2,
+    "title": "Quality",
+    "text": "Great product",
+    "rating": 5.0,
+    "date": "18 April 2026",
+    "author": "Basavaraj",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHYQU3EOO2XSEDBCUAWXGQXTVN4Q?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "helpful_votes": "One person found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 3,
+    "title": "Nice diya but a side wick screw can make it better",
+    "text": "Nice product but it has no side screw for wick control. Also Pitambari pouch is missing.",
+    "rating": 4.0,
+    "date": "8 March 2026",
+    "author": "AR",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AHJ3W46ZN4R2DWIV53S5VTNOYLIQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/61Qkr7Osv3L.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 4,
+    "title": "Great Product quality. Value for money",
+    "text": "I have brought this product after searching and go through the customer review. Received the product today on the auspicious occasion of Dhanterus. It has fulfilled all my expectation. Looks very elegant when placed in my home temple. Material of the product is good ensure long lasting.",
+    "rating": 5.0,
+    "date": "29 October 2024",
+    "author": "Amazon Customer",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEFROB7BNQ5UGBPAZDX56P4JUB6Q?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 5,
+    "title": "Good",
+    "text": "Added a stamp holder on top for easy holding",
+    "rating": 5.0,
+    "date": "14 February 2026",
+    "author": "Mamta",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AFSMXOHEYP23CGDUMXGOKJ3RHS5Q?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/61Rxj7OfjVL.jpg",
+     "https://m.media-amazon.com/images/I/617yuLVqotL.jpg"
+    ],
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 6,
+    "title": "AVAILABILITY OF SPARE GLASS COVER.",
+    "text": "The item is very useful & attractive. Recently, the glass cover has been broken accidentally. May I request you to arrange a spare glass cover? I am ready to pay the charges required. Thnx.",
+    "rating": 5.0,
+    "date": "6 November 2025",
+    "author": "Samiran Barman",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AEDBN7RXOMPFHZK2IO3ADXBS5ULA?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/dc8c4d70-8055-4683-9623-effbc7c49988._CR0%2C0%2C419%2C419_UX460_SX48_.jpg",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 7,
+    "title": "Good quality product but hiked MRP by amazon",
+    "text": "The quality is good. But the MRP shown here is Rs. 1299 while the actual MRP is Rs. 865 as given in the box of the product. This is not correct hiking the price of the product and showing a good discount on it.",
+    "rating": 3.0,
+    "date": "26 June 2025",
+    "author": "Arpita",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AF4A3XUKOXBT2MJ45KQKQCLPKN5A?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "images": [
+     "https://m.media-amazon.com/images/I/71RIoMYL2RL.jpg"
+    ],
+    "helpful_votes": "9 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   },
+   {
+    "position": 8,
+    "title": "Good product - works real well under breeze!",
+    "text": "Liked the concept so much that I ordered it. Except for my unable to use the first one I ordered due to a crack in the diya holder due to which oil was spilling all over, which would have been a rare specific item defect for all we know, I liked the product idea. Return & refund was extremely smooth thanks to the Seller and amazon - of course no cause for any loss of peace there! And then I went ahead and bought a Large & Medium sized diya from another seller (Olympia) for a much lesser price 549 & 375rs each and both are working good & now, it really feels worth all the trouble!Pros: It really doesn't blow out even will fan full ON which means you can still enjoy the 'bright & still light' & still keep yourself comfortable under a fan. Also useful to put it out on the verandah for sandhyas & occasions like Deepavali.Cons: Brass atop gets pretty hot - keep a piece of cloth to handle the brass top once diya is litWarning: Make double sure the holder holds oil well & there are no leaks, as soon as you get the item in hand, so that it is usable long run. If not, go for a refund and try buying another piece again, as I did :-)Wish amazon provided a replacement option as well in case such as these",
+    "rating": 4.0,
+    "date": "22 March 2015",
+    "author": "Deeps",
+    "author_link": "https://www.amazon.in/gp/profile/amzn1.account.AETVWD6I2JNFY4POFK5LHBH7MMXQ?ref=cm_cr_dp_d_bdcrb_top",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/29771b37-733c-478e-91b2-fabc034c0ffd._CR76%2C0%2C248%2C248_UX460_SX48_.jpg",
+    "helpful_votes": "2 people found this helpful",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    }
+   }
+  ],
+  "other_countries_reviews": [
+   {
+    "position": 1,
+    "title": "Cheap quality, not a borosil product",
+    "text": "This was most definitely not a borosil product.. the glass has sharp edges. I know because I also have the same borosil diya in Large size and that is such good quality. I wish I could give zero star.",
+    "rating": 1.0,
+    "date": "24 September 2020",
+    "author": "Tanima Adak",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    },
+    "country": {
+     "code": "SG",
+     "name": "Singapore"
+    },
+    "language": {
+     "code": "en",
+     "name": "English"
+    }
+   },
+   {
+    "position": 2,
+    "title": "Value for money",
+    "text": "I have had this for more than a year and it’s still looks pretty new. Very happy with the product.",
+    "rating": 5.0,
+    "date": "25 June 2026",
+    "author": "@riya",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    },
+    "country": {
+     "code": "GB",
+     "name": "United Kingdom"
+    },
+    "language": {
+     "code": "en",
+     "name": "English (United Kingdom)"
+    }
+   },
+   {
+    "position": 3,
+    "title": "Size",
+    "text": "Bit smaller then expected.",
+    "rating": 3.0,
+    "date": "2 August 2026",
+    "author": "komal",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    },
+    "country": {
+     "code": "AU",
+     "name": "Australia"
+    },
+    "language": {
+     "code": "en",
+     "name": "English (Australia)"
+    }
+   },
+   {
+    "position": 4,
+    "title": "Good quality just tilted after assembly.",
+    "text": "Quality and everything are awesome; the design is off, and after assembly, it’s a little tilted no matter how hard u try to fix it. It doesn’t work.",
+    "rating": 4.0,
+    "date": "9 June 2026",
+    "author": "Amazon Customer",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    },
+    "country": {
+     "code": "US",
+     "name": "United States"
+    },
+    "language": {
+     "code": "en",
+     "name": "English (United States)"
+    }
+   },
+   {
+    "position": 5,
+    "title": "Quality",
+    "text": "Good",
+    "rating": 4.0,
+    "date": "15 August 2025",
+    "author": "Gunja",
+    "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SX48_.png",
+    "verified_purchase": true,
+    "product": {
+     "style_name": "Medium"
+    },
+    "country": {
+     "code": "GB",
+     "name": "United Kingdom"
+    },
+    "language": {
+     "code": "en",
+     "name": "English (United Kingdom)"
+    }
+   }
+  ]
+ }
+}

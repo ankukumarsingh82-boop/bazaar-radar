@@ -1,0 +1,183 @@
+{
+ "search_metadata": {
+  "id": "6ab82061f3fc7b068c9a70c8",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/hdCC6yK2upCwxoOIiWKFQeVrj8gxaKRtAzo7-_WckqY/6ab82061f3fc7b068c9a70c8.json",
+  "markdown_endpoint": "https://serpapi.com/searches/hdCC6yK2upCwxoOIiWKFQeVrj8gxaKRtAzo7-_WckqY/6ab82061f3fc7b068c9a70c8.md",
+  "created_at": "2026-09-26 19:43:29 UTC",
+  "processed_at": "2026-09-26 19:43:29 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=en&tz=-330&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22brass+diya%22%2C%22geo%22%3A%22IN%22%2C%22time%22%3A%22today+3-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/hdCC6yK2upCwxoOIiWKFQeVrj8gxaKRtAzo7-_WckqY/6ab82061f3fc7b068c9a70c8.html",
+  "prettify_html_file": "https://serpapi.com/searches/hdCC6yK2upCwxoOIiWKFQeVrj8gxaKRtAzo7-_WckqY/6ab82061f3fc7b068c9a70c8.prettify",
+  "total_time_taken": 1.25
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "brass diya",
+  "hl": "en",
+  "geo": "IN",
+  "date": "today 3-m",
+  "tz": "-330",
+  "data_type": "RELATED_QUERIES"
+ },
+ "related_queries": {
+  "rising": [
+   {
+    "query": "borosil akhand diya",
+    "value": "Breakout",
+    "extracted_value": 91450,
+    "link": "https://trends.google.com/trends/explore?q=borosil+akhand+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=borosil+akhand+diya&tz=-330"
+   },
+   {
+    "query": "agarbatti stand",
+    "value": "Breakout",
+    "extracted_value": 10050,
+    "link": "https://trends.google.com/trends/explore?q=agarbatti+stand&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=agarbatti+stand&tz=-330"
+   },
+   {
+    "query": "candle",
+    "value": "+250%",
+    "extracted_value": 250,
+    "link": "https://trends.google.com/trends/explore?q=candle&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=candle&tz=-330"
+   },
+   {
+    "query": "metal diya",
+    "value": "+120%",
+    "extracted_value": 120,
+    "link": "https://trends.google.com/trends/explore?q=metal+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=metal+diya&tz=-330"
+   },
+   {
+    "query": "lotus diya",
+    "value": "+70%",
+    "extracted_value": 70,
+    "link": "https://trends.google.com/trends/explore?q=lotus+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=lotus+diya&tz=-330"
+   }
+  ],
+  "top": [
+   {
+    "query": "akhand diya",
+    "value": "100",
+    "extracted_value": 100,
+    "link": "https://trends.google.com/trends/explore?q=akhand+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=akhand+diya&tz=-330"
+   },
+   {
+    "query": "brass diya lamp",
+    "value": "69",
+    "extracted_value": 69,
+    "link": "https://trends.google.com/trends/explore?q=brass+diya+lamp&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+diya+lamp&tz=-330"
+   },
+   {
+    "query": "brass diya set",
+    "value": "68",
+    "extracted_value": 68,
+    "link": "https://trends.google.com/trends/explore?q=brass+diya+set&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+diya+set&tz=-330"
+   },
+   {
+    "query": "brass diya for pooja",
+    "value": "59",
+    "extracted_value": 59,
+    "link": "https://trends.google.com/trends/explore?q=brass+diya+for+pooja&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+diya+for+pooja&tz=-330"
+   },
+   {
+    "query": "hanging diya",
+    "value": "47",
+    "extracted_value": 47,
+    "link": "https://trends.google.com/trends/explore?q=hanging+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=hanging+diya&tz=-330"
+   },
+   {
+    "query": "brass hanging diya",
+    "value": "47",
+    "extracted_value": 47,
+    "link": "https://trends.google.com/trends/explore?q=brass+hanging+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+hanging+diya&tz=-330"
+   },
+   {
+    "query": "lotus diya",
+    "value": "39",
+    "extracted_value": 39,
+    "link": "https://trends.google.com/trends/explore?q=lotus+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=lotus+diya&tz=-330"
+   },
+   {
+    "query": "brass diya price",
+    "value": "34",
+    "extracted_value": 34,
+    "link": "https://trends.google.com/trends/explore?q=brass+diya+price&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+diya+price&tz=-330"
+   },
+   {
+    "query": "peacock diya",
+    "value": "32",
+    "extracted_value": 32,
+    "link": "https://trends.google.com/trends/explore?q=peacock+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=peacock+diya&tz=-330"
+   },
+   {
+    "query": "brass diya online",
+    "value": "31",
+    "extracted_value": 31,
+    "link": "https://trends.google.com/trends/explore?q=brass+diya+online&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+diya+online&tz=-330"
+   },
+   {
+    "query": "metal diya",
+    "value": "27",
+    "extracted_value": 27,
+    "link": "https://trends.google.com/trends/explore?q=metal+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=metal+diya&tz=-330"
+   },
+   {
+    "query": "silver diya",
+    "value": "27",
+    "extracted_value": 27,
+    "link": "https://trends.google.com/trends/explore?q=silver+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=silver+diya&tz=-330"
+   },
+   {
+    "query": "candle",
+    "value": "19",
+    "extracted_value": 19,
+    "link": "https://trends.google.com/trends/explore?q=candle&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=candle&tz=-330"
+   },
+   {
+    "query": "brass urli",
+    "value": "16",
+    "extracted_value": 16,
+    "link": "https://trends.google.com/trends/explore?q=brass+urli&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=brass+urli&tz=-330"
+   },
+   {
+    "query": "samai diya",
+    "value": "15",
+    "extracted_value": 15,
+    "link": "https://trends.google.com/trends/explore?q=samai+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=samai+diya&tz=-330"
+   },
+   {
+    "query": "borosil akhand diya",
+    "value": "9",
+    "extracted_value": 9,
+    "link": "https://trends.google.com/trends/explore?q=borosil+akhand+diya&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=borosil+akhand+diya&tz=-330"
+   },
+   {
+    "query": "agarbatti stand",
+    "value": "1",
+    "extracted_value": 1,
+    "link": "https://trends.google.com/trends/explore?q=agarbatti+stand&date=today+3-m&geo=IN",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=today+3-m&engine=google_trends&geo=IN&hl=en&q=agarbatti+stand&tz=-330"
+   }
+  ]
+ }
+}

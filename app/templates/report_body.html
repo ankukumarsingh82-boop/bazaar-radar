@@ -1,0 +1,368 @@
+<article class="report" id="top">
+  {% if report.usage.served == 0 %}
+  <p class="error">This idea is not in the offline recordings. Open brass diya, rangoli colours, or diwali gift hamper, or set <code>BR_MODE=cache</code> with a SerpApi key.</p>
+  {% endif %}
+  <header class="verdict v-{{ report.decision.verdict }}">
+    <div>
+      <p class="kicker">{{ report.category }} · target {{ report.target_price | inr }} · {{ report.keyword }}</p>
+      <h2>{{ verdict_title(report.decision.verdict) }}</h2>
+      <p>{{ verdict_blurb(report.decision.verdict) }}</p>
+    </div>
+    <dl class="verdict-facts">
+      <div>
+        <dt>Confidence</dt>
+        <dd>{{ report.decision.confidence }}</dd>
+      </div>
+      <div>
+        <dt>Momentum</dt>
+        <dd>{% if report.demand.momentum is not none %}{{ "%.2f"|format(report.demand.momentum) }}×{% else %}n/a{% endif %} {{ report.demand.momentum_label }}</dd>
+      </div>
+      <div>
+        <dt>Suggested band</dt>
+        <dd>{{ report.decision.price_label or "—" }}</dd>
+      </div>
+      <div>
+        <dt>Ad pressure</dt>
+        <dd>{{ report.ads_pressure }}</dd>
+      </div>
+    </dl>
+  </header>
+
+  {% if report.notes %}
+  <ul class="notes">
+    {% for note in report.notes %}<li>{{ note }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <section class="panel" id="demand">
+    <div class="panel-head">
+      <p class="index">01 · Demand</p>
+      <h3>Is anyone searching, and when does it peak?</h3>
+    </div>
+    <div class="stat-row">
+      <article>
+        <span>Momentum</span>
+        <strong>{% if report.demand.momentum is not none %}{{ "%.2f"|format(report.demand.momentum) }}×{% else %}n/a{% endif %}</strong>
+        <em>{{ report.demand.momentum_label }} · {{ report.demand.momentum_source }}</em>
+      </article>
+      <article>
+        <span>Days to peak</span>
+        <strong>{% if report.demand.days_before is not none %}{{ report.demand.days_before }}d{% else %}—{% endif %}</strong>
+        <em>{{ report.demand.peak_phrase }}</em>
+      </article>
+      <article>
+        <span>This season</span>
+        <strong>{{ report.demand.projected_label or "—" }}</strong>
+        <em>{% if report.demand.projected_label %}Projected start of the peak week, from last year’s offset onto Diwali 8 Nov 2026.{% else %}Not enough of a festive peak to project.{% endif %}</em>
+      </article>
+    </div>
+    {% if report.demand.ambiguous_head %}
+    <p class="caveat">“{{ report.demand.series_term }}” is a broad head term. It can include searches that are not this product.</p>
+    {% endif %}
+
+    <div class="charts">
+      <figure>
+        <figcaption>This season vs last season, weekly means{% if report.demand.yoy_this_year %} ({{ report.demand.yoy_last_year }} / {{ report.demand.yoy_this_year }}){% endif %}</figcaption>
+        {% if report.demand.yoy_labels %}
+        <canvas id="yoy-chart" height="140"></canvas>
+        {% else %}
+        <p class="empty">No year-on-year series for this idea. Momentum falls back to the 5-year curve when that one is dense.</p>
+        {% endif %}
+      </figure>
+      <figure>
+        <figcaption>Five-year weekly interest{% if report.demand.five_term %} for “{{ report.demand.five_term }}”{% endif %}, with Diwali weeks marked</figcaption>
+        {% if report.demand.five_labels %}
+        <canvas id="five-chart" height="140"></canvas>
+        {% else %}
+        <p class="empty">No 5-year series recorded for this term.</p>
+        {% endif %}
+      </figure>
+    </div>
+
+    {% if report.demand.yearly_peaks %}
+    <table class="plain">
+      <caption>Peak week in each Diwali window</caption>
+      <thead><tr><th>Year</th><th>Week of</th><th>Interest</th><th>Days before Diwali</th></tr></thead>
+      <tbody>
+        {% for peak in report.demand.yearly_peaks %}
+        <tr>
+          <td>{{ peak.year }}</td>
+          <td>{{ peak.week_label }}</td>
+          <td>{{ peak.value | int }}</td>
+          <td>{{ peak.days_before }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+
+    <div class="split">
+      <div>
+        <h4>States</h4>
+        {% if report.demand.state_warning %}<p class="caveat">{{ report.demand.state_warning }}</p>{% endif %}
+        {% if report.demand.states %}
+        <canvas id="state-chart" height="220"></canvas>
+        <ul class="state-list">
+          {% for state in report.demand.states[:10] %}
+          <li class="{% if state.served %}served{% endif %}">
+            <span>{{ state.location }}</span>
+            <b>{{ state.value }}</b>
+            {% if state.served %}<em>you ship</em>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">No state breakdown for this term.</p>
+        {% endif %}
+      </div>
+      <div>
+        <h4>Listing keywords</h4>
+        <ul class="chips">
+          {% for word in report.demand.listing_keywords %}
+          <li>{{ word }}</li>
+          {% else %}
+          <li class="muted">No keyword ideas yet.</li>
+          {% endfor %}
+        </ul>
+        {% if report.demand.keywords %}
+        <table class="plain">
+          <caption>Related queries, with generic festival phrases removed</caption>
+          <thead><tr><th>Query</th><th></th><th>Signal</th></tr></thead>
+          <tbody>
+            {% for row in report.demand.keywords %}
+            <tr>
+              <td>{{ row.query }}{% if row.tag == "brand" %} <em class="tag-inline">brand</em>{% endif %}</td>
+              <td>{{ row.kind }}</td>
+              <td>{{ row.value_label }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="competition">
+    <div class="panel-head">
+      <p class="index">02 · Competition</p>
+      <h3>Where is the shelf crowded, and where is the gap?</h3>
+    </div>
+    <p class="hint">Prices are bands, never a cheapest-offer list. Amazon ratings drive the quality test. Shopping ratings are left out because India results rarely include them. Outliers outside 1.5× the interquartile range are dropped ({{ report.competition.outliers_removed }} removed, {{ report.competition.priced_offers }} kept).</p>
+    <div class="stat-row">
+      <article>
+        <span>Bought-in-past-month coverage</span>
+        <strong>{{ "%.0f"|format(report.competition.bought_coverage * 100) }}%</strong>
+        <em>Share of Amazon results with a sales-velocity bucket.</em>
+      </article>
+      <article>
+        <span>Amazon sponsored</span>
+        <strong>{{ report.competition.sponsored_share | pct }}</strong>
+        <em>{{ report.competition.sponsored_note }}</em>
+      </article>
+      <article>
+        <span>Amazon’s Choice</span>
+        <strong>{{ report.competition.choice_count }}</strong>
+        <em>{% if report.competition.amazon_total %}About {{ "{:,}".format(report.competition.amazon_total) }} Amazon.in results.{% else %}Badge count on this page of results.{% endif %}</em>
+      </article>
+    </div>
+    {% if report.competition.bands %}
+    <canvas id="band-chart" height="120"></canvas>
+    <table class="plain">
+      <caption>Price bands from Amazon.in (not sponsored) and Google Shopping India</caption>
+      <thead>
+        <tr>
+          <th>Band</th><th>Listings</th><th>Median ★</th><th>Reviews</th><th>Bought proxy</th><th>Demand share</th><th>Listing share</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for band in report.competition.bands %}
+        <tr class="{% if band.whitespace %}ws{% elif band.quality_gap %}gap{% endif %}">
+          <td>{{ band.label }}{% if band.contains_target %} <em class="tag-inline">your price</em>{% endif %}</td>
+          <td>{{ band.count }}</td>
+          <td>{% if band.median_rating is not none %}{{ "%.1f"|format(band.median_rating) }}{% else %}—{% endif %}</td>
+          <td>{{ "{:,}".format(band.total_reviews) }}</td>
+          <td>{{ "{:,}".format(band.bought_sum) }}</td>
+          <td>{{ "%.0f"|format(band.demand_share * 100) }}%</td>
+          <td>{{ "%.0f"|format(band.listing_share * 100) }}%</td>
+          <td>
+            {% if band.whitespace %}White space{% elif band.quality_gap %}Quality gap{% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="empty">No prices to band. This idea is not in the offline fixture set.</p>
+    {% endif %}
+
+    {% if report.competition.merchants %}
+    <h4>Channel spread</h4>
+    <ul class="merchants">
+      {% for merchant in report.competition.merchants %}
+      <li>
+        <strong>{{ merchant.name }}</strong>
+        <span>{{ merchant.count }} listings</span>
+        <span>{{ merchant.median_price | inr }}</span>
+        {% if merchant.quick %}<em>quick</em>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if report.competition.stores %}
+    <h4>Stores on one Shopping product</h4>
+    <p class="hint">{{ report.competition.store_note }}</p>
+    <ul class="merchants">
+      {% for store in report.competition.stores %}
+      <li>
+        <strong>{{ store.name }}</strong>
+        <span>{{ store.price | inr }}</span>
+        {% if store.tag %}<em>{{ store.tag }}</em>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div id="ads" class="ads">
+      <h4>Ad pressure</h4>
+      <p class="hint">Amazon sponsored share is shown only when the field exists. Ads Transparency (India, region 2356) is the stronger signal: how many creatives a competitor domain has had live.</p>
+      {% if report.competition.sponsored_brands %}
+      <p>Sponsored brands on Amazon: {{ report.competition.sponsored_brands | join(", ") }}.</p>
+      {% endif %}
+      {% if report.ads %}
+      <ul class="ads-list">
+        {% for ad in report.ads %}
+        <li>
+          <strong>{{ ad.domain }}</strong>
+          <span>{{ "{:,}".format(ad.total_results) }} creatives</span>
+          <span>{{ ad.advertiser }}</span>
+          <span>last shown {{ ad.last_shown_label or "—" }}{% if ad.recent %} · this week{% endif %}</span>
+          <em>{{ ad.formats.keys() | list | join(", ") }}</em>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="empty">No Ads Transparency result for the merchants in this report.</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="panel" id="complaints">
+    <div class="panel-head">
+      <p class="index">03 · Buyer pain</p>
+      <h3>What do people already hate?</h3>
+    </div>
+    <p class="hint">Themes come from Amazon review insights (<code>reviews_information.summary.insights</code>). Mention counts do not always add up, so the rank uses the negative count directly. Positive themes stay off this list unless more than 30% of mentions are negative.</p>
+    {% if report.products %}
+    <ul class="products">
+      {% for product in report.products %}
+      <li>
+        <strong>{{ product.title }}</strong>
+        <span>{{ product.brand or product.asin }}</span>
+        {% if product.rating %}<span>{{ "%.1f"|format(product.rating) }}★ · {{ product.reviews or 0 }} reviews</span>{% endif %}
+        {% if product.bsr %}<span>{{ product.bsr }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if report.complaints %}
+    <ol class="complaints">
+      {% for row in report.complaints %}
+      <li>
+        <header>
+          <strong>{{ row.theme }}</strong>
+          <span>{{ row.negative }} negative</span>
+          <em>{{ row.sentiment }} · {{ row.total }} mentions</em>
+        </header>
+        <p>{{ row.summary }}</p>
+        {% if row.snippet %}<blockquote>{{ row.snippet }}</blockquote>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="empty">No complaint themes. Live mode reads up to three competitor ASINs; the offline set has one product page per idea.</p>
+    {% endif %}
+  </section>
+
+  <section class="panel decision" id="decision">
+    <div class="panel-head">
+      <p class="index">04 · Decision</p>
+      <h3>{{ verdict_title(report.decision.verdict) }}</h3>
+    </div>
+    <div class="decision-grid">
+      <article>
+        <span>Price band</span>
+        <strong>{{ report.decision.price_label or "No band" }}</strong>
+        <em>{% if report.decision.price_low is not none %}List around this band, not at the cheapest offer on the page.{% else %}No band is recommended for a skip.{% endif %}</em>
+      </article>
+      <article>
+        <span>States</span>
+        <strong>{{ report.decision.states | join(", ") or "—" }}</strong>
+        <em>Highest Trends interest among the states you serve.</em>
+      </article>
+      <article>
+        <span>Keywords</span>
+        <ul class="chips">
+          {% for word in report.decision.keywords %}<li>{{ word }}</li>{% endfor %}
+        </ul>
+      </article>
+      <article>
+        <span>Fix these</span>
+        <ul class="fix">
+          {% for item in report.decision.complaints %}<li>{{ item }}</li>{% else %}<li>No complaint themes recorded.</li>{% endfor %}
+        </ul>
+      </article>
+    </div>
+    <h4>Why</h4>
+    <ul class="why">
+      {% for item in report.decision.why %}
+      <li><a href="#{{ item.anchor }}">{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
+    <h4>What this does not say</h4>
+    <ul class="limits">
+      {% for note in report.decision.limitations %}<li>{{ note }}</li>{% endfor %}
+    </ul>
+    <div class="export">
+      <a class="button" href="/report/{{ report.id }}.md">Download Markdown</a>
+      <button type="button" class="button ghost" onclick="window.print()">Print / save PDF</button>
+      <a class="button ghost" href="/report/{{ report.id }}">Open this report</a>
+    </div>
+  </section>
+
+  <section class="panel evidence" id="evidence">
+    <div class="panel-head">
+      <p class="index">Evidence</p>
+      <h3>Every number comes from a SerpApi search</h3>
+    </div>
+    <p class="usage">
+      This report: {{ report.usage.served }} searches
+      ({{ report.usage.fixture }} fixtures, {{ report.usage.cache }} from cache, {{ report.usage.live }} live).
+      Not available in this mode: {{ report.usage.missing }}.
+      Blocked: {{ report.usage.blocked }}.
+    </p>
+    <details open>
+      <summary>Raw parameters and search ids</summary>
+      <table class="plain">
+        <thead><tr><th>Purpose</th><th>Engine</th><th>Source</th><th>Search id</th><th>Parameters</th></tr></thead>
+        <tbody>
+          {% for item in report.evidence %}
+          <tr>
+            <td>{{ item.purpose }}{% if item.note %}<br><em>{{ item.note }}</em>{% endif %}</td>
+            <td><code>{{ item.engine }}</code></td>
+            <td>{{ item.source }}</td>
+            <td><code>{{ item.search_id or "—" }}</code></td>
+            <td class="params">
+              {% for key, value in item.params.items() %}
+              <span><b>{{ key }}</b> {{ value }}</span>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </details>
+  </section>
+  <script type="application/json" id="chart-data">{{ charts | safe }}</script>
+</article>
