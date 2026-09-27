@@ -8,6 +8,8 @@ Price trackers tell buyers where it is cheapest. Bazaar Radar tells sellers wher
 
 Track: **Commerce & Market Intelligence**, SerpApi India Hackathon 2026. The demo video is recorded separately; this repo runs fully offline in fixture mode.
 
+Demo video: (link coming soon)
+
 ## Who it is for
 
 Priya-type sellers: 1–20 SKUs (handicrafts, home décor, ethnic wear, gifting, kitchenware) listing on Amazon.in and often Meesho, Flipkart, or Instagram. Festive sales open around 8 Oct 2026. Diwali is 8 Nov 2026. They are about to commit working capital and cannot justify a US-dollar SaaS subscription. Amazon’s own tools only show Amazon.
@@ -38,7 +40,7 @@ There is no “cheapest offer” view. Prices appear only as bands.
 | Idea | Verdict | What the recordings show |
 |---|---|---|
 | brass diya, ₹699, MH/DL/GJ/RJ | **CAUTION** | Head term “diya” momentum **1.81×** (Rising). No white-space band around ₹699. Amazon sponsored share is **n/a** (the field was absent). Jaypore has 46 India ad creatives. |
-| rangoli colours, ₹199, MH/KA/TN/TG | **GO** | 5-year momentum **1.12×**. Peak week starts **1 day before Diwali**. The ₹190–250 band is white space. Amazon sponsored share **20%**. |
+| rangoli colours, ₹190, MH/KA/TN/TG | **GO** | 5-year momentum **1.12×**. Peak week starts **1 day before Diwali**. The ₹190–250 band is white space. Amazon sponsored share **20%**. |
 | diwali gift hamper, ₹799, DL/MH/HR/KA | **CAUTION** | “diwali gift” is too sparse for a momentum number or a days-to-peak. fnp.com has **2,000** ad creatives in India. |
 
 ![Rangoli GO](docs/screenshots/rangoli-colours-verdict.png)
@@ -203,6 +205,10 @@ No model is called when the app runs. The verdict does not use an LLM. There is 
 ## Pre-existing work
 
 Started on 26 Sep 2026, after the hackathon was announced (22 Sep 2026), specifically for this hackathon. Day-1 SerpApi checks and the first MVP were built on 26–27 Sep 2026 IST; all later work continues in this repo. No code from any earlier project is reused.
+
+## Demo video credits
+
+Rangoli powder photo by Arya Joshi, via Wikimedia Commons, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Other opening photos are from free-licence sources (Wikimedia Commons / Unsplash / Pexels) that do not require attribution.
 
 ## Licence and data
 
