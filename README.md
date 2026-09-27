@@ -29,7 +29,7 @@ Four panels, plus ad pressure:
 3. **Buyer pain.** Amazon review insight themes (`reviews_information.summary.insights`), ranked by negative mentions.
 4. **Decision card.** A deterministic verdict: **GO**, **GO with positioning**, **CAUTION**, or **SKIP**, with a price band, three states, five keywords, and three complaints. Every “why” links to the panel and the SerpApi search id.
 
-**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains seen in Shopping (India, region 2356).
+**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains seen in Shopping (India, region 2356). Niche/D2C domains are checked first.
 
 There is no “cheapest offer” view. Prices appear only as bands.
 
@@ -95,6 +95,7 @@ Download the decision card as Markdown from the report (`/report/{id}.md`). Use 
 Guardrails:
 
 - SQLite cache keyed by sha256 of engine + parameters (`data/bazaar.sqlite`, gitignored).
+- Empty Trends answers ("hasn't returned any results") are cached too, so re-running a sparse idea costs 0 searches. Transient errors are not cached.
 - `MAX_LIVE_CALLS_PER_REPORT` (default 14).
 - `SERPAPI_DAILY_CAP` (default 40), counted in IST.
 - Hard stop when the Account API reports `plan_searches_left` below `MIN_SEARCHES_LEFT` (default 20). If the Account API itself fails, live calls pause.
@@ -102,6 +103,18 @@ Guardrails:
 - Each report footer says how many searches were fixtures, cache hits, or live.
 
 A custom keyword in fixture mode does not invent data. The page says the idea is not in the recordings.
+
+## Live check (27 Sep 2026)
+
+A fresh idea, **brass toran** at ₹499 for MH/DL/GJ/KA, ran end to end in `BR_MODE=cache`:
+
+- 14 live searches (Account API meter 227 → 213). An identical re-run: **14 cache hits, 0 live, 0 credits**.
+- “brass toran” was 100% zeros on daily Trends, so momentum used the head term “toran” (1.14×, Flat); last Diwali's peak was 8 days before; projected peak week starts 31 Oct 2026.
+- Three Amazon.in product pages returned review insights (Finishing, Condition, Material complaints).
+- Ads Transparency answered for myntra.com (3,000 creatives) and zepto.com (500), shown as marketplace context.
+- Verdict: **GO with positioning**, band ₹500–700, target state Karnataka.
+
+![Brass toran live check, verdict and demand](docs/screenshots/live-brass-toran.png)
 
 ## How the verdict is computed
 
@@ -114,13 +127,23 @@ Plain Python in `app/analysis/`, unit-tested. No LLM.
 - **Complaints.** Insights with sentiment negative or mixed, or negative/total > 0.3, ranked by `mentions.negative`.
 - **Verdict**
   - **SKIP** — Falling, the target band is crowded, and there is no white space and no quality gap.
-  - **CAUTION** — Falling, or Amazon sponsored share > 50%, or Ads Transparency pressure is high (a domain with ≥ 500 creatives).
+  - **CAUTION** — Falling, or Amazon sponsored share > 50%, or Ads Transparency pressure is high (a niche or D2C competitor domain with ≥ 500 creatives in India). Marketplaces (Flipkart, Myntra, Meesho, JioMart, Ajio, Nykaa, Zepto, Blinkit, bigbasket) advertise their whole catalogue, so their volume is shown for context only and never raises pressure.
   - **GO** — Momentum ≥ 1.0, the series is not sparse, and a white-space band sits near the target price.
   - **GO with positioning** — A quality gap near the target, without a clean GO.
   - Otherwise **CAUTION** (rising demand but no gap is the brass-diya case).
 - **Confidence** drops when Trends is sparse, the head term is ambiguous (“diya” is also a name), or a core source failed.
 
 Limits, also printed on the card: Trends is relative interest, not unit sales. “Bought in past month” is a bucket. These are signals, not a promise of sales.
+
+## Limitations
+
+- Google Trends is relative interest, not unit sales; niche phrases are often all zeros, so the head term carries the curve and can include unrelated searches.
+- “Bought in past month” is a bucket (50+, 1K+), not a count.
+- Ads Transparency `text` search can return a loosely matched advertiser (e.g. an agency); the advertiser name is shown so the reader can judge.
+- Amazon sponsored share is n/a when the field is absent.
+- One Shopping product's store list only; no Flipkart/Meesho review data.
+- Diwali dates are hard-coded for 2021–2026.
+- Live mode needs a SerpApi key; the free plan (250/month) covers ~15 fresh reports.
 
 ## How this differs from price trackers
 
@@ -169,7 +192,7 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, the credit hard stop, the per-report cap, the daily cap, and the three full scenarios.
+48 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 
@@ -179,7 +202,7 @@ No model is called when the app runs. The verdict does not use an LLM. There is 
 
 ## Pre-existing work
 
-None. Built for the SerpApi India Hackathon 2026 (28 Sep–4 Oct 2026). It did not exist before the hackathon.
+Started on 26 Sep 2026, after the hackathon was announced (22 Sep 2026), specifically for this hackathon. Day-1 SerpApi checks and the first MVP were built on 26–27 Sep 2026 IST; all later work continues in this repo. No code from any earlier project is reused.
 
 ## Licence and data
 

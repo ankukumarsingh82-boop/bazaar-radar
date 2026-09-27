@@ -234,7 +234,7 @@
       <ul class="ads-list">
         {% for ad in report.ads %}
         <li>
-          <strong>{{ ad.domain }}</strong>
+          <strong>{{ ad.domain }}{% if ad.marketplace %} <em class="tag-inline">marketplace · context only</em>{% endif %}</strong>
           <span>{{ "{:,}".format(ad.total_results) }} creatives</span>
           <span>{{ ad.advertiser }}</span>
           <span>last shown {{ ad.last_shown_label or "—" }}{% if ad.recent %} · this week{% endif %}</span>

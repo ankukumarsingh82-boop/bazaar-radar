@@ -62,9 +62,10 @@ def build_bands(offers: list[Offer], target: float, bins: int = 6) -> list[Band]
             if offer.price is not None
             and (low <= offer.price < high or (last and offer.price == high))
         ]
-        if not group and not (low <= target <= high):
+        holds_target = low <= target < high or (last and target == high)
+        if not group and not holds_target:
             continue
-        bands.append(_band(group, low, high, target))
+        bands.append(_band(group, low, high, holds_target))
     total = sum(band.count for band in bands) or 1
     demand_total = sum(band.bought_sum for band in bands)
     review_total = sum(band.total_reviews for band in bands)
@@ -120,7 +121,30 @@ def _edges(prices: list[float], bins: int) -> list[float]:
             high = low + 100
         step = (high - low) / bins
         edges = [round(low + step * index) for index in range(bins + 1)]
+    # Snapping can round the outer edges inward; widen them so no kept listing falls outside.
+    if edges[0] > prices[0]:
+        edges[0] = _snap_down(prices[0])
+    if edges[-1] < prices[-1]:
+        edges[-1] = _snap_up(prices[-1])
     return edges
+
+
+def _step(value: float) -> int:
+    if value >= 1000:
+        return 100
+    if value >= 200:
+        return 50
+    return 10
+
+
+def _snap_down(value: float) -> float:
+    step = _step(value)
+    return float(math.floor(value / step) * step)
+
+
+def _snap_up(value: float) -> float:
+    step = _step(value)
+    return float(math.ceil(value / step) * step)
 
 
 def _snap(value: float) -> float:
@@ -131,7 +155,7 @@ def _snap(value: float) -> float:
     return float(round(value / 10) * 10)
 
 
-def _band(group: list[Offer], low: float, high: float, target: float) -> Band:
+def _band(group: list[Offer], low: float, high: float, holds_target: bool) -> Band:
     amazon = [offer for offer in group if offer.origin == "amazon"]
     shopping = [offer for offer in group if offer.origin == "shopping"]
     ratings = sorted(offer.rating for offer in amazon if offer.rating is not None)
@@ -154,7 +178,7 @@ def _band(group: list[Offer], low: float, high: float, target: float) -> Band:
         total_reviews=sum(offer.reviews for offer in amazon),
         bought_sum=sum(offer.bought for offer in amazon),
         high_rating_count=high_rated,
-        contains_target=low <= target <= high,
+        contains_target=holds_target,
     )
 
 

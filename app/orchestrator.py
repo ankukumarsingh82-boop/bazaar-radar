@@ -52,7 +52,7 @@ from app.sources.amazon import normalize_product, normalize_search, product_para
 from app.sources.amazon import search_params as amazon_params
 from app.sources.immersive import normalize_immersive
 from app.sources.immersive import search_params as immersive_params
-from app.sources.shopping import merchant_stats, normalize_shopping
+from app.sources.shopping import MARKETPLACE_DOMAINS, merchant_stats, normalize_shopping
 from app.sources.shopping import search_params as shopping_params
 from app.sources.trends import (
     five_year_params,
@@ -249,7 +249,7 @@ def _assemble(
         notes.append(store_note)
 
     sponsored_share = amazon.sponsored_share if amazon else None
-    pressure = ads_pressure([ad.total_results for ad in ads], sponsored_share)
+    pressure = ads_pressure([ad.total_results for ad in ads if not ad.marketplace], sponsored_share)
     whitespace_near = any(band.whitespace and near_target(band, target_price) for band in bands)
     quality_near = any(band.quality_gap and near_target(band, target_price) for band in bands)
     target_band = next((band for band in bands if band.contains_target), None)
@@ -400,6 +400,8 @@ def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list
     if shopping is None:
         return [], []
     merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
+    # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
+    merchants.sort(key=lambda row: (row.domain or "") in MARKETPLACE_DOMAINS)
     if client.mode == "fixtures":
         recorded = [row for row in merchants if client.fixtures.has_ads(row.domain or "")]
         rest = [row for row in merchants if row not in recorded]
@@ -418,17 +420,23 @@ def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list
     for row in chosen:
         hit = fetch(ads_params(row.domain or "", today), f"Ads Transparency for {row.domain}")
         if hit.data and not hit.error:
-            ads.append(normalize_ads(hit.data, row.domain or "", today))
+            ads.append(_ad_signal(hit.data, row.domain or "", today))
         elif hit.source == "missing":
             missing_domains.append(row.domain)
         elif hit.data and hit.error:
             # Live error payloads still count; skip empty creative sets only when error is set
             # and there is no search_information.
             if hit.data.get("ad_creatives") or hit.data.get("search_information"):
-                ads.append(normalize_ads(hit.data, row.domain or "", today))
+                ads.append(_ad_signal(hit.data, row.domain or "", today))
             else:
                 missing_domains.append(row.domain)
     notes = []
+    if any(ad.marketplace for ad in ads):
+        notes.append(
+            "Marketplace ad volume (e.g. "
+            + ", ".join(ad.domain for ad in ads if ad.marketplace)
+            + ") is catalogue-wide, so it is shown for context and does not raise ad pressure."
+        )
     if missing_domains and client.mode == "fixtures":
         notes.append(
             "Ads Transparency fixtures are not recorded for "
@@ -436,6 +444,12 @@ def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list
             + ". Live mode would query those domains."
         )
     return ads, notes
+
+
+def _ad_signal(payload: dict, domain: str, today) -> AdSignal:
+    signal = normalize_ads(payload, domain, today)
+    signal.marketplace = domain.lower() in MARKETPLACE_DOMAINS
+    return signal
 
 
 def _stores(client, shopping, evidence, fetch):

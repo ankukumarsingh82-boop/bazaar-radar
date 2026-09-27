@@ -22,6 +22,16 @@ ACCOUNT_URL = "https://serpapi.com/account.json"
 
 _DROP_KEYS = {"api_key", "device", "output", "no_cache"}
 
+# SerpApi bills these and the answer is stable, so they are cached like real results.
+_EMPTY_RESULT_MARKERS = ("hasn't returned any results", "has not returned any results")
+
+
+def is_empty_result(payload: Any) -> bool:
+    if not isinstance(payload, dict):
+        return False
+    error = str(payload.get("error") or "").lower()
+    return any(marker in error for marker in _EMPTY_RESULT_MARKERS)
+
 
 def _norm_params(params: dict[str, Any]) -> dict[str, str]:
     out: dict[str, str] = {}
@@ -299,6 +309,8 @@ class SerpClient:
         if isinstance(payload, dict) and payload.get("error"):
             with self._lock:
                 self._live_reserved = max(0, self._live_reserved - 1)
+                if is_empty_result(payload):
+                    self._write_cache(norm, payload)
                 self._ledger(norm, "live")
             return self.budget.add(
                 SearchHit(
@@ -370,12 +382,14 @@ class SerpClient:
         endpoint = meta.get("json_endpoint")
         if isinstance(endpoint, str):
             endpoint = scrub(endpoint, self.settings.serpapi_api_key)
+        error = payload.get("error") if isinstance(payload, dict) else None
         return SearchHit(
             data=payload,
             source=source,
             params=norm,
             search_id=meta.get("id"),
             json_endpoint=endpoint,
+            error=str(error) if error else None,
         )
 
     def _read_cache(self, norm: dict[str, str]) -> dict[str, Any] | None:

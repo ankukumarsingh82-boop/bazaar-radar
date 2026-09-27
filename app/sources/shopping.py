@@ -46,6 +46,20 @@ DOMAINS = {
 
 QUICK = {"Zepto", "Blinkit", "bigbasket"}
 
+# Marketplaces advertise their whole catalogue, so their Ads Transparency volume says
+# nothing about one product idea. They are shown for context but never drive ad pressure.
+MARKETPLACE_DOMAINS = {
+    "flipkart.com",
+    "myntra.com",
+    "meesho.com",
+    "jiomart.com",
+    "zepto.com",
+    "blinkit.com",
+    "bigbasket.com",
+    "ajio.com",
+    "nykaa.com",
+}
+
 
 def search_params(keyword: str) -> dict[str, str]:
     return {
