@@ -233,6 +233,10 @@ def recommend_states(
     served_live = [row for row in served_ranked if row.value > 0]
     if served_live:
         pick = served_live[:3]
+    elif served_ranked:
+        # Every served state is 0. Do not fall through to states the seller does not ship to.
+        pick = []
+        warning = warning or "None of the states you ship to have measurable Trends interest."
     else:
         pick = [row for row in ranked if row.value > 0][:3] or ranked[:3]
         if not served:

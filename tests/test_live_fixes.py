@@ -114,6 +114,20 @@ def test_zero_interest_states_are_not_recommended():
     assert picked == ["Karnataka"]
 
 
+def test_all_zero_served_states_stay_inside_the_served_set():
+    # A sparse geo map still ranks these zeros inside the top 10, so the
+    # "not in the top 10" warning does not fire. National leaders must not fill in.
+    states = [
+        StateInterest(geo="IN-KA", location="Karnataka", value=100),
+        StateInterest(geo="IN-MH", location="Maharashtra", value=0),
+        StateInterest(geo="IN-DL", location="Delhi", value=0),
+        StateInterest(geo="IN-GJ", location="Gujarat", value=0),
+    ]
+    picked, warning = recommend_states(states, ["IN-MH", "IN-DL", "IN-GJ"])
+    assert picked == []
+    assert warning == "None of the states you ship to have measurable Trends interest."
+
+
 def test_every_kept_listing_lands_in_a_band():
     # 137 snaps up to 140 and 1,249 snaps down to 1,200; both must still be counted.
     prices = [137, 150, 180, 220, 260, 300, 420, 600, 800, 1249]

@@ -192,7 +192,7 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-48 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
+49 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 
