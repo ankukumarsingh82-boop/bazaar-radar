@@ -100,7 +100,7 @@ Download the decision card as Markdown from the report (`/report/{id}.md`). Use 
 
 Guardrails:
 
-- SQLite cache keyed by sha256 of engine + parameters (`data/bazaar.sqlite`, gitignored). On Vercel the file is under `/tmp`, because the deployment filesystem is read-only, and the app stays in fixture mode unless `BR_MODE` is set.
+- SQLite cache keyed by sha256 of engine + parameters (`data/bazaar.sqlite`, gitignored). On Vercel the file is under `/tmp`, because the deployment filesystem is read-only, and the app stays in fixture mode unless `BR_MODE` is set. If that file cannot be opened, the app uses an in-memory database and stays in fixture mode. `GET /healthz` returns 200 and the fallback codes that were taken (no secrets). A broken numeric env var (`SERPAPI_DAILY_CAP`, `MAX_LIVE_CALLS_PER_REPORT`, `MIN_SEARCHES_LEFT`) or a bad `BR_DB_PATH` / `BR_FIXTURES_DIR` also forces fixture mode. A set `SERPAPI_API_KEY` does not call SerpApi at startup.
 - Empty Trends answers ("hasn't returned any results") are cached too, so re-running a sparse idea costs 0 searches. Transient errors are not cached.
 - `MAX_LIVE_CALLS_PER_REPORT` (default 14).
 - `SERPAPI_DAILY_CAP` (default 40), counted in IST.

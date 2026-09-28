@@ -5,6 +5,8 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
+from app.boot import note
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS serp_cache (
     cache_key TEXT PRIMARY KEY,
@@ -31,21 +33,46 @@ CREATE TABLE IF NOT EXISTS reports (
 """
 
 
-def connect(path: Path) -> sqlite3.Connection:
+def connect(path: Path, bucket: list[str] | None = None) -> sqlite3.Connection:
+    """Open SQLite. Falls back to /tmp, then a shared in-memory database. Never raises."""
     try:
         return _open(path)
-    except (OSError, sqlite3.OperationalError):
-        fallback = Path("/tmp") / "bazaar-radar" / path.name
-        if fallback.resolve() == path.resolve():
-            raise
-        return _open(fallback)
+    except Exception as exc:
+        note("db:configured", exc, bucket)
+    tmp = Path("/tmp") / "bazaar-radar" / (path.name or "bazaar.sqlite")
+    try:
+        same = path.resolve() == tmp.resolve()
+    except OSError:
+        same = False
+    if not same:
+        try:
+            conn = _open(tmp)
+            note("db:tmp", bucket=bucket)
+            return conn
+        except Exception as exc:
+            note("db:tmp", exc, bucket)
+    note("db:memory", bucket=bucket)
+    return memory_connection()
+
+
+def memory_connection() -> sqlite3.Connection:
+    conn = sqlite3.connect(
+        "file:bazaar-radar?mode=memory&cache=shared",
+        uri=True,
+        check_same_thread=False,
+    )
+    conn.row_factory = sqlite3.Row
+    return conn
 
 
 def _open(path: Path) -> sqlite3.Connection:
     path.parent.mkdir(parents=True, exist_ok=True)
     probe = path.parent / f".write-{path.name}"
     probe.write_text("", encoding="utf-8")
-    probe.unlink()
+    try:
+        probe.unlink()
+    except OSError:
+        pass
     conn = sqlite3.connect(path, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     return conn

@@ -9,12 +9,13 @@ from pathlib import Path
 
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, PlainTextResponse
+from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+from app.boot import note, public_fallbacks
 from app.config import Settings, get_settings
-from app.db import connect, init_db
+from app.db import connect, init_db, memory_connection
 from app.format import inr, pct, verdict_blurb, verdict_title
 from app.markdown_export import to_markdown
 from app.models import Report
@@ -27,19 +28,63 @@ TEMPLATES = Path(__file__).resolve().parent / "templates"
 STATIC = Path(__file__).resolve().parent / "static"
 
 
+def _force_fixtures(settings: Settings) -> None:
+    settings.force_fixtures = True
+    if "mode:fixtures" not in settings.startup_fallbacks:
+        settings.startup_fallbacks.append("mode:fixtures")
+
+
+def _open_app_db(settings: Settings) -> sqlite3.Connection:
+    before = len(settings.startup_fallbacks)
+    conn = connect(settings.db_path, settings.startup_fallbacks)
+    try:
+        init_db(conn)
+    except Exception as exc:
+        note("db:memory", exc, settings.startup_fallbacks)
+        conn = memory_connection()
+        try:
+            init_db(conn)
+        except Exception as exc2:
+            note("db:init", exc2, settings.startup_fallbacks)
+    if len(settings.startup_fallbacks) != before:
+        _force_fixtures(settings)
+    return conn
+
+
 def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or get_settings()
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
         app.state.settings = settings
-        app.state.conn = connect(settings.db_path)
-        init_db(app.state.conn)
-        yield
-        app.state.conn.close()
+        app.state.fallbacks = settings.startup_fallbacks
+        try:
+            app.state.conn = _open_app_db(settings)
+        except Exception as exc:  # connect() already swallows; this is a last resort
+            note("db:memory", exc, settings.startup_fallbacks)
+            _force_fixtures(settings)
+            try:
+                app.state.conn = memory_connection()
+            except Exception as exc2:
+                note("db:memory", exc2, settings.startup_fallbacks)
+                app.state.conn = None
+        try:
+            yield
+        finally:
+            conn = getattr(app.state, "conn", None)
+            if conn is not None:
+                try:
+                    conn.close()
+                except Exception as exc:
+                    note("db:close", exc, settings.startup_fallbacks)
 
     app = FastAPI(title="Bazaar Radar", lifespan=lifespan)
-    app.mount("/static", StaticFiles(directory=STATIC), name="static")
+    app.state.settings = settings
+    app.state.fallbacks = settings.startup_fallbacks
+    if STATIC.is_dir():
+        app.mount("/static", StaticFiles(directory=STATIC), name="static")
+    else:
+        note("static:missing", bucket=settings.startup_fallbacks)
     templates = Jinja2Templates(directory=TEMPLATES)
     templates.env.filters["inr"] = inr
     templates.env.filters["pct"] = pct
@@ -48,8 +93,47 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     templates.env.globals["state_name"] = lambda code: STATE_NAMES.get(code, code)
 
     def meter() -> dict:
-        client = SerpClient(settings, app.state.conn, "meter")
-        return client.account()
+        try:
+            client = SerpClient(settings, app.state.conn, "meter")
+            return client.account()
+        except Exception as exc:
+            note("meter:offline", exc, settings.startup_fallbacks)
+            return {
+                "mode": settings.mode,
+                "plan_searches_left": None,
+                "this_month_usage": None,
+                "hard_stop": False,
+                "message": "Credit meter is unavailable. No live call was made.",
+            }
+
+    def render(request: Request, template: str, **extra):
+        try:
+            return page(request, template, **extra)
+        except HTTPException:
+            raise
+        except Exception as exc:
+            note("page:failed", exc, settings.startup_fallbacks)
+            return HTMLResponse(
+                "<p>Bazaar Radar could not render this page.</p>"
+                '<p><a href="/healthz">Health</a></p>',
+                status_code=200,
+            )
+
+    def build_saved(**kwargs) -> Report | None:
+        if getattr(app.state, "conn", None) is None:
+            note("db:memory", bucket=settings.startup_fallbacks)
+            _force_fixtures(settings)
+            return None
+        try:
+            report = build_report(**kwargs, settings=settings, conn=app.state.conn)
+        except Exception as exc:
+            note("page:failed", exc, settings.startup_fallbacks)
+            return None
+        try:
+            save(report)
+        except Exception as exc:
+            note("db:save", exc, settings.startup_fallbacks)
+        return report
 
     def save(report: Report) -> None:
         conn: sqlite3.Connection = app.state.conn
@@ -94,9 +178,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
+    @app.get("/healthz")
+    def healthz():
+        return {
+            "ok": True,
+            "mode": settings.mode,
+            "fallbacks": public_fallbacks(settings.startup_fallbacks),
+        }
+
     @app.get("/", response_class=HTMLResponse)
     def home(request: Request):
-        return page(request, "index.html", report=None, prefill=None)
+        return render(request, "index.html", report=None, prefill=None)
 
     @app.get("/s/{slug}", response_class=HTMLResponse)
     def scenario_page(slug: str, request: Request):
@@ -106,18 +198,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         report = None
         # Auto-run only offline. A GET in live mode must not spend credits.
         if settings.mode == "fixtures":
-            report = build_report(
+            report = build_saved(
                 keyword=scenario.keyword,
                 head_term=scenario.head_term,
                 variants=scenario.variants,
                 target_price=scenario.target_price,
                 states=scenario.states,
                 category=scenario.category,
-                settings=settings,
-                conn=app.state.conn,
             )
-            save(report)
-        return page(request, "index.html", report=report, prefill=scenario)
+        return render(request, "index.html", report=report, prefill=scenario)
 
     @app.post("/analyze", response_class=HTMLResponse)
     async def analyze(request: Request):
@@ -128,7 +217,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         except ValueError:
             target_price = 0
         if not keyword or target_price <= 0:
-            return page(
+            return render(
                 request,
                 "index.html",
                 report=None,
@@ -141,31 +230,52 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             for part in str(form.get("variants") or "").replace("\n", ",").split(",")
             if part.strip()
         ][:4]
-        report = build_report(
+        report = build_saved(
             keyword=keyword,
             head_term=str(form.get("head_term") or ""),
             variants=variants,
             target_price=target_price,
             states=states,
             category=str(form.get("category") or "Home & Décor"),
-            settings=settings,
-            conn=app.state.conn,
         )
-        save(report)
-        if request.headers.get("HX-Request") == "true":
-            return templates.TemplateResponse(
+        if report is None:
+            return render(
                 request,
-                "report_body.html",
-                {
-                    "report": report,
-                    "charts": json.dumps(_charts(report)).replace("<", "\\u003c"),
-                },
+                "index.html",
+                report=None,
+                prefill=None,
+                error="Could not build a report.",
             )
-        return page(request, "index.html", report=report, prefill=None)
+        if request.headers.get("HX-Request") == "true":
+            try:
+                return templates.TemplateResponse(
+                    request,
+                    "report_body.html",
+                    {
+                        "report": report,
+                        "charts": json.dumps(_charts(report)).replace("<", "\\u003c"),
+                    },
+                )
+            except Exception as exc:
+                note("page:failed", exc, settings.startup_fallbacks)
+                return HTMLResponse(
+                    "<p>Bazaar Radar could not render this page.</p>",
+                    status_code=200,
+                )
+        return render(request, "index.html", report=report, prefill=None)
+
+    def _loaded(report_id: str) -> Report:
+        try:
+            return load(report_id)
+        except HTTPException:
+            raise
+        except Exception as exc:
+            note("page:failed", exc, settings.startup_fallbacks)
+            raise HTTPException(status_code=404, detail="Report not found") from None
 
     @app.get("/report/{report_id}.md")
     def show_markdown(report_id: str):
-        report = load(report_id)
+        report = _loaded(report_id)
         filename = f"bazaar-radar-{report.keyword.replace(' ', '-')}.md"
         return PlainTextResponse(
             to_markdown(report),
@@ -175,15 +285,19 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @app.get("/report/{report_id}", response_class=HTMLResponse)
     def show_report(report_id: str, request: Request):
-        report = load(report_id)
-        return page(request, "index.html", report=report, prefill=None)
+        report = _loaded(report_id)
+        return render(request, "index.html", report=report, prefill=None)
 
     @app.get("/credits")
     def credits(request: Request):
         payload = meter()
         if "application/json" in request.headers.get("accept", ""):
             return payload
-        return templates.TemplateResponse(request, "_credits.html", {"meter": payload})
+        try:
+            return templates.TemplateResponse(request, "_credits.html", {"meter": payload})
+        except Exception as exc:
+            note("page:failed", exc, settings.startup_fallbacks)
+            return JSONResponse(payload)
 
     return app
 
@@ -255,7 +369,27 @@ def _charts(report: Report) -> dict:
     }
 
 
-app = create_app()
+def _emergency_app() -> FastAPI:
+    emergency = FastAPI(title="Bazaar Radar")
+
+    @emergency.get("/healthz")
+    def healthz():
+        return {"ok": True, "mode": "fixtures", "fallbacks": public_fallbacks(["app:emergency"])}
+
+    @emergency.api_route("/{path:path}", methods=["GET", "POST", "HEAD"])
+    def anything(path: str):
+        return JSONResponse(
+            {"ok": True, "mode": "fixtures", "fallbacks": public_fallbacks(["app:emergency"])}
+        )
+
+    return emergency
+
+
+try:
+    app = create_app()
+except Exception as exc:
+    note("app:emergency", exc)
+    app = _emergency_app()
 
 
 def run() -> None:
