@@ -46,6 +46,7 @@ class Offer(BaseModel):
     badges: list[str] = Field(default_factory=list)
     product_id: str | None = None
     immersive_token: str | None = None
+    link: str | None = None
     choice: bool = False
 
 

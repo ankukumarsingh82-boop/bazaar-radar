@@ -5,6 +5,7 @@ from __future__ import annotations
 from statistics import median
 
 from app.models import MerchantStat, Offer, ShoppingResult
+from app.sources.immersive import hostname, is_foreign
 
 ALIASES = {
     "amazon.in": "Amazon.in",
@@ -93,6 +94,10 @@ def normalize_shopping(payload: dict) -> ShoppingResult:
             seen.add(product_id)
         price = item.get("extracted_price")
         merchant = canonical_merchant(item.get("source"))
+        link = item.get("link")
+        link = link.strip() if isinstance(link, str) and link.strip() else None
+        if is_foreign(merchant, link):
+            continue
         offers.append(
             Offer(
                 origin="shopping",
@@ -103,9 +108,44 @@ def normalize_shopping(payload: dict) -> ShoppingResult:
                 merchant=merchant,
                 product_id=product_id or None,
                 immersive_token=item.get("immersive_product_page_token"),
+                link=link,
             )
         )
     return ShoppingResult(offers=offers, merchants=merchant_stats(offers))
+
+
+def advertiser_domains(offers: list[Offer]) -> list[str]:
+    """Seller hostnames from offer links. Marketplaces and foreign shops are left out.
+
+    The hard-coded merchant map is not consulted here. Callers fall back to it
+    only when this list is empty.
+    """
+    counts: dict[str, int] = {}
+    for offer in offers:
+        host = hostname(offer.link)
+        if not _usable_advertiser_host(host):
+            continue
+        counts[host] = counts.get(host, 0) + 1
+    return sorted(counts, key=lambda host: (-counts[host], host))
+
+
+def _usable_advertiser_host(host: str) -> bool:
+    if not host or "." not in host:
+        return False
+    if host in MARKETPLACE_DOMAINS or host in {"amazon.in", "amazon.com"}:
+        return False
+    if (
+        host == "google.com"
+        or host.endswith(".google.com")
+        or host == "google.co.in"
+        or host.endswith(".google.co.in")
+        or host.endswith("gstatic.com")
+        or host.endswith("googleusercontent.com")
+    ):
+        return False
+    if is_foreign(host, f"https://{host}/"):
+        return False
+    return True
 
 
 def merchant_stats(offers: list[Offer]) -> list[MerchantStat]:

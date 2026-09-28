@@ -33,7 +33,7 @@ Four panels, plus ad pressure:
 3. **Buyer pain.** Amazon review insight themes (`reviews_information.summary.insights`), ranked by negative mentions.
 4. **Decision card.** A deterministic verdict: **GO**, **GO with positioning**, **CAUTION**, or **SKIP**, with a price band, three states, five keywords, and three complaints. Every “why” links to the panel and the SerpApi search id.
 
-**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains seen in Shopping (India, region 2356). Niche/D2C domains are checked first.
+**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains seen in Shopping (India, region 2356). Those domains come from the offer link hostname (`www.` stripped). Marketplaces, context-only domains, and foreign shops are skipped, and a real D2C or seller domain is preferred. The hard-coded merchant map is used only when no usable hostname is present. At most two Ads calls run per report.
 
 There is no “cheapest offer” view. Prices appear only as bands.
 
@@ -41,9 +41,9 @@ There is no “cheapest offer” view. Prices appear only as bands.
 
 | Idea | Verdict | What the recordings show |
 |---|---|---|
-| brass diya, ₹699, MH/DL/GJ/RJ | **CAUTION** | Head term “diya” momentum **1.81×** (Rising). No white-space band around ₹699. Amazon sponsored share is **n/a** (the field was absent). Jaypore has 46 India ad creatives. |
-| rangoli colours, ₹190, MH/KA/TN/TG | **GO** | 5-year momentum **1.12×**. Peak week starts **1 day before Diwali**. The ₹190–250 band is white space. Amazon sponsored share **20%**. |
-| diwali gift hamper, ₹799, DL/MH/HR/KA | **CAUTION** | “diwali gift” is too sparse for a momentum number or a days-to-peak. fnp.com has **2,000** ad creatives in India. |
+| brass diya, ₹699, MH/DL/GJ/RJ | **CAUTION**, medium | Head term “diya” momentum **1.81×** (Rising). No white-space band around ₹699. Amazon sponsored share is **n/a** (the field was absent). Jaypore has 46 India ad creatives. |
+| rangoli colours, ₹190, MH/KA/TN/TG | **GO**, medium | 5-year momentum **1.12×**. Peak week starts **1 day before Diwali**. The ₹190–250 band is white space. Amazon sponsored share **20%**. |
+| diwali gift hamper, ₹799, DL/MH/HR/KA | **CAUTION**, low | “diwali gift” is too sparse for a momentum number or a days-to-peak. fnp.com has **2,000** ad creatives in India. |
 
 ![Rangoli GO](docs/screenshots/rangoli-colours-verdict.png)
 ![Brass diya CAUTION](docs/screenshots/brass-diya-verdict.png)
@@ -63,8 +63,8 @@ SerpApi is the whole data layer. Remove it and there is no curve, no states, no 
 | Google Trends `RELATED_QUERIES` | `today 3-m`, then `today 12-m` if fewer than 5 queries | `related_queries.rising[]` / `.top[]`. Generic phrases such as “diwali 2026” are dropped |
 | Amazon Search | `amazon_domain=amazon.in` | Prices, ratings, reviews, `bought_last_month`, `sponsored` only when the key exists, `sponsored_brands` |
 | Amazon Product | Top ASINs on amazon.in | `reviews_information.summary.insights[]` (`title`, `sentiment`, `mentions.negative`). Mention counts are not assumed to sum to `total` |
-| Google Shopping | `gl=in`, `google_domain=google.co.in`, `location=India` | `shopping_results` plus `categorized_shopping_results`, deduped by `product_id`. Ratings are ignored |
-| Google Immersive Product | `more_stores=true` for one Shopping token | `product_results.stores[]`. Foreign shops (Desertcart and similar) are dropped |
+| Google Shopping | `gl=in`, `google_domain=google.co.in`, `location=India` | `shopping_results` plus `categorized_shopping_results`, deduped by `product_id`. Ratings are ignored. Foreign sellers (Desertcart, Desertcart.in, and similar) are dropped |
+| Google Immersive Product | `more_stores=true` for one Shopping token | `product_results.stores[]`. Foreign shops (Desertcart, Desertcart.in, and similar) are dropped |
 | Google Ads Transparency Center | `region=2356`, last 30 days, competitor domain | `search_information.total_results`, `ad_creatives[]` (`format`, `last_shown` as Unix time, `target_domain`) |
 | Account API | `api_key` only, not counted | `plan_searches_left`, `this_month_usage` |
 
@@ -198,7 +198,7 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-54 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
+67 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, offer-link advertiser domains, the Desertcart.in filter, the expired-report page, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 

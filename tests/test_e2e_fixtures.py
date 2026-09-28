@@ -123,3 +123,11 @@ def _assert_http(client):
     hamper = client.get("/s/diwali-gift-hamper")
     assert hamper.status_code == 200
     assert ">CAUTION<" in hamper.text
+    expired = client.get("/report/not-a-real-report")
+    assert expired.status_code == 404
+    assert "This report expired." in expired.text
+    assert "Please re-run" in expired.text
+    assert "super-secret" not in expired.text
+    expired_md = client.get("/report/not-a-real-report.md")
+    assert expired_md.status_code == 404
+    assert "Please re-run" in expired_md.text

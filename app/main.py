@@ -273,9 +273,27 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             note("page:failed", exc, settings.startup_fallbacks)
             raise HTTPException(status_code=404, detail="Report not found") from None
 
+    def _missing_report(request: Request, report_id: str):
+        try:
+            payload = meter()
+        except Exception:
+            payload = {"mode": settings.mode, "plan_searches_left": None, "hard_stop": False}
+        return templates.TemplateResponse(
+            request,
+            "expired.html",
+            {"meter": payload, "report_id": report_id},
+            status_code=404,
+        )
+
     @app.get("/report/{report_id}.md")
     def show_markdown(report_id: str):
-        report = _loaded(report_id)
+        try:
+            report = _loaded(report_id)
+        except HTTPException:
+            return PlainTextResponse(
+                "This report expired. Please re-run the idea.\n",
+                status_code=404,
+            )
         filename = f"bazaar-radar-{report.keyword.replace(' ', '-')}.md"
         return PlainTextResponse(
             to_markdown(report),
@@ -285,7 +303,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @app.get("/report/{report_id}", response_class=HTMLResponse)
     def show_report(report_id: str, request: Request):
-        report = _loaded(report_id)
+        try:
+            report = _loaded(report_id)
+        except HTTPException:
+            return _missing_report(request, report_id)
         return render(request, "index.html", report=report, prefill=None)
 
     @app.get("/credits")

@@ -2,12 +2,33 @@
 
 from __future__ import annotations
 
+import re
 from urllib.parse import urlparse
 
 from app.models import ImmersiveProduct, StoreOffer
 
 _FOREIGN_SUFFIXES = (".ae", ".uk", ".us", ".com.au", ".sg", ".qa", ".sa", ".eu", ".ca", ".hk")
-_FOREIGN_NAMES = ("desertcart", "ebay", "aliexpress", "alibaba", "walmart", "target.com")
+# Match the seller label, not the TLD, so desertcart.in is foreign even though .in is India.
+_FOREIGN_MARKERS = ("desertcart", "ebay", "aliexpress", "alibaba", "walmart")
+
+
+def hostname(link: str | None) -> str:
+    host = (urlparse(link or "").hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+def is_foreign(name: str, link: str | None) -> bool:
+    host = hostname(link)
+    compact_name = re.sub(r"[^a-z0-9]+", "", (name or "").lower())
+    compact_host = host.replace(".", "")
+    if any(marker in compact_name or marker in compact_host for marker in _FOREIGN_MARKERS):
+        return True
+    blob = f"{name} {link or ''}".lower()
+    if "target.com" in blob:
+        return True
+    return bool(host) and host.endswith(_FOREIGN_SUFFIXES)
 
 
 def search_params(page_token: str) -> dict[str, str]:
@@ -16,14 +37,6 @@ def search_params(page_token: str) -> dict[str, str]:
         "page_token": page_token,
         "more_stores": "true",
     }
-
-
-def is_foreign(name: str, link: str | None) -> bool:
-    blob = f"{name} {link or ''}".lower()
-    if any(token in blob for token in _FOREIGN_NAMES):
-        return True
-    host = (urlparse(link or "").hostname or "").lower()
-    return host.endswith(_FOREIGN_SUFFIXES)
 
 
 def normalize_immersive(payload: dict) -> ImmersiveProduct:
