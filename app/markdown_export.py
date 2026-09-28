@@ -14,7 +14,10 @@ def to_markdown(report: Report) -> str:
     lines = [
         f"# Bazaar Radar — {report.keyword}",
         "",
-        f"**Verdict: {verdict_title(decision.verdict)}** · confidence {decision.confidence}",
+        (
+            f"**Verdict: {verdict_title(decision.verdict)}** · confidence {decision.confidence}"
+            + (f" ({decision.confidence_note})" if decision.confidence_note else "")
+        ),
         "",
         f"- Category: {report.category}",
         f"- Your target price: {inr(report.target_price)}",

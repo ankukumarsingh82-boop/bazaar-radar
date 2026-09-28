@@ -237,6 +237,7 @@ class WhyItem(BaseModel):
 class DecisionView(BaseModel):
     verdict: str
     confidence: str
+    confidence_note: str = ""
     price_low: float | None = None
     price_high: float | None = None
     price_label: str | None = None

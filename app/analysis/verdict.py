@@ -24,6 +24,9 @@ class VerdictFacts(BaseModel):
     price_label: str | None = None
     target_states: list[str] = Field(default_factory=list)
     state_warning: str | None = None
+    searches_served: int = 0
+    searches_missing: int = 0
+    searches_blocked: int = 0
 
 
 def ads_pressure(total_results: list[int], sponsored_share: float | None) -> str:
@@ -60,7 +63,19 @@ def decide(facts: VerdictFacts) -> str:
     return "CAUTION"
 
 
+def _coverage_gap(facts: VerdictFacts) -> tuple[int, int]:
+    gap = facts.searches_missing + facts.searches_blocked
+    attempted = facts.searches_served + gap
+    return gap, attempted
+
+
 def confidence(facts: VerdictFacts) -> str:
+    """High, then one step down for each independent weakness.
+
+    Missing or blocked searches count even when Amazon, Shopping, and Trends
+    each returned something. A third of the plan missing drops one step; two
+    thirds drops another.
+    """
     score = 2
     if facts.sparse or facts.momentum is None:
         score -= 1
@@ -68,7 +83,22 @@ def confidence(facts: VerdictFacts) -> str:
         score -= 1
     if facts.failed:
         score -= 1
+    gap, attempted = _coverage_gap(facts)
+    if attempted and gap / attempted >= 1 / 3:
+        score -= 1
+    if attempted and gap / attempted >= 2 / 3:
+        score -= 1
     return ("low", "medium", "high")[max(0, min(2, score))]
+
+
+def confidence_note(facts: VerdictFacts) -> str:
+    gap, attempted = _coverage_gap(facts)
+    if not attempted or gap / attempted < 1 / 3:
+        return ""
+    return (
+        f"{gap} of {attempted} searches are missing or blocked, "
+        "so this card is a partial read."
+    )
 
 
 def why_items(facts: VerdictFacts, verdict: str) -> list[WhyItem]:

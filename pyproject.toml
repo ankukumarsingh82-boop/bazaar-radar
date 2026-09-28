@@ -13,8 +13,12 @@ dependencies = [
     "pydantic>=2.6",
     "python-multipart>=0.0.12",
     "serpapi>=0.1.5",
+    "tzdata>=2024.1",
     "uvicorn[standard]>=0.32",
 ]
+
+[tool.vercel]
+entrypoint = "app.main:app"
 
 [dependency-groups]
 dev = [

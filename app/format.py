@@ -24,6 +24,7 @@ def verdict_title(verdict: str) -> str:
         "GO-with-positioning": "GO with positioning",
         "CAUTION": "CAUTION",
         "SKIP": "SKIP",
+        "insufficient": "Not enough data",
     }.get(verdict, verdict)
 
 
@@ -33,4 +34,8 @@ def verdict_blurb(verdict: str) -> str:
         "GO-with-positioning": "There is room only if the listing clearly beats what buyers already complain about.",
         "CAUTION": "Do not bet the full budget yet. Demand, the price bands, or ad pressure is not a clean go.",
         "SKIP": "Demand is falling and the shelf is crowded, with no quality gap to stand in.",
+        "insufficient": (
+            "This idea is not in the offline recordings, and no live search ran. "
+            "Open brass diya, rangoli colours, or diwali gift hamper, or set BR_MODE=cache with a SerpApi key."
+        ),
     }.get(verdict, "")

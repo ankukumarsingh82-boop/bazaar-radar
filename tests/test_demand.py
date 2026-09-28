@@ -3,6 +3,8 @@ from datetime import date
 from app.analysis.demand import (
     days_to_peak,
     is_generic,
+    is_question,
+    is_retailer_query,
     label_momentum,
     listing_keywords,
     momentum_from_yoy,
@@ -72,6 +74,26 @@ def test_generic_queries_and_keywords():
     assert "diwali 2026" not in words
     assert "Borosil" not in words
     assert words[0] == "lotus diya"
+
+
+def test_listing_keywords_drop_retailers_and_questions():
+    assert is_retailer_query("zepto")
+    assert is_retailer_query("candles on amazon")
+    assert not is_retailer_query("lotus diya")
+    assert is_question("are scented candles bad for you")
+    assert is_question("Which diya lasts longer?")
+    assert not is_question("scented candle gift set")
+    queries = tag_queries(
+        [
+            RelatedQuery(query="zepto", value_label="100", kind="top"),
+            RelatedQuery(query="are scented candles bad for you", value_label="+40%", kind="rising"),
+            RelatedQuery(query="scented candle gift set", value_label="+20%", kind="rising"),
+        ],
+        set(),
+    )
+    assert [row.tag for row in queries] == ["retailer", "question", None]
+    words = listing_keywords(queries, [], ["zepto candles"], "scented candles", set())
+    assert words == ["scented candle gift set"]
 
 
 def test_state_warning_when_served_states_miss_the_top_10():

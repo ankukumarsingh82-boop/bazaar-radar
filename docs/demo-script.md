@@ -1,8 +1,14 @@
 # Demo script
 
-The uploaded cut is `bazaar-radar-demo.mp4`: 2:50, 1280×720, H.264/AAC, under three minutes. It was recorded from the real app in fixture mode (`uv run uvicorn app.main:app`, no API key). Playwright drove Chromium. The voiceover is in [demo-narration.md](demo-narration.md) (`en-IN-NeerjaNeural`). Subtitles are burned in and also shipped as `bazaar-radar-demo.srt`.
+The submitted video is https://youtu.be/q5sJ7rzxryU.
 
-Times below match that narration. A later live segment should say the numbers on screen if they have moved. Do not show an API key. Do not claim unit sales or a guaranteed profit.
+It is a **2:48** cut assembled from screenshots of the app running locally in fixture mode (`uv run uvicorn app.main:app`, no API key, nothing sent to SerpApi). The voiceover is human: two speakers, recorded by Anku. It is not text-to-speech.
+
+Do not show an API key. Do not claim unit sales or a guaranteed profit.
+
+## Obsolete Edge-TTS cut (not the submission)
+
+The shot list below belongs to an earlier `bazaar-radar-demo.mp4`: 2:50, 1280×720, H.264/AAC. Playwright drove Chromium. The voice was Microsoft edge-tts `en-IN-NeerjaNeural`, with the words in [demo-narration.md](demo-narration.md). That cut was replaced by the human-voiceover video above. The timestamps are not the YouTube video.
 
 | Time | Screen | What to say |
 |---|---|---|

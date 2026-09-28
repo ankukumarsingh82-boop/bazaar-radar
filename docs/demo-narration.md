@@ -1,6 +1,12 @@
 # Demo narration
 
-Spoken track for the hackathon demo (`bazaar-radar-demo.mp4`). Voice: Microsoft edge-tts `en-IN-NeerjaNeural` (Indian English), rate +18%, about 140 words a minute. 398 words. The picture is the local app in fixture mode. No API key is used and nothing is sent to SerpApi.
+## Submitted video
+
+https://youtu.be/q5sJ7rzxryU — 2:48. The picture is screenshots of the local app in fixture mode. The voiceover is two human speakers, recorded by Anku. No text-to-speech, no API key, and nothing sent to SerpApi.
+
+## Obsolete Edge-TTS script (not the submission)
+
+The text below was written for Microsoft edge-tts `en-IN-NeerjaNeural` (Indian English, rate +18%, about 140 words a minute, 398 words) and a 2:50 1280×720 cut. That cut was replaced by the human-voiceover video above. Do not record or submit this script.
 
 Small Indian online sellers guess festive demand and price before Diwali. Amazon.in has twenty lakh sellers, and sales open around the eighth of October. Bazaar Radar answers before that stock lands: a product idea, a target price, and the states you ship to. Fixture mode shows fixtures, zero credits. No API key is used.
 
