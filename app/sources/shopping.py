@@ -47,8 +47,8 @@ DOMAINS = {
 
 QUICK = {"Zepto", "Blinkit", "bigbasket"}
 
-# Marketplaces advertise their whole catalogue, so their Ads Transparency volume says
-# nothing about one product idea. They are shown for context but never drive ad pressure.
+# Multi-seller marketplaces advertise the whole catalogue. Store-link Ads selection
+# skips them. The curated merchant map can still query one, and that result is context only.
 MARKETPLACE_DOMAINS = {
     "flipkart.com",
     "myntra.com",
@@ -59,11 +59,18 @@ MARKETPLACE_DOMAINS = {
     "bigbasket.com",
     "ajio.com",
     "nykaa.com",
+    "snapdeal.com",
+    "indiamart.com",
+    "firstcry.com",
+    "purplle.com",
+    "shopclues.com",
+    "paytmmall.com",
+    "limeroad.com",
 }
 
-# Department stores and large general retailers also advertise the whole catalogue.
-# Nykaa and Ajio are already marketplaces. These hosts are still eligible to be shown,
-# but they are not niche advertisers and their creative counts never drive the verdict.
+# Department stores and large catalogue retailers. Ads selection skips these hosts, so
+# they are never queried and do not appear on the card. Pepperfry and Home Centre stay
+# here. Nykaa, Ajio, and the other marketplaces above are not repeated.
 GENERAL_RETAILER_DOMAINS = {
     "shoppersstop.com",
     "tatacliq.com",
@@ -76,6 +83,16 @@ GENERAL_RETAILER_DOMAINS = {
     "lifestylestores.com",
     "pepperfry.com",
     "croma.com",
+    "hometown.in",
+    "urbanladder.com",
+    "decathlon.com",
+    "decathlon.in",
+    "westside.com",
+    "bewakoof.com",
+    "pantaloons.com",
+    "vijaysales.com",
+    "maxfashion.in",
+    "maxfashion.com",
 }
 
 

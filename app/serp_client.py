@@ -480,7 +480,8 @@ class SerpClient:
 
     def _block_reason(self, norm: dict[str, str]) -> str | None:
         if not self.settings.has_key:
-            return "SERPAPI_API_KEY is not set. Stay in fixture mode or add a key to .env."
+            label = "fixture" if self.mode == "fixtures" else self.mode
+            return f"SERPAPI_API_KEY is not set. Stay in {label} mode or add a key to .env."
         live_so_far = (
             sum(1 for hit in self.budget.hits if hit.source == "live") + self._live_reserved
         )

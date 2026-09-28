@@ -13,7 +13,7 @@ from app.models import MerchantStat, Offer, ShoppingResult, StateInterest, Store
 from app.orchestrator import _ads
 from app.serp_client import SerpClient, is_empty_result
 from app.sources.immersive import is_foreign, normalize_immersive, registrable_domain
-from app.sources.shopping import advertiser_domains, is_general_retailer
+from app.sources.shopping import advertiser_domains, is_general_retailer, is_marketplace
 
 EMPTY = {
     "search_metadata": {"id": "empty1", "status": "Success"},
@@ -182,12 +182,45 @@ def test_general_retailers_are_context_only_and_do_not_drive_pressure(tmp_path):
         "lifestylestores.com",
         "pepperfry.com",
         "croma.com",
+        "hometown.in",
+        "urbanladder.com",
+        "decathlon.com",
+        "decathlon.in",
+        "westside.com",
+        "bewakoof.com",
+        "pantaloons.com",
+        "vijaysales.com",
+        "maxfashion.in",
+        "maxfashion.com",
+    ]
+    marketplaces = [
+        "snapdeal.com",
+        "indiamart.com",
+        "firstcry.com",
+        "purplle.com",
+        "shopclues.com",
+        "paytmmall.com",
+        "limeroad.com",
+        "meesho.com",
+        "jiomart.com",
+        "bigbasket.com",
     ]
     assert all(is_general_retailer(host) for host in named)
+    assert all(is_marketplace(host) and not is_general_retailer(host) for host in marketplaces)
     assert is_general_retailer("m.shoppersstop.com")
+    assert is_general_retailer("www.westside.com")
+    assert is_marketplace("dl.snapdeal.com")
     assert not is_general_retailer("jaypore.com")
     assert not is_general_retailer("fnp.com")
     assert not is_general_retailer("craftvatika.com")
+    assert advertiser_domains(
+        [
+            StoreOffer(name="Snapdeal", link="https://www.snapdeal.com/product/candle", price=199),
+            StoreOffer(name="Westside", link="https://www.westside.com/candle", price=499),
+            StoreOffer(name="Bewakoof", link="https://bewakoof.com/candle", price=299),
+            StoreOffer(name="Local Wick", link="https://shop.localwick.co.in/candle", price=299),
+        ]
+    ) == ["localwick.co.in"]
     only_retail = [
         StoreOffer(name="Shoppers Stop", link="https://www.shoppersstop.com/candle", price=399),
         StoreOffer(name="IKEA", link="https://www.ikea.com/in/p/candle", price=299),
