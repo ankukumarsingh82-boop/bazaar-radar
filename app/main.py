@@ -20,7 +20,7 @@ from app.format import inr, pct, verdict_blurb, verdict_title
 from app.markdown_export import to_markdown
 from app.models import Report
 from app.orchestrator import build_report
-from app.scenarios import SCENARIOS
+from app.scenarios import SCENARIOS, scenario_id_for
 from app.serp_client import SerpClient
 from app.states import CATEGORIES, STATE_NAMES, STATES
 
@@ -205,6 +205,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 target_price=scenario.target_price,
                 states=scenario.states,
                 category=scenario.category,
+                report_id=scenario.slug,
             )
         return render(request, "index.html", report=report, prefill=scenario)
 
@@ -230,13 +231,21 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             for part in str(form.get("variants") or "").replace("\n", ",").split(",")
             if part.strip()
         ][:4]
+        head_term = str(form.get("head_term") or "")
+        category = str(form.get("category") or "Home & Décor")
+        report_id = None
+        if settings.mode == "fixtures":
+            report_id = scenario_id_for(
+                keyword, head_term, variants, target_price, states, category
+            )
         report = build_saved(
             keyword=keyword,
-            head_term=str(form.get("head_term") or ""),
+            head_term=head_term,
             variants=variants,
             target_price=target_price,
             states=states,
-            category=str(form.get("category") or "Home & Décor"),
+            category=category,
+            report_id=report_id,
         )
         if report is None:
             return render(
@@ -264,13 +273,33 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 )
         return render(request, "index.html", report=report, prefill=None)
 
+    def _rebuild_scenario(report_id: str) -> Report | None:
+        scenario = SCENARIOS.get(report_id)
+        if scenario is None or settings.mode != "fixtures":
+            return None
+        return build_saved(
+            keyword=scenario.keyword,
+            head_term=scenario.head_term,
+            variants=scenario.variants,
+            target_price=scenario.target_price,
+            states=scenario.states,
+            category=scenario.category,
+            report_id=scenario.slug,
+        )
+
     def _loaded(report_id: str) -> Report:
         try:
             return load(report_id)
         except HTTPException:
+            rebuilt = _rebuild_scenario(report_id)
+            if rebuilt is not None:
+                return rebuilt
             raise
         except Exception as exc:
             note("page:failed", exc, settings.startup_fallbacks)
+            rebuilt = _rebuild_scenario(report_id)
+            if rebuilt is not None:
+                return rebuilt
             raise HTTPException(status_code=404, detail="Report not found") from None
 
     def _missing_report(request: Request, report_id: str):

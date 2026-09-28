@@ -1,14 +1,17 @@
 """Regressions found in the 27 Sep 2026 live check."""
 
+import json
 from datetime import date
+from pathlib import Path
 
 from app.analysis.demand import recommend_states
 from app.analysis.pricebands import build_bands
 from app.config import Settings
 from app.db import connect, init_db
-from app.models import MerchantStat, Offer, ShoppingResult, StateInterest
+from app.models import MerchantStat, Offer, ShoppingResult, StateInterest, StoreOffer
 from app.orchestrator import _ads
 from app.serp_client import SerpClient, is_empty_result
+from app.sources.immersive import is_foreign, normalize_immersive, registrable_domain
 from app.sources.shopping import advertiser_domains
 
 EMPTY = {
@@ -105,7 +108,7 @@ def test_marketplace_ads_do_not_drive_pressure_and_niche_domains_go_first(tmp_pa
     conn.close()
 
 
-def test_offer_link_hostnames_are_preferred_over_marketplace_map(tmp_path):
+def test_immersive_store_links_choose_ads_domains_and_skip_marketplaces(tmp_path):
     seen = []
 
     def live(params, api_key):
@@ -117,75 +120,96 @@ def test_offer_link_hostnames_are_preferred_over_marketplace_map(tmp_path):
         }
 
     client, conn = _client(tmp_path, live)
-    offers = [
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=199,
-            merchant="Flipkart",
-            link="https://www.flipkart.com/candle",
-        ),
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=249,
-            merchant="Myntra",
-            link="https://www.myntra.com/candle",
-        ),
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=299,
-            merchant="Wick & Co",
-            link="https://WWW.WickAndCo.in/candle",
-        ),
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=4532,
-            merchant="Desertcart.in",
-            link="https://desertcart.in/products/candle",
-        ),
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=349,
-            merchant="Second Wick",
-            link="https://secondwick.in/candle",
-        ),
-        Offer(
-            origin="shopping",
-            title="candle",
-            price=359,
-            merchant="Second Wick",
-            link="https://secondwick.in/other",
-        ),
-        Offer(
-            origin="shopping",
-            title="google page",
-            price=100,
-            merchant="Unknown",
-            link="https://www.google.co.in/search?q=candle",
-        ),
+    fixture = json.loads(
+        (Path(__file__).resolve().parents[1] / "fixtures" / "google_immersive_product__brass-diya-top.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    recorded = normalize_immersive(fixture)
+    assert advertiser_domains(recorded.stores) == ["craftvatika.com"]
+    assert all("desertcart" not in (store.link or "") for store in recorded.stores)
+
+    stores = [
+        StoreOffer(name="Flipkart", link="https://dl.flipkart.com/dl/candle", price=199),
+        StoreOffer(name="Myntra", link="https://m.myntra.com/candle", price=249),
+        StoreOffer(name="Shoppers Stop", link="https://www.shoppersstop.com/candle", price=399),
+        StoreOffer(name="Shoppers Stop", link="https://m.shoppersstop.com/other", price=449),
+        StoreOffer(name="Desertcart.in", link="https://www.desertcart.in/products/candle", price=4532),
+        StoreOffer(name="Local Wick", link="https://shop.localwick.co.in/candle", price=299),
     ]
-    assert advertiser_domains(offers) == ["secondwick.in", "wickandco.in"]
+    assert registrable_domain("dl.flipkart.com") == "flipkart.com"
+    assert registrable_domain("shop.localwick.co.in") == "localwick.co.in"
+    assert advertiser_domains(stores) == ["shoppersstop.com", "localwick.co.in"]
     shopping = ShoppingResult(
-        offers=offers,
+        offers=[Offer(origin="shopping", title="candle", price=199, merchant="Flipkart")],
         merchants=[
             MerchantStat(name="Flipkart", count=5, domain="flipkart.com"),
             MerchantStat(name="Myntra", count=4, domain="myntra.com"),
-            MerchantStat(name="Wick & Co", count=1, domain=None),
         ],
     )
     ads, _notes = _ads(
-        client, shopping, date(2026, 9, 27), [], lambda params, purpose: client.search(params)
+        client,
+        shopping,
+        date(2026, 9, 27),
+        [],
+        lambda params, purpose: client.search(params),
+        stores=stores,
     )
-    assert seen == ["secondwick.in", "wickandco.in"]
-    assert [ad.domain for ad in ads] == ["secondwick.in", "wickandco.in"]
+    assert seen == ["shoppersstop.com", "localwick.co.in"]
+    assert [ad.domain for ad in ads] == seen
     assert "flipkart.com" not in seen
     assert "myntra.com" not in seen
     assert "desertcart.in" not in seen
     conn.close()
+
+
+def test_shopping_rows_without_store_links_fall_back_to_the_map(tmp_path):
+    seen = []
+
+    def live(params, api_key):
+        seen.append(params["text"])
+        return {
+            "search_metadata": {"id": params["text"]},
+            "search_information": {"total_results": 12},
+            "ad_creatives": [{"format": "text", "advertiser": params["text"]}],
+        }
+
+    client, conn = _client(tmp_path, live)
+    shopping = ShoppingResult(
+        offers=[
+            Offer(
+                origin="shopping",
+                title="candle",
+                price=299,
+                merchant="Wick & Co",
+                link="https://wickandco.in/candle",
+            )
+        ],
+        merchants=[
+            MerchantStat(name="Myntra", count=5, domain="myntra.com"),
+            MerchantStat(name="Jaypore", count=1, domain="jaypore.com"),
+        ],
+    )
+    _ads(client, shopping, date(2026, 9, 27), [], lambda params, purpose: client.search(params))
+    assert seen[0] == "jaypore.com"
+    assert "wickandco.in" not in seen
+    conn.close()
+
+
+def test_debayan_is_not_ebay_and_marketplace_subdomains_are_not_advertisers():
+    assert not is_foreign("Debayan Crafts", "https://debayancrafts.com/brass-diya")
+    assert advertiser_domains(
+        [StoreOffer(name="Debayan Crafts", link="https://www.debayancrafts.com/p", price=500)]
+    ) == ["debayancrafts.com"]
+    assert is_foreign("Desert Cart", None)
+    assert is_foreign("Desertcart.in", "https://desertcart.in/p")
+    assert is_foreign("eBay", "https://www.ebay.com/itm/1")
+    assert advertiser_domains(
+        [
+            StoreOffer(name="Flipkart", link="https://dl.flipkart.com/x", price=1),
+            StoreOffer(name="Myntra", link="https://m.myntra.com/x", price=1),
+        ]
+    ) == []
 
 
 def test_ads_fall_back_to_the_merchant_map_when_no_usable_hostname(tmp_path):

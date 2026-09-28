@@ -5,7 +5,7 @@ from __future__ import annotations
 from statistics import median
 
 from app.models import MerchantStat, Offer, ShoppingResult
-from app.sources.immersive import hostname, is_foreign
+from app.sources.immersive import hostname, is_foreign, registrable_domain
 
 ALIASES = {
     "amazon.in": "Amazon.in",
@@ -114,36 +114,35 @@ def normalize_shopping(payload: dict) -> ShoppingResult:
     return ShoppingResult(offers=offers, merchants=merchant_stats(offers))
 
 
-def advertiser_domains(offers: list[Offer]) -> list[str]:
-    """Seller hostnames from offer links. Marketplaces and foreign shops are left out.
+def is_marketplace(domain: str) -> bool:
+    registered = registrable_domain(domain)
+    return registered in MARKETPLACE_DOMAINS or registered in {"amazon.in", "amazon.com"}
 
-    The hard-coded merchant map is not consulted here. Callers fall back to it
-    only when this list is empty.
+
+def advertiser_domains(rows) -> list[str]:
+    """Registrable seller domains from Immersive store links (or any row with a link).
+
+    Marketplaces, including subdomains such as dl.flipkart.com, and foreign shops
+    are left out. The curated merchant map is not consulted here.
     """
     counts: dict[str, int] = {}
-    for offer in offers:
-        host = hostname(offer.link)
-        if not _usable_advertiser_host(host):
+    for row in rows:
+        link = row if isinstance(row, str) else getattr(row, "link", None)
+        registered = registrable_domain(hostname(link))
+        if not _usable_advertiser_host(registered):
             continue
-        counts[host] = counts.get(host, 0) + 1
+        counts[registered] = counts.get(registered, 0) + 1
     return sorted(counts, key=lambda host: (-counts[host], host))
 
 
-def _usable_advertiser_host(host: str) -> bool:
-    if not host or "." not in host:
+def _usable_advertiser_host(registered: str) -> bool:
+    if not registered or "." not in registered:
         return False
-    if host in MARKETPLACE_DOMAINS or host in {"amazon.in", "amazon.com"}:
+    if is_marketplace(registered):
         return False
-    if (
-        host == "google.com"
-        or host.endswith(".google.com")
-        or host == "google.co.in"
-        or host.endswith(".google.co.in")
-        or host.endswith("gstatic.com")
-        or host.endswith("googleusercontent.com")
-    ):
+    if registered in {"google.com", "google.co.in", "gstatic.com", "googleusercontent.com"}:
         return False
-    if is_foreign(host, f"https://{host}/"):
+    if is_foreign(registered, f"https://{registered}/"):
         return False
     return True
 

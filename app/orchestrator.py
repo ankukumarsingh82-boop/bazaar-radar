@@ -55,8 +55,8 @@ from app.sources.amazon import search_params as amazon_params
 from app.sources.immersive import normalize_immersive
 from app.sources.immersive import search_params as immersive_params
 from app.sources.shopping import (
-    MARKETPLACE_DOMAINS,
     advertiser_domains,
+    is_marketplace,
     merchant_stats,
     normalize_shopping,
 )
@@ -247,11 +247,14 @@ def _assemble(
         brands,
     )
 
-    ads, ads_notes = _ads(client, shopping, today, evidence, fetch)
-    notes.extend(ads_notes)
-    stores, store_title, price_range, store_note = _stores(client, shopping, evidence, fetch)
+    stores, store_title, price_range, store_note, domain_stores = _stores(
+        client, shopping, evidence, fetch
+    )
     if store_note:
         notes.append(store_note)
+    # Immersive store links exist; Shopping India results do not carry a merchant link.
+    ads, ads_notes = _ads(client, shopping, today, evidence, fetch, stores=domain_stores)
+    notes.extend(ads_notes)
 
     sponsored_share = amazon.sponsored_share if amazon else None
     pressure = ads_pressure([ad.total_results for ad in ads if not ad.marketplace], sponsored_share)
@@ -429,10 +432,10 @@ def _products(client, amazon, evidence, notes, fetch) -> list[ProductPage]:
     return pages
 
 
-def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list[str]]:
-    if shopping is None:
+def _ads(client, shopping, today, evidence, fetch, stores=None) -> tuple[list[AdSignal], list[str]]:
+    if shopping is None and not stores:
         return [], []
-    chosen = _choose_ad_domains(client, shopping)
+    chosen = _choose_ad_domains(client, shopping, stores or [])
     ads: list[AdSignal] = []
     missing_domains = []
     for domain in chosen:
@@ -464,20 +467,31 @@ def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list
     return ads, notes
 
 
-def _choose_ad_domains(client, shopping) -> list[str]:
-    """Up to two advertiser domains. Offer-link hostnames win; the merchant map is the fallback."""
-    from_links = advertiser_domains(shopping.offers)
-    if from_links:
-        domains = from_links
-    else:
-        merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
-        # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
-        merchants.sort(key=lambda row: (row.domain or "") in MARKETPLACE_DOMAINS)
-        domains = []
-        for row in merchants:
-            if row.domain and row.domain not in domains:
-                domains.append(row.domain)
+def _curated_domains(shopping) -> list[str]:
+    if shopping is None:
+        return []
+    merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
+    # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
+    merchants.sort(key=lambda row: is_marketplace(row.domain or ""))
+    domains: list[str] = []
+    for row in merchants:
+        if row.domain and row.domain not in domains:
+            domains.append(row.domain)
+    return domains
+
+
+def _choose_ad_domains(client, shopping, stores) -> list[str]:
+    """Up to two advertiser domains. Immersive store links win; the curated map is the fallback."""
+    from_stores = advertiser_domains(stores)
+    from_map = _curated_domains(shopping)
+    domains = from_stores or from_map
     if client.mode == "fixtures":
+        recorded_store = [domain for domain in from_stores if client.fixtures.has_ads(domain)]
+        # The recorded store lists only yield craftvatika.com, which has no Ads fixture.
+        # Querying it would replace Jaypore and fnp.com and change those cards, so fixture
+        # mode keeps the curated map unless an immersive host itself has a recording.
+        if from_stores and not recorded_store:
+            domains = from_map
         recorded = [domain for domain in domains if client.fixtures.has_ads(domain)]
         rest = [domain for domain in domains if domain not in recorded]
         domains = recorded + rest
@@ -493,16 +507,17 @@ def _choose_ad_domains(client, shopping) -> list[str]:
 
 def _ad_signal(payload: dict, domain: str, today) -> AdSignal:
     signal = normalize_ads(payload, domain, today)
-    signal.marketplace = domain.lower() in MARKETPLACE_DOMAINS
+    signal.marketplace = is_marketplace(domain)
     return signal
 
 
 def _stores(client, shopping, evidence, fetch):
+    empty = ([], "", None, "", [])
     if shopping is None:
-        return [], "", None, ""
+        return empty
     with_token = [offer for offer in shopping.offers if offer.immersive_token]
     if not with_token:
-        return [], "", None, ""
+        return empty
     picked = with_token[0]
     if client.mode == "fixtures":
         for offer in with_token:
@@ -510,10 +525,10 @@ def _stores(client, shopping, evidence, fetch):
                 picked = offer
                 break
         else:
-            return [], "", None, ""
+            return empty
     hit = fetch(immersive_params(picked.immersive_token or ""), "Immersive Product store list")
     if not hit.data:
-        return [], "", None, ""
+        return empty
     product = normalize_immersive(hit.data)
     note = ""
     if product.price_range:
@@ -522,7 +537,8 @@ def _stores(client, shopping, evidence, fetch):
             "can mix pack sizes, so outlier packs are set aside."
         )
     visible = [store for store in product.stores if not store.pack_outlier]
-    return visible or product.stores, product.title, product.price_range, note
+    shown = visible or product.stores
+    return shown, product.title, product.price_range, note, product.stores
 
 
 def _evidence(hit: SearchHit, purpose: str) -> Evidence:

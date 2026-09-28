@@ -106,6 +106,8 @@ def _assert_http(client):
     assert credits.json()["plan_searches_left"] is None
     rangoli = client.get("/s/rangoli-colours")
     assert rangoli.status_code == 200
+    assert 'href="/report/rangoli-colours.md"' in rangoli.text
+    assert 'href="/report/rangoli-colours"' in rangoli.text
     assert 'name="variants" value="rangoli colour powder, rangoli kit"' in rangoli.text
     assert 'name="target_price" type="number" min="1" step="1" required value="190"' in rangoli.text
     assert "['rangoli colour powder'" not in rangoli.text
@@ -131,3 +133,25 @@ def _assert_http(client):
     expired_md = client.get("/report/not-a-real-report.md")
     assert expired_md.status_code == 404
     assert "Please re-run" in expired_md.text
+
+
+def test_scenario_reports_rebuild_on_a_fresh_instance(tmp_path, monkeypatch):
+    monkeypatch.setattr(socket, "socket", Boom)
+    app = create_app(_settings(tmp_path))
+    with TestClient(app) as client:
+        page = client.get("/report/rangoli-colours")
+        assert page.status_code == 200
+        assert ">GO<" in page.text
+        assert "medium" in page.text
+        assert 'value="190"' in page.text
+        markdown = client.get("/report/rangoli-colours.md")
+        assert markdown.status_code == 200
+        assert "Verdict" in markdown.text
+        brass = client.get("/report/brass-diya")
+        assert brass.status_code == 200
+        assert ">CAUTION<" in brass.text
+        assert "jaypore.com" in brass.text
+        hamper = client.get("/report/diwali-gift-hamper.md")
+        assert hamper.status_code == 200
+        assert "fnp.com" in hamper.text
+        assert "CAUTION" in hamper.text
