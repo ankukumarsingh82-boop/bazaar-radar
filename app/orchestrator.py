@@ -54,7 +54,12 @@ from app.sources.amazon import normalize_product, normalize_search, product_para
 from app.sources.amazon import search_params as amazon_params
 from app.sources.immersive import normalize_immersive
 from app.sources.immersive import search_params as immersive_params
-from app.sources.shopping import MARKETPLACE_DOMAINS, merchant_stats, normalize_shopping
+from app.sources.shopping import (
+    MARKETPLACE_DOMAINS,
+    advertiser_domains,
+    merchant_stats,
+    normalize_shopping,
+)
 from app.sources.shopping import search_params as shopping_params
 from app.sources.trends import (
     five_year_params,
@@ -427,37 +432,22 @@ def _products(client, amazon, evidence, notes, fetch) -> list[ProductPage]:
 def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list[str]]:
     if shopping is None:
         return [], []
-    merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
-    # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
-    merchants.sort(key=lambda row: (row.domain or "") in MARKETPLACE_DOMAINS)
-    if client.mode == "fixtures":
-        recorded = [row for row in merchants if client.fixtures.has_ads(row.domain or "")]
-        rest = [row for row in merchants if row not in recorded]
-        merchants = recorded + rest
-    chosen = []
-    seen = set()
-    for row in merchants:
-        if row.domain in seen:
-            continue
-        seen.add(row.domain)
-        chosen.append(row)
-        if len(chosen) == 2:
-            break
+    chosen = _choose_ad_domains(client, shopping)
     ads: list[AdSignal] = []
     missing_domains = []
-    for row in chosen:
-        hit = fetch(ads_params(row.domain or "", today), f"Ads Transparency for {row.domain}")
+    for domain in chosen:
+        hit = fetch(ads_params(domain, today), f"Ads Transparency for {domain}")
         if hit.data and not hit.error:
-            ads.append(_ad_signal(hit.data, row.domain or "", today))
+            ads.append(_ad_signal(hit.data, domain, today))
         elif hit.source == "missing":
-            missing_domains.append(row.domain)
+            missing_domains.append(domain)
         elif hit.data and hit.error:
             # Live error payloads still count; skip empty creative sets only when error is set
             # and there is no search_information.
             if hit.data.get("ad_creatives") or hit.data.get("search_information"):
-                ads.append(_ad_signal(hit.data, row.domain or "", today))
+                ads.append(_ad_signal(hit.data, domain, today))
             else:
-                missing_domains.append(row.domain)
+                missing_domains.append(domain)
     notes = []
     if any(ad.marketplace for ad in ads):
         notes.append(
@@ -472,6 +462,33 @@ def _ads(client, shopping, today, evidence, fetch) -> tuple[list[AdSignal], list
             + ". Live mode would query those domains."
         )
     return ads, notes
+
+
+def _choose_ad_domains(client, shopping) -> list[str]:
+    """Up to two advertiser domains. Offer-link hostnames win; the merchant map is the fallback."""
+    from_links = advertiser_domains(shopping.offers)
+    if from_links:
+        domains = from_links
+    else:
+        merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
+        # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
+        merchants.sort(key=lambda row: (row.domain or "") in MARKETPLACE_DOMAINS)
+        domains = []
+        for row in merchants:
+            if row.domain and row.domain not in domains:
+                domains.append(row.domain)
+    if client.mode == "fixtures":
+        recorded = [domain for domain in domains if client.fixtures.has_ads(domain)]
+        rest = [domain for domain in domains if domain not in recorded]
+        domains = recorded + rest
+    chosen: list[str] = []
+    for domain in domains:
+        if domain in chosen:
+            continue
+        chosen.append(domain)
+        if len(chosen) == 2:
+            break
+    return chosen
 
 
 def _ad_signal(payload: dict, domain: str, today) -> AdSignal:

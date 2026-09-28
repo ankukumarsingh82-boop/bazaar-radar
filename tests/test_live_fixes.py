@@ -9,6 +9,7 @@ from app.db import connect, init_db
 from app.models import MerchantStat, Offer, ShoppingResult, StateInterest
 from app.orchestrator import _ads
 from app.serp_client import SerpClient, is_empty_result
+from app.sources.shopping import advertiser_domains
 
 EMPTY = {
     "search_metadata": {"id": "empty1", "status": "Success"},
@@ -101,6 +102,125 @@ def test_marketplace_ads_do_not_drive_pressure_and_niche_domains_go_first(tmp_pa
     assert by_domain["myntra.com"].marketplace is True
     assert by_domain["jaypore.com"].marketplace is False
     assert any("context" in note for note in notes)
+    conn.close()
+
+
+def test_offer_link_hostnames_are_preferred_over_marketplace_map(tmp_path):
+    seen = []
+
+    def live(params, api_key):
+        seen.append(params["text"])
+        return {
+            "search_metadata": {"id": params["text"]},
+            "search_information": {"total_results": 12},
+            "ad_creatives": [{"format": "text", "advertiser": params["text"]}],
+        }
+
+    client, conn = _client(tmp_path, live)
+    offers = [
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=199,
+            merchant="Flipkart",
+            link="https://www.flipkart.com/candle",
+        ),
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=249,
+            merchant="Myntra",
+            link="https://www.myntra.com/candle",
+        ),
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=299,
+            merchant="Wick & Co",
+            link="https://WWW.WickAndCo.in/candle",
+        ),
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=4532,
+            merchant="Desertcart.in",
+            link="https://desertcart.in/products/candle",
+        ),
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=349,
+            merchant="Second Wick",
+            link="https://secondwick.in/candle",
+        ),
+        Offer(
+            origin="shopping",
+            title="candle",
+            price=359,
+            merchant="Second Wick",
+            link="https://secondwick.in/other",
+        ),
+        Offer(
+            origin="shopping",
+            title="google page",
+            price=100,
+            merchant="Unknown",
+            link="https://www.google.co.in/search?q=candle",
+        ),
+    ]
+    assert advertiser_domains(offers) == ["secondwick.in", "wickandco.in"]
+    shopping = ShoppingResult(
+        offers=offers,
+        merchants=[
+            MerchantStat(name="Flipkart", count=5, domain="flipkart.com"),
+            MerchantStat(name="Myntra", count=4, domain="myntra.com"),
+            MerchantStat(name="Wick & Co", count=1, domain=None),
+        ],
+    )
+    ads, _notes = _ads(
+        client, shopping, date(2026, 9, 27), [], lambda params, purpose: client.search(params)
+    )
+    assert seen == ["secondwick.in", "wickandco.in"]
+    assert [ad.domain for ad in ads] == ["secondwick.in", "wickandco.in"]
+    assert "flipkart.com" not in seen
+    assert "myntra.com" not in seen
+    assert "desertcart.in" not in seen
+    conn.close()
+
+
+def test_ads_fall_back_to_the_merchant_map_when_no_usable_hostname(tmp_path):
+    seen = []
+
+    def live(params, api_key):
+        seen.append(params["text"])
+        return {
+            "search_metadata": {"id": params["text"]},
+            "search_information": {"total_results": 12},
+            "ad_creatives": [{"format": "text", "advertiser": params["text"]}],
+        }
+
+    client, conn = _client(tmp_path, live)
+    shopping = ShoppingResult(
+        offers=[
+            Offer(
+                origin="shopping",
+                title="candle",
+                price=199,
+                merchant="Flipkart",
+                link="https://www.flipkart.com/candle",
+            ),
+            Offer(origin="shopping", title="candle", price=100, merchant="Jaypore"),
+        ],
+        merchants=[
+            MerchantStat(name="Myntra", count=5, domain="myntra.com"),
+            MerchantStat(name="Jaypore", count=1, domain="jaypore.com"),
+            MerchantStat(name="Flipkart", count=4, domain="flipkart.com"),
+        ],
+    )
+    assert advertiser_domains(shopping.offers) == []
+    _ads(client, shopping, date(2026, 9, 27), [], lambda params, purpose: client.search(params))
+    assert seen[0] == "jaypore.com"
+    assert len(seen) == 2
     conn.close()
 
 

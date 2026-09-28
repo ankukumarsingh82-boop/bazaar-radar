@@ -58,7 +58,7 @@ Docs: https://serpapi.com/google-immersive-product-api
 
 `engine=google_immersive_product`, `page_token=<token>`, `more_stores=true`.
 
-Read `product_results.price_range` and `stores[]` (`name`, `extracted_price`, `extracted_total`, `tag`, `link`). There is no ratings histogram and no `user_reviews` in the India responses we recorded. Stores whose host is obviously foreign (`.ae`, Desertcart, and similar) are dropped. Prices far from the median are flagged as a different pack size and left out of the short list. The price range is labelled as mixed pack sizes.
+Read `product_results.price_range` and `stores[]` (`name`, `extracted_price`, `extracted_total`, `tag`, `link`). There is no ratings histogram and no `user_reviews` in the India responses we recorded. Stores whose host or seller name is foreign (`.ae`, Desertcart, Desertcart.in, and similar) are dropped. The same filter removes those sellers from the Shopping channel list. Prices far from the median are flagged as a different pack size and left out of the short list. The price range is labelled as mixed pack sizes.
 
 ### Google Ads Transparency Center — who is buying ads
 
@@ -72,7 +72,7 @@ Read `search_information.total_results` and `ad_creatives[]` (`advertiser`, `for
 
 Pressure is **high** at ≥ 500 creatives (fnp.com returned 2,000) or when Amazon sponsored share is over 50%. That forces CAUTION. Forty or more creatives, or a sponsored share of at least 15%, is **medium** and is shown but does not by itself flip the verdict.
 
-Domains come from Shopping merchants, excluding Amazon.in. Fixture mode prefers a domain that both appears in the results and has a recording (Jaypore on brass diya, fnp.com on gift hampers).
+Domains come from Shopping offer link hostnames (`www.` stripped). Marketplaces, context-only domains, and foreign shops are skipped. The merchant map, excluding Amazon.in, is used only when no usable hostname is present. Fixture mode prefers a domain that both appears and has a recording (Jaypore on brass diya, fnp.com on gift hampers).
 
 ### Account API — credit meter
 

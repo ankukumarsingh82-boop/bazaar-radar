@@ -82,6 +82,60 @@ def test_shopping_dedupes_and_normalises_merchants():
     assert any(offer.merchant == "Unknown store" for offer in rangoli.offers)
 
 
+def test_desertcart_in_is_dropped_from_shopping_and_immersive():
+    shopping = normalize_shopping(
+        {
+            "shopping_results": [
+                {
+                    "title": "Scented candle",
+                    "product_id": "1",
+                    "source": "Desertcart.in",
+                    "link": "https://www.desertcart.in/products/candle",
+                    "extracted_price": 4532,
+                },
+                {
+                    "title": "Scented candle",
+                    "product_id": "2",
+                    "source": "Desert Cart",
+                    "extracted_price": 4532,
+                },
+                {
+                    "title": "Local candle",
+                    "product_id": "3",
+                    "source": "Wick & Co",
+                    "link": "https://www.wickandco.in/candle",
+                    "extracted_price": 299,
+                },
+            ]
+        }
+    )
+    assert [offer.merchant for offer in shopping.offers] == ["Wick & Co"]
+    assert [merchant.name for merchant in shopping.merchants] == ["Wick & Co"]
+    assert "4532" not in "".join(str(offer.price) for offer in shopping.offers)
+
+    product = normalize_immersive(
+        {
+            "product_results": {
+                "title": "Candle",
+                "stores": [
+                    {
+                        "name": "Desertcart.in",
+                        "link": "https://desertcart.in/products/candle",
+                        "extracted_price": 4532,
+                    },
+                    {
+                        "name": "Flipkart",
+                        "link": "https://www.flipkart.com/candle",
+                        "extracted_price": 199,
+                    },
+                ],
+            }
+        }
+    )
+    assert [store.name for store in product.stores] == ["Flipkart"]
+    assert all(store.price != 4532 for store in product.stores)
+
+
 def test_ads_and_immersive_filters():
     from datetime import date
 
