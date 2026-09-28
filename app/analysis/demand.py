@@ -27,6 +27,32 @@ GENERIC_EXACT = {
 AMBIGUOUS_HEADS = {"diya", "diwali"}
 ZERO_DENSITY_LIMIT = 0.40
 
+# Channel names are not listing keywords. A seller cannot rank for "zepto".
+RETAILERS = {
+    "ajio",
+    "amazon",
+    "bigbasket",
+    "blinkit",
+    "firstcry",
+    "flipkart",
+    "instamart",
+    "jiomart",
+    "meesho",
+    "myntra",
+    "nykaa",
+    "purplle",
+    "shopclues",
+    "snapdeal",
+    "tatacliq",
+    "zepto",
+}
+
+_QUESTION = re.compile(
+    r"^(are|is|was|were|do|does|did|can|could|should|would|will|"
+    r"how|what|why|when|where|which|who)\b",
+    re.IGNORECASE,
+)
+
 
 def zero_fraction(points: list[DailyPoint]) -> float:
     if not points:
@@ -251,12 +277,28 @@ def is_brand_only(query: str, brands: set[str]) -> bool:
     return query.lower().strip() in brands
 
 
+def is_question(query: str) -> bool:
+    text = query.strip()
+    if text.endswith("?"):
+        return True
+    return _QUESTION.match(text) is not None
+
+
+def is_retailer_query(query: str) -> bool:
+    tokens = re.findall(r"[a-z0-9]+", query.lower())
+    return any(token in RETAILERS for token in tokens)
+
+
 def tag_queries(queries: list[RelatedQuery], brands: set[str]) -> list[RelatedQuery]:
     tagged: list[RelatedQuery] = []
     for row in queries:
         tag = None
         if is_generic(row.query):
             tag = "generic"
+        elif is_question(row.query):
+            tag = "question"
+        elif is_retailer_query(row.query):
+            tag = "retailer"
         elif is_brand_only(row.query, brands):
             tag = "brand"
         tagged.append(row.model_copy(update={"tag": tag}))
@@ -279,12 +321,15 @@ def listing_keywords(
             return
         if is_generic(cleaned) or is_brand_only(cleaned, brands):
             return
+        if is_question(cleaned) or is_retailer_query(cleaned):
+            return
         if any(cleaned.lower() == have.lower() for have in chosen):
             return
         chosen.append(cleaned)
 
-    rising = [row.query for row in queries if row.kind == "rising" and row.tag != "generic"]
-    top = [row.query for row in queries if row.kind == "top" and row.tag != "generic"]
+    skip_tags = {"generic", "question", "retailer"}
+    rising = [row.query for row in queries if row.kind == "rising" and row.tag not in skip_tags]
+    top = [row.query for row in queries if row.kind == "top" and row.tag not in skip_tags]
     for query in rising + top + variants + amazon_related:
         add(query)
         if len(chosen) >= limit:

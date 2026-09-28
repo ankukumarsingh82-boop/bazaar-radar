@@ -71,3 +71,15 @@ def test_confidence_drops_for_sparse_ambiguous_or_failed_sources():
     assert confidence(facts(sparse=True)) == "medium"
     assert confidence(facts(sparse=True, ambiguous_head=True, used_head_term=True)) == "low"
     assert confidence(facts(failed=["amazon"])) == "medium"
+
+
+def test_confidence_drops_when_searches_are_missing_or_blocked():
+    # A complete plan stays high. A third missing drops one step; two thirds drops two.
+    assert confidence(facts(searches_served=14, searches_missing=0)) == "high"
+    assert confidence(facts(searches_served=6, searches_missing=8)) == "medium"
+    assert confidence(facts(searches_served=6, searches_blocked=8)) == "medium"
+    assert confidence(facts(searches_served=2, searches_missing=12)) == "low"
+    # Coverage stacks with an existing weakness.
+    assert confidence(facts(sparse=True, searches_served=6, searches_missing=8)) == "low"
+    # A handful of optional misses (brass diya is 3 of 13) does not move the score.
+    assert confidence(facts(searches_served=10, searches_missing=3)) == "high"

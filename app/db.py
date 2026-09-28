@@ -32,7 +32,20 @@ CREATE TABLE IF NOT EXISTS reports (
 
 
 def connect(path: Path) -> sqlite3.Connection:
+    try:
+        return _open(path)
+    except (OSError, sqlite3.OperationalError):
+        fallback = Path("/tmp") / "bazaar-radar" / path.name
+        if fallback.resolve() == path.resolve():
+            raise
+        return _open(fallback)
+
+
+def _open(path: Path) -> sqlite3.Connection:
     path.parent.mkdir(parents=True, exist_ok=True)
+    probe = path.parent / f".write-{path.name}"
+    probe.write_text("", encoding="utf-8")
+    probe.unlink()
     conn = sqlite3.connect(path, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     return conn

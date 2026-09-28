@@ -73,9 +73,12 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         return Report.model_validate_json(row["payload_json"])
 
     def page(request: Request, template: str, **extra):
+        # The raw Scenario used to be spread after the computed prefill and
+        # overwrite it, so the form showed a list repr and a float price.
+        raw_prefill = extra.pop("prefill", None)
         report = extra.get("report")
         charts = json.dumps(_charts(report)).replace("<", "\\u003c") if report else "{}"
-        prefill = _prefill(extra.get("prefill"), report)
+        prefill = _prefill(raw_prefill, report)
         return templates.TemplateResponse(
             request,
             template,
@@ -206,10 +209,19 @@ def _prefill(raw, report: Report | None) -> dict:
         "keyword": raw.keyword,
         "head_term": raw.head_term,
         "variants": ", ".join(variants),
-        "target_price": "" if price == "" else price,
+        "target_price": _whole_price(price),
         "states": list(states),
         "category": raw.category,
     }
+
+
+def _whole_price(price) -> str | int | float:
+    if price == "" or price is None:
+        return ""
+    number = float(price)
+    if number == int(number):
+        return int(number)
+    return number
 
 
 def _charts(report: Report) -> dict:

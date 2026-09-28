@@ -27,6 +27,7 @@ from app.analysis.verdict import (
     VerdictFacts,
     ads_pressure,
     confidence,
+    confidence_note,
     decide,
     limitations,
     why_items,
@@ -43,6 +44,7 @@ from app.models import (
     ProductPage,
     Report,
     Usage,
+    WhyItem,
 )
 from app.scenarios import suggest_head
 from app.serp_client import SearchHit, SerpClient
@@ -261,6 +263,8 @@ def _assemble(
         failed.append("shopping")
     if not state_rows and not yoy_points and not five_points:
         failed.append("trends")
+    counts = client.budget.counts()
+    served_searches = counts["fixture"] + counts["cache"] + counts["live"]
     facts = VerdictFacts(
         momentum=momentum,
         momentum_label=label_momentum(momentum),
@@ -278,23 +282,46 @@ def _assemble(
         price_label=(target_band.label if target_band else None),
         target_states=target_states,
         state_warning=state_warning,
+        searches_served=served_searches,
+        searches_missing=counts["missing"],
+        searches_blocked=counts["blocked"],
     )
-    verdict = decide(facts)
-    chosen = recommend_band(bands, target_price, verdict)
-    if chosen is not None:
-        facts.price_label = chosen.label
-    decision = DecisionView(
-        verdict=verdict,
-        confidence=confidence(facts),
-        price_low=chosen.low if chosen else None,
-        price_high=chosen.high if chosen else None,
-        price_label=chosen.label if chosen else None,
-        states=target_states[:3],
-        keywords=keywords[:5],
-        complaints=[f"{row.theme} ({row.negative} negative mentions)" for row in complaints[:3]],
-        why=why_items(facts, verdict),
-        limitations=limitations(facts),
-    )
+    if served_searches == 0:
+        chosen = None
+        decision = DecisionView(
+            verdict="insufficient",
+            confidence="n/a",
+            why=[
+                WhyItem(
+                    text="None of the planned searches returned data, so there is no verdict.",
+                    anchor="evidence",
+                )
+            ],
+            limitations=[
+                "Fixture mode only replays the three recorded ideas.",
+                "Without a search result, inventing a verdict would be a guess.",
+            ],
+        )
+    else:
+        verdict = decide(facts)
+        chosen = recommend_band(bands, target_price, verdict)
+        if chosen is not None:
+            facts.price_label = chosen.label
+        decision = DecisionView(
+            verdict=verdict,
+            confidence=confidence(facts),
+            confidence_note=confidence_note(facts),
+            price_low=chosen.low if chosen else None,
+            price_high=chosen.high if chosen else None,
+            price_label=chosen.label if chosen else None,
+            states=target_states[:3],
+            keywords=keywords[:5],
+            complaints=[
+                f"{row.theme} ({row.negative} negative mentions)" for row in complaints[:3]
+            ],
+            why=why_items(facts, verdict),
+            limitations=limitations(facts),
+        )
     if amazon and not amazon.sponsored_observed:
         sponsored_note = (
             "n/a — Amazon did not return a sponsored field on this search, so 0% would be a guess."
@@ -323,7 +350,6 @@ def _assemble(
         store_note=store_note,
         recommended=chosen,
     )
-    counts = client.budget.counts()
     demand = DemandView(
         momentum=None if momentum is None else round(momentum, 2),
         momentum_label=label_momentum(momentum),
@@ -349,7 +375,11 @@ def _assemble(
         states=state_rows,
         state_warning=state_warning,
         target_states=target_states,
-        keywords=[row for row in tagged if row.tag != "generic"][:12],
+        keywords=[
+            row
+            for row in tagged
+            if row.tag not in {"generic", "question", "retailer"}
+        ][:12],
         listing_keywords=keywords,
     )
     return Report(

@@ -1,7 +1,4 @@
 <article class="report" id="top">
-  {% if report.usage.served == 0 %}
-  <p class="error">This idea is not in the offline recordings. Open brass diya, rangoli colours, or diwali gift hamper, or set <code>BR_MODE=cache</code> with a SerpApi key.</p>
-  {% endif %}
   <header class="verdict v-{{ report.decision.verdict }}">
     <div>
       <p class="kicker">{{ report.category }} · target {{ report.target_price | inr }} · {{ report.keyword }}</p>
@@ -11,7 +8,7 @@
     <dl class="verdict-facts">
       <div>
         <dt>Confidence</dt>
-        <dd>{{ report.decision.confidence }}</dd>
+        <dd>{{ report.decision.confidence }}{% if report.decision.confidence_note %}<span class="confidence-note">{{ report.decision.confidence_note }}</span>{% endif %}</dd>
       </div>
       <div>
         <dt>Momentum</dt>
@@ -294,7 +291,7 @@
       <article>
         <span>Price band</span>
         <strong>{{ report.decision.price_label or "No band" }}</strong>
-        <em>{% if report.decision.price_low is not none %}List around this band, not at the cheapest offer on the page.{% else %}No band is recommended for a skip.{% endif %}</em>
+        <em>{% if report.decision.verdict == "insufficient" %}No price band until a recorded or live search returns prices.{% elif report.decision.price_low is not none %}List around this band, not at the cheapest offer on the page.{% else %}No band is recommended for a skip.{% endif %}</em>
       </article>
       <article>
         <span>States</span>

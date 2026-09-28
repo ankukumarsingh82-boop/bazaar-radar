@@ -6,9 +6,11 @@ Price trackers tell buyers where it is cheapest. Bazaar Radar tells sellers wher
 
 ![Bazaar Radar home, fixture mode](docs/screenshots/home.png)
 
-Track: **Commerce & Market Intelligence**, SerpApi India Hackathon 2026. The demo video is recorded separately; this repo runs fully offline in fixture mode.
+Track: **Commerce & Market Intelligence**, SerpApi India Hackathon 2026. This repo runs fully offline in fixture mode.
 
-Demo video: (link coming soon)
+Demo video: https://youtu.be/q5sJ7rzxryU (2:48, assembled from screenshots of the app running locally, with a two-speaker voiceover recorded by Anku).
+
+Live demo, fixture mode, no API key: https://bazaar-radar-mu.vercel.app
 
 ## Who it is for
 
@@ -79,6 +81,8 @@ uv sync
 uv run uvicorn app.main:app
 ```
 
+Set `BR_MODE=fixtures` to force offline mode if `SERPAPI_API_KEY` is in your environment.
+
 Open http://127.0.0.1:8000 and choose **brass diya**, **rangoli colours**, or **diwali gift hamper**. Those three ideas replay the recorded JSON. Nothing is sent to SerpApi. Direct links:
 
 - http://127.0.0.1:8000/s/brass-diya
@@ -96,7 +100,7 @@ Download the decision card as Markdown from the report (`/report/{id}.md`). Use 
 
 Guardrails:
 
-- SQLite cache keyed by sha256 of engine + parameters (`data/bazaar.sqlite`, gitignored).
+- SQLite cache keyed by sha256 of engine + parameters (`data/bazaar.sqlite`, gitignored). On Vercel the file is under `/tmp`, because the deployment filesystem is read-only, and the app stays in fixture mode unless `BR_MODE` is set.
 - Empty Trends answers ("hasn't returned any results") are cached too, so re-running a sparse idea costs 0 searches. Transient errors are not cached.
 - `MAX_LIVE_CALLS_PER_REPORT` (default 14).
 - `SERPAPI_DAILY_CAP` (default 40), counted in IST.
@@ -133,7 +137,7 @@ Plain Python in `app/analysis/`, unit-tested. No LLM.
   - **GO** — Momentum ≥ 1.0, the series is not sparse, and a white-space band sits near the target price.
   - **GO with positioning** — A quality gap near the target, without a clean GO.
   - Otherwise **CAUTION** (rising demand but no gap is the brass-diya case).
-- **Confidence** drops when Trends is sparse, the head term is ambiguous (“diya” is also a name), or a core source failed.
+- **Confidence** starts high and drops one step when Trends is sparse or momentum is unknown, when the head term is ambiguous (“diya” is also a name), when a core source failed, or when at least a third of the planned searches are missing or blocked. Two thirds missing or blocked drops it again.
 
 Limits, also printed on the card: Trends is relative interest, not unit sales. “Bought in past month” is a bucket. These are signals, not a promise of sales.
 
@@ -194,13 +198,11 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-48 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
+54 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 
-Built with Cursor’s coding agent (Grok 4.7). It turned the approved plan and the day-1 SerpApi recordings into the app, tests, and docs. The author reviews and runs the code and is responsible for it.
-
-No model is called when the app runs. The verdict does not use an LLM. There is no Hindi summary in this MVP.
+Grok Bot (AI assistant) did the research, planning, and coordination. Cursor cloud agents wrote the code, the tests, and the docs. The demo video was assembled with AI help from screenshots of the app running locally. The voiceover was recorded by Anku (human, two speakers). The app uses no LLM at runtime. The verdict is deterministic Python. There is no Hindi summary in this MVP.
 
 ## Pre-existing work
 

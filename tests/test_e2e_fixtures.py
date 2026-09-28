@@ -46,6 +46,8 @@ def test_three_scenarios_run_offline(tmp_path, monkeypatch):
         assert not any(item.params.get("gprop") == "froogle" for item in report.evidence)
 
     brass = reports["brass-diya"]
+    assert brass.decision.verdict == "CAUTION"
+    assert brass.decision.confidence == "medium"
     assert brass.demand.momentum_label == "Rising"
     assert brass.demand.momentum is not None and brass.demand.momentum > 1.2
     assert brass.demand.used_head_term
@@ -54,16 +56,21 @@ def test_three_scenarios_run_offline(tmp_path, monkeypatch):
     assert any(row.theme == "Size" for row in brass.complaints)
 
     rangoli = reports["rangoli-colours"]
+    assert rangoli.target_price == 190
+    assert rangoli.decision.verdict == "GO"
+    assert rangoli.decision.confidence == "medium"
+    assert "8 of 14" in rangoli.decision.confidence_note
     assert rangoli.demand.days_before is not None
     assert rangoli.competition.sponsored_share == 12 / 60
     assert any(row.theme == "Quality" for row in rangoli.complaints)
 
     hamper = reports["diwali-gift-hamper"]
+    assert hamper.decision.verdict == "CAUTION"
+    assert hamper.decision.confidence == "low"
     assert hamper.demand.momentum is None
     assert "not enough" in hamper.demand.momentum_source
     assert hamper.ads_pressure == "high"
-    assert hamper.decision.verdict in {"CAUTION", "SKIP"}
-    assert hamper.demand.sparse or hamper.decision.confidence != "high"
+    assert hamper.demand.sparse
     assert any(ad.domain == "fnp.com" for ad in hamper.ads)
 
 
@@ -90,3 +97,22 @@ def _assert_http(client):
     assert "api_key" not in markdown.text
     credits = client.get("/credits", headers={"accept": "application/json"})
     assert credits.json()["plan_searches_left"] is None
+    rangoli = client.get("/s/rangoli-colours")
+    assert rangoli.status_code == 200
+    assert 'name="variants" value="rangoli colour powder, rangoli kit"' in rangoli.text
+    assert 'name="target_price" type="number" min="1" step="1" required value="190"' in rangoli.text
+    assert "['rangoli colour powder'" not in rangoli.text
+    assert "190.0" not in rangoli.text
+    assert ">GO<" in rangoli.text
+    assert "8 of 14 searches are missing or blocked" in rangoli.text
+    unknown = client.post(
+        "/analyze",
+        data={"keyword": "phone case", "target_price": "499", "category": "Home & Décor"},
+    )
+    assert unknown.status_code == 200
+    assert "Not enough data" in unknown.text
+    assert "CAUTION" not in unknown.text
+    assert "GO with positioning" not in unknown.text
+    hamper = client.get("/s/diwali-gift-hamper")
+    assert hamper.status_code == 200
+    assert ">CAUTION<" in hamper.text
