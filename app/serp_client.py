@@ -11,13 +11,12 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-from zoneinfo import ZoneInfo
 
 import httpx
 
+from app.boot import IST, note, note_process
 from app.config import Settings
 
-IST = ZoneInfo("Asia/Kolkata")
 ACCOUNT_URL = "https://serpapi.com/account.json"
 
 _DROP_KEYS = {"api_key", "device", "output", "no_cache"}
@@ -120,7 +119,10 @@ _STORES: dict[str, "FixtureStore"] = {}
 
 
 def get_fixture_store(path: Path) -> "FixtureStore":
-    key = str(path.resolve()) if path.exists() else str(path)
+    try:
+        key = str(path.resolve()) if path.exists() else str(path)
+    except OSError:
+        key = str(path)
     store = _STORES.get(key)
     if store is None:
         store = FixtureStore(path)
@@ -136,6 +138,14 @@ class FixtureStore:
         self._load()
 
     def _load(self) -> None:
+        try:
+            self._load_entries()
+        except Exception as exc:
+            note_process("fixtures:unreadable", exc)
+            self.entries = []
+            self.by_sig = {}
+
+    def _load_entries(self) -> None:
         ledger = self.path / "_ledger.jsonl"
         by_file: dict[str, dict[str, Any]] = {}
         if ledger.exists():
@@ -281,7 +291,14 @@ class SerpClient:
         return self.settings.mode
 
     def search(self, params: dict[str, Any]) -> SearchHit:
-        norm = _norm_params(params)
+        try:
+            norm = _norm_params(params)
+            return self._search_locked(norm)
+        except Exception as exc:
+            note("search:failed", exc, self.settings.startup_fallbacks)
+            return SearchHit(data=None, source="blocked", params={}, error="Search failed.")
+
+    def _search_locked(self, norm: dict[str, str]) -> SearchHit:
         with self._lock:
             if self.mode == "fixtures":
                 return self.budget.add(self._from_fixtures(norm))
@@ -303,7 +320,12 @@ class SerpClient:
             with self._lock:
                 self._live_reserved -= 1
             return self.budget.add(
-                SearchHit(data=None, source="blocked", params=norm, error=str(exc))
+                SearchHit(
+                    data=None,
+                    source="blocked",
+                    params=norm,
+                    error=str(scrub(str(exc), self.settings.serpapi_api_key)),
+                )
             )
         payload = scrub(payload, self.settings.serpapi_api_key)
         if isinstance(payload, dict) and payload.get("error"):
@@ -330,13 +352,23 @@ class SerpClient:
     def account(self) -> dict[str, Any]:
         """Free Account API snapshot. Fixture mode does not call the network."""
         if self.mode == "fixtures" or not self.settings.has_key:
-            return {
-                "mode": self.mode,
-                "plan_searches_left": None,
-                "this_month_usage": None,
-                "hard_stop": False,
-                "message": "Fixture mode. No API key is used and no credits are spent.",
-            }
+            return self._offline_meter("Fixture mode. No API key is used and no credits are spent.")
+        try:
+            return self._account_live()
+        except Exception as exc:
+            note("meter:offline", exc, self.settings.startup_fallbacks)
+            return self._offline_meter("Credit meter is unavailable. No live call was made.")
+
+    def _offline_meter(self, message: str) -> dict[str, Any]:
+        return {
+            "mode": self.mode,
+            "plan_searches_left": None,
+            "this_month_usage": None,
+            "hard_stop": False,
+            "message": message,
+        }
+
+    def _account_live(self) -> dict[str, Any]:
         with self._lock:
             self._ensure_credits()
             payload = self._account_payload or {}
@@ -470,7 +502,8 @@ class SerpClient:
         try:
             payload = self._account_fetch(self.settings.serpapi_api_key)
         except Exception as exc:  # noqa: BLE001
-            self._account_error = f"Account API check failed ({exc}). Live calls are paused."
+            note("meter:offline", exc, self.settings.startup_fallbacks)
+            self._account_error = "Account API check failed. Live calls are paused."
             return
         if not isinstance(payload, dict) or "plan_searches_left" not in payload:
             self._account_error = (

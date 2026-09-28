@@ -3,11 +3,9 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta
-from zoneinfo import ZoneInfo
 
+from app.boot import IST
 from app.models import AdSignal
-
-IST = ZoneInfo("Asia/Kolkata")
 
 
 def search_params(domain: str, today: date) -> dict[str, str]:

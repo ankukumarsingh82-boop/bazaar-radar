@@ -82,6 +82,13 @@ def test_http_report_and_markdown(tmp_path, monkeypatch):
 
 
 def _assert_http(client):
+    health = client.get("/healthz")
+    assert health.status_code == 200
+    body = health.json()
+    assert body["ok"] is True
+    assert body["mode"] == "fixtures"
+    assert isinstance(body["fallbacks"], list)
+    assert "api_key" not in health.text
     home = client.get("/")
     assert home.status_code == 200
     assert "Know the gap before you stock." in home.text

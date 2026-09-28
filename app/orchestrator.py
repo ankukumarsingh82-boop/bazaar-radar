@@ -5,7 +5,6 @@ from __future__ import annotations
 import secrets
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime
-from zoneinfo import ZoneInfo
 
 from app.analysis.complaints import complaint_themes
 from app.analysis.demand import (
@@ -32,6 +31,7 @@ from app.analysis.verdict import (
     limitations,
     why_items,
 )
+from app.boot import IST
 from app.config import Settings
 from app.db import connect, init_db
 from app.models import (
@@ -66,8 +66,6 @@ from app.sources.trends import (
     related_params,
     yoy_params,
 )
-
-IST = ZoneInfo("Asia/Kolkata")
 
 
 def build_report(
