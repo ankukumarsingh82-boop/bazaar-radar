@@ -92,7 +92,12 @@ def to_markdown(report: Report) -> str:
         lines += ["", "## Ad pressure", ""]
         for ad in report.ads:
             formats = ", ".join(f"{name} {count}" for name, count in ad.formats.items())
-            tag = " (marketplace, context only)" if ad.marketplace else ""
+            if ad.marketplace:
+                tag = " (marketplace, context only)"
+            elif ad.context_only:
+                tag = " (general retailer, context only)"
+            else:
+                tag = ""
             lines.append(
                 f"- {ad.domain}{tag}: {ad.total_results:,} creatives in India "
                 f"({ad.advertiser}). Last shown {ad.last_shown_label or '—'}. Formats: {formats}."

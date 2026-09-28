@@ -1,8 +1,11 @@
 import socket
 from datetime import date
 
+from fastapi.testclient import TestClient
+
 from app.config import Settings
 from app.db import connect, init_db
+from app.main import create_app
 from app.serp_client import SerpClient
 from app.sources.trends import five_year_params, yoy_params
 
@@ -32,7 +35,36 @@ def test_fixture_mode_matches_yoy_and_five_year_without_network(tmp_path, monkey
     assert missing.source == "missing"
     account = client.account()
     assert account["plan_searches_left"] is None
+    assert account["mode"] == "fixtures"
+    assert account["message"].startswith("Fixture mode")
     conn.close()
+
+
+def test_cache_mode_without_a_key_reports_cache_not_fixture_mode(tmp_path, monkeypatch):
+    monkeypatch.setattr(socket, "socket", Boom)
+    settings = Settings(
+        serpapi_api_key="",
+        br_mode="cache",
+        db_path=tmp_path / "t.sqlite",
+    )
+    conn = connect(settings.db_path)
+    init_db(conn)
+    client = SerpClient(settings, conn, "t-cache")
+    account = client.account()
+    assert account["mode"] == "cache"
+    assert account["plan_searches_left"] is None
+    assert "Fixture mode" not in account["message"]
+    assert account["message"].startswith("Cache mode")
+    conn.close()
+    app = create_app(settings)
+    with TestClient(app) as http:
+        page = http.get("/credits")
+        body = http.get("/credits", headers={"accept": "application/json"})
+    assert page.status_code == 200
+    assert "Fixture mode" not in page.text
+    assert "cache, 0 credits" in page.text
+    assert body.json()["mode"] == "cache"
+    assert "Fixture mode" not in body.json()["message"]
 
 
 def test_cache_serves_the_second_call_and_live_is_guarded(tmp_path):

@@ -56,6 +56,7 @@ from app.sources.immersive import normalize_immersive
 from app.sources.immersive import search_params as immersive_params
 from app.sources.shopping import (
     advertiser_domains,
+    is_context_only,
     is_marketplace,
     merchant_stats,
     normalize_shopping,
@@ -257,7 +258,10 @@ def _assemble(
     notes.extend(ads_notes)
 
     sponsored_share = amazon.sponsored_share if amazon else None
-    pressure = ads_pressure([ad.total_results for ad in ads if not ad.marketplace], sponsored_share)
+    pressure = ads_pressure(
+        [ad.total_results for ad in ads if not ad.context_only and not ad.marketplace],
+        sponsored_share,
+    )
     whitespace_near = any(band.whitespace and near_target(band, target_price) for band in bands)
     quality_near = any(band.quality_gap and near_target(band, target_price) for band in bands)
     target_band = next((band for band in bands if band.contains_target), None)
@@ -452,11 +456,12 @@ def _ads(client, shopping, today, evidence, fetch, stores=None) -> tuple[list[Ad
             else:
                 missing_domains.append(domain)
     notes = []
-    if any(ad.marketplace for ad in ads):
+    context_ads = [ad for ad in ads if ad.context_only or ad.marketplace]
+    if context_ads:
         notes.append(
-            "Marketplace ad volume (e.g. "
-            + ", ".join(ad.domain for ad in ads if ad.marketplace)
-            + ") is catalogue-wide, so it is shown for context and does not raise ad pressure."
+            "Catalogue-wide ad volume ("
+            + ", ".join(ad.domain for ad in context_ads)
+            + ") is shown for context and does not raise ad pressure."
         )
     if missing_domains and client.mode == "fixtures":
         notes.append(
@@ -471,8 +476,8 @@ def _curated_domains(shopping) -> list[str]:
     if shopping is None:
         return []
     merchants = [row for row in shopping.merchants if row.domain and row.name != "Amazon.in"]
-    # Niche and D2C sellers first; a marketplace's ad volume is catalogue-wide.
-    merchants.sort(key=lambda row: is_marketplace(row.domain or ""))
+    # Niche and D2C sellers first. Marketplace and general-retailer volume is catalogue-wide.
+    merchants.sort(key=lambda row: is_context_only(row.domain or ""))
     domains: list[str] = []
     for row in merchants:
         if row.domain and row.domain not in domains:
@@ -481,20 +486,31 @@ def _curated_domains(shopping) -> list[str]:
 
 
 def _choose_ad_domains(client, shopping, stores) -> list[str]:
-    """Up to two advertiser domains. Immersive store links win; the curated map is the fallback."""
+    """Up to two advertiser domains. Immersive niche hosts win; the curated map is the fallback.
+
+    General retailers are not niche hosts. If none remain, the curated map is used.
+    A single niche store host takes the first slot; the second comes from that map.
+    """
     from_stores = advertiser_domains(stores)
     from_map = _curated_domains(shopping)
-    domains = from_stores or from_map
+    domains = list(from_stores) if from_stores else list(from_map)
+    fill_second = len(from_stores) == 1
     if client.mode == "fixtures":
         recorded_store = [domain for domain in from_stores if client.fixtures.has_ads(domain)]
-        # The recorded store lists only yield craftvatika.com, which has no Ads fixture.
-        # Querying it would replace Jaypore and fnp.com and change those cards, so fixture
-        # mode keeps the curated map unless an immersive host itself has a recording.
+        # Brass diya and rangoli colours only yield craftvatika.com, which has no Ads fixture.
+        # Querying it would replace those cards. The gift hamper has no Immersive recording,
+        # so it already uses the map. Fixture mode keeps the map unless a store host is recorded.
         if from_stores and not recorded_store:
-            domains = from_map
+            domains = list(from_map)
+            fill_second = False
         recorded = [domain for domain in domains if client.fixtures.has_ads(domain)]
         rest = [domain for domain in domains if domain not in recorded]
         domains = recorded + rest
+    if fill_second:
+        for domain in from_map:
+            if domain not in domains:
+                domains.append(domain)
+                break
     chosen: list[str] = []
     for domain in domains:
         if domain in chosen:
@@ -508,6 +524,7 @@ def _choose_ad_domains(client, shopping, stores) -> list[str]:
 def _ad_signal(payload: dict, domain: str, today) -> AdSignal:
     signal = normalize_ads(payload, domain, today)
     signal.marketplace = is_marketplace(domain)
+    signal.context_only = is_context_only(domain)
     return signal
 
 

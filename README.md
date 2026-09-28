@@ -33,7 +33,9 @@ Four panels, plus ad pressure:
 3. **Buyer pain.** Amazon review insight themes (`reviews_information.summary.insights`), ranked by negative mentions.
 4. **Decision card.** A deterministic verdict: **GO**, **GO with positioning**, **CAUTION**, or **SKIP**, with a price band, three states, five keywords, and three complaints. Every “why” links to the panel and the SerpApi search id.
 
-**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains (India, region 2356). The Immersive Product store list runs first. Advertiser domains are the registrable hosts of those store links: `www.` is removed, and `dl.flipkart.com` counts as flipkart.com. Marketplaces and foreign shops are skipped. At most two Ads calls run per report. When no usable store host is present, the curated merchant map is the fallback. Shopping results are not used for this, because the India payload has no merchant `link`. The recorded store lists only yield craftvatika.com, which has no Ads fixture, so fixture mode keeps the map and the three ideas still show Jaypore and fnp.com.
+**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains (India, region 2356). The Immersive Product store list runs first. Advertiser domains are the registrable hosts of those store links: `www.` is removed, and `dl.flipkart.com` counts as flipkart.com. Marketplaces, foreign shops, and large general retailers are not niche advertisers. Shoppers Stop, Tata CLiQ, IKEA, Home Centre, Nykaa Fashion, Reliance Digital, Lifestyle, Pepperfry, and Croma stay on the card as context only; their catalogue-wide volume does not drive the verdict. Ajio and Nykaa are already in the marketplace list. If that filter leaves no niche host, the curated merchant map is the fallback. When exactly one niche store host is usable, the second Ads slot is the next domain from that map. At most two Ads calls run per report. Shopping results are not used for this, because the India payload has no merchant `link`.
+
+Fixture mode keeps the curated map when an Immersive host has no recorded Ads response. Brass diya and rangoli colours both have an Immersive recording, and the only usable seller host on those lists is craftvatika.com, which has no Ads fixture. Brass diya therefore uses the map: jaypore.com is recorded, and fabindia.com is the second call, which has no Ads fixture. Rangoli colours queries flipkart.com and myntra.com. Both are marketplaces, and neither Ads response is recorded, so the card does not show creatives for them. The diwali gift hamper has no Immersive recording at all, so it uses the curated map: fnp.com is recorded, and igp.com is the second call, which has no Ads fixture. The hamper does not use the map because of craftvatika.com.
 
 There is no “cheapest offer” view. Prices appear only as bands.
 
@@ -105,12 +107,14 @@ Guardrails:
 - `MAX_LIVE_CALLS_PER_REPORT` (default 14).
 - `SERPAPI_DAILY_CAP` (default 40), counted in IST.
 - Hard stop when the Account API reports `plan_searches_left` below `MIN_SEARCHES_LEFT` (default 20). If the Account API itself fails, live calls pause.
-- The meter in the header shows searches left. Fixture mode shows “Offline · 0 credits”.
+- The meter in the header shows searches left and the real mode. With no API key it shows “Offline” and that mode name, for example “fixtures, 0 credits” or “cache, 0 credits”. It does not call the Account API.
 - Each report footer says how many searches were fixtures, cache hits, or live.
 
 A custom keyword in fixture mode does not invent data. The page says the idea is not in the recordings.
 
 ## Live check (27 Sep 2026)
+
+Historical run under the Ads logic from that day. Competitor domains came from the curated merchant map, before Immersive store hosts and the general-retailer context list. This section records that run. It was not repeated after those changes.
 
 A fresh idea, **brass toran** at ₹499 for MH/DL/GJ/KA, ran end to end in `BR_MODE=cache`:
 
@@ -133,7 +137,7 @@ Plain Python in `app/analysis/`, unit-tested. No LLM.
 - **Complaints.** Insights with sentiment negative or mixed, or negative/total > 0.3, ranked by `mentions.negative`.
 - **Verdict**
   - **SKIP** — Falling, the target band is crowded, and there is no white space and no quality gap.
-  - **CAUTION** — Falling, or Amazon sponsored share > 50%, or Ads Transparency pressure is high (a niche or D2C competitor domain with ≥ 500 creatives in India). Marketplaces (Flipkart, Myntra, Meesho, JioMart, Ajio, Nykaa, Zepto, Blinkit, bigbasket) advertise their whole catalogue, so their volume is shown for context only and never raises pressure.
+  - **CAUTION** — Falling, or Amazon sponsored share > 50%, or Ads Transparency pressure is high (a niche or D2C competitor domain with ≥ 500 creatives in India). Marketplaces (Flipkart, Myntra, Meesho, JioMart, Ajio, Nykaa, Zepto, Blinkit, bigbasket) and large general retailers (Shoppers Stop, Tata CLiQ, IKEA, Home Centre, Nykaa Fashion, Reliance Digital, Lifestyle, Pepperfry, Croma) advertise their whole catalogue, so their volume is shown for context only and never raises pressure.
   - **GO** — Momentum ≥ 1.0, the series is not sparse, and a white-space band sits near the target price.
   - **GO with positioning** — A quality gap near the target, without a clean GO.
   - Otherwise **CAUTION** (rising demand but no gap is the brass-diya case).
@@ -198,7 +202,7 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-70 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, Immersive-store advertiser domains, marketplace subdomains, the Debayan/eBay filter, the Desertcart.in filter, scenario reports rebuilding on a fresh instance, the expired-report page, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
+73 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, Immersive-store advertiser domains, marketplace subdomains, the Debayan/eBay filter, the Desertcart.in filter, general retailers as context only, the second Ads slot when only one niche store host exists, cache mode with no API key, scenario reports rebuilding on a fresh instance, the expired-report page, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 
