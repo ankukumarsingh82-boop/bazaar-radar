@@ -6,13 +6,14 @@ from pathlib import Path
 
 from app.analysis.demand import recommend_states
 from app.analysis.pricebands import build_bands
+from app.analysis.verdict import ads_pressure
 from app.config import Settings
 from app.db import connect, init_db
 from app.models import MerchantStat, Offer, ShoppingResult, StateInterest, StoreOffer
 from app.orchestrator import _ads
 from app.serp_client import SerpClient, is_empty_result
 from app.sources.immersive import is_foreign, normalize_immersive, registrable_domain
-from app.sources.shopping import advertiser_domains
+from app.sources.shopping import advertiser_domains, is_general_retailer
 
 EMPTY = {
     "search_metadata": {"id": "empty1", "status": "Success"},
@@ -103,7 +104,9 @@ def test_marketplace_ads_do_not_drive_pressure_and_niche_domains_go_first(tmp_pa
     assert seen[0] == "jaypore.com"
     by_domain = {ad.domain: ad for ad in ads}
     assert by_domain["myntra.com"].marketplace is True
+    assert by_domain["myntra.com"].context_only is True
     assert by_domain["jaypore.com"].marketplace is False
+    assert by_domain["jaypore.com"].context_only is False
     assert any("context" in note for note in notes)
     conn.close()
 
@@ -139,12 +142,14 @@ def test_immersive_store_links_choose_ads_domains_and_skip_marketplaces(tmp_path
     ]
     assert registrable_domain("dl.flipkart.com") == "flipkart.com"
     assert registrable_domain("shop.localwick.co.in") == "localwick.co.in"
-    assert advertiser_domains(stores) == ["shoppersstop.com", "localwick.co.in"]
+    assert advertiser_domains(stores) == ["localwick.co.in"]
+    assert is_general_retailer("www.shoppersstop.com")
     shopping = ShoppingResult(
         offers=[Offer(origin="shopping", title="candle", price=199, merchant="Flipkart")],
         merchants=[
             MerchantStat(name="Flipkart", count=5, domain="flipkart.com"),
             MerchantStat(name="Myntra", count=4, domain="myntra.com"),
+            MerchantStat(name="Jaypore", count=1, domain="jaypore.com"),
         ],
     )
     ads, _notes = _ads(
@@ -155,11 +160,130 @@ def test_immersive_store_links_choose_ads_domains_and_skip_marketplaces(tmp_path
         lambda params, purpose: client.search(params),
         stores=stores,
     )
-    assert seen == ["shoppersstop.com", "localwick.co.in"]
+    assert seen == ["localwick.co.in", "jaypore.com"]
     assert [ad.domain for ad in ads] == seen
+    assert "shoppersstop.com" not in seen
     assert "flipkart.com" not in seen
     assert "myntra.com" not in seen
     assert "desertcart.in" not in seen
+    conn.close()
+
+
+def test_general_retailers_are_context_only_and_do_not_drive_pressure(tmp_path):
+    named = [
+        "shoppersstop.com",
+        "tatacliq.com",
+        "ikea.com",
+        "ikea.in",
+        "homecentre.com",
+        "homecentre.in",
+        "nykaafashion.com",
+        "reliancedigital.in",
+        "lifestylestores.com",
+        "pepperfry.com",
+        "croma.com",
+    ]
+    assert all(is_general_retailer(host) for host in named)
+    assert is_general_retailer("m.shoppersstop.com")
+    assert not is_general_retailer("jaypore.com")
+    assert not is_general_retailer("fnp.com")
+    assert not is_general_retailer("craftvatika.com")
+    only_retail = [
+        StoreOffer(name="Shoppers Stop", link="https://www.shoppersstop.com/candle", price=399),
+        StoreOffer(name="IKEA", link="https://www.ikea.com/in/p/candle", price=299),
+    ]
+    assert advertiser_domains(only_retail) == []
+
+    seen = []
+
+    def live(params, api_key):
+        seen.append(params["text"])
+        total = 800 if params["text"] == "shoppersstop.com" else 12
+        return {
+            "search_metadata": {"id": params["text"]},
+            "search_information": {"total_results": total},
+            "ad_creatives": [{"format": "text", "advertiser": params["text"]}],
+        }
+
+    client, conn = _client(tmp_path, live)
+    shopping = ShoppingResult(
+        offers=[Offer(origin="shopping", title="candle", price=399)],
+        merchants=[
+            MerchantStat(name="Myntra", count=4, domain="myntra.com"),
+            MerchantStat(name="Jaypore", count=1, domain="jaypore.com"),
+        ],
+    )
+    _ads(
+        client,
+        shopping,
+        date(2026, 9, 27),
+        [],
+        lambda params, purpose: client.search(params),
+        stores=only_retail,
+    )
+    assert seen[0] == "jaypore.com"
+    assert "shoppersstop.com" not in seen
+
+    catalogue = ShoppingResult(
+        offers=[Offer(origin="shopping", title="candle", price=399)],
+        merchants=[MerchantStat(name="Shoppers Stop", count=3, domain="shoppersstop.com")],
+    )
+    ads, notes = _ads(
+        client,
+        catalogue,
+        date(2026, 9, 27),
+        [],
+        lambda params, purpose: client.search(params),
+        stores=only_retail,
+    )
+    assert any(ad.domain == "shoppersstop.com" and ad.context_only and not ad.marketplace for ad in ads)
+    kept = [ad.total_results for ad in ads if not ad.context_only and not ad.marketplace]
+    assert ads_pressure(kept, None) != "high"
+    assert any("context" in note for note in notes)
+    conn.close()
+
+
+def test_one_usable_store_host_fills_the_second_ads_slot(tmp_path):
+    seen = []
+
+    def live(params, api_key):
+        seen.append(params["text"])
+        return {
+            "search_metadata": {"id": params["text"]},
+            "search_information": {"total_results": 12},
+            "ad_creatives": [{"format": "text", "advertiser": params["text"]}],
+        }
+
+    client, conn = _client(tmp_path, live)
+    shopping = ShoppingResult(
+        offers=[Offer(origin="shopping", title="candle", price=299)],
+        merchants=[
+            MerchantStat(name="Myntra", count=5, domain="myntra.com"),
+            MerchantStat(name="Jaypore", count=1, domain="jaypore.com"),
+        ],
+    )
+    one = [StoreOffer(name="Local Wick", link="https://shop.localwick.co.in/candle", price=299)]
+    _ads(
+        client,
+        shopping,
+        date(2026, 9, 27),
+        [],
+        lambda params, purpose: client.search(params),
+        stores=one,
+    )
+    assert seen == ["localwick.co.in", "jaypore.com"]
+
+    two = one + [StoreOffer(name="Debayan Crafts", link="https://debayancrafts.com/p", price=500)]
+    ads, _notes = _ads(
+        client,
+        shopping,
+        date(2026, 9, 27),
+        [],
+        lambda params, purpose: client.search(params),
+        stores=two,
+    )
+    assert [ad.domain for ad in ads] == ["debayancrafts.com", "localwick.co.in"]
+    assert "jaypore.com" not in [ad.domain for ad in ads]
     conn.close()
 
 

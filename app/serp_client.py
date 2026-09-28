@@ -350,14 +350,19 @@ class SerpClient:
         return self.budget.add(self._hit_from_payload(payload, norm, "live"))
 
     def account(self) -> dict[str, Any]:
-        """Free Account API snapshot. Fixture mode does not call the network."""
+        """Free Account API snapshot. Offline modes do not call the network."""
         if self.mode == "fixtures" or not self.settings.has_key:
-            return self._offline_meter("Fixture mode. No API key is used and no credits are spent.")
+            return self._offline_meter(self._offline_message())
         try:
             return self._account_live()
         except Exception as exc:
             note("meter:offline", exc, self.settings.startup_fallbacks)
             return self._offline_meter("Credit meter is unavailable. No live call was made.")
+
+    def _offline_message(self) -> str:
+        if self.mode == "fixtures":
+            return "Fixture mode. No API key is used and no credits are spent."
+        return f"{self.mode.capitalize()} mode. No API key is set, so no live call was made."
 
     def _offline_meter(self, message: str) -> dict[str, Any]:
         return {

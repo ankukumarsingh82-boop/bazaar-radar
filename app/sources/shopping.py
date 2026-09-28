@@ -61,6 +61,23 @@ MARKETPLACE_DOMAINS = {
     "nykaa.com",
 }
 
+# Department stores and large general retailers also advertise the whole catalogue.
+# Nykaa and Ajio are already marketplaces. These hosts are still eligible to be shown,
+# but they are not niche advertisers and their creative counts never drive the verdict.
+GENERAL_RETAILER_DOMAINS = {
+    "shoppersstop.com",
+    "tatacliq.com",
+    "ikea.com",
+    "ikea.in",
+    "homecentre.com",
+    "homecentre.in",
+    "nykaafashion.com",
+    "reliancedigital.in",
+    "lifestylestores.com",
+    "pepperfry.com",
+    "croma.com",
+}
+
 
 def search_params(keyword: str) -> dict[str, str]:
     return {
@@ -119,11 +136,21 @@ def is_marketplace(domain: str) -> bool:
     return registered in MARKETPLACE_DOMAINS or registered in {"amazon.in", "amazon.com"}
 
 
-def advertiser_domains(rows) -> list[str]:
-    """Registrable seller domains from Immersive store links (or any row with a link).
+def is_general_retailer(domain: str) -> bool:
+    return registrable_domain(domain) in GENERAL_RETAILER_DOMAINS
 
-    Marketplaces, including subdomains such as dl.flipkart.com, and foreign shops
-    are left out. The curated merchant map is not consulted here.
+
+def is_context_only(domain: str) -> bool:
+    """Catalogue-wide advertisers. Shown for context; excluded from ad pressure."""
+    return is_marketplace(domain) or is_general_retailer(domain)
+
+
+def advertiser_domains(rows) -> list[str]:
+    """Registrable niche seller domains from Immersive store links (or any row with a link).
+
+    Marketplaces (including subdomains such as dl.flipkart.com), general retailers
+    such as Shoppers Stop, and foreign shops are left out. The curated merchant map
+    is not consulted here.
     """
     counts: dict[str, int] = {}
     for row in rows:
@@ -138,7 +165,7 @@ def advertiser_domains(rows) -> list[str]:
 def _usable_advertiser_host(registered: str) -> bool:
     if not registered or "." not in registered:
         return False
-    if is_marketplace(registered):
+    if is_context_only(registered):
         return False
     if registered in {"google.com", "google.co.in", "gstatic.com", "googleusercontent.com"}:
         return False
