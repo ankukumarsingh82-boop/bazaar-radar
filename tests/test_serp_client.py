@@ -55,6 +55,9 @@ def test_cache_mode_without_a_key_reports_cache_not_fixture_mode(tmp_path, monke
     assert account["plan_searches_left"] is None
     assert "Fixture mode" not in account["message"]
     assert account["message"].startswith("Cache mode")
+    blocked = client.search({"engine": "amazon", "k": "no-key", "amazon_domain": "amazon.in"})
+    assert blocked.source == "blocked"
+    assert blocked.error == "SERPAPI_API_KEY is not set. Stay in cache mode or add a key to .env."
     conn.close()
     app = create_app(settings)
     with TestClient(app) as http:
