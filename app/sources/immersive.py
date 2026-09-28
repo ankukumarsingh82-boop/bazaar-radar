@@ -8,8 +8,33 @@ from urllib.parse import urlparse
 from app.models import ImmersiveProduct, StoreOffer
 
 _FOREIGN_SUFFIXES = (".ae", ".uk", ".us", ".com.au", ".sg", ".qa", ".sa", ".eu", ".ca", ".hk")
-# Match the seller label, not the TLD, so desertcart.in is foreign even though .in is India.
+# Whole seller labels only. A substring match treats "Debayan Crafts" as eBay.
 _FOREIGN_MARKERS = ("desertcart", "ebay", "aliexpress", "alibaba", "walmart")
+# Public-suffix-style second levels used by Indian and a few other shops. Not a full PSL.
+_MULTI_SUFFIXES = (
+    "co.in",
+    "com.in",
+    "net.in",
+    "org.in",
+    "gen.in",
+    "firm.in",
+    "ind.in",
+    "ac.in",
+    "res.in",
+    "gov.in",
+    "nic.in",
+    "edu.in",
+    "co.uk",
+    "org.uk",
+    "ac.uk",
+    "com.au",
+    "net.au",
+    "org.au",
+    "co.nz",
+    "com.sg",
+    "com.hk",
+    "co.za",
+)
 
 
 def hostname(link: str | None) -> str:
@@ -19,16 +44,49 @@ def hostname(link: str | None) -> str:
     return host
 
 
+def registrable_domain(host: str) -> str:
+    """eTLD+1. `dl.flipkart.com` and `shop.brand.co.in` collapse to one domain."""
+    host = hostname(host) if "://" in (host or "") else (host or "").lower().strip(".")
+    if host.startswith("www."):
+        host = host[4:]
+    if not host or "." not in host:
+        return host
+    parts = host.split(".")
+    for suffix in _MULTI_SUFFIXES:
+        suffix_parts = suffix.split(".")
+        size = len(suffix_parts)
+        if len(parts) > size and parts[-size:] == suffix_parts:
+            return ".".join(parts[-(size + 1) :])
+    return ".".join(parts[-2:])
+
+
+def _name_has_marker(name: str) -> bool:
+    tokens = re.findall(r"[a-z0-9]+", (name or "").lower())
+    for marker in _FOREIGN_MARKERS:
+        if marker in tokens:
+            return True
+        for start in range(len(tokens)):
+            joined = ""
+            for token in tokens[start:]:
+                joined += token
+                if joined == marker:
+                    return True
+                if len(joined) > len(marker):
+                    break
+    return False
+
+
 def is_foreign(name: str, link: str | None) -> bool:
     host = hostname(link)
-    compact_name = re.sub(r"[^a-z0-9]+", "", (name or "").lower())
-    compact_host = host.replace(".", "")
-    if any(marker in compact_name or marker in compact_host for marker in _FOREIGN_MARKERS):
+    registered = registrable_domain(host) if host else ""
+    label = registered.split(".")[0] if registered else ""
+    if label in _FOREIGN_MARKERS or registered == "target.com":
         return True
-    blob = f"{name} {link or ''}".lower()
-    if "target.com" in blob:
+    if _name_has_marker(name):
         return True
-    return bool(host) and host.endswith(_FOREIGN_SUFFIXES)
+    if re.sub(r"\s+", "", (name or "").lower()) == "target.com":
+        return True
+    return bool(registered) and registered.endswith(_FOREIGN_SUFFIXES)
 
 
 def search_params(page_token: str) -> dict[str, str]:

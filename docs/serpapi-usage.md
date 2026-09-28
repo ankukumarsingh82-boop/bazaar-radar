@@ -72,7 +72,7 @@ Read `search_information.total_results` and `ad_creatives[]` (`advertiser`, `for
 
 Pressure is **high** at ≥ 500 creatives (fnp.com returned 2,000) or when Amazon sponsored share is over 50%. That forces CAUTION. Forty or more creatives, or a sponsored share of at least 15%, is **medium** and is shown but does not by itself flip the verdict.
 
-Domains come from Shopping offer link hostnames (`www.` stripped). Marketplaces, context-only domains, and foreign shops are skipped. The merchant map, excluding Amazon.in, is used only when no usable hostname is present. Fixture mode prefers a domain that both appears and has a recording (Jaypore on brass diya, fnp.com on gift hampers).
+The Immersive Product call runs before Ads Transparency. Domains come from `stores[].link` hostnames, folded to the registrable domain (`www.shoppersstop.com` and `m.shoppersstop.com` are shoppersstop.com; `dl.flipkart.com` is flipkart.com). Marketplaces and foreign shops are skipped. At most two domains are queried. The curated merchant map is used only when that store list has no usable host. Google Shopping India rows have no merchant `link`, so they are not a domain source. Fixture mode keeps the map when none of the store hosts has a recorded Ads response. That is why brass diya still uses jaypore.com and the gift hamper still uses fnp.com: the recorded store lists only contain craftvatika.com, and that Ads response was not recorded.
 
 ### Account API — credit meter
 

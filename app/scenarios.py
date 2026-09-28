@@ -50,6 +50,34 @@ SCENARIOS: dict[str, Scenario] = {
 }
 
 
+def scenario_id_for(
+    keyword: str,
+    head_term: str,
+    variants: list[str],
+    target_price: float,
+    states: list[str],
+    category: str,
+) -> str | None:
+    """Stable id when the inputs are one of the three recorded ideas."""
+    head = " ".join((head_term or suggest_head(keyword)).split())
+    cleaned = [part.strip() for part in variants if part and part.strip()][:4]
+    for scenario in SCENARIOS.values():
+        if scenario.keyword != " ".join(keyword.split()):
+            continue
+        if scenario.head_term != head:
+            continue
+        if list(scenario.variants) != cleaned:
+            continue
+        if float(scenario.target_price) != float(target_price):
+            continue
+        if list(scenario.states) != list(states):
+            continue
+        if scenario.category != category:
+            continue
+        return scenario.slug
+    return None
+
+
 def suggest_head(keyword: str) -> str:
     """Drop material and colour words so a sparse phrase can fall back to its head term."""
     drop = {

@@ -33,7 +33,7 @@ Four panels, plus ad pressure:
 3. **Buyer pain.** Amazon review insight themes (`reviews_information.summary.insights`), ranked by negative mentions.
 4. **Decision card.** A deterministic verdict: **GO**, **GO with positioning**, **CAUTION**, or **SKIP**, with a price band, three states, five keywords, and three complaints. Every “why” links to the panel and the SerpApi search id.
 
-**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains seen in Shopping (India, region 2356). Those domains come from the offer link hostname (`www.` stripped). Marketplaces, context-only domains, and foreign shops are skipped, and a real D2C or seller domain is preferred. The hard-coded merchant map is used only when no usable hostname is present. At most two Ads calls run per report.
+**Ad pressure** uses Amazon’s sponsored flag only when that field is actually present, and the Google Ads Transparency Center for competitor domains (India, region 2356). The Immersive Product store list runs first. Advertiser domains are the registrable hosts of those store links: `www.` is removed, and `dl.flipkart.com` counts as flipkart.com. Marketplaces and foreign shops are skipped. At most two Ads calls run per report. When no usable store host is present, the curated merchant map is the fallback. Shopping results are not used for this, because the India payload has no merchant `link`. The recorded store lists only yield craftvatika.com, which has no Ads fixture, so fixture mode keeps the map and the three ideas still show Jaypore and fnp.com.
 
 There is no “cheapest offer” view. Prices appear only as bands.
 
@@ -198,7 +198,7 @@ docs/           engine notes, day-1 findings, demo script, screenshots
 uv run pytest
 ```
 
-67 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, offer-link advertiser domains, the Desertcart.in filter, the expired-report page, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
+70 tests. The suite loads the recorded JSON and blocks network sockets in the end-to-end fixture test. It covers momentum labels, weekly bucketing, the 40% zero fallback, days-to-peak, IQR trimming, the bought-in-past-month parser, complaint ranking when positive + negative ≠ total, every verdict branch, confidence under missing searches, retailer and question keyword filters, the empty-idea state, the Vercel SQLite path, the credit hard stop, the per-report cap, the daily cap, the three full scenarios, Immersive-store advertiser domains, marketplace subdomains, the Debayan/eBay filter, the Desertcart.in filter, scenario reports rebuilding on a fresh instance, the expired-report page, and the live-check regressions (empty-result cache, marketplace ads, zero-interest states, band edges, single target band).
 
 ## AI tools used
 
